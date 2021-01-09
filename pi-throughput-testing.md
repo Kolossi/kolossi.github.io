@@ -17,6 +17,7 @@ I use:
   * [Samsung EVO Plus 64GB Grade3(U3) Class 10](https://www.samsung.com/uk/memory-storage/memory-card/evo-plus-microsd-card-with-sd-adapter-64gb-mb-mc64ga-eu/)
 * ... and using one of
   * Raspberry Pi OS Lite (32-bit)
+  * Raspberry Pi OS (64-bit) beta (no lite version available)
   * Ubuntu Server 20.04.1 LTS (32-bit)
   * Ubuntu Server 20.04.1 LTS (64-bit)
 * ... and both without and with (Ubuntu only) [iscsi iSER](https://en.wikipedia.org/wiki/ISCSI_Extensions_for_RDMA)
@@ -29,9 +30,59 @@ I use:
 
 ## Trying it out yourself
 
-First, make sure to get some fresh microSD cards for the Pis, there's not automatic rollback to the "before" state, and shutdown seems to be problematic after installing this due to the iscsi mounts.  You have been cautioned!
+> :information_source: Familiarity with ansible itself is required to run this, it won't be detailed here.
 
-Familiarity with ansible is required to run this, it won't be deatiled here.
+> :information_source: First, make sure to get some fresh microSD cards for the Pis, there's not automatic rollback to the "before" state, and shutdown seems to be problematic after installing this due to the iscsi mounts.  You have been cautioned!
+
+
+Once clean cards are installed, OS-specific setup steps are needed:
+
+### Raspberry Pi OS Setup
+
+Login to each pi using the default username `pi`, password `raspberry`, then allow ssh login by doing:
+
+```bash
+sudo touch /boot/ssh
+sudo reboot
+```
+
+### Ubuntu Setup
+
+Login to each pi using the default username `ubuntu`, password `ubuntu`.
+
+Change the password when prompted (suggest `raspberry` for ease of interop with Raspberry Pi OS test setups)
+
+### SSH setup
+
+Ensure that the ansible `hosts` file has the correct username and password for each pi.
+
+Clear out ssh host key cache on ansible host machine by doing:
+
+```bash
+ssh-keygen -R {pi-ip-address}
+```
+Update the ECSDA key fingerprint by doing:
+```bash
+ssh {pi-ip-address}
+...
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+```
+
+There's no need to actually do the ssh login after this, ansible is now good to go.
+
+
+## Ansible Setup
+
+### Ansible config
+
+To test on Rasperry Pi OS x64 (as of Jan 2021), ensure the following section is in your `~/.ansible.cfg`:
+
+```apacheconf
+[ssh_connection]
+scp_if_ssh=True
+```
+
+### Ansible role
 
 The ansible role is at https://github.com/Kolossi/ansible-role-utils, and an [example playbook](https://github.com/Kolossi/ansible-role-utils/blob/main/use_cases/pi-throughput-test.yml) is provided.
 
