@@ -18,7 +18,8 @@ If needed, [create a (free) Github user](https://github.com/join).
 
 Create a repository for the site - make one for the root site called `{username}.github.io` if not already done.
 
-To enable the Github pages site to be created from the repository, * go to the repository in github, the url will be like `https://github.com/{username}/{repo-name}`
+To enable the Github pages site to be created from the repository,
+* go to the repository in github, the url will be like `https://github.com/{username}/{repo-name}`
 → Settings (`https://github.com/{username}/{repo-name}/settings`)
 → scroll right down to the "Github pages" section
 → under "Source", where it shows `None v` select the branch to use for the site and click "save"
