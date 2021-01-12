@@ -61,7 +61,7 @@ To support content being in e.g. an "articles" collection:
 {% endraw %}
 ```
 * (such code can also be included in the main site `index.md` to add "articles" content there)
-* create `*.md` content files in this directory. The `{{article.url}}` item is one supported automatically, but the "title" is not.  To add this data to a content page, we add it in a yaml "front matter" block in the page, e.g. `_articles\front-matter.md`:
+* create `*.md` content files in this directory. The `{% raw %}{{article.url}}{% endraw %}` item is one supported automatically, but the "title" is not.  To add this data to a content page, we add it in a yaml "front matter" block in the page, e.g. `_articles\front-matter.md`:
 ```markdown
 ---
 title: A page about front matter
