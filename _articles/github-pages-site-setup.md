@@ -1,5 +1,5 @@
 ---
-title:    Adding analytics, ads, and a Paypal donate button to a site created using Github pages
+title:    Setting up a fully featured Github Pages site
 modified: 2021-01-12T21-46-00+00.00
 ---
 # Adding analytics, ads, and a Paypal donate button to a site created using Github pages
@@ -268,3 +268,15 @@ The code will look something like this but with a unique `hosted_button_id`:
 ```
 
 Just add this html straight in the page markdown, but on its own set of lines (not inline with text).
+
+## Site workflow
+
+To make things easier, add a [post commit git webhook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) by creating a file in the local repo clone directory `./.git/hooks/post-commit` with the content:
+* On [windows](https://www.tygertec.com/git-hooks-practical-uses-windows/) :
+```bash
+git push origin main
+```
+* On \*nix:
+```bash
+#! /bin/bash
+```
