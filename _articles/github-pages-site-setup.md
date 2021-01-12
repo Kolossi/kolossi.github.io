@@ -54,11 +54,9 @@ To support content being in e.g. an "articles" collection:
 ```markdown
 # My Articles
 
-{% raw %}
-{% for article in site.articles %}
+{% raw %}{% for article in site.articles %}
 * [{{article.title}}]({{article.url}})
-{% endfor %}
-{% endraw %}
+{% endfor %}{% endraw %}
 ```
 
 * (such code can also be included in the main site `index.md` to add "articles" content there)
