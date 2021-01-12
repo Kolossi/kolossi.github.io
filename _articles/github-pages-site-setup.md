@@ -37,7 +37,76 @@ The `*.md` [Markdown](https://github.github.com/gfm/) files are rendered into ht
 
 Read [About GitHub Pages and Jekyll](https://docs.github.com/en/github-ae@latest/github/working-with-github-pages/about-github-pages-and-jekyll) for more details.
 
-Once you have any kind of content being published to your Github pages url, move on.
+Once you have any kind of test content being published to your Github pages url, move on.
+
+## Collections
+
+Jekyll [Collections](https://jekyllrb.com/docs/collections/) are ways to group together similar types of content and/or sharing the same layout. This saves piling all the content pages into the repo root.  There's [quick guide](https://jekyllrb.com/docs/step-by-step/09-collections/) on the Jekyll site.
+
+There are two special types of collections - "Posts" and "Pages".  [This](https://ben.balter.com/2015/02/20/jekyll-collections/) page and [this](https://stackoverflow.com/questions/15095625/what-are-the-differences-between-a-post-and-a-page-in-jekyll) one explain the differences quite well.  We will stick with general "collections" for now.
+
+To support content being in e.g. an "articles" collection:
+
+* Add a directory `_articles` to the root of the repo
+* create a file `_articles\index.md`
+* [Jekyll/Liquid templating](https://jekyllrb.com/docs/liquid/) can be used to give a table of contents of all articles in the index page by giving it in the content:
+
+```markdown
+# My Articles
+
+{% for article in site.articles %}
+* [{{article.title}}]({{article.url}})
+{% endfor %}
+
+```
+* (such code can also be included in the main site `index.md` to add "articles" content there)
+* create `*.md` content files in this directory. The `{{article.url}}` item is one supported automatically, but the "title" is not.  To add this data to a content page, we add it in a yaml "front matter" block in the page, e.g. `_articles\front-matter.md`:
+```markdown
+---
+title: a page about front matter
+modified: 2021-01-12T18:17:00+00.00
+---
+
+# Front Matter
+
+These are some details about yaml front matter.
+```
+
+* The `*.md` files will be processed and available to the loop codes, but the pages themselves won't be added as content.  To arrange this, add the following to the root file `_config.yml`:
+
+```yaml
+collections:
+  articles:
+    output: true
+```
+
+* The files will now be created, but will be without layout (and theme/style).
+  * To use the default layout for this collection, add the following to `_config.yml`
+
+```yaml
+defaults:
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+```
+
+  * To use a different layout, add a relevant file to the `_layouts` directory and refer to it in the `_config.yml` layout item, e.g. add `_layouts\my-article-layout.html` then use the following in `_config.yml`:
+
+```yaml
+defaults:
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: "my-article-layout"
+...
+```
 
 ## Add Google Advertising to the site
 
@@ -85,7 +154,7 @@ Once the site has been republished, take a look at the page source to check that
 
 Once the site has been republished with the necessary `<HEAD>` code in place, confirm to Google AdSense signon thatit's there.
 
-The Google AdSense page should confirm that the content was found and say Google will go off and have a good think about your application for a few days or even weeks...
+The Google AdSense page should confirm that the content was found and say Google will go off and have a good think about your application for a few **days or even weeks**...
 
 In the meantime, move on to setting up Google Analytics
 
