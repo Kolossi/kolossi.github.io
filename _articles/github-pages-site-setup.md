@@ -271,14 +271,4 @@ Just add this html straight in the page markdown, but on its own set of lines (n
 
 ## Site workflow
 
-To make things easier, add a [post commit git webhook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) by creating a file in the local repo clone directory `./.git/hooks/post-commit` with the content:
-* On [windows](https://www.tygertec.com/git-hooks-practical-uses-windows/) :
-```bash
-#!C:/Program\ Files/Git/bin/sh.exe
-git push origin main
-```
-* On \*nix:
-```bash
-#!/bin/sh
-git push origin main
-```
+To make things easier, add a [git auto push webhook](\quicktips\git-auto-push-win-nix.html).
