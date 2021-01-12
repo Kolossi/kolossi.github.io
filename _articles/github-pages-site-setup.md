@@ -74,6 +74,7 @@ These are some details about yaml front matter.
 ```
 
 * The lookup code can be used within the page itself, for instance to reuse the front matter title as the initial heading:
+
 ```markdown
 {% raw %}
 ---
