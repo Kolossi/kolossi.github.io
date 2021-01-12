@@ -52,12 +52,13 @@ To support content being in e.g. an "articles" collection:
 * [Jekyll/Liquid templating](https://jekyllrb.com/docs/liquid/) can be used to give a table of contents of all articles in the index page by giving it in the content:
 
 ```markdown
+{% raw %}
 # My Articles
 
 {% for article in site.articles %}
 * [{{article.title}}]({{article.url}})
 {% endfor %}
-
+{% endraw %}
 ```
 * (such code can also be included in the main site `index.md` to add "articles" content there)
 * create `*.md` content files in this directory. The `{{article.url}}` item is one supported automatically, but the "title" is not.  To add this data to a content page, we add it in a yaml "front matter" block in the page, e.g. `_articles\front-matter.md`:
@@ -74,6 +75,7 @@ These are some details about yaml front matter.
 
 * The lookup code can be used within the page itself, for instance to reuse the front matter title as the initial heading:
 ```markdown
+{% raw %}
 ---
 title: A page about front matter
 modified: 2021-01-12T18:17:00+00.00
@@ -82,6 +84,7 @@ modified: 2021-01-12T18:17:00+00.00
 # {{ page.title }}
 
 These are some details about yaml front matter.
+{% endraw %}
 ```
 
 * The `*.md` files will be processed and available to the loop codes, but the pages themselves won't be added as content.  To arrange this, add the following to the root file `_config.yml`:
