@@ -63,11 +63,23 @@ To support content being in e.g. an "articles" collection:
 * create `*.md` content files in this directory. The `{{article.url}}` item is one supported automatically, but the "title" is not.  To add this data to a content page, we add it in a yaml "front matter" block in the page, e.g. `_articles\front-matter.md`:
 ```markdown
 ---
-title: a page about front matter
+title: A page about front matter
 modified: 2021-01-12T18:17:00+00.00
 ---
 
-# Front Matter
+# A page about front matter
+
+These are some details about yaml front matter.
+```
+
+* The lookup code can be used within the page itself, for instance to reuse the front matter title as the initial heading:
+```markdown
+---
+title: A page about front matter
+modified: 2021-01-12T18:17:00+00.00
+---
+
+# {{ page.title }}
 
 These are some details about yaml front matter.
 ```
