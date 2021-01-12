@@ -6,3 +6,5 @@ show_downloads: false
 collections:
   articles:
     output: true
+  quicktips:
+    output: true
