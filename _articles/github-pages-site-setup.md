@@ -77,8 +77,8 @@ These are some details about yaml front matter.
 
 * The lookup code can be used within the page itself, for instance to reuse the front matter title as the initial heading:
 
-```markdown
 {% raw %}
+```markdown
 ---
 title: A page about front matter
 modified: 2021-01-12T18:17:00+00.00
@@ -87,8 +87,8 @@ modified: 2021-01-12T18:17:00+00.00
 # {{ page.title }}
 
 These are some details about yaml front matter.
-{% endraw %}
 ```
+{% endraw %}
 
 * The `*.md` files will be processed and available to the loop codes, but the pages themselves won't be added as content.  To arrange this, add the following to the root file `_config.yml`:
 
