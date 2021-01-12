@@ -1,3 +1,7 @@
+---
+title:    VSCode Git SSH setup
+modified: 2021-01-09T21-50-00+00.00
+---
 # vscode git ssh setup
 
 To enable vscode git extension to use pageant-served ssh certificates
