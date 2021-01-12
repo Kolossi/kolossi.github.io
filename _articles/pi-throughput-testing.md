@@ -1,3 +1,8 @@
+---
+title:    Raspberry Pi Storage Throughput Testing
+modified: 2021-01-09T21-50-00+00.00
+---
+
 # Raspberry Pi Storage Throughput Testing
 ### (aka where to persist data when building a Pi Kubernetes cluster)
 
