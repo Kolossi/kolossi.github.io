@@ -19,3 +19,7 @@ git push origin main
 #!/bin/sh
 git push origin main
 ```
+
+The `./.git/hooks/post-commit` file is just on local environment, so:
+* it won't get pushed to upstream repo
+* this will need to be redone for each environment/repo clone
