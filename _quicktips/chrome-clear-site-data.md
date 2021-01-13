@@ -15,4 +15,4 @@ This can help when chrome has cached a redirect, cert details or other details n
 
 #### Thanks
 
-Info found on https://www.addictivetips.com/windows-tips/clear-site-data-chrome/
+Info found on [https://www.addictivetips.com/windows-tips/clear-site-data-chrome/](https://www.addictivetips.com/windows-tips/clear-site-data-chrome/)

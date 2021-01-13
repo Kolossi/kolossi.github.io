@@ -1,5 +1,5 @@
 ---
-title:    Setting up a Git auto push that works on Windows or Linux
+title:    A Git auto push for Windows or Linux
 modified: 2021-01-12T21-51-00+00.00
 ---
 # {{ page.title }}
