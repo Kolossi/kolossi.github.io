@@ -33,7 +33,9 @@ Now any files named `*.md` committed and pushed to the repo will be (after a del
 * `index.md` will be available as `https:\\{username}.github.io\{repo-name}` or just `https:\\{username}.github.io` for the root site
 * any other `{filename}.md` will be available as `https:\\{username}.github.io\{repo-name}\{filename}.html` or `https:\\{username}.github.io\{filename}.html`.  Notice that the `*.md` filename turned into `*.html` for browsing.
 
-The `*.md` [Markdown](https://github.github.com/gfm/) files are rendered into html automatically by Github each time changes are pushed, using the [Jekyll](https://jekyllrb.com/) engine
+The `*.md` [Markdown](https://github.github.com/gfm/) files are rendered into html automatically by Github each time changes are pushed, using the [Jekyll](https://jekyllrb.com/) engine.
+
+These [github emojis](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) should be supported, but don't always seem to be.
 
 Read [About GitHub Pages and Jekyll](https://docs.github.com/en/github-ae@latest/github/working-with-github-pages/about-github-pages-and-jekyll) for more details.
 
