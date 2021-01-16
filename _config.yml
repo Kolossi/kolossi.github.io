@@ -8,6 +8,8 @@ collections:
     output: true
   quicktips:
     output: true
+  bookmarks:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -17,6 +19,11 @@ defaults:
   - scope:
       path: ""
       type: "articles"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "bookmarks"
     values:
       layout: "default"
   - scope:
