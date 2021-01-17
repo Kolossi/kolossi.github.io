@@ -39,6 +39,8 @@ These [github emojis](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/
 
 Read [About GitHub Pages and Jekyll](https://docs.github.com/en/github-ae@latest/github/working-with-github-pages/about-github-pages-and-jekyll) for more details.
 
+This is a useful [Jekyll cheatsheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/)
+
 Once any kind of test content is being published to the Github pages url, move on.
 
 ## Collections
@@ -285,11 +287,13 @@ The code will look something like this but with a unique `hosted_button_id`:
 
 Just add this html straight in the page markdown, but on its own set of lines (not inline with text).
 
-## Site workflow
+# Site workflow
+
+## Git auto push
 
 To make things easier, add a [git auto push webhook](\quicktips\git-auto-push-win-nix.html).
 
-# Test site locally
+## Test site locally
 
 To run the site from within VSCode:
 * Installing Jekyll following [Jekyll windows install docs](https://jekyllrb.com/docs/installation/windows/):
@@ -339,8 +343,11 @@ exclude:
   * `Gemfile.lock`
   * `.gitignore`
 * Now install the [VSCode Jekyll Run extension](https://marketplace.visualstudio.com/items?itemName=Dedsec727.jekyll-run)
-* the site can be run with `CTRL-F5` or clicking "Jekyll Run" in the left section of the VSCode status bar
+* in the Jekyll run extension settings for the workspace, add `--watch` to the command-line arguments so that a running server will update if any of the files are edited (live rebuild)
+* to match the build used by github pages, also add `--safe` in the extension workspace settings command-line arguments
+* once the settings have been added with the VSCode ui, they can then be found in `./.vscode/settings.json` in the site repo
+* the site can now be run with `CTRL-F5` or clicking "Jekyll Run" in the left section of the VSCode status bar
 
-## Usage tip
+### Usage tip
 
 Sometimes the server gets stuck and even if stopped, attempting to run again reports port 4000 already being used. Exiting and restarting VSCode should solve this.  For easier reload, install the [reload extension](https://marketplace.visualstudio.com/items?itemName=natqe.reload) which adds a "reload" item to the right of the VSCode status bar.
