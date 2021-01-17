@@ -324,12 +324,23 @@ _site/
 vendor/
 ```
 
-* update source control with
+* Following [this Jekyll cheatsheet](https://devhints.io/jekyll#configuration), add the following to `_config.yml`:
+
+```
+exclude:
+- Gemfile
+- Gemfile.lock
+- .gitignore
+- .vscode
+```
+
+* add to source control:
   * `Gemfile`
   * `Gemfile.lock`
   * `.gitignore`
 * Now install the [VSCode Jekyll Run extension](https://marketplace.visualstudio.com/items?itemName=Dedsec727.jekyll-run)
 * the site can be run with `CTRL-F5` or clicking "Jekyll Run" in the left section of the VSCode status bar
 
+## Usage tip
 
 Sometimes the server gets stuck and even if stopped, attempting to run again reports port 4000 already being used. Exiting and restarting VSCode should solve this.  For easier reload, install the [reload extension](https://marketplace.visualstudio.com/items?itemName=natqe.reload) which adds a "reload" item to the right of the VSCode status bar.

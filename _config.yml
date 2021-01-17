@@ -3,6 +3,11 @@ google_analytics: G-GDZZ8MJPVH
 title: Kolossi
 description: "Kolossi's blog"
 show_downloads: false
+exclude:
+- Gemfile
+- Gemfile.lock
+- .gitignore
+- .vscode
 collections:
   articles:
     output: true
