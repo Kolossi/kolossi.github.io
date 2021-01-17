@@ -2,9 +2,10 @@
 title:    Setting up a fully featured Github Pages site
 modified: 2021-01-12T21-46-00+00.00
 ---
-# Adding analytics, ads, and a Paypal donate button to a site created using Github pages
 
-This post will explain how to use [Github pages](https://pages.github.com/) to create a very powerful but easy to use content site, and to add Google Analytics, Ads and a Paypal donate button to that site to monetise and monitor it.
+# {{ page.title }}
+
+This post will explain how to use [Github pages](https://pages.github.com/) to create a powerful but easy to use content site, and to add Google Analytics, Ads and a Paypal donate button to that site to monetise and monitor it.
 
 ## Setup a Github pages site
 
