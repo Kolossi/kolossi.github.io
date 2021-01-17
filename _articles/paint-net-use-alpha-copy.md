@@ -42,7 +42,7 @@ The up and down image versions can now be used :
 
 ![up shadow](/assets/blue-shadow-up.png)
 
-This is my very important message that I want to draw attention to
+This is the message which I want to draw attention to, but not too much!
 
 ![down shadow](/assets/blue-shadow-down.png)
 

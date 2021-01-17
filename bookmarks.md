@@ -1,3 +1,4 @@
+
 # Bookmarks
 {::options parse_block_html="true" /}
 
@@ -11,3 +12,8 @@
 </div>
 {% endfor %}
 
+![up shadow](/assets/blue-shadow-up.png)
+
+A quick tip here
+
+![down shadow](/assets/blue-shadow-down.png)
