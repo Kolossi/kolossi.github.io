@@ -1,10 +1,12 @@
 ---
 title:    A Git auto push for Windows or Linux
 modified: 2021-01-12T21-51-00+00.00
+excerpt_separator: <!--more-->
 ---
 # {{ page.title }}
 
-To add a [post commit git webhook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) that can work on windows or \*nix, create a file in the local repo clone directory `./.git/hooks/post-commit` with the content:
+To add a [post commit git webhook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) that can work on windows or \*nix, create a file in the local repo clone directory `./.git/hooks/post-commit` with the content...
+<!--more-->
 
 * On [windows](https://www.tygertec.com/git-hooks-practical-uses-windows/) (search for the correct `#!` path on the local system if this doesnt work):
 

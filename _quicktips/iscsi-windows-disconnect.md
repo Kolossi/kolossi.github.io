@@ -1,12 +1,13 @@
 ---
 title: Disconnecting an iscsi device in windows
 date: 2021-01-17T19-25-03+00.00
+excerpt_separator: <!--more-->
 ---
 
 # {{ page.title }}
 
-To successfully disconnect an iscsi-mounted device in windows:
-
+To successfully disconnect an iscsi-mounted device in windows...
+<!--more-->
 * In disk manager, in lower portion of screen, right-click on the disk itself (on the left hand side, not the partitions on the right), and select `Offline`
 * in the iSCSI Initiator app:
   * in the `Favourite Targets` tab, select the item and choose `Remove`

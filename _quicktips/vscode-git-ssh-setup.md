@@ -1,10 +1,12 @@
 ---
 title:    VSCode Git SSH setup
 modified: 2021-01-09T21-50-00+00.00
+excerpt_separator: <!--more-->
 ---
 # {{ page.title }}
 
-To enable vscode git extension to use pageant-served ssh certificates:
+To enable vscode git extension to use pageant-served ssh certificates...
+<!--more-->
 * download and install [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 * find the installed path of `plink.exe` - usually `C:\Program Files\PuTTY\plink.exe`
 * set `GIT_SSH` and `GIT_SSH_COMMAND` environment variables to this path:

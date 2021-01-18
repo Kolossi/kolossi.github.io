@@ -288,13 +288,13 @@ The code will look something like this but with a unique `hosted_button_id`:
 
 Just add this html straight in the page markdown, but on its own set of lines (not inline with text).
 
-# Site workflow
+# Site authoring workflow
 
 ## Git auto push
 
 To make things easier, add a [git auto push webhook](\quicktips\git-auto-push-win-nix.html).
 
-## Test site locally
+## Test site locally from VSCode
 
 To run the site from within VSCode:
 * Installing Jekyll following [Jekyll windows install docs](https://jekyllrb.com/docs/installation/windows/):
@@ -352,3 +352,86 @@ exclude:
 ### Usage tip
 
 Sometimes the server gets stuck and even if stopped, attempting to run again reports port 4000 already being used. Exiting and restarting VSCode should solve this.  For easier reload, install the [reload extension](https://marketplace.visualstudio.com/items?itemName=natqe.reload) which adds a "reload" item to the right of the VSCode status bar.
+
+## Editing on a mobile
+
+Highly recommended apps on an android phone to interact with the site repo are:
+
+* [Acode](https://play.google.com/store/apps/details?id=com.foxdebug.acodefree)
+* [GitJournal](https://play.google.com/store/apps/details?id=io.gitjournal.gitjournal)
+
+Both offer markdown (though not Jekyll/Liquid) preview, and easily commit and push, which will trigger a GitHub pages rebuild.
+
+# Content coding
+
+## Add a random item
+
+To add a random item from a collection to a page (e.g. a random quicktip), include something like this in the layout page source:
+
+```html
+
+<!-- ... other page content as required ... -->
+
+<div id="random-quicktip"></div>
+
+<!-- ... other page content as required ... -->
+
+<script>
+    var targetSelector="#random-quicktip";
+    var items=[ 
+        {% for item in site.quicktips %} 
+            {
+                "content": {{ item.content | markdownify | jsonify }},
+                "url": "{{site.url}}{{ item.url }}"
+            },
+        {% endfor %}
+    ]
+    var target = document.querySelector(targetSelector);
+    if(target) {
+        var chosenItem = items[ Math.floor(Math.random()*items.length) ];
+        target.innerHTML = chosenItem.content;
+        target.onclick = function () { document.local.href= chosenItem.url }
+    }
+</script>
+```
+
+Something to note - the random choice must be done client-side from all the content sent down to the browser.  Even if Jekyll/Liquid supported random item choosing in its markup, this would only change things once on each page build and not on each page view.
+
+### Add just teaser content
+
+If the whole content of the item is too much, change the "content" line of the javascript to use Jekyll/Lyquid's `item.excerpt` instead:
+
+```html
+...
+<script>
+...
+                "content": {{ item.excerpt | markdownify | jsonify }},
+```
+
+By default, Jekyll uses the first para (usually the first heading) as the exceprt, however this can be customised as follows:
+* in the page front matter, set the `excerpt_seperator` 
+* in the page content, use this separator to mark the end of the excerpt.
+
+Here's an example:
+
+```markdown
+---
+excerpt_separator: <!--more-->
+title: My long article
+---
+
+{{ page.title }}
+
+This is the content which I'd like to be shown:
+* in the page
+* in the excerpt
+<!--more-->
+
+Let's get on with the rest of the article.....
+```
+#### Thanks
+
+This content was inspired by 
+* this [stackoverflow response](https://stackoverflow.com/a/59575439/2738122) with the javascript approach
+* this whole [stackoverflow question](https://stackoverflow.com/questions/16422933/how-do-i-use-markdownify-in-jekyll-to-show-an-excerpt-on-the-index) referring in various ways to `excerpt_separator`.
+* this took me to the Jekyll docs about [posting excerpts](https://jekyllrb.com/docs/posts/#post-excerpts)
