@@ -3,6 +3,8 @@ google_analytics: G-GDZZ8MJPVH
 title: Kolossi
 description: "Kolossi's blog"
 show_downloads: false
+plugins:
+  - jemoji
 exclude:
 - Gemfile
 - Gemfile.lock

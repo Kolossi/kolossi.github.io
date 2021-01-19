@@ -24,7 +24,7 @@
         {% for item in site.quicktips %} 
             {
                 "content": {{ item.excerpt | markdownify | jsonify }},
-                "url": "{{site.url}}{{ item.url }}"
+                "url": "{{ site.url }}{{ item.url }}"
             },
         {% endfor %}
     ]

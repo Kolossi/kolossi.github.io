@@ -36,7 +36,12 @@ Now any files named `*.md` committed and pushed to the repo will be (after a del
 
 The `*.md` [Markdown](https://github.github.com/gfm/) files are rendered into html automatically by Github each time changes are pushed, using the [Jekyll](https://jekyllrb.com/) engine.
 
-These [github emojis](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) should be supported, but don't always seem to be.
+These [github emojis](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) are supported, provided [the following is added](https://docs.github.com/en/enterprise/2.13/user/articles/emoji-on-github-pages#setting-up) to the site `_config.yml`:
+
+```yaml
+plugins:
+  - jemoji
+```
 
 Read [About GitHub Pages and Jekyll](https://docs.github.com/en/github-ae@latest/github/working-with-github-pages/about-github-pages-and-jekyll) for more details.
 
@@ -302,7 +307,7 @@ To run the site from within VSCode:
   * make sure to leave checked the `ridk install` step on the last page of the install and choose `1` (base install of msys2) when prompted in the console window
   * if vscode was already open before install, restart it
   * in the VSCode terminal window, issue `gem install jekyll bundler`
-  * confirm install by issuing `jekyll -v`.  If this fails, [Jekyll windows install docs](https://jekyllrb.com/docs/installation/windows/) suggests rebooting.
+  * confirm install by issuing `bundle exec jekyll -v`.  If this fails, [Jekyll windows install docs](https://jekyllrb.com/docs/installation/windows/) suggests rebooting.
 * In the root of the site, add a file named `Gemfile` with the following content:
 ```ruby
 source "https://rubygems.org"
@@ -311,7 +316,7 @@ gem "github-pages", group: :jekyll_plugins
 * in the VSCode terminal window, issue:
 
 ```powershell
-bundle install              # <- will take several minutes while first time
+bundle install              # <- will take several minutes first time on PC
 bundle update github-pages
 ```
 
@@ -346,8 +351,9 @@ exclude:
 * Now install the [VSCode Jekyll Run extension](https://marketplace.visualstudio.com/items?itemName=Dedsec727.jekyll-run)
 * in the Jekyll run extension settings for the workspace, add `--watch` to the command-line arguments so that a running server will update if any of the files are edited (live rebuild)
 * to match the build used by github pages, also add `--safe` in the extension workspace settings command-line arguments
-* once the settings have been added with the VSCode ui, they can then be found in `./.vscode/settings.json` in the site repo
+* once the settings have been added with the VSCode ui, they can then be found (and editted) in `./.vscode/settings.json` in the site repo
 * the site can now be run with `CTRL-F5` or clicking "Jekyll Run" in the left section of the VSCode status bar
+* to allow a preview of the Markdown content (buit without Jekyll/Liquid expansion), install the [Markdown Preview Github Styling extension](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) and to support emojis, checklist etc, also install the extension pack in the [Github Markdown Preview extension](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
 
 ### Usage tip
 
@@ -369,7 +375,7 @@ Both offer markdown (though not Jekyll/Liquid) preview, and easily commit and pu
 To add a random item from a collection to a page (e.g. a random quicktip), include something like this in the layout page source:
 
 ```html
-
+{% raw %}
 <!-- ... other page content as required ... -->
 
 <div id="random-quicktip"></div>
@@ -382,7 +388,7 @@ To add a random item from a collection to a page (e.g. a random quicktip), inclu
         {% for item in site.quicktips %} 
             {
                 "content": {{ item.content | markdownify | jsonify }},
-                "url": "{{site.url}}{{ item.url }}"
+                "url": "{{ site.url }}{{ item.url }}"
             },
         {% endfor %}
     ]
@@ -392,7 +398,7 @@ To add a random item from a collection to a page (e.g. a random quicktip), inclu
         target.innerHTML = chosenItem.content;
         target.onclick = function () { document.local.href= chosenItem.url }
     }
-</script>
+</script>{% endraw %}
 ```
 
 Something to note - the random choice must be done client-side from all the content sent down to the browser.  Even if Jekyll/Liquid supported random item choosing in its markup, this would only change things once on each page build and not on each page view.
@@ -401,12 +407,14 @@ Something to note - the random choice must be done client-side from all the cont
 
 If the whole content of the item is too much, change the "content" line of the javascript to use Jekyll/Lyquid's `item.excerpt` instead:
 
+{% raw %}
 ```html
 ...
 <script>
 ...
                 "content": {{ item.excerpt | markdownify | jsonify }},
 ```
+{% endraw %}
 
 By default, Jekyll uses the first para (usually the first heading) as the exceprt, however this can be customised as follows:
 * in the page front matter, set the `excerpt_seperator` 
@@ -414,6 +422,7 @@ By default, Jekyll uses the first para (usually the first heading) as the excepr
 
 Here's an example:
 
+{% raw %}
 ```markdown
 ---
 excerpt_separator: <!--more-->
@@ -424,11 +433,14 @@ title: My long article
 
 This is the content which I'd like to be shown:
 * in the page
+and
 * in the excerpt
 <!--more-->
 
-Let's get on with the rest of the article.....
+Let's get on with the rest of the article in the page only.....
 ```
+{% endraw %}
+
 #### Thanks
 
 This content was inspired by 
