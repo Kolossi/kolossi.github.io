@@ -18,11 +18,11 @@ To fix the error, choose one of the following to set the ssh variant ...
 
 * Do it all in one with:
 ```bash
-git config ssh.variant plink
+git config --global ssh.variant plink
 ```
 
-* If the `ssh.variant` is already explicitly set to `ssh`, then just removing this hard setting and allowing git to auto-detect may well be enough.
-* If the ssh command has been set to plink via environment variable, set the following environment variable (use the same scope as current `GIT_SSH` and `GIT_SSH_COMMAND` setting)
+* If the `ssh.variant` is already explicitly set to `ssh`, then just removing this hard setting and allowing git to auto-detect may well be enough - e.g. `git config --global --unset ssh.variant`
+* Environment variables override git config, so if the ssh command has been set to plink via environment variable, set the following environment variable (use the same user/system scope as current `GIT_SSH` and `GIT_SSH_COMMAND` setting)
 ```bash
 GIT_SSH_VARIANT=plink
 ```
