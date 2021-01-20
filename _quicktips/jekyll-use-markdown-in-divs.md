@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 To allow Jekyll (Liquid) to parse markup in page blocks like divs, add the folowing at the top of the page...
 <!--more-->
 ```markdown
-{::options parse_block_html="true" /}
+{% raw %}{::options parse_block_html="true" /}{% endraw %}
 ```
 
 #### Thanks

@@ -25,3 +25,7 @@ git push origin main
 The `./.git/hooks/post-commit` file is just on local environment, so:
 * it won't get pushed to upstream repo
 * this will need to be redone for each environment/repo clone
+
+## Automate commit message
+
+To also automate the commit message, use the VSCode [git add and commit extension](https://marketplace.visualstudio.com/items?itemName=ivangabriele.vscode-git-add-and-commit)
