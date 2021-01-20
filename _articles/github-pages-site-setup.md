@@ -297,7 +297,7 @@ Just add this html straight in the page markdown, but on its own set of lines (n
 
 ## Git auto push
 
-To make things easier, add a [git auto push webhook](\quicktips\git-auto-push-win-nix.html).
+To make things easier, add a [git auto push webhook]({{site.url}}\quicktips\git-auto-push-win-nix.html).
 
 ## Test site locally from VSCode
 

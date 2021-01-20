@@ -21,4 +21,4 @@ GIT_SSH_COMMAND="C:\Program Files\PuTTY\plink.exe"
 >
 > To get VSCode working, also set `GIT_SSH_COMMAND`
 
-> :exclamation: If the error `plink: unknown option "-o"` occurs, see [Fix git plink unknown option error](\quicktips\git-plink-unknown-option-o.html).
+> :exclamation: If the error `plink: unknown option "-o"` occurs, see [Fix git plink unknown option error]({{site.url}}\quicktips\git-plink-unknown-option-o.html).
