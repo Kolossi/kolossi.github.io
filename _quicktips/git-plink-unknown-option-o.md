@@ -1,6 +1,6 @@
 ---
 title: Fix git plink unknown option error
-date:  2021-01-20T09-53-42+00.00
+modified:  2021-01-20T09-53-42+00.00
 excerpt_separator: <!--more-->
 ---
 
@@ -13,7 +13,7 @@ To fix the error, choose one of the following to set the ssh variant ...
 * Set the following config in the appropriate (`--global`, `--system` or `--local`) git config e.g. by issuing `git config --global --edit` :
 ```apacheconf
 [ssh]
-        variant = plink
+    variant = plink
 ```
 
 * Do it all in one with:
