@@ -1,0 +1,69 @@
+
+//
+// VARIABLES
+//
+
+
+// sizings
+// $maxwidth: 740px;
+$max-width: 980px;
+$top-bar-height: 0px;
+$mast-site-font-size: 28px;
+
+// Grays
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #eee;
+$white: #fff;
+
+// Colors
+$kolBlue: #5A64C8;
+$kolOrange: #FF9900; 
+$main-color: $gray;
+$main-back-color: $white;
+$mast-back-color: $kolBlue;
+$mast-color: $white;
+$mast-site-color: $white;
+$mast-nav-color: $kolOrange;
+$head-color: $kolBlue;
+$accent-color: $kolOrange;
+$link-color: $kolBlue;
+$link-hover-color: $kolOrange;
+$link-visited-color: darken( $link-color, 15% );
+$pullquote-color: $accent-color;
+$top-bar-color: $kolBlue;
+// $linkhovercolor: #4183C4;
+$blue: $kolBlue;
+//$blue: #4183C4;
+
+@font-face {
+  font-family: "handel-gothic-bt";
+  src: url("/fonts/Handel Gothic BT.ttf")
+}
+
+// @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&family=Josefin+Slab&family=Roboto&display=swap');
+
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", "Neue Helvetica", $helvetica;
+$kolFont: "handel-gothic-bt", $helveticaNeue;
+// $georgia: Georgia, serif;
+$mast-font: $kolFont;
+$mast-nav-font: $kolFont;
+$mast-weight: normal;
+$head-font: "Roboto", "Verdana", $helveticaNeue;
+$head-weight: bold;
+$head-align: left;
+$link-font: $head-font;
+$emojiFont: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$systemFonts: -system-ui, -apple-system, BlinkMacSystemFont;
+$main-font: $systemFonts, "IBM Plex Sans", "Tahoma", $helvetica, $emojiFont;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
