@@ -10,8 +10,9 @@ The error `plink: unknown option "-o"` indicates that the git ssh command has be
 
 To fix the error, choose one of the following to set the ssh variant ...
 <!--more-->
+
 * Set the following config in the appropriate (`--global`, `--system` or `--local`) git config e.g. by issuing `git config --global --edit` :
-```apacheconf
+```config
 [ssh]
     variant = plink
 ```

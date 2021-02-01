@@ -15,7 +15,7 @@ update
 ```
 
 * add the following content to `.git/config`
-```apacheconf
+```config
 [commit]
 	template = .git/.gitmessage.txt
 ```

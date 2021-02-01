@@ -43,7 +43,7 @@ plugins:
   - jemoji
 ```
 
-Read [About GitHub Pages and Jekyll](https://docs.github.com/en/github-ae@latest/github/working-with-github-pages/about-github-pages-and-jekyll) for more details.
+Read [About GitHub Pages and Jekyll](https://docs.github.com/en/github-ae@latest/github/working-with-github-pages/about-github-pages-and-jekyll) and [the list of available plugins](https://pages.github.com/versions/). for more details.
 
 This is a useful [Jekyll cheatsheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/)
 
@@ -225,13 +225,13 @@ The
 
 The Measurment ID is shown top-right with a copy-to-clipboard icon to the right of it.  It will be of the form "G-xxxxxxxxxx".
 
-Make a not of this, but to get the full code we need:
+Make a note of this, but to get the full code we need:
 
 * in the second section "Tagging instructions"
 → make sure the "Add new on-page tag" tab is selected
 → click the `v` downarrow on the left of the "Global Site Tag (gtag.js)" line
 
-### Copy AdSense setup info
+### Copy Analytics setup info
 
 Copy the `<head>` tag code shown, it should be very simlar to this (unless the code has been updated since this was written):
 
