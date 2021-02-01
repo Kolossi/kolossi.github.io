@@ -167,7 +167,8 @@ Download the source of this file (click the `Raw` button top-right above the con
 In the head section of this file (my suggestion, immediately before the closing `<\head>`), add the code requested by Google AdSense signup, it should look like this (but with a unique client id):
 
 ```html
-    <script data-ad-client="ca-pub-1234567890123456" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script data-ad-client="ca-pub-1234567890123456" async 
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 ```
 
 Save the file, add and commit to git and push to the github repo.
@@ -286,7 +287,9 @@ The code will look something like this but with a unique `hosted_button_id`:
 ```html
 <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="hosted_button_id" value="ABCDE12345XYZ" />
-<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif"
+    border="0" name="submit" title="PayPal - The safer, easier way to pay online!"
+    alt="Donate with PayPal button" />
 <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1" />
 </form>
 ```

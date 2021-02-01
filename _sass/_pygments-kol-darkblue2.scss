@@ -11,7 +11,7 @@
 }
 
 .highlight {
-    background-color:darken($kolBlue,30%) !important;
+    background-color:desaturate(darken($kolBlue,25%),25%) !important;
     padding: 7px 7px 7px 10px;
     overflow: auto;
     font-size: 95%;

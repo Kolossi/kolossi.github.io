@@ -82,7 +82,7 @@ There's no need to actually do the ssh login after this, ansible is now good to 
 
 To test on Rasperry Pi OS x64 (as of Jan 2021), ensure the following section is in your `~/.ansible.cfg`:
 
-```apacheconf
+```config
 [ssh_connection]
 scp_if_ssh=True
 ```
