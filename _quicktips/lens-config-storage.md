@@ -10,4 +10,4 @@ The [LENS // The Kuberenetes IDE](https://k8slens.dev/) stores its config info i
 
 <!--more-->
 
-'%AppData%\Lens\lens-cluster-store.json`
+`%AppData%\Lens\lens-cluster-store.json`
