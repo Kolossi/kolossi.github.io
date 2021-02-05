@@ -8,7 +8,7 @@
         {% assign logo-filename = thing.title | downcase | append: '.png'%}
     {% endunless %}
 <div class='bookmark-loz'>
-[![{{thing.title}}]({{site.url}}/assets/{{logo-filename}}) {{thing.title}}]({{thing.target-url}})
+<a href="{{thing.target-url}}" target="_blank">![{{thing.title}}]({{site.url}}/assets/{{logo-filename}}) {{thing.title}}</a>
 </div>
 {% endfor %}
 

@@ -1,0 +1,17 @@
+
+div.bookmark-loz
+{
+	display: inline-block;
+	width: 100px;
+	height: 80px;
+	padding: 5px;
+	margin: 20px;
+	text-align: center;
+	vertical-align: top;
+	border: 1px solid $kolBlue;
+	border-radius: 5px;
+	p {
+		vertical-align: middle;
+		margin: 0px;
+	}
+}
