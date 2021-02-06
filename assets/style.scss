@@ -145,11 +145,13 @@ table tr td :last-child {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid $search-border-color;
+  outline-color: $search-border-color;
   border-radius: 4px;
   box-sizing: border-box;
   font-size: 18px;
-  background-color: #fff3ff;
+  color: $search-color;
+  background-color: $search-back-color;
 }
 
 .share-box {
@@ -754,9 +756,9 @@ Modules - reusable parts of our design
   font-size: 14.5px;
   padding: 2px 13px;
   border: none;
-  background-color: #4CAF50;
+  background-color: $tag-back-color;
   border-radius: 50px;
-  color: #fff;
+  color: $tag-color;
 }
 
 .pagination a, .pagination span {
