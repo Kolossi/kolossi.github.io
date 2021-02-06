@@ -1,3 +1,4 @@
 {
-    "jekyll-run.commandLineArguments": "--safe --watch"
+    // see https://jekyllrb.com/docs/configuration/options/
+    "jekyll-run.commandLineArguments": "--safe --watch --unpublished --drafts --verbose --trace"
 }

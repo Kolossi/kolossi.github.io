@@ -12,11 +12,9 @@
 </div>
 {% endfor %}
 
-![up shadow](/assets/blue-shadow-up.png)
+<div class="vspacer50px"></div>
 
-<div id="random-quicktip"></div>
-
-![down shadow](/assets/blue-shadow-down.png)
+<div id="random-quicktip" class="shadowtb"></div>
 
 <script>
     var targetSelector="#random-quicktip";

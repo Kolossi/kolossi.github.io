@@ -15,3 +15,36 @@ div.bookmark-loz
 		margin: 0px;
 	}
 }
+
+div.vspacer50px
+{
+	height: 50px;
+	width: 100px;
+	display: block;
+}
+
+div.shadowtb
+{
+	position:relative;
+	background-color: $main-back-color;
+	padding: 1px 0px 30px;
+}
+
+div.shadowtb:before
+{
+	content:"";
+	position:absolute;
+	bottom:0;top:0px;left:20px;right:20px;
+	z-index:-1;
+	border-radius:50%/15px;
+	-webkit-box-shadow:0 0 15px 2px $kolBlue-shadow;
+	-moz-box-shadow:0 0 15px 2px $kolBlue-shadow;
+	box-shadow: 0 0 15px 2px $kolBlue-shadow;
+}
+
+img.img-center, a.img-center img
+{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}

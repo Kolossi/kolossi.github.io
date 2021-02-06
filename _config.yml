@@ -13,7 +13,7 @@ name: The Kolossi Courier
 description: A collection of missives on various topics
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /assets/KolossiAvatar74.png
+avatar: /assets/KolossiAvatar74brd.png
 
 #
 # Flags below are optional
@@ -89,8 +89,9 @@ plugins:
   - jekyll-paginate
   - jemoji
 
-#include: ['_pages']
-include: ['_articles']
+include:
+  - _pages
+  - _articles
 
 paginate: 6
 paginate_path: /page:num/
