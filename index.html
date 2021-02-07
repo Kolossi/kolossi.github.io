@@ -7,7 +7,7 @@ layout: default
     <article class="post">
       <a href="{{ site.baseurl }}{{ post.url }}">
         <h1>{{ post.title }}</h1>
-
+        {%- if post.subtitle -%}<h3>{{ post.subtitle }}</h3>{%- endif -%}
         <div>
           <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
         </div>

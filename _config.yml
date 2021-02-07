@@ -7,7 +7,7 @@
 name: The Kolossi Courier
 
 # Name of the author
-#author: Amit Merchant
+author: Paul Sweeney
 
 # Short bio or description (displayed in the header)
 description: A collection of missives on various topics
@@ -65,7 +65,7 @@ enforce_ssl: https://kolossi.github.io
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
-version: v3.9.0
+version: v1.2.0
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
@@ -91,7 +91,6 @@ plugins:
 
 include:
   - _pages
-  - _articles
 
 paginate: 6
 paginate_path: /page:num/
@@ -106,33 +105,33 @@ exclude:
   - .gitignore
   - .vscode
 
-collections:
-  articles:
-    output: true
-  quicktips:
-    output: true
-  bookmarks:
-    output: true
-defaults:
-  - scope:
-      path: ""
-      type: "quicktips"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "articles"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "bookmarks"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+# collections:
+#   articles:
+#     output: true
+#   quicktips:
+#     output: true
+#   bookmarks:
+#     output: true
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "quicktips"
+#     values:
+#       layout: "default"
+#   - scope:
+#       path: ""
+#       type: "articles"
+#     values:
+#       layout: "default"
+#   - scope:
+#       path: ""
+#       type: "bookmarks"
+#     values:
+#       layout: "default"
+#   - scope:
+#       path: ""
+#     values:
+#       layout: "default"
 
 #####################################
 ####      previous content        ###
