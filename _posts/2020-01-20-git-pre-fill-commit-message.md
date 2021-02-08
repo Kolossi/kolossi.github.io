@@ -1,12 +1,7 @@
 ---
 title: Pre-fill git commit message
-modified: 2021-01-20T20-23-10+00.00
-excerpt_separator: <!--more-->
+categories: [quicktips,git]
 ---
-
-# {{ page.title }}
-
-
 To have the git commit message pre-populated with a standard value...
 <!--more-->
 * Create a file in the repo `.git` directory named e.g. `.git/.gitmessage.txt` containing the required message, e.g. a template for the dev to follow such as that given in [the git docs](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_commit_template) or just a generic:

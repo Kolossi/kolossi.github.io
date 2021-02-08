@@ -1,5 +1,7 @@
+---
+title: Bookmarks
+---
 
-# Bookmarks
 {::options parse_block_html="true" /}
 
 {% for thing in site.bookmarks %}
@@ -19,7 +21,7 @@
 <script>
     var targetSelector="#random-quicktip";
     var items=[ 
-        {% for item in site.quicktips %} 
+        {% for item in (site.posts | where: "categories","quicktips") %} 
             {
                 "content": {{ item.excerpt | markdownify | jsonify }},
                 "url": "{{ site.url }}{{ item.url }}"

@@ -105,6 +105,23 @@ exclude:
   - .gitignore
   - .vscode
 
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      excerpt_separator: <!--more-->
+  - scope:
+      path: ""
+      type: "bookmarks"
+    values:
+      layout: "default"
+
+collections:
+  bookmarks:
+    output: true
+
 # collections:
 #   articles:
 #     output: true

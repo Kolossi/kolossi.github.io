@@ -1,13 +1,11 @@
 ---
-layout: post
 title:    Raspberry Pi Storage Throughput Testing
 subtitle: (aka where to persist data when building a Pi Kubernetes cluster)
-modified: 2021-01-09T21-50-00+00.00
 categories: ["raspberrypi"]
-excerpt_separator: <!--more-->
 ---
 
 Having tested various options, I'll be using `****` as the permanent backing store for my Raspberry Pi Kubernetes cluster workloads and `****` for working storage. Here's why...
+
 <!--more-->
 
 ## Test setup

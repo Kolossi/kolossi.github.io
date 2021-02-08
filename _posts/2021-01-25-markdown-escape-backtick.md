@@ -1,11 +1,7 @@
 ---
 title: Escape backtick in markdown code block
-modified: 2021-01-25T12-05-31+00.00
-excerpt_separator: <!--more-->
+categories: [quicktips,markdown]
 ---
-
-# {{ page.title }}
-
 To use a backtick (`` ` ``) within a markdown inline code block...
 
 <!--more-->

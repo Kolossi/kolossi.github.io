@@ -5,7 +5,7 @@ permalink: /search/
 ---
 
 <div id="search-container">
-    <input type="text" id="search-input" placeholder="Starting typing to search the site...">
+    <input type="text" id="search-input" placeholder="Starting typing to quick search..." autofocus>
     <ul id="results-container"></ul>
 </div>
 

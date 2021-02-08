@@ -7,9 +7,9 @@ layout: default
     <article class="post">
       <a href="{{ site.baseurl }}{{ post.url }}">
         <h1>{{ post.title }}</h1>
-        {%- if post.subtitle -%}<h3>{{ post.subtitle }}</h3>{%- endif -%}
+        {%- if post.subtitle -%}<h4 class='subtitle'>{{ post.subtitle }}</h4>{%- endif -%}
         <div>
-          <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
+          <p class="post_date">{{ post.date | date_to_long_string: "ordinal" }}</p>
         </div>
       </a>
       <div class="entry">

@@ -64,17 +64,17 @@ h2 {
   font-size: 24px;
 }
 
-@media (min-width: 769px){
-	.post h2::before, .post h2::after {
-	    content: "";
-	    display: inline-block;
-	    vertical-align: middle;
-	    width: 46px;
-	    height: 1px;
-	    background: rgb(192, 211, 218);
-	    margin: 0px 30px;
-	}
-}
+// @media (min-width: 769px){
+// 	.post h2::before, .post h2::after {
+// 	    content: "";
+// 	    display: inline-block;
+// 	    vertical-align: middle;
+// 	    width: 46px;
+// 	    height: 1px;
+// 	    background: rgb(192, 211, 218);
+// 	    margin: 0px 30px;
+// 	}
+// }
 
 h3 {
   font-size: 20px;
@@ -82,7 +82,6 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: #222;
 }
 
 p {
@@ -221,10 +220,6 @@ em, i {
 
 strong, b {
   font-weight: bold;
-}
-
-img {
-  max-width: 100%;
 }
 
 p > img {
@@ -508,6 +503,10 @@ body:after {
   font-kerning: auto;
   font-feature-settings: "kern","liga","dlig","hlig","cswh";
   line-height: 1.2;
+}
+
+h4.subtitle{
+  text-align: center;
 }
 
 .page h1{

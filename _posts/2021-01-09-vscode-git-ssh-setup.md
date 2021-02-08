@@ -1,10 +1,7 @@
 ---
 title:    VSCode Git SSH setup
-modified: 2021-01-09T21-50-00+00.00
-excerpt_separator: <!--more-->
+categories: [quicktips,vscode,git,ssh]
 ---
-# {{ page.title }}
-
 To enable vscode git extension to use pageant-served ssh certificates...
 <!--more-->
 * download and install [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)

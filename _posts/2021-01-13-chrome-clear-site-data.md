@@ -1,10 +1,7 @@
 ---
 title:    Clearing chrome site data
-modified: 2021-01-13T08-55-00+00.00
-excerpt_separator: <!--more-->
+categories: [quicktips,chrome]
 ---
-# {{ page.title }}
-
 To clear all the data chrome has for a site:
 
 * open dev tools (`F12`)

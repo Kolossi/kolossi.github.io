@@ -23,6 +23,8 @@ div.vspacer50px
 	display: block;
 }
 
+// thanks: https://cssdeck.com/blog/12-creative-effects-created-using-css3-box-shadows/
+//    and: https://codepen.io/jcorpus/pen/xbExKL
 div.shadowtb
 {
 	position:relative;
@@ -48,3 +50,15 @@ img.img-center, a.img-center img
     display: block;
     margin: 0 auto;
 }
+
+img.img-full, a.img-center img
+{
+    max-width: 100%;
+}
+
+img.emoji {
+	max-width: auto;
+	display: inline-block;
+  }
+  
+  

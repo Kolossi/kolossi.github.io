@@ -21,8 +21,9 @@
 		"body": [
 			"---",
 			"title: ${TM_FILENAME_BASE/[-_]/ /g}",
-			"modified: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}T${CURRENT_HOUR}-${CURRENT_MINUTE}-${CURRENT_SECOND}+00.00",
+			"#subtitle: more than the title",
 			"excerpt_separator: <!--more-->",
+			"#excerpt: This is what the page is really about",
 			"---",
 			"",
 			"# {{ page.title }}",

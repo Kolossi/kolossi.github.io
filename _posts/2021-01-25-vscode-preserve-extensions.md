@@ -1,11 +1,7 @@
 ---
 title: VSCode preserve installed extensions
-modified: 2021-01-25T11-59-25+00.00
-excerpt_separator: <!--more-->
+categories: [quicktips,vscode]
 ---
-
-# {{ page.title }}
-
 To export and recreate installed VSCode extentions...
 <!--more-->
 
