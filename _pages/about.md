@@ -4,26 +4,20 @@ title: About
 permalink: /about/
 ---
 
-[Reverie](https://github.com/amitmerchant1990/reverie) is a Jekyll theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for [my blog](https://www.amitmerchant.com).
+## Why Kolossi?
 
-This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
+Kolossi is a village in the south of Cyprus, to the south-west of which is situated [Kolossi Castle](https://www.wikipedia.org/wiki/Kolossi_Castle).
 
-## Features
+I was fortunate enough to live near this as a child, and admired the fort's ruggedness and "does what it says on the tin", well, castle-ness.
 
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized base theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies comes in-built
-- Markdown blogging
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Google Analytics integration
-- Fuzzy search across blog posts
-- Pagination of posts works out-of-the-box.
-- Categorize posts out-of-the box
-- RSS Feed
-- In-built sitemap
+Aside from the uncomplicated cuboid shape and crenellations, it had a dungeon, spiral staircase, banqueting hall, arrow slits and even an innovative [Machicolation](https://en.wikipedia.org/wiki/Machicolation) allowing items to be dropped or poured on any attackers.
 
-Learn more about it [here](https://github.com/amitmerchant1990/reverie) on how to get started.
+The castle was supplied by a still visible [aquaduct](https://www.gettyimages.co.uk/detail/news-photo/aqueduct-castle-of-kolossi-near-limassol-cyprus-2001-news-photo/520722279), and next to it is an ancient [sugar refinery](http://www.mcw.gov.cy/mcw/DA/DA.nsf/All/715C0A5218C174DFC225719900331A09) and evidence of a [water mill](https://historymentor.co.uk/2020/03/25/kolossi-castle-revisited/) and [water tower](https://www.bigcyprus.com.cy/destinations/kolossi/kolossi-medieval-castle).
+
+It has passed through the hands of the [Knights Hospitaller](https://historymentor.co.uk/2020/02/13/kolossi-castle-cyprus/), Crusaders, Knights Templars - including Richard the Lionheart - and is linked to Cyprus' famous sweet wine "Commanderia".
+
+This was all an irresistable combination to a young boy.  So when I was older and looking for a "brand" and internet domain, I used "Kolossi Consultants".  The castle and it's story of heavy fortification, interesting history and assoctiated technology lead to the tagline "Innovation with Integrity". 
+
+### Castle logo
+
+The castle logo on this site is not a representation of the remaining keep at Kolossi Castle, just another simple "castle" motif.  If you look really carefully, you may also notice that the entrance and "portcullis" are actually a socket for an ethernet connector.

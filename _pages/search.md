@@ -6,7 +6,7 @@ permalink: /search/
 
 <div id="search-container">
     <input type="text" id="search-input" placeholder="Starting typing to quick search..." autofocus>
-    <ul id="results-container"></ul>
+    <ul id="search-results-container"></ul>
 </div>
 
 <script src="{{ site.baseurl }}/assets/simple-jekyll-search.min.js" type="text/javascript"></script>
@@ -14,8 +14,9 @@ permalink: /search/
 <script>
     SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    searchResultTemplate: '<div style="text-align: left !important;"><a href="{url}"><h2 style="text-align:left !important;">{title}</h1></a><span style="text-align:left !important;">{date}</span></div>',
+    resultsContainer: document.getElementById('search-results-container'),
+    searchResultTemplate: '<div class="search-item"><a href="{url}"><h2 class="search-item search-title">{title}</h1></a><div class="search-item search-date">{date}</div></div>',
     json: '{{ site.baseurl }}/search.json'
+    // ,fuzzy: true,
     });
 </script>
