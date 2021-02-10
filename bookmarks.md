@@ -23,6 +23,7 @@ title: Bookmarks
     var items=[ 
         {% for item in (site.posts | where: "categories","quicktips") %} 
             {
+                "title": "{{ item.title }}",
                 "content": {{ item.excerpt | markdownify | jsonify }},
                 "url": "{{ site.url }}{{ item.url }}"
             },
@@ -31,7 +32,7 @@ title: Bookmarks
     var target = document.querySelector(targetSelector);
     if(target) {
         var chosenItem = items[ Math.floor(Math.random()*items.length) ];
-        target.innerHTML = chosenItem.content;
+        target.innerHTML = "<h2>" + chosenItem.title + "</h2>" + chosenItem.content;
         target.onclick = function () { document.local.href= chosenItem.url }
     }
 </script>
