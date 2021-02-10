@@ -1,6 +1,6 @@
 ---
 title: View kubelet config
-categories: [kubernetes]
+categories: [kubernetes,quicktips]
 ---
 The file used to configure the kubelet can be found at
 `/var/lib/kubelet/config.yaml` on the node ...
