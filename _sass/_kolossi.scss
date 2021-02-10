@@ -2,6 +2,10 @@
 .search-item
 {
 	text-align: left !important;
+	outline-color: $search-border-color;
+	a {
+		outline-color: $search-border-color;
+	};
 }
 
 .search-title

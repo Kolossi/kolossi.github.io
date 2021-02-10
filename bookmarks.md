@@ -32,7 +32,7 @@ title: Bookmarks
     var target = document.querySelector(targetSelector);
     if(target) {
         var chosenItem = items[ Math.floor(Math.random()*items.length) ];
-        target.innerHTML = "<h2>" + chosenItem.title + "</h2>" + chosenItem.content;
+        target.innerHTML = "<div class='post-tags'><a href='{{site.baseurl}}/categories/#quicktips'>quicktips</a></div><h2>" + chosenItem.title + "</h2>" + chosenItem.content;
         target.onclick = function () { document.local.href= chosenItem.url }
     }
 </script>
