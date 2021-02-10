@@ -22,11 +22,9 @@
 			"---",
 			"title: ${TM_FILENAME_BASE/[-_]/ /g}",
 			"#subtitle: more than the title",
-			"excerpt_separator: <!--more-->",
 			"#excerpt: This is what the page is really about",
+			"categories: []",
 			"---",
-			"",
-			"# {{ page.title }}",
 			"",
 			"<!--more-->",
 			""
