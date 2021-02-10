@@ -1,4 +1,3 @@
-
 ---
 title: Bash prompt setup
 #subtitle: more than the title
