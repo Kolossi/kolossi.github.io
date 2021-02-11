@@ -1,6 +1,6 @@
 ---
 title: Using Paint.Net Alpha Paste plugin to create a shadow
-categories: ["paint.net"]
+tags: ["paint.net"]
 ---
 
 An short walkthrough of creating a shadow using the BoltBain alpha paste plugin for Paint.Net...

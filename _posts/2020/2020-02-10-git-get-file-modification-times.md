@@ -1,6 +1,6 @@
 ---
 title: Git get file modification times
-categories: [git]
+tags: [git]
 ---
 
 To list the last git modification time of each soruce controlled file in the current directory ...

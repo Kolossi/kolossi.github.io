@@ -1,6 +1,6 @@
 ---
 title: Disconnecting an iscsi device in windows
-categories: [quicktips,iscsi,windows]
+tags: [quicktips,iscsi,windows]
 ---
 To successfully disconnect an iscsi-mounted device in windows...
 <!--more-->

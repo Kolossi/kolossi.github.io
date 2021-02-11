@@ -1,6 +1,6 @@
 ---
 title:    Clearing chrome site data
-categories: [quicktips,chrome]
+tags: [quicktips,chrome]
 ---
 To clear all the data chrome has for a site:
 

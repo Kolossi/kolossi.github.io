@@ -1,6 +1,6 @@
 ---
 title: Fix git plink unknown option error
-categories: [quicktips,git,ssh,plink]
+tags: [quicktips,git,ssh,plink]
 ---
 The error `plink: unknown option "-o"` indicates that the git ssh command has been set to `plink.exe`, but git believes it is interacting with an OpenSSH command.
 

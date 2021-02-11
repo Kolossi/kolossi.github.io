@@ -1,6 +1,6 @@
 ---
 title:    Setting up a fully featured Github Pages site
-categories: ["github pages"]
+tags: ["github pages"]
 ---
 
 This post will explain how to use [Github pages](https://pages.github.com/) to create a powerful but easy to use content site, and to add Google Analytics, Ads and a Paypal donate button to that site to monetise and monitor it.

@@ -1,6 +1,6 @@
 ---
 title: Using Jekyll markdown in divs
-categories: [quicktips,jekyll]
+tags: [quicktips,jekyll]
 ---
 To allow Jekyll (Liquid) to parse markup in page blocks like divs, add the folowing at the top of the page...
 <!--more-->

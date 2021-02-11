@@ -1,7 +1,7 @@
 ---
 title:    Raspberry Pi Storage Throughput Testing
 subtitle: (aka where to persist data when building a Pi Kubernetes cluster)
-categories: ["raspberrypi"]
+tags: ["raspberrypi"]
 ---
 
 Having tested various options, I'll be using `****` as the permanent backing store for my Raspberry Pi Kubernetes cluster workloads and `****` for working storage. Here's why...
@@ -35,7 +35,6 @@ I use:
 > :information_source: Familiarity with ansible itself is required to run this, it won't be detailed here.
 
 > :information_source: First, make sure to get some fresh microSD cards for the Pis, there's not automatic rollback to the "before" state, and shutdown seems to be problematic after installing this due to the iscsi mounts.  You have been cautioned!
-
 
 Once clean cards are installed, OS-specific setup steps are needed:
 
@@ -86,7 +85,7 @@ scp_if_ssh=True
 
 ### Ansible role
 
-The ansible role is at https://github.com/Kolossi/ansible-role-utils, and an [example playbook](https://github.com/Kolossi/ansible-role-utils/blob/main/use_cases/pi-throughput-test.yml) is provided.
+The ansible role is [on github](https://github.com/Kolossi/ansible-role-utils), and an [example playbook](https://github.com/Kolossi/ansible-role-utils/blob/main/use_cases/pi-throughput-test.yml) is provided.
 
 Be sure to change the playbook vars header:
 ```yaml

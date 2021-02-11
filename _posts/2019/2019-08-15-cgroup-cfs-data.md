@@ -1,7 +1,7 @@
 ---
 title: Linux cgroup cfs issues
 #subtitle: more than the title
-categories: [linux,kubernetes]
+tags: [linux,kubernetes]
 ---
 The CFS ("completely fair scheduler") in unix uses cgroups as part of
 limiting memory and resources.

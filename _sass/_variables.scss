@@ -21,7 +21,10 @@ $white: #fff;
 // Colors
 $kolBlue: #5A64C8;
 $kolBlueLight: lighten($kolBlue, 15%);
+$kolBlueVLight: lighten($kolBlue, 35%);
 $kolOrange: #FF9900; 
+$kolOrangeDark: darken($kolOrange, 15%);
+$kolOrangeVLight: lighten($kolOrange, 40%);
 $main-color: $gray;
 $main-back-color: $white;
 $mast-back-color: $kolBlue;
@@ -37,11 +40,21 @@ $pullquote-color: $accent-color;
 $top-bar-color: $kolBlue;
 $tag-color: $kolOrange;
 $tag-back-color: $kolBlue;
-$search-back-color: lighten($kolOrange, 40%);
+$search-back-color: $kolOrangeVLight;
 $search-border-color: $kolBlue;
 $search-color: $kolBlue;
 $post-date-color: $kolBlueLight;
 $kolBlue-shadow: $kolBlueLight;
+
+$blockquote-back-color: $kolBlueVLight;
+$blockquote-bar-color: $kolBlue;
+$blockquote-color: $darkGray;
+$blockquote-bar-width: 5px;
+$blockquote-font-size: 20px;
+
+$share-color: $gray;
+$share-font-size: 16px;
+
 // $linkhovercolor: #4183C4;
 $blue: $kolBlue;
 //$blue: #4183C4;

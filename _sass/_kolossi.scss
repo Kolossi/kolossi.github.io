@@ -54,7 +54,8 @@ div.shadowtb
 {
 	position:relative;
 	background-color: $main-back-color;
-	padding: 1px 0px 30px;
+	padding: 1px 0px;
+	margin: 30px 0px;
 }
 
 div.shadowtb:before
@@ -84,6 +85,33 @@ img.img-full, a.img-center img
 img.emoji {
 	max-width: auto;
 	display: inline-block;
-  }
+	vertical-align:-3px;
+}
+
+.share-content {
+	margin: 15px 60px 15px 0px;
+	@include mobile {
+		margin-right: 0px;
+	}
+}
+
+.share-links {
+    text-align: right;
+	@include mobile {
+		text-align: center;
+	}
+    a {
+	    font-size: $share-font-size;
+	    color: $share-color;
+	    margin: 0px 0px 0px 15px;
+		@include mobile {
+			margin-left: 5px;
+		}
+	  
+	    &:hover, &:active, &:visited:hover {
+		    color: $link-hover-color;
+	    }
+    }
+}
   
   

@@ -1,6 +1,6 @@
 ---
 title:    Creating snippets and assigning to shortcut in VSCode
-categories: [quicktips,vscode]
+tags: [quicktips,vscode]
 ---
 To create code snippets in VSCode, and assign them to a key binding...
 <!--more-->

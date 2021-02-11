@@ -3,7 +3,7 @@ title: Ansible setup
 #subtitle: more than the title
 excerpt_separator: <!--more-->
 #excerpt: This is what the page is really about
-categories: [ansible,windows,wsl ubuntu]
+tags: [ansible,windows,wsl ubuntu]
 ---
 
 To install on WSL Ubuntu, follow:

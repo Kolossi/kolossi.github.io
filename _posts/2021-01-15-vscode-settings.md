@@ -1,6 +1,6 @@
 ---
 title:    VSCode settings file location
-categories: [quicktips,vscode]
+tags: [quicktips,vscode]
 ---
 The global VSCode settings file (where things like msssql extension connection profiles are stored) is at...
 <!--more-->

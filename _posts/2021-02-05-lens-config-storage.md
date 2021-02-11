@@ -1,6 +1,6 @@
 ---
 title: LENS config storage location
-categories: [quicktips,kubernetes,lens]
+tags: [quicktips,kubernetes,lens]
 ---
 The [LENS // The Kuberenetes IDE](https://k8slens.dev/) stores its config info in ...
 <!--more-->

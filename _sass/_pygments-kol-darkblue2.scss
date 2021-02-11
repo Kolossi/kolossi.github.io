@@ -21,9 +21,12 @@
 code {
     font-family:'Bitstream Vera Sans Mono','Courier', monospace;
     color: $lightGray !important;
+}
+
+code.language-plaintext.highlighter-rouge
+{
     border-radius: 5px;
     padding: 3px 5px 1px;
-    // color: #d8d8d8 !important;
 }
 
 // .highlight, .highlight pre, .highlight table { background: #233b5a !important; color: #fff8dc !important; }

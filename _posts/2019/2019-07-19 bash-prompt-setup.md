@@ -2,7 +2,7 @@
 title: Bash prompt setup
 #subtitle: more than the title
 #excerpt: This is what the page is really about
-categories: [bash, linux, wsl ubuntu, git, kubernetes]
+tags: [bash, linux, wsl ubuntu, git, kubernetes]
 ---
 To get git information AND k8s cluster info AND history number in
 bash prompt, added the following method to .bashrc...

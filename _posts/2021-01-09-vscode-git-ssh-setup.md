@@ -1,6 +1,6 @@
 ---
 title:    VSCode Git SSH setup
-categories: [quicktips,vscode,git,ssh]
+tags: [quicktips,vscode,git,ssh]
 ---
 To enable vscode git extension to use pageant-served ssh certificates...
 <!--more-->

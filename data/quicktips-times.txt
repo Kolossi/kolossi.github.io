@@ -4,8 +4,7 @@ Wed Sep 4 15:42:57 2019 +0100 ansible-setup.md
 Wed Jul 24 11:03:31 2019 +0100 bash-prompt-setup.md
 Mon Jan 13 15:24:31 2020 +0000 bitbucket-markdown-syntax.md
 Thu Aug 15 14:58:05 2019 +0100 cgroup-cfs-data.md
-Tue Jul 9 15:14:38 2019 +0100 console-colours-setup.md
-Wed Dec 11 09:19:42 2019 +0000 create-kubernetes-job.md
+
 Wed Aug 14 13:55:34 2019 +0100 debugging-a-workload.md
 Wed Feb 19 13:59:32 2020 +0000 delete-evicted-pods.md
 Wed Nov 13 15:02:08 2019 +0000 delete-namespace.md

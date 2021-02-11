@@ -1,6 +1,6 @@
 ---
 title: Escape backtick in markdown code block
-categories: [quicktips,markdown]
+tags: [quicktips,markdown]
 ---
 To use a backtick (`` ` ``) within a markdown inline code block...
 

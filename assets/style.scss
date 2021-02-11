@@ -155,7 +155,8 @@ table tr td :last-child {
 
 .share-box {
   font-weight: bold;
-  color: #222;
+  font-size: $share-font-size;
+  color: $share-color;
 }
 
 span[data-pullquote] {
@@ -424,12 +425,12 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    /*border-left: 2px solid $gray;*/
+    border-left: $blockquote-bar-width solid $blockquote-bar-color;
     padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
+    color: $blockquote-color;
+    font-size: $blockquote-font-size;
     font-style: italic;
-    background-color: #ede1ff;
+    background-color: $blockquote-back-color;
   }
 
   .you-may-like{

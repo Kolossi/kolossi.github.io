@@ -1,6 +1,6 @@
 ---
 title: VSCode preserve installed extensions
-categories: [quicktips,vscode]
+tags: [quicktips,vscode]
 ---
 To export and recreate installed VSCode extentions...
 <!--more-->

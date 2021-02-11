@@ -95,6 +95,9 @@ include:
 paginate: 6
 paginate_path: /page:num/
 
+feed:
+  posts_limit: 50
+
 # Exclude these files from your production _site
 exclude:
   - Gemfile
@@ -107,7 +110,7 @@ exclude:
 
 defaults:
   - scope:
-      path: ""
+      path: "*"
       type: "posts"
     values:
       layout: "post"

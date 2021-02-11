@@ -1,6 +1,6 @@
 ---
 title: Pre-fill git commit message
-categories: [quicktips,git]
+tags: [quicktips,git]
 ---
 To have the git commit message pre-populated with a standard value...
 <!--more-->
