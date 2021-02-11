@@ -113,5 +113,12 @@ img.emoji {
 	    }
     }
 }
+
+#random-quicktip {
+	padding: 15px 30px;
+	@include mobile {
+		padding: 10px 15px;
+	}
+}
   
   
