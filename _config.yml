@@ -91,6 +91,7 @@ plugins:
 
 include:
   - _pages
+  - kthrone
 
 paginate: 6
 paginate_path: /page:num/
@@ -120,6 +121,13 @@ defaults:
       type: "bookmarks"
     values:
       layout: "default"
+  - scope:
+      path: "kthrone"
+      type: "page"
+    values:
+      subsite_name: "King's Throne"
+      subsite_description: "Some info for playing this Android and iOS game"
+      subsite_path: "kthrone"
 
 collections:
   bookmarks:

@@ -1,0 +1,47 @@
+Level,military-attr(G),fortune-attr,provisions-attr(G),inspiration-attr,levelup-cost,power,levelup-cost-x10,comment
+1,116,30,101,20,100,40.1K,,
+2,120,31,104,20,159,80.1K,,
+3,127,33,111,22,228,120K,,
+4,136,35,118,23,310,160K,,Triggered _Hail to the King_ on upgrade (+2 levels)
+7,178,46,155,30,664,280K,,
+8,192,51,172,34,828,320K,,
+9,217,56,189,37,1.02K,360K,,
+10,240,62,210,41,1.24K,400K,29K,
+20,600,155,524,103,5.83K,800K,101K,
+30,1.19K,308,1.04K,205,16.8K,1.2M,251K,
+40,2.01K,521,1.76K,347,37.2K,1.6M,508K,
+50,3.07K,794,2.68K,529,70K,2M,903K,
+50,4.52K,794,2.68K,529,70K,2M,903K,used 1x Military Tome III (+1000) but +45% Paragon means +1450
+50,4.52K,1.79K,2.68K,529,70K,2M,903K,used 1x Fortune Tome III (+1000)
+50,4.52K,1.79K,4.13K,529,70K,2M,903K,used 1x Provisions Tome III (+1000) but +45% Paragon means +1450
+50,4.52K,1.79K,4.13K,1.52K,70K,2M,903K,used 1x Inspiration Tome III (+1000) NOTE round down of attribute 1.529K to display 1.52K
+50,19K,1.79K,4.13K,1.52K,70K,2.01M,903K,used 2x Military Tome IV (+10000) but +45% Paragon means +14500 _shows in power to 2.01M_
+50,20.1K,1.79K,4.13K,1.52K,70K,2.77M,903K,Military: used 1x quality scroll III to increase Commanding to Lv:2 also increased military-attr approx +1100 and quality:23 _shows in power to 2.77M_
+50,20.1K,1.79K,4.13K,2.05K,70K,2.77M,903K,Inspiration: used 1x quality scroll II to increase Chaplains Motivation to Lv:2 also increased inspiration-attr approx +530 and quality:25 _does not show in power still 2.77M_
+50,20.1K,2.05K,4.13K,2.05K,70K,2.77M,903K,Fortune: used 1x quality scroll I to increase Mercantilism to Lv:4 also increased fortune-attr approx +260 and quality:26 _does not show in power still 2.77M_
+50,20.1K,2.05K,5.28K,2.05K,70K,2.77M,903K,Provisions: used 12x quality manuscript to get 600 quality skill exp +600 then use that to increase County Rulership from Lv:1 to Lv:2 also increased provisions-attr approx +1150 and quality:29 _does not show in power still 2.77M_
+60,21.9K,2.5K,6.89K,2.5K,118K,3.32M,1.46M,
+70,24K,3.02K,8.79K,3.02K,184K,3.87M,2.22M,
+80,26.4K,3.63K,10.9K,3.63K,272K,4.42M,3.21M,
+90,29.1K,4.31K,13.4K,4.31K,385K,4.97M,4.45M,
+100,32.2K,5.07K,16.2K,5.07K,524K,5.53M,,
+100,32.2K,5.07K,16.2K,5.07K,524K,5.53M,,Upgrade does not change attributes; quality; or power stats
+100,32.2K,5.07K,16.2K,7.11K,524K,5.53M,,Inspiration: used 3x quality manuscript to get to 400 quality skill exp increase Chaplains Motivation to Lv:3 also increased inspiration-attr approx +2.04K and quality:31 _does not show in power still 5.53M_
+,,,,,,,,
+,,,,,,,,
+Pargon of valor level 1 (Got Arthur) so,military-attr +45%,,provisions-attr +45%,,,,,
+Quality:20,,,,,,,,
+No treasure no beast,,,,,,,,
+,Hunting lv:1 Military+5/level; Commanding lv:1 Military+3/level,,,,,,,
+,,Mercantilism lv:3 Fortune: +1/level (level +2 due to King's Council bonus),,,,,,
+,,,Hero of Legend lv:1 Provisions +4/level; County Rulership lv:1 Provisions +3/level,,,,,
+,,,,Chaplains Motivation lv:1 Inspiration +2/level,,,,
+Power = (5000 * level * Military-quality) +  Military-attr,,,,,,,,
+= 5000*50*8 + 4.52K,,,,,,,,
+= 2000000 + 4520 = 2004520 = 2M displayed,,,,,,,,
+Increase Power via military-attr  +14500
+= 5000*50*8 + 19020,,,,,,,,
+= 2000000 + 19020 = 2019020 = 2.01M displayed (rounds down),,,,,,,,
+Increase Power via Military-quality +3
+= 5000*50*11 + 20.1K,,,,,,,,
+= 2750000 + 20.1K = 2.771M = 2.77M displayed,,,,,,,,

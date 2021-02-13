@@ -11,3 +11,4 @@ Gemfile.lock
 node_modules
 package.json
 vendor/
+debug.log

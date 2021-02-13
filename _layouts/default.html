@@ -10,11 +10,17 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
     <meta name="theme-color" content="#000000">
-    {%- if false -%}<link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">{%- endif -%}
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous">
+    </script>
     {% include analytics_head.html %}
     {% include adsense_head.html %}
   </head>
 
+{%- capture effective_rootpath -%}{{ site.baseurl }}/{%- if page and page.subsite_path -%}{{ page.subsite_path }}{%- endif -%}{%- endcapture -%}
+{%- capture effective_name -%}{%- if page and page.subsite_name -%}{{ page.subsite_name }}{%- else -%}{{ site.name }}{%- endif -%}{%- endcapture -%}
+{%- capture effective_description -%}{%- if page -%}{%- if page.subsite_description -%}{{ page.subsite_description }}{%- endif -%}{%- else -%}{{ site.description }}{%- endif -%}{%- endcapture -%}
   <body>
     <div id="browser_warning">
       <div id="browser_warning_inner">
@@ -31,17 +37,19 @@
       <div class="wrapper-masthead">
         <div class="container">
           <header class="masthead clearfix">
-            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a>
+            <a href="{{ effective_rootpath }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ effective_name }}" /></a>
 
             <div class="site-info">
-              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-              <p class="site-description">{{ site.description }}</p> 
+              <h1 class="site-name"><a href="{{ effective_rootpath }}/">{{ effective_name }}</a></h1>
+              <p class="site-description">{{ effective_description }}</p> 
             </div>
 
             <nav>
-              <a href="{{ site.baseurl }}/">Home</a>
+              <a href="{{ effective_rootpath }}">Home</a>
+{%- unless page and (page.subsite_name or page.subsite_description or page.subsite_path) -%}
               <a href="{{ site.baseurl }}/search">Search</a>
               <a href="{{ site.baseurl }}/about">About</a>
+{%- endunless -%}
             </nav>
           </header>
         </div>
