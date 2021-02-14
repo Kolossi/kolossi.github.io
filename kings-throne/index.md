@@ -1,5 +1,4 @@
 ---
-layout: default
 title: King's Throne
 categories: []
 ---

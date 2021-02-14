@@ -1,9 +1,10 @@
-{% if site.google_analytics_ga4 %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_ga4 }}"></script>
+{%- capture ga4_id -%}{%- if page and page.subsite and page.subsite.google_analytics_ga4 and page.subsite.google_analytics_ga4 != empty -%}{{ page.subsite.google_analytics_ga4 }}{%- else -%}{{ site.google_analytics_ga4 }}{%- endif -%}{%- endcapture -%}
+{% if ga4_id and ga4_id != empty %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga4_id }}"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics_ga4 }}');
+        gtag('config', '{{ ga4_id }}');
       </script>
 {% endif %}

@@ -122,12 +122,14 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "kthrone"
+      path: "kings-throne"
       type: "page"
     values:
-      subsite_name: "King's Throne"
-      subsite_description: "Some info for playing this Android and iOS game"
-      subsite_path: "kthrone"
+      subsite:
+        name: "King's Throne"
+        description: "Some info for playing this Android and iOS game"
+        path: "kings-throne"
+        google_analytics_ga4: G-2H7YYL1YT3
 
 collections:
   bookmarks:

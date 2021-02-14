@@ -18,9 +18,9 @@
     {% include adsense_head.html %}
   </head>
 
-{%- capture effective_rootpath -%}{{ site.baseurl }}/{%- if page and page.subsite_path -%}{{ page.subsite_path }}{%- endif -%}{%- endcapture -%}
-{%- capture effective_name -%}{%- if page and page.subsite_name -%}{{ page.subsite_name }}{%- else -%}{{ site.name }}{%- endif -%}{%- endcapture -%}
-{%- capture effective_description -%}{%- if page -%}{%- if page.subsite_description -%}{{ page.subsite_description }}{%- endif -%}{%- else -%}{{ site.description }}{%- endif -%}{%- endcapture -%}
+{%- capture effective_rootpath -%}{{ site.baseurl }}/{%- if page and page.subsite -%}{{ page.subsite.path }}{%- endif -%}{%- endcapture -%}
+{%- capture effective_name -%}{%- if page and page.subsite -%}{{ page.subsite.name }}{%- else -%}{{ site.name }}{%- endif -%}{%- endcapture -%}
+{%- capture effective_description -%}{%- if page -%}{%- if page.subsite -%}{{ page.subsite.description }}{%- endif -%}{%- else -%}{{ site.description }}{%- endif -%}{%- endcapture -%}
   <body>
     <div id="browser_warning">
       <div id="browser_warning_inner">
@@ -45,8 +45,8 @@
             </div>
 
             <nav>
-              <a href="{{ effective_rootpath }}">Home</a>
-{%- unless page and (page.subsite_name or page.subsite_description or page.subsite_path) -%}
+              <a href="{{ effective_rootpath }}">Home </a>
+{%- unless page and page.subsite -%}
               <a href="{{ site.baseurl }}/search">Search</a>
               <a href="{{ site.baseurl }}/about">About</a>
 {%- endunless -%}
@@ -61,6 +61,7 @@
         </div>
       </div>
 
+{%- unless page and page.subsite -%}
       <div class="wrapper-footer">
         <div class="container">
           <footer class="footer">
@@ -68,6 +69,7 @@
           </footer>
         </div>
       </div>
+{%- endunless -%}
     </div>
 
     {% include analytics_body.html %}
