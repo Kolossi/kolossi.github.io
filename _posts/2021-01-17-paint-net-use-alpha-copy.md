@@ -21,7 +21,7 @@ I want to change the following [shadow image](https://i.emlfiles4.com/cmpimg/0/0
 
 ----
 
-![Grey shadow](/assets/grey-shadow-down.png)
+![Grey shadow](/assets/img/grey-shadow-down.png)
 
 ----
 
@@ -41,10 +41,10 @@ I've got this in just a few simple steps:
 
 The up and down image versions can now be used :
 
-![up shadow](/assets/blue-shadow-up.png)
+![up shadow](/assets/img/blue-shadow-up.png)
 
 This is the message which I want to draw attention to, but not too much!
 
-![down shadow](/assets/blue-shadow-down.png)
+![down shadow](/assets/img/blue-shadow-down.png)
 
 That was easy, and looks pretty sweet I think.

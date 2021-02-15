@@ -10,7 +10,7 @@ no_share_links: true
     <ul id="search-results-container"></ul>
 </div>
 
-<script src="{{ site.baseurl }}/assets/simple-jekyll-search.min.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js" type="text/javascript"></script>
 
 <script>
     SimpleJekyllSearch({

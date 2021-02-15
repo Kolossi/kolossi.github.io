@@ -1,5 +1,6 @@
 ---
 title: Bookmarks
+no_share_links: true
 ---
 
 {::options parse_block_html="true" /}
@@ -10,7 +11,7 @@ title: Bookmarks
         {% assign logo-filename = thing.title | downcase | append: '.png'%}
     {% endunless %}
 <div class='bookmark-loz'>
-<a href="{{thing.target-url}}" target="_blank">![{{thing.title}}]({{site.url}}/assets/{{logo-filename}}) {{thing.title}}</a>
+<a href="{{thing.target-url}}" target="_blank">![{{thing.title}}]({{site.url}}/assets/img/{{logo-filename}}) {{thing.title}}</a>
 </div>
 {% endfor %}
 
