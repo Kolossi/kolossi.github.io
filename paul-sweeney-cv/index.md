@@ -23,5 +23,5 @@ The latest CV for Paul Sweeney is available in the following formats:
 
 ### See Also
 
-* [Paul Sweeney's White Paper on Sql Server Transaction Handling]({{site.url}}/PaulSweeneyCV/SqlWhitePaper)
+* [Paul Sweeney's White Paper on Sql Server Transaction Handling]({{site.url}}/paul-sweeney-cv/sql-white-paper)
 * [IKM C# 4.0 Test Result - 99/100 and 97% Percentile of those taking the test]({{site.url}}/files/IKMTestResult.pdf)
