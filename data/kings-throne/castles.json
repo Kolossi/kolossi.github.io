@@ -1,5 +1,31 @@
 [
     {
-        
+        "Name": "Goldshore",
+        "Level": 7,
+        "Requirements":
+        {
+            "Intimacy": "50",
+            "Attributes": "7k"
+        }
+    },
+    {
+        "Name": "Goldshore",
+        "Level": 8,
+        "Requirements":
+        {
+            "Intimacy": "51",
+            "Attributes": "8k"
+        }
+    },
+    {
+        "Name": "South Bay",
+        "Level": 3,
+        "Requirements":
+        {
+            "Intimacy": "12",
+            "Attributes": "1k"
+        }
     }
+
+
 ]

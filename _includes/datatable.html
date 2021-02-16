@@ -1,0 +1,19 @@
+{::options parse_block_html="true" /}
+<div id='{{ include.id }}'></div>
+<script type="text/javascript">
+if (jsst_options !== null && typeof jsst_options == 'undefined') var jsst_options={};
+var options = {{ include.options }};
+jsst_options['{{ include.id}}'] = options;
+if (!!options.data)
+{
+    $('#{{ include.id }}').JSSteelTable(options);
+}
+else
+{
+    $.getJSON( "{{ site.baseurl }}/{{ include.datafile }}", function( data ) {
+        var options = jsst_options['{{ include.id}}'];
+        options.data = data;
+        $('#{{ include.id }}').JSSteelTable(options);
+    });
+}
+</script>

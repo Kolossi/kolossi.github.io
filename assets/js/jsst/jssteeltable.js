@@ -1,5 +1,5 @@
 /*
-* JSIronTable - Copyright 2020 Raftopoulos Yannis
+* JSSteelTable - Copyright 2021 Kolossi
 * 
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,10 +16,10 @@
 
 ;(function ($, window, document, undefined) {
 
-    var pluginName = "JSIronTable",
+    var pluginName = "JSSteelTable",
         dataKey = "plugin_" + pluginName;
 
-    var JSIronTable = function (element, options) {
+    var JSSteelTable = function (element, options) {
     
         this.element = element;
         
@@ -30,24 +30,20 @@
             fixedheader: true,
             scrollable: true,
             sortable: false,
-            draggableColumns: false,
             headerfontsize: "12pt",
             cellfontsize: "12pt",
-            columns: [],
-            rows: [],
-            headercells: [],
-            columnfields: []
+            columns: []
         };
         
         this.init(options);
     };
 
-    JSIronTable.prototype = {
+    JSSteelTable.prototype = {
         init: function (options) {
             $.extend(this.options, options);
             
             var self = this;
-            this.body = $('<div class="jsit_body"></div>');
+            this.body = $('<div class="jsst_body"></div>');
             this.element.html(this.body);
 
             // Enable or Disable the Max Height property
@@ -97,19 +93,19 @@
                         
                         if(self._generateheader && self.Validate(options.columns))
                         {
-                            if($(self.element).find('.jsit_heading').length !== 0)
+                            if($(self.element).find('.jsst_heading').length !== 0)
                             {
-                                $(self.element).find('.jsit_heading').remove();                                
+                                $(self.element).find('.jsst_heading').remove();                                
                             }
                             
-                            self.heading = $('<div class="jsit_heading"></div>');
+                            self.heading = $('<div class="jsst_heading"></div>');
                             self.element.prepend(self.heading);
         
                             if(self.Validate(options.fixedheader))
                             {
                                 if(options.fixedheader)
                                 {
-                                    $(self.heading).addClass("jsit_fixedheader");
+                                    $(self.heading).addClass("jsst_fixedheader");
                                 }
                             }
                         }
@@ -121,7 +117,7 @@
                             self.CreateHeader();
                         } catch(ex)
                         {
-                            console.log("JSIronTable Error creating Header: "+ex);
+                            console.log("JSSteelTable Error creating Header: "+ex);
                         }
                         
         
@@ -132,7 +128,7 @@
                             self.CreateData();
                         } catch(ex)
                         {
-                            console.log("JSIronTable Error creating Data: "+ex);
+                            console.log("JSSteelTable Error creating Data: "+ex);
                         }
         
                         self.initialHeight = self.element.height();
@@ -164,7 +160,7 @@
 
         OnInitialized(callback)
         {
-            if(this.options.debug) console.log("JSIronTable -> OnInitialized()");
+            if(this.options.debug) console.log("JSSteelTable -> OnInitialized()");
             if(this.listeners.OnError !== null && typeof this.listeners.OnError !== 'undefined')
             {
                 this.listeners.OnInitialized = callback;
@@ -173,7 +169,7 @@
 
         OnError(callback)
         {
-            if(this.options.debug) console.log("JSIronTable -> OnError()");
+            if(this.options.debug) console.log("JSSteelTable -> OnError()");
             if(this.listeners.OnError !== null && typeof this.listeners.OnError !== 'undefined')
             {
                 this.listeners.OnError = callback;
@@ -182,7 +178,7 @@
 
         OnSort(callback)
         {
-            if(this.options.debug) console.log("JSIronTable -> OnSort()");
+            if(this.options.debug) console.log("JSSteelTable -> OnSort()");
             if(this.listeners.OnSort !== null && typeof this.listeners.OnSort !== 'undefined')
             {
                 this.listeners.OnSort = callback;
@@ -192,7 +188,7 @@
 
         BeforeSort(callback)
         {
-            if(this.options.debug) console.log("JSIronTable -> BeforeSort()");
+            if(this.options.debug) console.log("JSSteelTable -> BeforeSort()");
             if(this.listeners.BeforeSort !== null && typeof this.listeners.BeforeSort !== 'undefined')
             {
                 this.listeners.BeforeSort = callback;
@@ -201,7 +197,7 @@
 
         OnReload(callback)
         {
-            if(this.options.debug) console.log("JSIronTable -> OnReload()");
+            if(this.options.debug) console.log("JSSteelTable -> OnReload()");
             if(this.listeners.OnReload !== null && typeof this.listeners.OnReload !== 'undefined')
             {
                 this.listeners.OnReload = callback;
@@ -245,7 +241,7 @@
 
         StartLoader: function()
         {
-            $(this.body).html('<div class="jsit_loader_container"><div class="jsit_loader"></div></div>');
+            $(this.body).html('<div class="jsst_loader_container"><div class="jsst_loader"></div></div>');
         },
 
         Clear: function()
@@ -333,7 +329,7 @@
             
             if(this._generateheader && self.Validate(this.options.columns))
             {                        
-                var row = $('<div class="jsit_row heading"></div>');
+                var row = $('<div class="jsst_row heading"></div>');
                 $(this.heading).append(row);
                 
                 for(var j=0; j < this.options.columns.length; j++)
@@ -353,7 +349,7 @@
                             this.columnfields.push(this.options.columns[j].datafield);
                         } else {
                             isvisible = false;   
-                            hiddenclass = " jsit_hiddencol";
+                            hiddenclass = " jsst_hiddencol";
                         }
                     } else {
                         this.columnfields.push(this.options.columns[j].datafield);
@@ -377,7 +373,7 @@
                     {
                         if(this.options.sortable)
                         {
-                            sortableclass = ' class="jsit_sortheader" id="jsit_sortheader_id'+j+'"';
+                            sortableclass = ' class="jsst_sortheader" id="jsst_sortheader_id'+j+'"';
                         }
                     }
                     
@@ -404,14 +400,14 @@
                     // Sort Icon
                     if(this.options.sortable)
                     {
-                        $(span).html($(span).html() + '<i class="material-icons jsit_ordericon">unfold_more</i>');
+                        $(span).html($(span).html() + '<i class="material-icons jsst_ordericon">unfold_more</i>');
                         
                         //$(span).click(function(e) {
-                        var icon = $(span).children('.jsit_ordericon')[0];
+                        var icon = $(span).children('.jsst_ordericon')[0];
                         //$(icon).click(function(e) {
                         $(icon).on("click", function(e) {
                             var targ = e.target.id;
-                            console.log("targ: "+targ);
+                            //console.log("targ: "+targ);
                             var lastChar = targ.charAt(targ.length - 1);
                             e.preventDefault();
                             
@@ -421,20 +417,12 @@
                         });
                     }                                        
                     
-                    var cell = $('<div id="hd_'+column.key+'" class="jsit_head'+hiddenclass+' jsit_noselect"'+addstyle+'></div>');
+                    var cell = $('<div id="hd_'+column.key+'" class="jsst_head'+hiddenclass+' jsst_noselect"'+addstyle+'></div>');
                     $(cell).html(span);
                     row.append(cell);
 
-                    //self.addDragEvent(cell);
-                    addDragEvent(cell, self);
-
                     var x = cell.position().left;
                     self.headercells.push({column: column, html: cell, sx: 0, w: 0, order: j, visible: isvisible});
-                    
-                    // Drag Cell Size
-                    //
-                    // /createDraggable(cell, this, j);
-                    
 
                     this.cols.push(column);
                 }
@@ -475,7 +463,7 @@
                         var rowclass = "odd";
                         if((k+1) % 2 == 0) rowclass = "even";
 
-                        var row_element = $('<div class="jsit_row '+rowclass+'"></div>');
+                        var row_element = $('<div class="jsst_row '+rowclass+'"></div>');
                         $(this.body).append(row_element);
 
                         for(var g=0; g < this.options.columns.length; g++)
@@ -483,7 +471,7 @@
                             var found_column_data = false;
                             var mainkey = this.options.columns[g].datafield;
 
-                            var hiddenclass = " jsit_hiddencol";
+                            var hiddenclass = " jsst_hiddencol";
                             if(this.columnfields.length > 0)
                             {                                
                                 for(var p=0; p < this.columnfields.length; p++)
@@ -520,7 +508,7 @@
                                         cellvalue = this.options.columns[g].view(this.options.data[k], row_element);                                
                                     }
 
-                                    var cell = $('<div class="jsit_cell'+hiddenclass+'"'+addstyle+'><span style="font-size: '+this.options.cellfontsize+'">'+cellvalue+'</span></div>');
+                                    var cell = $('<div class="jsst_cell'+hiddenclass+'"'+addstyle+'><span style="font-size: '+this.options.cellfontsize+'">'+cellvalue+'</span></div>');
                                     row_element.append(cell);
 
                                     break;
@@ -529,7 +517,7 @@
                     
                             if(!found_column_data)
                             {
-                                var cell = $('<div class="jsit_cell'+hiddenclass+'"'+addstyle+'><span>&nbsp;</span></div>');
+                                var cell = $('<div class="jsst_cell'+hiddenclass+'"'+addstyle+'><span>&nbsp;</span></div>');
                                 row_element.append(cell);
                             }
                         }
@@ -550,7 +538,7 @@
                         {
                             if(this.options.scrollable === true)
                             {
-                                $(this.body).addClass("jsit_scrollbody");
+                                $(this.body).addClass("jsst_scrollbody");
 
                                 if(HasScrollBar(this.body))
                                 {
@@ -590,69 +578,66 @@
         SortTableByColumn(n, caller) {
             if(this.options.sortable)
             {
-                if(!$(caller).hasClass("dragging"))
+                if(this.listeners.BeforeSort !== null && typeof this.listeners.BeforeSort !== 'undefined' && typeof this.listeners.BeforeSort === "function")
                 {
-                    if(this.listeners.BeforeSort !== null && typeof this.listeners.BeforeSort !== 'undefined' && typeof this.listeners.BeforeSort === "function")
+                    this.listeners.BeforeSort();
+                }            
+
+                //var table = $(caller).parent().parent().parent();
+                var dir = "asc";
+                var dir_value = 1;
+
+                var icon_element = $(caller).children(".jsst_ordericon")[0];                    
+                if($(icon_element).html() === "expand_more")
+                {
+                    dir = "desc";
+                    dir_value = -1;
+                
+                } else {
+                    dir = "asc";
+                    dir_value = 1;
+                }
+
+                // Change all Icons to default
+                if($(this.heading).children() !== null && typeof $(this.heading).children() !== 'undefined')
+                {
+                    var child_heading = $(this.heading).children()[0];
+                    for(var f=0; f < $(child_heading).children().length; f++)
                     {
-                        this.listeners.BeforeSort();
-                    }            
-
-                    //var table = $(caller).parent().parent().parent();
-                    var dir = "asc";
-                    var dir_value = 1;
-
-                    var icon_element = $(caller).children(".jsit_ordericon")[0];                    
-                    if($(icon_element).html() === "expand_more")
-                    {
-                        dir = "desc";
-                        dir_value = -1;
-                    
-                    } else {
-                        dir = "asc";
-                        dir_value = 1;
+                        var child = $(child_heading).children()[f];
+                        var child_sortheader = $(child).children(".jsst_sortheader")[0];
+                        var child_icon_element = $(child_sortheader).children(".jsst_ordericon")[0];
+                        $(child_icon_element).html("unfold_more");
                     }
+                }
 
-                    // Change all Icons to default
-                    if($(this.heading).children() !== null && typeof $(this.heading).children() !== 'undefined')
-                    {
-                        var child_heading = $(this.heading).children()[0];
-                        for(var f=0; f < $(child_heading).children().length; f++)
-                        {
-                            var child = $(child_heading).children()[f];
-                            var child_sortheader = $(child).children(".jsit_sortheader")[0];
-                            var child_icon_element = $(child_sortheader).children(".jsit_ordericon")[0];
-                            $(child_icon_element).html("unfold_more");
-                        }
+                if (dir === "asc") {
+                    $(icon_element).html("expand_more");
+                }  else if (dir === "desc") {
+                    $(icon_element).html("expand_less");
+                }
+
+                var id = $(caller).parent().attr('id');
+                var column_param = id.replace("hd_","");
+
+                function compare( a, b ) {
+                    if ( a[column_param] < b[column_param] ){
+                    return -1 * dir_value;
                     }
-
-                    if (dir === "asc") {
-                        $(icon_element).html("expand_more");
-                    }  else if (dir === "desc") {
-                        $(icon_element).html("expand_less");
+                    if ( a[column_param] > b[column_param] ){
+                    return 1 * dir_value;
                     }
+                    return 0;
+                }
 
-                    var id = $(caller).parent().attr('id');
-                    var column_param = id.replace("hd_","");
+                this.options.data.sort( compare );
+                this.Reload();
 
-                    function compare( a, b ) {
-                        if ( a[column_param] < b[column_param] ){
-                        return -1 * dir_value;
-                        }
-                        if ( a[column_param] > b[column_param] ){
-                        return 1 * dir_value;
-                        }
-                        return 0;
-                    }
-
-                    this.options.data.sort( compare );
-                    this.Reload();
-
-                    if(this.listeners.OnSort !== null && typeof this.listeners.OnSort !== 'undefined' && typeof this.listeners.OnSort === "function")
-                    {
-                        this.listeners.OnSort();
-                    }
-                } 
-            }                       
+                if(this.listeners.OnSort !== null && typeof this.listeners.OnSort !== 'undefined' && typeof this.listeners.OnSort === "function")
+                {
+                    this.listeners.OnSort();
+                }
+            } 
         },
         // ---
         // End SortTableByColumn
@@ -698,197 +683,6 @@
         }        
     };
 
-    var addDragEvent = function(cell, table)
-    {
-        if(table.options.draggableColumns)
-        {
-            $( cell ).draggable(
-            { 
-                axis: "x",
-                containment: "parent",
-                start: function(ev,ui) {
-                    this.ax = $(ev.target).position().left;
-                },
-                drag: function(ev,ui) {
-                    $(ev.target).addClass("dragging");            
-                },
-                stop: function(ev,ui) {        
-                    setTimeout(function()
-                    {
-                        $(ev.target).removeClass("dragging");
-                    }, 500);
-    
-                    var a_x = -1;
-                    var a_index = -1;
-                    var b_x = -1;
-                    var b_index = -1;
-                    
-                    a_x = $(ev.target).position().left;
-
-                    //("Diff: "+Math.abs(a_x - this.ax));
-                    var move_diff = Math.abs(a_x - this.ax);
-
-                    if(move_diff > 40)
-                    {
-                        var headercells = $(ev.target).parent().children(".jsit_head");
-                        for(var j=0; j < headercells.length; j++)
-                        {
-                            var currentheader = headercells[j];
-                            var currentheader_x = $(currentheader).position().left;
-                            var currentheader_w = $(currentheader).outerWidth();
-                            
-                            if((a_x >= currentheader_x) && a_x < (currentheader_x + currentheader_w) && $(ev.target).attr("id") != $(currentheader).attr('id'))
-                            {
-                                var resulttable = ExchangeColumns($(ev.target).attr("id"), $(currentheader).attr('id'), table); 
-                                table = resulttable;
-                                break;
-                            }
-                        }
-                    }
-                    
-                    
-    
-                    $(this).css({left: 0});
-                }
-            });
-        }
-        
-
-        return table;
-    };
-    
-    var ExchangeColumns = function(sourceColumnA, targetColumnB, table)
-    {
-        var a_index = -1;
-        var b_index = -1;
-
-        for(var j=0; j < table.options.columns.length; j++)
-        {
-            if("hd_"+table.options.columns[j].datafield == sourceColumnA)
-            {
-                a_index = j;
-            } else 
-            if("hd_"+table.options.columns[j].datafield == targetColumnB)
-            {
-                b_index = j;
-            }
-        }
-
-        /* console.log("a_index: "+a_index);
-        console.log("b_index: "+b_index);
-        console.log(table.options.columns); */
-
-        var temp_column = table.options.columns[a_index];
-        table.options.columns[a_index] = table.options.columns[b_index];
-        table.options.columns[b_index] = temp_column;
-
-        table.ReloadAll();
-
-        return table;
-    }
-/*
-    var ExchangeColumns = function(sourceColumnA, targetColumnB, table)
-    {
-        console.log("ExchangeColumns");
-        var a_index = -1;
-        var b_index = -1;
-        for(var j=0; j < table.cols.length; j++)
-        {
-            if("hd_"+table.cols[j].key == sourceColumnA)
-            {
-                a_index = j;
-            } else 
-            if("hd_"+table.cols[j].key == targetColumnB)
-            {
-                b_index = j;
-            }
-        }
-
-        if(a_index != -1 & b_index != -1)
-        {
-            var temp = table.cols[a_index];
-            table.cols[a_index] = table.cols[b_index];
-            table.cols[b_index] = temp;
-        }
-
-        var a_html = null;
-        var b_html = null;
-        var a_html_index = -1;
-        var b_html_index = -1;
-
-        $('.jsit_row.heading').children('div').each(function () {
-            if($(this).attr("id") === sourceColumnA)
-            {
-                a_html = this;
-                a_html_index = $(this).index();
-            } else if($(this).attr("id") === targetColumnB)
-            {
-                b_html = this;
-                b_html_index = $(this).index();
-            }
-        });
-
-        if(a_html !== null && b_html !== null && a_html_index != -1 & b_html_index != -1)
-        {
-            // Exchange Heading
-            $(a_html).css({left: 0});
-            $(b_html).css({left: 0});
-            var temp_a = $(a_html).clone();
-            var temp_b = $(b_html).clone();
-            $(a_html).replaceWith(temp_b);    
-            $(b_html).replaceWith(temp_a);
-
-            // Add Listener for B
-            var sortheader_b = $(temp_b).children('.jsit_sortheader');            
-            if(sortheader_b !== null && typeof sortheader_b !== 'undefined')
-            {                
-                var icon_b = $(sortheader_b[0]).children('.jsit_ordericon')[0];
-                $(icon_b).on('click', function(e) {
-                    var targ = e.target.id;
-                    var lastChar_b = targ.charAt(targ.length - 1);
-                    console.log("this.parentElement: ");
-                    console.log(this.parentElement);
-                    e.preventDefault();                    
-                    table.SortTableByColumn(lastChar_b, this.parentElement);
-                });
-            }
-
-            // Add Listener for A
-            var sortheader_a = $(temp_a).children('.jsit_sortheader');            
-            if(sortheader_a !== null && typeof sortheader_a !== 'undefined')
-            {                
-                var icon_a = $(sortheader_a[0]).children('.jsit_ordericon')[0];
-                $(icon_a).on('click', function(e) {
-                    var targ = e.target.id;
-                    var lastChar = targ.charAt(targ.length - 1);
-                    console.log("this.parentElement: ");
-                    console.log(this.parentElement);
-                    e.preventDefault();                    
-                    table.SortTableByColumn(lastChar, this.parentElement);
-                });
-            }
-            
-
-            table = addDragEvent($(temp_a), table);
-            table = addDragEvent($(temp_b), table);
-
-            for(var k=0; k < $('.jsit_body').children('.jsit_row').length; k++)
-            {
-                var item = $('.jsit_body').children('.jsit_row')[k];
-                var cell_a = $(item).children('.jsit_cell')[a_html_index];
-                var cell_b = $(item).children('.jsit_cell')[b_html_index];
-                
-                var temp_content_a = $(cell_a).clone();
-                var temp_content_b = $(cell_b).clone();
-
-                $(cell_a).replaceWith(temp_content_b);    
-                $(cell_b).replaceWith(temp_content_a);         
-            }
-        }    
-
-        return table;
-    }*/
-
     var GetScrollBarWidth = function() {
         var $outer = $('<div>').css({visibility: 'hidden', width: 100, overflow: 'scroll'}).appendTo('body'),
             widthWithScroll = $('<div>').css({width: '100%'}).appendTo($outer).outerWidth();
@@ -901,13 +695,13 @@
         var plugin = this.data(dataKey);
 
         // has plugin instantiated ?
-        if (plugin instanceof JSIronTable) {
+        if (plugin instanceof JSSteelTable) {
             // if have options arguments, call plugin.init() again
             if (typeof options !== 'undefined') {
                 plugin.init(options);
             }
         } else {
-            plugin = new JSIronTable(this, options);
+            plugin = new JSSteelTable(this, options);
             this.data(dataKey, plugin);
         }
         
