@@ -4,8 +4,8 @@
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
     {% seo title=false %}
     {% include meta.html %}
-    {%- if page.redirect_target -%}
-    <meta http-equiv="Refresh" content="0; url='{{ page.redirect_target }}'" />
+    {%- if page.redirect-target-url -%}
+    <meta http-equiv="Refresh" content="0; url='{{ page.redirect-target-url }}'" />
     {%- endif -%}
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
@@ -49,16 +49,16 @@
       <div class="wrapper-masthead">
         <div class="container">
           <header class="masthead clearfix">
-            <a href="{{ effective_rootpath }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ effective_name }}" /></a>
+            <a href="{{ effective_rootpath }}" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ effective_name }}" /></a>
 
             <div class="site-info">
-              <h1 class="site-name"><a href="{{ effective_rootpath }}/">{{ effective_name }}</a></h1>
+              <h1 class="site-name"><a href="{{ effective_rootpath }}">{{ effective_name }}</a></h1>
               <p class="site-description">{{ effective_description }}</p> 
             </div>
 
             <nav>
               <a href="{{ effective_rootpath }}">Home </a>
-{%- unless page and (page.subsite or page.redirect_target) -%}
+{%- unless page and (page.subsite or page.redirect-target-url) -%}
               <a href="{{ site.baseurl }}/search">Search</a>
               <a href="{{ site.baseurl }}/about">About</a>
 {%- endunless -%}
@@ -73,7 +73,7 @@
         </div>
       </div>
 
-{%- unless page and (page.subsite or page.redirect_target) -%}
+{%- unless page and (page.subsite or page.redirect-target-url) -%}
       <div class="wrapper-footer">
         <div class="container">
           <footer class="footer">

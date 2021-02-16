@@ -87,11 +87,11 @@ plugins:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-redirect-from
   - jemoji
 
 include:
   - _pages
-  - kthrone
 
 paginate: 6
 paginate_path: /page:num/
@@ -131,94 +131,10 @@ defaults:
         path: "kings-throne"
         google_analytics_ga4: G-2H7YYL1YT3
   - scope:
-      path: "paulsweeneycv"
+      path: "paul-sweeney-cv"
       type: "page"
     values:
       subsite:
         name: "Paul Sweeney's CV"
         description: ""
-        path: "paulsweeneycv"
-  - scope:
-      path: "SqlWhitePaper"
-      # type: "redirect"
-    values:
-      layout: "redirect"
-      subsite:
-        name: "Paul Sweeney's CV"
-        description: ""
-        path: "SqlWhitePaper"
-
-collections:
-  bookmarks:
-    output: true
-
-# collections:
-#   articles:
-#     output: true
-#   quicktips:
-#     output: true
-#   bookmarks:
-#     output: true
-# defaults:
-#   - scope:
-#       path: ""
-#       type: "quicktips"
-#     values:
-#       layout: "default"
-#   - scope:
-#       path: ""
-#       type: "articles"
-#     values:
-#       layout: "default"
-#   - scope:
-#       path: ""
-#       type: "bookmarks"
-#     values:
-#       layout: "default"
-#   - scope:
-#       path: ""
-#     values:
-#       layout: "default"
-
-#####################################
-####      previous content        ###
-#####################################
-# theme: jekyll-theme-cayman
-# google_analytics: G-GDZZ8MJPVH
-# title: Kolossi
-# description: Kolossi's blog
-# show_downloads: false
-# plugins:
-#   - jemoji
-# exclude:
-# - Gemfile
-# - Gemfile.lock
-# - .gitignore
-# - .vscode
-# collections:
-#   articles:
-#     output: true
-#   quicktips:
-#     output: true
-#   bookmarks:
-#     output: true
-# defaults:
-#   - scope:
-#       path: ""
-#       type: "quicktips"
-#     values:
-#       layout: "default"
-#   - scope:
-#       path: ""
-#       type: "articles"
-#     values:
-#       layout: "default"
-#   - scope:
-#       path: ""
-#       type: "bookmarks"
-#     values:
-#       layout: "default"
-#   - scope:
-#       path: ""
-#     values:
-#       layout: "default"
+        path: "paul-sweeney-cv"
