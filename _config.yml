@@ -130,6 +130,23 @@ defaults:
         description: "Some info for playing this Android and iOS game"
         path: "kings-throne"
         google_analytics_ga4: G-2H7YYL1YT3
+  - scope:
+      path: "paulsweeneycv"
+      type: "page"
+    values:
+      subsite:
+        name: "Paul Sweeney's CV"
+        description: ""
+        path: "paulsweeneycv"
+  - scope:
+      path: "SqlWhitePaper"
+      # type: "redirect"
+    values:
+      layout: "redirect"
+      subsite:
+        name: "Paul Sweeney's CV"
+        description: ""
+        path: "SqlWhitePaper"
 
 collections:
   bookmarks:
