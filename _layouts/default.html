@@ -4,7 +4,9 @@
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
     {% seo title=false %}
     {% include meta.html %}
-
+    {%- if page.redirect_target -%}
+    <meta http-equiv="Refresh" content="0; url='{{ page.redirect_target }}'" />
+    {%- endif -%}
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
@@ -56,7 +58,7 @@
 
             <nav>
               <a href="{{ effective_rootpath }}">Home </a>
-{%- unless page and page.subsite -%}
+{%- unless page and (page.subsite or page.redirect_target) -%}
               <a href="{{ site.baseurl }}/search">Search</a>
               <a href="{{ site.baseurl }}/about">About</a>
 {%- endunless -%}
@@ -71,7 +73,7 @@
         </div>
       </div>
 
-{%- unless page and page.subsite -%}
+{%- unless page and (page.subsite or page.redirect_target) -%}
       <div class="wrapper-footer">
         <div class="container">
           <footer class="footer">
