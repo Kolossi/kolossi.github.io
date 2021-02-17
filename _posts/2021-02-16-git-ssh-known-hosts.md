@@ -1,6 +1,6 @@
 ---
 title: Git and ssh known_hosts population
-categories: [git,ssh]
+tags: [quicktips,git,ssh]
 ---
 
 Here's a trick to get a host key automatically registered by ssh, particularly

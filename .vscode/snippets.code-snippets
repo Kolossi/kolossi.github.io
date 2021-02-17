@@ -23,7 +23,7 @@
 			"title: ${TM_FILENAME_BASE/[-_]/ /g}",
 			"#subtitle: more than the title",
 			"#excerpt: This is what the page is really about",
-			"categories: []",
+			"tags: []",
 			"---",
 			"",
 			"<!--more-->",
