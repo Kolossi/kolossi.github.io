@@ -24,6 +24,9 @@
 			"#subtitle: more than the title",
 			"#excerpt: This is what the page is really about",
 			"tags: []",
+			"#redirect_from:",
+			"#    - /my-other-page-name",
+			"#    - /q/abchf", // <- a quick link
 			"---",
 			"",
 			"<!--more-->",
