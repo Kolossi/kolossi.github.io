@@ -18,8 +18,8 @@ jsst: true
         { 
             title: "Requirements", 
             datafield: "Requirements",
-            view: function ( data ) { 
-                return 'I:'+data.Requirements.Intimacy+',A:'+data.Requirements.Attributes;
+            view: function ( cellData ) { 
+                return 'I:' + cellData.Requirements.Intimacy + ',A:' + cellData.Requirements.Attributes;
             }
         },
     ]
@@ -38,8 +38,8 @@ jsst: true
         { 
             title: "Requirements", 
             datafield: "Requirements",
-            view: function ( data ) { 
-                return 'I:'+data.Requirements.Intimacy+',A:'+data.Requirements.Attributes;
+            view: function ( cellData ) { 
+                return 'I:' + cellData.Requirements.Intimacy + ',A:' + cellData.Requirements.Attributes;
             }
         },
     ]

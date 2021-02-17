@@ -3,7 +3,6 @@ layout: page
 title: Search
 permalink: /search/
 no_share_links: true
-jquery: true
 ---
 
 <div id="search-container">

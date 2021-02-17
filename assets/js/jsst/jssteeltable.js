@@ -331,7 +331,8 @@
             {                        
                 var row = $('<div class="jsst_row heading"></div>');
                 $(this.heading).append(row);
-                
+
+/// %%% change this.options.columns to var columns=GetColumns() and expand dynamic columns:                
                 for(var j=0; j < this.options.columns.length; j++)
                 {                
                     var col = this.options.columns[j];            
@@ -421,6 +422,8 @@
                     $(cell).html(span);
                     row.append(cell);
 
+                    addDragEvent(cell, self);
+
                     var x = cell.position().left;
                     self.headercells.push({column: column, html: cell, sx: 0, w: 0, order: j, visible: isvisible});
 
@@ -466,6 +469,7 @@
                         var row_element = $('<div class="jsst_row '+rowclass+'"></div>');
                         $(this.body).append(row_element);
 
+/// %%% change this.options.columns to var columns=GetColumns and expand dynamic columns:
                         for(var g=0; g < this.options.columns.length; g++)
                         {
                             var found_column_data = false;
@@ -578,66 +582,69 @@
         SortTableByColumn(n, caller) {
             if(this.options.sortable)
             {
-                if(this.listeners.BeforeSort !== null && typeof this.listeners.BeforeSort !== 'undefined' && typeof this.listeners.BeforeSort === "function")
+                if(!$(caller).hasClass("dragging"))
                 {
-                    this.listeners.BeforeSort();
-                }            
-
-                //var table = $(caller).parent().parent().parent();
-                var dir = "asc";
-                var dir_value = 1;
-
-                var icon_element = $(caller).children(".jsst_ordericon")[0];                    
-                if($(icon_element).html() === "expand_more")
-                {
-                    dir = "desc";
-                    dir_value = -1;
-                
-                } else {
-                    dir = "asc";
-                    dir_value = 1;
-                }
-
-                // Change all Icons to default
-                if($(this.heading).children() !== null && typeof $(this.heading).children() !== 'undefined')
-                {
-                    var child_heading = $(this.heading).children()[0];
-                    for(var f=0; f < $(child_heading).children().length; f++)
+                    if(this.listeners.BeforeSort !== null && typeof this.listeners.BeforeSort !== 'undefined' && typeof this.listeners.BeforeSort === "function")
                     {
-                        var child = $(child_heading).children()[f];
-                        var child_sortheader = $(child).children(".jsst_sortheader")[0];
-                        var child_icon_element = $(child_sortheader).children(".jsst_ordericon")[0];
-                        $(child_icon_element).html("unfold_more");
+                        this.listeners.BeforeSort();
+                    }            
+
+                    //var table = $(caller).parent().parent().parent();
+                    var dir = "asc";
+                    var dir_value = 1;
+
+                    var icon_element = $(caller).children(".jsst_ordericon")[0];                    
+                    if($(icon_element).html() === "expand_more")
+                    {
+                        dir = "desc";
+                        dir_value = -1;
+                    
+                    } else {
+                        dir = "asc";
+                        dir_value = 1;
                     }
-                }
 
-                if (dir === "asc") {
-                    $(icon_element).html("expand_more");
-                }  else if (dir === "desc") {
-                    $(icon_element).html("expand_less");
-                }
-
-                var id = $(caller).parent().attr('id');
-                var column_param = id.replace("hd_","");
-
-                function compare( a, b ) {
-                    if ( a[column_param] < b[column_param] ){
-                    return -1 * dir_value;
+                    // Change all Icons to default
+                    if($(this.heading).children() !== null && typeof $(this.heading).children() !== 'undefined')
+                    {
+                        var child_heading = $(this.heading).children()[0];
+                        for(var f=0; f < $(child_heading).children().length; f++)
+                        {
+                            var child = $(child_heading).children()[f];
+                            var child_sortheader = $(child).children(".jsst_sortheader")[0];
+                            var child_icon_element = $(child_sortheader).children(".jsst_ordericon")[0];
+                            $(child_icon_element).html("unfold_more");
+                        }
                     }
-                    if ( a[column_param] > b[column_param] ){
-                    return 1 * dir_value;
+
+                    if (dir === "asc") {
+                        $(icon_element).html("expand_more");
+                    }  else if (dir === "desc") {
+                        $(icon_element).html("expand_less");
                     }
-                    return 0;
-                }
 
-                this.options.data.sort( compare );
-                this.Reload();
+                    var id = $(caller).parent().attr('id');
+                    var column_param = id.replace("hd_","");
 
-                if(this.listeners.OnSort !== null && typeof this.listeners.OnSort !== 'undefined' && typeof this.listeners.OnSort === "function")
-                {
-                    this.listeners.OnSort();
-                }
-            } 
+                    function compare( a, b ) {
+                        if ( a[column_param] < b[column_param] ){
+                        return -1 * dir_value;
+                        }
+                        if ( a[column_param] > b[column_param] ){
+                        return 1 * dir_value;
+                        }
+                        return 0;
+                    }
+
+                    this.options.data.sort( compare );
+                    this.Reload();
+
+                    if(this.listeners.OnSort !== null && typeof this.listeners.OnSort !== 'undefined' && typeof this.listeners.OnSort === "function")
+                    {
+                        this.listeners.OnSort();
+                    }
+                } 
+            }
         },
         // ---
         // End SortTableByColumn
@@ -682,6 +689,95 @@
             }
         }        
     };
+
+    var addDragEvent = function(cell, table)
+    {
+        if(table.options.draggableColumns)
+        {
+            $( cell ).draggable(
+            { 
+                axis: "x",
+                containment: "parent",
+                start: function(ev,ui) {
+                    this.ax = $(ev.target).position().left;
+                },
+                drag: function(ev,ui) {
+                    $(ev.target).addClass("dragging");            
+                },
+                stop: function(ev,ui) {        
+                    setTimeout(function()
+                    {
+                        $(ev.target).removeClass("dragging");
+                    }, 500);
+    
+                    var a_x = -1;
+                    var a_index = -1;
+                    var b_x = -1;
+                    var b_index = -1;
+                    
+                    a_x = $(ev.target).position().left;
+
+                    console.log("Diff: "+Math.abs(a_x - this.ax));
+                    var move_diff = Math.abs(a_x - this.ax);
+
+                    if(move_diff > 40)
+                    {
+                        var headercells = $(ev.target).parent().children(".jsst_head");
+                        for(var j=0; j < headercells.length; j++)
+                        {
+                            var currentheader = headercells[j];
+                            var currentheader_x = $(currentheader).position().left;
+                            var currentheader_w = $(currentheader).outerWidth();
+                            
+                            if((a_x >= currentheader_x) && a_x < (currentheader_x + currentheader_w) && $(ev.target).attr("id") != $(currentheader).attr('id'))
+                            {
+                                var resulttable = ExchangeColumns($(ev.target).attr("id"), $(currentheader).attr('id'), table); 
+                                table = resulttable;
+                                break;
+                            }
+                        }
+                    }
+                    
+                    
+    
+                    $(this).css({left: 0});
+                }
+            });
+        }
+        
+
+        return table;
+    };
+    
+    var ExchangeColumns = function(sourceColumnA, targetColumnB, table)
+    {
+        var a_index = -1;
+        var b_index = -1;
+
+        for(var j=0; j < table.options.columns.length; j++)
+        {
+            if("hd_"+table.options.columns[j].datafield == sourceColumnA)
+            {
+                a_index = j;
+            } else 
+            if("hd_"+table.options.columns[j].datafield == targetColumnB)
+            {
+                b_index = j;
+            }
+        }
+
+        /* console.log("a_index: "+a_index);
+        console.log("b_index: "+b_index);
+        console.log(table.options.columns); */
+
+        var temp_column = table.options.columns[a_index];
+        table.options.columns[a_index] = table.options.columns[b_index];
+        table.options.columns[b_index] = temp_column;
+
+        table.ReloadAll();
+
+        return table;
+    }
 
     var GetScrollBarWidth = function() {
         var $outer = $('<div>').css({visibility: 'hidden', width: 100, overflow: 'scroll'}).appendTo('body'),
