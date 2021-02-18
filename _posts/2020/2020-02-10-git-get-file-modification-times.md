@@ -3,7 +3,7 @@ title: Git get file modification times
 tags: [git]
 ---
 
-To list the last git modification time of each soruce controlled file in the current directory ...
+To list the last git modification time of each source controlled file in the current directory ...
 <!--more-->
 Use:
 
