@@ -138,3 +138,7 @@ defaults:
         name: "Paul Sweeney's CV"
         description: ""
         path: "paul-sweeney-cv"
+
+collections:
+  bookmarks:
+    output: true
