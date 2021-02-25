@@ -2,9 +2,10 @@
 title: Storing dotfiles
 tags: [quicktips,wsl,bash,linux]
 ---
-Here's my take on how to store "dotfiles"...
+Here's my take on how to store "dotfiles" in git with least pain...
 <!--more-->
-Here's how to store all your "dotfiles" in git with least pain.
+
+## Dotfiles
 
 "dotfiles" are those files in a linux home dir that store setup, files like
 `.bashrc`, `.gitconfig`, `.vimrc`.

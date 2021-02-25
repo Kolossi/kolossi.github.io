@@ -49,3 +49,7 @@ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ## Test
 
 Confirm install with `kubectl version --client`
+
+#### Thanks
+
+Info from the [kubernetes docs](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
