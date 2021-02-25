@@ -90,13 +90,33 @@ config remote add origin ssh://git@bitbucket.myhost.com/~me/cfg_my-machine.git
 config push --set-upstream origin master
 ```
 
+If the repo is accessed via ssh, be sure to store the key file elsewhere so that
+the data can be cloned from the repo on any new install.
+
 ## Using on a new install
+
+### alias
 
 First setup a temporary version of the config alias
 
 ```bash
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 ```
+
+### ssh creds
+
+If the repo requires ssh authentication, retrieve the key file onto the new
+system, and make sure permissions are locked down.  Then start the ssh agent
+and add the key:
+
+```bash
+cp {somewhere}/my-key ~/.ssh
+chmod 600 ~/.ssh/my-key
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/my-key
+```
+
+### get files
 
 Clone the repo and checkout
 ```bash
