@@ -1,6 +1,6 @@
 ---
 title: Hosts file edit shortcut with gvim
-tags: [windows,gvim]
+tags: [windows,vim,gvim]
 ---
 
 To enable `hosts` file edit using a gvim shortcut, without breaking explorer
