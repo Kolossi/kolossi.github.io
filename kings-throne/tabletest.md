@@ -1,7 +1,7 @@
 ---
 title: King's Throne
 categories: []
-jsst: true
+jsit: true
 ---
 
 {%- capture _table_options -%}
@@ -32,12 +32,17 @@ jsst: true
     scrollable: true,
     fitHeight: true,
     headercells: true,
+    rowPerUniqueValue: {
+        datafield: "Name",
+        sortCompare: function(a,b) { return a.localeCompare(b);} // alpha sort
+    },
     columns: [
         { title: "Name", datafield: "Name" },        
-        { title: "Level", datafield: "Level"},
         { 
-            title: "Requirements", 
-            datafield: "Requirements",
+            fromUniqueValues: {
+                datafield: "Level",
+                sortCompare: function (a,b) { return a-b; } // numeric sort
+            },
             view: function ( cellData ) { 
                 return 'I:' + cellData.Requirements.Intimacy + ',A:' + cellData.Requirements.Attributes;
             }

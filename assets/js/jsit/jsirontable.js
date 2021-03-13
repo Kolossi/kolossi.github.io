@@ -77,6 +77,7 @@
             this.cols = [];
             this.headercells = [];            
             this.columnfields = [];
+            this.columns = [];
             this.initialHeight = 0;
 
             // Create Elements
@@ -95,21 +96,26 @@
                             }
                         }
                         
-                        if(self._generateheader && self.Validate(options.columns))
+                        if(self.Validate(options.columns))
                         {
-                            if($(self.element).find('.jsit_heading').length !== 0)
+                            self.options.columns = self.ExpandDynamicColumns(options);
+
+                            if(self._generateheader)
                             {
-                                $(self.element).find('.jsit_heading').remove();                                
-                            }
-                            
-                            self.heading = $('<div class="jsit_heading"></div>');
-                            self.element.prepend(self.heading);
-        
-                            if(self.Validate(options.fixedheader))
-                            {
-                                if(options.fixedheader)
+                                if($(self.element).find('.jsit_heading').length !== 0)
                                 {
-                                    $(self.heading).addClass("jsit_fixedheader");
+                                    $(self.element).find('.jsit_heading').remove();                                
+                                }
+                                
+                                self.heading = $('<div class="jsit_heading"></div>');
+                                self.element.prepend(self.heading);
+            
+                                if(self.Validate(options.fixedheader))
+                                {
+                                    if(options.fixedheader)
+                                    {
+                                        $(self.heading).addClass("jsit_fixedheader");
+                                    }
                                 }
                             }
                         }
@@ -206,6 +212,61 @@
             {
                 this.listeners.OnReload = callback;
             }            
+        },
+
+        ExpandDynamicColumns: function(options)
+        {
+            var columns = []
+            if (!this.Validate(options.columns)) return columns;
+
+            for(var j=0; j < this.options.columns.length; j++)
+            {
+                var col = options.columns[j];
+                if (!this.Validate(col)) continue;
+
+                if (!this.Validate(col.fromUniqueValues))
+                {
+                    columns.push(col);
+                    continue;
+                }
+
+                if (!this.Validate(options.data))
+                {
+                    var newcol = Object.assign({},col);
+                    newcol.datafield = newcol.fromUniqueValues.datafield;
+                    delete newcol.fromUniqueValues;
+                    columns.push(newcol);
+                    continue;
+                }
+
+                var collookup = {};
+                var colorder = [];
+
+                for(var d=0; d < this.options.data.length; d++)
+                {
+                    var item = options.data[d];
+                    var val = item[col.fromUniqueValues.datafield]
+                    if (val in collookup) continue;
+                    var newcol = Object.assign({},col);
+                    newcol.datafield = newcol.fromUniqueValues.datafield;
+                    newcol.dataValue = val;
+                    newcol.title = val;
+                    delete newcol.fromUniqueValues;
+                    collookup[val]=newcol;
+                    colorder.push(val);
+                }
+
+                if (this.Validate(col.fromUniqueValues.sortCompare))
+                {
+                    colorder.sort(col.fromUniqueValues.sortCompare)
+                }
+
+                newcolumns=colorder.map(function(key) { return collookup[key];});
+
+                columns=columns.concat(newcolumns);
+            } 
+
+            return columns;
         },
 
         Validate: function(variable)
@@ -415,13 +476,18 @@
                             var lastChar = targ.charAt(targ.length - 1);
                             e.preventDefault();
                             
-                            //console.log("this.parentElement: ");
-                            //console.log(this.parentElement);
+                            console.log("this.parentElement: ");
+                            console.log(this.parentElement);
                             self.SortTableByColumn(lastChar, this.parentElement);
                         });
                     }                                        
                     
-                    var cell = $('<div id="hd_'+column.key+'" class="jsit_head'+hiddenclass+' jsit_noselect"'+addstyle+'></div>');
+                    var divId = 'hd_'+column.key;
+                    if (self.Validate(col.dataValue))
+                    {
+                        divId += '_'+self.EncodeForHtmlId(col.dataValue);
+                    }
+                    var cell = $('<div id="'+divId+'" class="jsit_head'+hiddenclass+' jsit_noselect"'+addstyle+'></div>');
                     $(cell).html(span);
                     row.append(cell);
 
@@ -458,6 +524,12 @@
         // ---
         // End Create Header
 
+        EncodeForHtmlId: function(sourceValue)
+        {
+            // thanks: https://stackoverflow.com/a/43693571/2738122
+            return encodeURIComponent(sourceValue).toLowerCase().replace(/\.|%[0-9a-z]{2}/gi, '');
+        },
+
         CreateData: function()
         {
             this.rows = [];
@@ -470,7 +542,35 @@
             {
                 if(this.options.data.length > 0)
                 {
-                    for(var k=0; k < this.options.data.length; k++)
+                    var data;
+                    if (self.Validate(this.options.rowPerUniqueValue) && self.Validate(this.options.rowPerUniqueValue.datafield))
+                    {
+                        var datalookup = {};
+                        var dataorder = [];
+
+                        for(var d=0; d < this.options.data.length; d++)
+                        {
+                            var item = options.data[d];
+                            var val = item[this.options.rowPerUniqueValue.datafield]
+                            if (val in datalookup) continue;
+                            var items = this.options.data.filter(o => o[this.options.rowPerUniqueValue.datafield]===val);
+                            datalookup[val]=items;
+                            dataorder.push(val);
+                        }
+
+                        if (self.Validate(this.options.rowPerUniqueValue.sortCompare))
+                        {
+                            dataorder.sort(this.options.rowPerUniqueValue.sortCompare)
+                        }
+
+                        data=dataorder.map(function(key) { return datalookup[key];});
+                    }
+                    else
+                    {
+                        data = this.options.data;
+                    }
+                    
+                    for(var k=0; k < data.length; k++)
                     {
                         var rowclass = "odd";
                         if((k+1) % 2 == 0) rowclass = "even";
@@ -480,8 +580,9 @@
 
                         for(var g=0; g < this.options.columns.length; g++)
                         {
+                            var col = this.options.columns[g];
                             var found_column_data = false;
-                            var mainkey = this.options.columns[g].datafield;
+                            var mainkey = col.datafield;
 
                             var hiddenclass = " jsit_hiddencol";
                             if(this.columnfields.length > 0)
@@ -497,46 +598,87 @@
                             }
 
                             var addstyle = "";
-                            if(self.Validate(this.options.columns[g].width))
+                            if(self.Validate(col.width))
                             {
-                                var w = this.options.columns[g].width;
+                                var w = col.width;
                                 if(w.includes("px"))
                                 {
-                                    addstyle = ' style="width: '+this.options.columns[g].width+'; flex: none;"';
+                                    addstyle = ' style="width: '+col.width+'; flex: none;"';
                                 } else if(w.includes("%"))  
                                 {
-                                    addstyle = ' style="width: '+this.options.columns[g].width+'; flex: none;"';
+                                    addstyle = ' style="width: '+col.width+'; flex: none;"';
                                 }                               
                             }
 
-                            for (var key in this.options.data[k])
+                            /// %%%% cope with array of data items in here
+                            
+                            var celldata;
+                            if (self.Validate(this.options.rowPerUniqueValue) && self.Validate(this.options.rowPerUniqueValue.datafield))
                             {
-                                var cellvalue = this.options.data[k][key];                            
-                                if(this.options.columns[g].datafield === key)
+                                if (col.datafield === this.options.rowPerUniqueValue.datafield)
                                 {
-                                    found_column_data = true;
-                                    if(self.Validate(this.options.columns[g].view))
-                                    {
-                                        cellvalue = this.options.columns[g].view(this.options.data[k], row_element);                                
-                                    }
-
-                                    var cell = $('<div class="jsit_cell'+hiddenclass+'"'+addstyle+'><span style="font-size: '+this.options.cellfontsize+'">'+cellvalue+'</span></div>');
-                                    row_element.append(cell);
-
-                                    break;
+                                    celldata = [data[k][0]];
+                                }
+                                else
+                                {
+                                    celldata = data[k];
                                 }
                             }
-                    
-                            if(!found_column_data)
+                            else
                             {
-                                var cell = $('<div class="jsit_cell'+hiddenclass+'"'+addstyle+'><span>&nbsp;</span></div>');
-                                row_element.append(cell);
+                                celldata = [data[k]];
                             }
+
+                            var cellvalues = [];
+                            for(var c=0; c < celldata.length; c++)
+                            {
+                                var celldataitem = celldata[c];
+                                var itemvalue;
+                                for (var key in celldataitem)
+                                {
+                                    itemvalue = celldataitem[key];                            
+                                    if(col.datafield === key
+                                        && (!self.Validate(col.dataValue) || itemvalue === col.dataValue))
+                                    {
+                                        found_column_data = true;
+                                        if(self.Validate(col.view))
+                                        {
+                                            itemvalue = col.view(celldataitem, row_element);                                
+                                        }
+                                        cellvalues.push(itemvalue);
+                                        break;
+                                    }
+                                }
+                            }
+                            /// %%%% end of cope with array
+
+                            var cellstyle = '';
+                            var cellvalue;
+                    
+                            if(found_column_data)
+                            {
+                                cellstyle = ' style="font-size: '+this.options.cellfontsize+'"';
+                                if (self.Validate(col.combineValues))
+                                {
+                                    cellvalue = col.combineValues(cellvalues);
+                                }
+                                else
+                                {
+                                    cellvalue = cellvalues.join();
+                                }
+                            }
+                            else
+                            {
+                                cellvalue = "&nbsp;";
+                            }
+
+                            var cell = $('<div class="jsit_cell'+hiddenclass+'"'+addstyle+'><span'+cellstyle+'>'+cellvalue+'</span></div>');
+                                  
+                            row_element.append(cell);
                         }
+                        row_element.data("values", celldata);
 
-                        row_element.data("values", this.options.data[k]);
-
-                        this.rows.push({element: row_element, data: this.options.data[k]});
+                        this.rows.push({element: row_element, data: celldata});
                     }
 
                     if(this._generateheader)
@@ -725,7 +867,7 @@
                     
                     a_x = $(ev.target).position().left;
 
-                    //("Diff: "+Math.abs(a_x - this.ax));
+                    console.log("Diff: "+Math.abs(a_x - this.ax));
                     var move_diff = Math.abs(a_x - this.ax);
 
                     if(move_diff > 40)

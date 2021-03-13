@@ -1,31 +1,300 @@
 [
     {
-        "Name": "Goldshore",
+        "Name": "Gilderwood Forest",
+        "Level": 9,
+        "Requirements":
+        {
+            "Intimacy":38,
+            "Charm":68,
+            "Level":28,
+            "Attributes":52200
+        }
+    },
+    {
+        "Name": "Gilderwood Forest",
+        "Level": 10,
+        "Requirements":
+        {
+            "Intimacy":39,
+            "Charm":69,
+            "Level":59,
+            "Attributes":56800
+        }
+    },
+    {
+        "Name": "Gilderwood Forest",
+        "Level": 11,
+        "Requirements":
+        {
+            "Intimacy":40,
+            "Charm":70,
+            "Level":60,
+            "Attributes":61300,
+            "CastleExp":504500
+        }
+    },
+    {
+        "Name": "Gilderwood Forest",
+        "Level": 12,
+        "Requirements":
+        {
+            "Intimacy":41,
+            "Charm":71,
+            "Level":61,
+            "Attributes":65800,
+            "CastleExp":633800
+        }
+    },
+    {
+        "Name": "Gilderwood Forest",
+        "Level": 13,
+        "Requirements":
+        {
+            "CastleExp":769200
+        }
+    },
+    {
+        "Name": "Gildershire Castle",
         "Level": 7,
         "Requirements":
         {
-            "Intimacy": "50",
-            "Attributes": "7k"
+            "Intimacy":56,
+            "Charm":86,
+            "Level":86,
+            "Quality":60
+        }
+    },
+    {
+        "Name": "Gildershire Castle",
+        "Level": 8,
+        "Requirements":
+        {
+            "Intimacy":57,
+            "Charm":87,
+            "Level":87,
+            "Quality":61
+        }
+    },
+    {
+        "Name": "Gildershire Castle",
+        "Level": 9,
+        "Requirements":
+        {
+            "CastleExp":651100
         }
     },
     {
         "Name": "Goldshore",
-        "Level": 8,
+        "Level": 4,
         "Requirements":
         {
-            "Intimacy": "51",
-            "Attributes": "8k"
+            "Intimacy":73,
+            "Charm":103,
+            "Level":103,
+            "Attributes":148000
         }
     },
     {
-        "Name": "South Bay",
+        "Name": "Goldshore",
+        "Level": 5,
+        "Requirements":
+        {
+            "Intimacy":74,
+            "Charm":104,
+            "Level":104,
+            "Attributes":177000
+        }
+    },
+    {
+        "Name": "Goldshore",
+        "Level": 6,
+        "Requirements":
+        {
+            "CastleExp":516300
+        }
+    },
+    {
+        "Name": "Southern boundary",
+        "Level": 2,
+        "Requirements":
+        {
+            "Intimacy":91,
+            "Charm":121,
+            "Level":151,
+            "Quality":92
+        }
+    },
+    {
+        "Name": "Southern boundary",
         "Level": 3,
         "Requirements":
         {
-            "Intimacy": "12",
-            "Attributes": "1k"
+            "Intimacy":92,
+            "Charm":122,
+            "Level":152,
+            "Quality":100
+        }
+    },
+    {
+        "Name": "Southern boundary",
+        "Level": 4,
+        "Requirements":
+        {
+            "Intimacy":93,
+            "Charm":123,
+            "Level":153,
+            "Quality":106,
+            "CastleExp":353800
+        }
+    },
+    {
+        "Name": "Southern boundary",
+        "Level": 5,
+        "Requirements":
+        {
+            "Intimacy":94,
+            "Charm":124,
+            "Level":154,
+            "Quality":111,
+            "CastleExp":516100
+        }
+    },
+    {
+        "Name": "Southern boundary",
+        "Level": 6,
+        "Requirements":
+        {
+            "CastleExp":695000
+        }
+    },
+    {
+        "Name": "Argendale",
+        "Level": 1,
+        "Requirements":
+        {
+            "Intimacy":110,
+            "Charm":140,
+            "Level":200,
+            "Attributes":137000
+        }
+    },
+    {
+        "Name": "Argendale",
+        "Level": 2,
+        "Requirements":
+        {
+            "Intimacy":111,
+            "Charm":141,
+            "Level":201,
+            "Attributes":238000,
+            "CastleExp":115500
+        }
+    },
+    {
+        "Name": "Silvershore",
+        "Level": 1,
+        "Requirements":
+        {
+            "Intimacy":130,
+            "Charm":160,
+            "Level":230,
+            "Quality":120
+        }
+    },
+    {
+        "Name": "Silvershore",
+        "Level": 2,
+        "Requirements":
+        {
+            "CastleExp":140000
+        }
+    },
+    {
+        "Name": "South Dialann",
+        "Level": 1,
+        "Requirements":
+        {
+            "Intimacy":150,
+            "Charm":180,
+            "Level":250,
+            "Attributes":322000
+        }
+    },
+    {
+        "Name": "South Dialann",
+        "Level": 2,
+        "Requirements":
+        {
+            "Intimacy":151,
+            "Charm":181,
+            "Level":251,
+            "Attributes":560000
+        }
+    },
+    {
+        "Name": "South Dialann",
+        "Level": 3,
+        "Requirements":
+        {
+            "CastleExp":382100
+        }
+    },
+    {
+        "Name": "North Dialann",
+        "Level": 1,
+        "Requirements":
+        {
+            "Intimacy":170,
+            "Charm":200,
+            "Level":300,
+            "Quality":160
+        }
+    },
+    {
+        "Name": "North Dialann",
+        "Level": 2,
+        "Requirements":
+        {
+            "CastleExp":190100
+        }
+    },
+    {
+        "Name": "Humbermoor Border",
+        "Level": 1,
+        "Requirements":
+        {
+            "Intimacy":190,
+            "Charm":220,
+            "Level":350,
+            "Attributes":573000
+        }
+    },
+    {
+        "Name": "Humbermoor Border",
+        "Level": 2,
+        "Requirements":
+        {
+            "Attributes":215900
+        }
+    },
+    {
+        "Name": "Humbermoor Highlands",
+        "Level": 1,
+        "Requirements":
+        {
+            "Intimacy":210,
+            "Charm":240,
+            "Level":400,
+            "Quality":200
+        }
+    },
+    {
+        "Name": "Humbermoor Highlands",
+        "Level": 2,
+        "Requirements":
+        {
+            "CastleExp":242000,
+            "Provisions":3100000000
         }
     }
-
-
 ]

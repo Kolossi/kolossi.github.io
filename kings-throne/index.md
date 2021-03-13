@@ -1,5 +1,6 @@
 ---
 title: King's Throne
+jsit: true
 redirect_from:
     - /kingsthrone
 ---
@@ -65,6 +66,15 @@ A hero and maiden with [matching requirements](#kingdom-castles-defend) will be 
 TL;DR - *Don't upgrade your kingdom castles!!!*.  Or rather, not until you are certain you have spare capacity to meet at least the new [Hero](#heros) requirements, and preferrable the [Maiden](#maidens) requirements too, or at least you are aware of the risks vs rewards
 
 See the [Castles](#castles) section, and in particular the [Upgrade example](#kingdom-castles-upgrade).
+
+## Formulas
+
+These formulas were created by `Master Debators` on Server S342, and posted to [The Collective Discord](https://discord.gg/3qqvp47E) by `Fockette S579`:
+
+{::options parse_block_html="true" /}
+<div class="shadowtb">
+![]({{ site.baseurl }}/assets/img/kt-forms.png)
+</div>
 
 # Resource todos
 
@@ -311,6 +321,44 @@ When adding a [Hero](#heros) or [Maiden](#maidens) which does not meet the requi
 
 However they can still be assigned by clicking "Confirm" in response to this question, which *does not* upgrade the castle.  Resource collection may be slower but it's still better than nothing!
 
+{% comment %}
+
+{%- capture _table_options -%}
+{
+    scrollable: true,
+    fitHeight: true,
+    headercells: true,
+    rowPerUniqueValue: {
+        datafield: "Name",
+        sortCompare: function(a,b) { return a.localeCompare(b);} // alpha sort
+    },
+    columns: [
+        { title: "Name", datafield: "Name" },        
+        { 
+            fromUniqueValues: {
+                datafield: "Level",
+                sortCompare: function (a,b) { return a-b; } // numeric sort
+            },
+            view: function ( cellData ) { 
+                var itemview =  
+                  (typeof cellData.Requirements.Intimacy   !== 'undefined' ? 'I:' + cellData.Requirements.Intimacy : '') +
+                  (typeof cellData.Requirements.Charm      !== 'undefined' ? ' C:' + cellData.Requirements.Charm : '') +
+                  (typeof cellData.Requirements.Attributes !== 'undefined' ? ' A:' + cellData.Requirements.Attributes : '') +
+                  (typeof cellData.Requirements.Level      !== 'undefined' ? ' L:' + cellData.Requirements.Level : '') +
+                  (typeof cellData.Requirements.Quality    !== 'undefined' ? ' Q:' + cellData.Requirements.Quality : '');
+                return itemview;
+            }
+        },
+    ]
+}
+{%- endcapture -%}
+{% include datatable.html id="castletable" datafile="data/kings-throne/castles.json" options=_table_options %}
+
+----
+
+{% endcomment %}
+
+
 <div markdown="1" style="overflow:scroll;overflow-y:hidden;overflow-x:scroll;">
 
 |Level:              |  1                     |  2                                 |  3                   |  4                               |  5                               |  6        |  7                |  8                |  9                   |  10                  |  11                              |  12                              | 13        |
@@ -498,6 +546,7 @@ I was able to verify this, my "Good Sir James" had:
 * [Official facebook group](https://www.facebook.com/gameKingsThrone/)
 * [Ksrgland Fandom site](https://ksrgland.fandom.com/wiki/Homepage)
 * [Some calculation spreadsheets c/o David Versfeld s546](https://docs.google.com/spreadsheets/d/1eqGj2_FFThZjPlplmndaYRqh6VtSBqF4Cb5BUZqTFqg/edit?usp=sharing)
+* [The Collective Discord](https://discord.gg/3qqvp47E)
 
 # Donation
 
