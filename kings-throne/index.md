@@ -3,6 +3,8 @@ title: King's Throne
 jsit: true
 redirect_from:
     - /kingsthrone
+    - /kthrone
+    - /kt
 ---
 
 Some (hopefully) helpful info for this great [android game](https://play.google.com/store/apps/details?id=com.ksrgland.goat) (also available for [iOS](https://apps.apple.com/us/app/kings-throne-game-of-lust/id1457173515))
