@@ -152,6 +152,7 @@
                         {
                             if(self.Validate(self.listeners.OnInitialized))
                             {
+                                if(self.options.debug) console.log("JSIronTable -> OnInitialized()");
                                 if(typeof self.listeners.OnInitialized === "function")
                                 {
                                     self.listeners.OnInitialized();
@@ -171,7 +172,7 @@
         OnInitialized(callback)
         {
             if(this.options.debug) console.log("JSIronTable -> OnInitialized()");
-            if(this.listeners.OnError !== null && typeof this.listeners.OnError !== 'undefined')
+            if(this.listeners.OnInitialized === null || typeof this.listeners.OnInitialized === 'undefined')
             {
                 this.listeners.OnInitialized = callback;
             }            
@@ -180,7 +181,7 @@
         OnError(callback)
         {
             if(this.options.debug) console.log("JSIronTable -> OnError()");
-            if(this.listeners.OnError !== null && typeof this.listeners.OnError !== 'undefined')
+            if(this.listeners.OnError === null || typeof this.listeners.OnError === 'undefined')
             {
                 this.listeners.OnError = callback;
             }            
@@ -189,7 +190,7 @@
         OnSort(callback)
         {
             if(this.options.debug) console.log("JSIronTable -> OnSort()");
-            if(this.listeners.OnSort !== null && typeof this.listeners.OnSort !== 'undefined')
+            if(this.listeners.OnSort === null || typeof this.listeners.OnSort === 'undefined')
             {
                 this.listeners.OnSort = callback;
             }
@@ -199,7 +200,7 @@
         BeforeSort(callback)
         {
             if(this.options.debug) console.log("JSIronTable -> BeforeSort()");
-            if(this.listeners.BeforeSort !== null && typeof this.listeners.BeforeSort !== 'undefined')
+            if(this.listeners.BeforeSort === null || typeof this.listeners.BeforeSort === 'undefined')
             {
                 this.listeners.BeforeSort = callback;
             }            
@@ -208,7 +209,7 @@
         OnReload(callback)
         {
             if(this.options.debug) console.log("JSIronTable -> OnReload()");
-            if(this.listeners.OnReload !== null && typeof this.listeners.OnReload !== 'undefined')
+            if(this.listeners.OnReload === null || typeof this.listeners.OnReload === 'undefined')
             {
                 this.listeners.OnReload = callback;
             }            
@@ -342,7 +343,7 @@
             var entry = null;
             for(var k=0; k < arr.length; k++)
             {
-                if(arr[k] == row.data)
+                if(arr[k] == row.data[0])
                 {
                     entry = k;
                     break;
