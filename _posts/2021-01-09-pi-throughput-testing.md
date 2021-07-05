@@ -2,6 +2,7 @@
 title:    Raspberry Pi Storage Throughput Testing
 subtitle: (aka where to persist data when building a Pi Kubernetes cluster)
 tags: ["raspberrypi"]
+jsit: true
 ---
 
 Having tested various options, I'll be using `****` as the permanent backing store for my Raspberry Pi Kubernetes cluster workloads and `****` for working storage. Here's why...
@@ -34,7 +35,14 @@ I use:
 
 > :information_source: Familiarity with ansible itself is required to run this, it won't be detailed here.
 
-> :information_source: First, make sure to get some fresh microSD cards for the Pis, there's not automatic rollback to the "before" state, and shutdown seems to be problematic after installing this due to the iscsi mounts.  You have been cautioned!
+> :information_source: First, make sure to get some fresh microSD cards for the Pis, there's no automatic rollback to the "before" state, and shutdown seems to be problematic after installing this due to the iscsi mounts.  You have been cautioned!
+
+Download and install [Raspberry Pi Imager](raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/).
+
+Install two sd cards with either of:
+
+* Raspberry Pi OS (other) -> Raspberry Pi OS Lite (32-bit)
+* Ubuntu -> Ubuntu Server 20.04.2 LTS (RPi 3/4/400)
 
 Once clean cards are installed, OS-specific setup steps are needed:
 
@@ -110,3 +118,31 @@ ansible-playbook ./pi-throughput-test.yml
 ... and then wait ... :clock1: ... about an hour! 
 
 The ansible output will end with a message giving the local temp filename that the results are stored in.
+
+## Results
+
+{%- capture _table_options -%}
+{
+    <!-- scrollable: true, -->
+    <!-- fitHeight: true, -->
+    <!-- headercells: true, -->
+    rowPerUniqueValue: {
+        datafield: "platform",
+        sortCompare: function(a,b) { return a.localeCompare(b);} // alpha sort
+    },
+    columns: [
+        { title: "platform", datafield: "platform" },        
+        { 
+            fromUniqueValues: {
+                datafield: "target",
+                sortCompare: function(a,b) { return a.localeCompare(b);} // alpha sort
+            },
+            view: function ( cellData ) { 
+                var itemview = cellData.scores.reduce((sum,curr) => sum+Number(curr), 0)/cellData.scores.length;
+                return itemview;
+            }
+        },
+    ]
+}
+{%- endcapture -%}
+{% include datatable.html id="pi_score_table" datafile="data/pi-throughput/pi-throughput.json" options=_table_options %}
