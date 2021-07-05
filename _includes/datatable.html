@@ -13,6 +13,8 @@ else
     $.getJSON( "{{ site.baseurl }}/{{ include.datafile }}", function( data ) {
         var options = jsit_options['{{ include.id}}'];
         options.data = data;
+        var dataFilter = eval("{{ include.dataFilter | default '() => true' }}");
+        if (dataFilter) options.data = data.filter(dataFilter);
         $('#{{ include.id }}').JSIronTable(options);
     })
     .fail(function() {

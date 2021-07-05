@@ -1,7 +1,7 @@
 [
   {
     "platform": "piosx32 on samsungevo",
-    "target": "/media/test",
+    "target": "sdcard",
     "ddwrites": [
       "18.0",
       "29.7",
@@ -19,7 +19,7 @@
   },
   {
     "platform": "piosx32 on samsungevo",
-    "target": "/media/test/ssd",
+    "target": "ssd",
     "ddwrites": [
       "173",
       "164",
@@ -37,7 +37,7 @@
   },
   {
     "platform": "piosx32 on samsungevo",
-    "target": "/media/test/tmp",
+    "target": "ram",
     "ddwrites": [
       "308",
       "311",
@@ -55,7 +55,7 @@
   },
   {
     "platform": "piosx32 on samsungevo",
-    "target": "/media/test/self_iscsi",
+    "target": "self_iscsi",
     "ddwrites": [
       "79.4",
       "78.3",
@@ -73,7 +73,7 @@
   },
   {
     "platform": "piosx32 on samsungevo",
-    "target": "/media/test/self_nfs",
+    "target": "self_nfs",
     "ddwrites": [
       "31.9",
       "57.9",
@@ -91,7 +91,7 @@
   },
   {
     "platform": "piosx32 on samsungevo",
-    "target": "/media/test/nas_iscsi",
+    "target": "nas_iscsi",
     "ddwrites": [
       "75.1",
       "75.7",
@@ -109,7 +109,7 @@
   },
   {
     "platform": "piosx32 on samsungevo",
-    "target": "/media/test/nas_nfs",
+    "target": "nas_nfs",
     "ddwrites": [
       "106",
       "108",
@@ -127,7 +127,7 @@
   },
   {
     "platform": "piosx32 on samsungevo",
-    "target": "/media/test/pi_iscsi",
+    "target": "pi_iscsi",
     "ddwrites": [
       "67.3",
       "69.3",
@@ -145,7 +145,7 @@
   },
   {
     "platform": "piosx32 on samsungevo",
-    "target": "/media/test/pi_nfs",
+    "target": "pi_nfs",
     "ddwrites": [
       "79.0",
       "89.9",
@@ -162,170 +162,8 @@
     ]
   },
   {
-    "platform": "piosx322 on samsungevo",
-    "target": "/media/test",
-    "ddwrites": [
-      "15.5",
-      "25.6",
-      "28.3",
-      "29.2",
-      "29.0"
-    ],
-    "scores": [
-      "1074",
-      "1449",
-      "1455",
-      "1498",
-      "1411"
-    ]
-  },
-  {
-    "platform": "piosx322 on samsungevo",
-    "target": "/media/test/ssd",
-    "ddwrites": [
-      "154",
-      "159",
-      "159",
-      "160",
-      "159"
-    ],
-    "scores": [
-      "6426",
-      "6635",
-      "6393",
-      "6101",
-      "6468"
-    ]
-  },
-  {
-    "platform": "piosx322 on samsungevo",
-    "target": "/media/test/tmp",
-    "ddwrites": [
-      "326",
-      "324",
-      "321",
-      "320",
-      "319"
-    ],
-    "scores": [
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  {
-    "platform": "piosx322 on samsungevo",
-    "target": "/media/test/self_iscsi",
-    "ddwrites": [
-      "61.8",
-      "63.8",
-      "78.4",
-      "74.6",
-      "74.0"
-    ],
-    "scores": [
-      "3225",
-      "3564",
-      "3516",
-      "3419",
-      "3637"
-    ]
-  },
-  {
-    "platform": "piosx322 on samsungevo",
-    "target": "/media/test/self_nfs",
-    "ddwrites": [
-      "93.7",
-      "94.2",
-      "97.0",
-      "94.1",
-      "94.4"
-    ],
-    "scores": [
-      "2506",
-      "2520",
-      "2496",
-      "2562",
-      "2497"
-    ]
-  },
-  {
-    "platform": "piosx322 on samsungevo",
-    "target": "/media/test/nas_iscsi",
-    "ddwrites": [
-      "77.9",
-      "78.6",
-      "79.6",
-      "80.4",
-      "79.1"
-    ],
-    "scores": [
-      "4358",
-      "4648",
-      "4640",
-      "4669",
-      "4667"
-    ]
-  },
-  {
-    "platform": "piosx322 on samsungevo",
-    "target": "/media/test/nas_nfs",
-    "ddwrites": [
-      "102",
-      "106",
-      "106",
-      "102",
-      "103"
-    ],
-    "scores": [
-      "4354",
-      "4403",
-      "4363",
-      "4395",
-      "4264"
-    ]
-  },
-  {
-    "platform": "piosx322 on samsungevo",
-    "target": "/media/test/pi_iscsi",
-    "ddwrites": [
-      "52.4",
-      "62.8",
-      "57.8",
-      "60.6",
-      "73.7"
-    ],
-    "scores": [
-      "2882",
-      "2913",
-      "2987",
-      "3115",
-      "3197"
-    ]
-  },
-  {
-    "platform": "piosx322 on samsungevo",
-    "target": "/media/test/pi_nfs",
-    "ddwrites": [
-      "68.3",
-      "73.0",
-      "73.3",
-      "66.8",
-      "68.6"
-    ],
-    "scores": [
-      "1680",
-      "1672",
-      "1749",
-      "1688",
-      "1684"
-    ]
-  },
-  {
     "platform": "piosx64 on samsungevo",
-    "target": "/media/test",
+    "target": "sdcard",
     "ddwrites": [
       "15.4",
       "27.6",
@@ -343,7 +181,7 @@
   },
   {
     "platform": "piosx64 on samsungevo",
-    "target": "/media/test/ssd",
+    "target": "ssd",
     "ddwrites": [
       "153",
       "146",
@@ -361,7 +199,7 @@
   },
   {
     "platform": "piosx64 on samsungevo",
-    "target": "/media/test/tmp",
+    "target": "ram",
     "ddwrites": [
       "364",
       "354",
@@ -379,7 +217,7 @@
   },
   {
     "platform": "piosx64 on samsungevo",
-    "target": "/media/test/self_iscsi",
+    "target": "self_iscsi",
     "ddwrites": [
       "87.2",
       "77.1",
@@ -397,7 +235,7 @@
   },
   {
     "platform": "piosx64 on samsungevo",
-    "target": "/media/test/self_nfs",
+    "target": "self_nfs",
     "ddwrites": [
       "111",
       "97.4",
@@ -415,7 +253,7 @@
   },
   {
     "platform": "piosx64 on samsungevo",
-    "target": "/media/test/nas_iscsi",
+    "target": "nas_iscsi",
     "ddwrites": [
       "79.7",
       "89.1",
@@ -433,7 +271,7 @@
   },
   {
     "platform": "piosx64 on samsungevo",
-    "target": "/media/test/nas_nfs",
+    "target": "nas_nfs",
     "ddwrites": [
       "96.1",
       "95.6",
@@ -451,7 +289,7 @@
   },
   {
     "platform": "piosx64 on samsungevo",
-    "target": "/media/test/pi_iscsi",
+    "target": "pi_iscsi",
     "ddwrites": [
       "56.4",
       "51.8",
@@ -469,7 +307,7 @@
   },
   {
     "platform": "piosx64 on samsungevo",
-    "target": "/media/test/pi_nfs",
+    "target": "pi_nfs",
     "ddwrites": [
       "68.0",
       "69.8",
@@ -487,7 +325,7 @@
   },
   {
     "platform": "ubu2004x32 on samsungevo",
-    "target": "/media/test",
+    "target": "sdcard",
     "ddwrites": [
       "16.8",
       "26.8",
@@ -505,7 +343,7 @@
   },
   {
     "platform": "ubu2004x32 on samsungevo",
-    "target": "/media/test/ssd",
+    "target": "ssd",
     "ddwrites": [
       "173",
       "168",
@@ -523,7 +361,7 @@
   },
   {
     "platform": "ubu2004x32 on samsungevo",
-    "target": "/media/test/tmp",
+    "target": "ram",
     "ddwrites": [
       "309",
       "309",
@@ -541,7 +379,7 @@
   },
   {
     "platform": "ubu2004x32 on samsungevo",
-    "target": "/media/test/self_iscsi",
+    "target": "self_iscsi",
     "ddwrites": [
       "78.3",
       "75.3",
@@ -559,7 +397,7 @@
   },
   {
     "platform": "ubu2004x32 on samsungevo",
-    "target": "/media/test/self_nfs",
+    "target": "self_nfs",
     "ddwrites": [
       "20.1",
       "5.1",
@@ -577,7 +415,7 @@
   },
   {
     "platform": "ubu2004x32 on samsungevo",
-    "target": "/media/test/nas_iscsi",
+    "target": "nas_iscsi",
     "ddwrites": [
       "7.8",
       "76.7",
@@ -595,7 +433,7 @@
   },
   {
     "platform": "ubu2004x32 on samsungevo",
-    "target": "/media/test/nas_nfs",
+    "target": "nas_nfs",
     "ddwrites": [
       "101",
       "101",
@@ -613,7 +451,7 @@
   },
   {
     "platform": "ubu2004x32 on samsungevo",
-    "target": "/media/test/pi_iscsi",
+    "target": "pi_iscsi",
     "ddwrites": [
       "65.4",
       "68.3",
@@ -631,7 +469,7 @@
   },
   {
     "platform": "ubu2004x32 on samsungevo",
-    "target": "/media/test/pi_nfs",
+    "target": "pi_nfs",
     "ddwrites": [
       "70.6",
       "68.3",
@@ -649,7 +487,7 @@
   },
   {
     "platform": "ubu2004x64 on samsungevo",
-    "target": "/media/test",
+    "target": "sdcard",
     "ddwrites": [
       "18.8",
       "23.7",
@@ -667,7 +505,7 @@
   },
   {
     "platform": "ubu2004x64 on samsungevo",
-    "target": "/media/test/ssd",
+    "target": "ssd",
     "ddwrites": [
       "149",
       "141",
@@ -685,7 +523,7 @@
   },
   {
     "platform": "ubu2004x64 on samsungevo",
-    "target": "/media/test/tmp",
+    "target": "ram",
     "ddwrites": [
       "308",
       "316",
@@ -703,7 +541,7 @@
   },
   {
     "platform": "ubu2004x64 on samsungevo",
-    "target": "/media/test/self_iscsi",
+    "target": "self_iscsi",
     "ddwrites": [
       "85.0",
       "85.0",
@@ -721,7 +559,7 @@
   },
   {
     "platform": "ubu2004x64 on samsungevo",
-    "target": "/media/test/self_nfs",
+    "target": "self_nfs",
     "ddwrites": [
       "51.6",
       "101",
@@ -739,7 +577,7 @@
   },
   {
     "platform": "ubu2004x64 on samsungevo",
-    "target": "/media/test/nas_iscsi",
+    "target": "nas_iscsi",
     "ddwrites": [
       "85.0",
       "85.5",
@@ -757,7 +595,7 @@
   },
   {
     "platform": "ubu2004x64 on samsungevo",
-    "target": "/media/test/nas_nfs",
+    "target": "nas_nfs",
     "ddwrites": [
       "95.0",
       "96.4",
@@ -775,7 +613,7 @@
   },
   {
     "platform": "ubu2004x64 on samsungevo",
-    "target": "/media/test/pi_iscsi",
+    "target": "pi_iscsi",
     "ddwrites": [
       "51.2",
       "55.0",
@@ -793,7 +631,7 @@
   },
   {
     "platform": "ubu2004x64 on samsungevo",
-    "target": "/media/test/pi_nfs",
+    "target": "pi_nfs",
     "ddwrites": [
       "65.0",
       "68.6",
@@ -810,170 +648,8 @@
     ]
   },
   {
-    "platform": "ubu2004x642 on samsungevo",
-    "target": "/media/test",
-    "ddwrites": [
-      "16.1",
-      "27.0",
-      "28.1",
-      "28.5",
-      "24.7"
-    ],
-    "scores": [
-      "1168",
-      "1446",
-      "1265",
-      "1384",
-      "1417"
-    ]
-  },
-  {
-    "platform": "ubu2004x642 on samsungevo",
-    "target": "/media/test/ssd",
-    "ddwrites": [
-      "144",
-      "149",
-      "151",
-      "142",
-      "151"
-    ],
-    "scores": [
-      "7713",
-      "7701",
-      "7631",
-      "7572",
-      "7359"
-    ]
-  },
-  {
-    "platform": "ubu2004x642 on samsungevo",
-    "target": "/media/test/tmp",
-    "ddwrites": [
-      "309",
-      "306",
-      "298",
-      "304",
-      "305"
-    ],
-    "scores": [
-      "0",
-      "0",
-      "0",
-      "0",
-      "0"
-    ]
-  },
-  {
-    "platform": "ubu2004x642 on samsungevo",
-    "target": "/media/test/self_iscsi",
-    "ddwrites": [
-      "83.6",
-      "85.0",
-      "85.3",
-      "84.3",
-      "85.7"
-    ],
-    "scores": [
-      "4198",
-      "4193",
-      "4161",
-      "4239",
-      "4093"
-    ]
-  },
-  {
-    "platform": "ubu2004x642 on samsungevo",
-    "target": "/media/test/self_nfs",
-    "ddwrites": [
-      "127",
-      "83.9",
-      "110",
-      "87.7",
-      "97.1"
-    ],
-    "scores": [
-      "2970",
-      "2552",
-      "2830",
-      "2597",
-      "2710"
-    ]
-  },
-  {
-    "platform": "ubu2004x642 on samsungevo",
-    "target": "/media/test/nas_iscsi",
-    "ddwrites": [
-      "87.8",
-      "80.4",
-      "88.1",
-      "85.8",
-      "84.0"
-    ],
-    "scores": [
-      "3534",
-      "3731",
-      "3836",
-      "3829",
-      "3791"
-    ]
-  },
-  {
-    "platform": "ubu2004x642 on samsungevo",
-    "target": "/media/test/nas_nfs",
-    "ddwrites": [
-      "95.2",
-      "95.6",
-      "95.5",
-      "95.7",
-      "95.2"
-    ],
-    "scores": [
-      "4650",
-      "4643",
-      "4610",
-      "4472",
-      "4612"
-    ]
-  },
-  {
-    "platform": "ubu2004x642 on samsungevo",
-    "target": "/media/test/pi_iscsi",
-    "ddwrites": [
-      "53.6",
-      "51.7",
-      "55.2",
-      "56.7",
-      "53.5"
-    ],
-    "scores": [
-      "2403",
-      "2772",
-      "2803",
-      "2848",
-      "2666"
-    ]
-  },
-  {
-    "platform": "ubu2004x642 on samsungevo",
-    "target": "/media/test/pi_nfs",
-    "ddwrites": [
-      "64.8",
-      "64.0",
-      "64.3",
-      "66.6",
-      "66.8"
-    ],
-    "scores": [
-      "1682",
-      "1687",
-      "1711",
-      "1710",
-      "1426"
-    ]
-  },
-  {
     "platform": "piosx32 on sandisk",
-    "target": "/media/test",
+    "target": "sdcard",
     "ddwrites": [
       "13.8",
       "12.9",
@@ -991,7 +667,7 @@
   },
   {
     "platform": "piosx32 on sandisk",
-    "target": "/media/test/ssd",
+    "target": "ssd",
     "ddwrites": [
       "177",
       "170",
@@ -1009,7 +685,7 @@
   },
   {
     "platform": "piosx32 on sandisk",
-    "target": "/media/test/tmp",
+    "target": "ram",
     "ddwrites": [
       "326",
       "322",
@@ -1027,7 +703,7 @@
   },
   {
     "platform": "piosx32 on sandisk",
-    "target": "/media/test/self_iscsi",
+    "target": "self_iscsi",
     "ddwrites": [
       "79.8",
       "80.7",
@@ -1045,7 +721,7 @@
   },
   {
     "platform": "piosx32 on sandisk",
-    "target": "/media/test/self_nfs",
+    "target": "self_nfs",
     "ddwrites": [
       "120",
       "24.6",
@@ -1063,7 +739,7 @@
   },
   {
     "platform": "piosx32 on sandisk",
-    "target": "/media/test/nas_iscsi",
+    "target": "nas_iscsi",
     "ddwrites": [
       "76.6",
       "101",
@@ -1081,7 +757,7 @@
   },
   {
     "platform": "piosx32 on sandisk",
-    "target": "/media/test/nas_nfs",
+    "target": "nas_nfs",
     "ddwrites": [
       "107",
       "94.3",
@@ -1099,7 +775,7 @@
   },
   {
     "platform": "piosx32 on sandisk",
-    "target": "/media/test/pi_iscsi",
+    "target": "pi_iscsi",
     "ddwrites": [
       "55.6",
       "73.2",
@@ -1117,7 +793,7 @@
   },
   {
     "platform": "piosx32 on sandisk",
-    "target": "/media/test/pi_nfs",
+    "target": "pi_nfs",
     "ddwrites": [
       "92.8",
       "91.3",
@@ -1135,7 +811,7 @@
   },
   {
     "platform": "piosx64 on sandisk",
-    "target": "/media/test",
+    "target": "sdcard",
     "ddwrites": [
       "13.8",
       "13.1",
@@ -1153,7 +829,7 @@
   },
   {
     "platform": "piosx64 on sandisk",
-    "target": "/media/test/ssd",
+    "target": "ssd",
     "ddwrites": [
       "164",
       "155",
@@ -1171,7 +847,7 @@
   },
   {
     "platform": "piosx64 on sandisk",
-    "target": "/media/test/tmp",
+    "target": "ram",
     "ddwrites": [
       "465",
       "459",
@@ -1189,7 +865,7 @@
   },
   {
     "platform": "piosx64 on sandisk",
-    "target": "/media/test/self_iscsi",
+    "target": "self_iscsi",
     "ddwrites": [
       "91.1",
       "91.0",
@@ -1207,7 +883,7 @@
   },
   {
     "platform": "piosx64 on sandisk",
-    "target": "/media/test/self_nfs",
+    "target": "self_nfs",
     "ddwrites": [
       "128",
       "98.4",
@@ -1225,7 +901,7 @@
   },
   {
     "platform": "piosx64 on sandisk",
-    "target": "/media/test/nas_iscsi",
+    "target": "nas_iscsi",
     "ddwrites": [
       "86.6",
       "80.8",
@@ -1243,7 +919,7 @@
   },
   {
     "platform": "piosx64 on sandisk",
-    "target": "/media/test/nas_nfs",
+    "target": "nas_nfs",
     "ddwrites": [
       "97.9",
       "98.8",
@@ -1261,7 +937,7 @@
   },
   {
     "platform": "piosx64 on sandisk",
-    "target": "/media/test/pi_iscsi",
+    "target": "pi_iscsi",
     "ddwrites": [
       "58.5",
       "57.2",
@@ -1279,7 +955,7 @@
   },
   {
     "platform": "piosx64 on sandisk",
-    "target": "/media/test/pi_nfs",
+    "target": "pi_nfs",
     "ddwrites": [
       "67.1",
       "68.0",
@@ -1297,7 +973,7 @@
   },
   {
     "platform": "ubu2004x32 on sandisk",
-    "target": "/media/test",
+    "target": "sdcard",
     "ddwrites": [
       "14.0",
       "13.9",
@@ -1315,7 +991,7 @@
   },
   {
     "platform": "ubu2004x32 on sandisk",
-    "target": "/media/test/ssd",
+    "target": "ssd",
     "ddwrites": [
       "168",
       "163",
@@ -1333,7 +1009,7 @@
   },
   {
     "platform": "ubu2004x32 on sandisk",
-    "target": "/media/test/tmp",
+    "target": "ram",
     "ddwrites": [
       "309",
       "311"
@@ -1345,7 +1021,7 @@
   },
   {
     "platform": "ubu2004x32 on sandisk",
-    "target": "/media/test/self_iscsi",
+    "target": "self_iscsi",
     "ddwrites": [
       "89.3",
       "86.4",
@@ -1363,7 +1039,7 @@
   },
   {
     "platform": "ubu2004x32 on sandisk",
-    "target": "/media/test/self_nfs",
+    "target": "self_nfs",
     "ddwrites": [
       "46.5",
       "9.8",
@@ -1381,7 +1057,7 @@
   },
   {
     "platform": "ubu2004x32 on sandisk",
-    "target": "/media/test/nas_iscsi",
+    "target": "nas_iscsi",
     "ddwrites": [
       "80.5",
       "81.8",
@@ -1399,7 +1075,7 @@
   },
   {
     "platform": "ubu2004x32 on sandisk",
-    "target": "/media/test/nas_nfs",
+    "target": "nas_nfs",
     "ddwrites": [
       "98.4",
       "99.4",
@@ -1417,7 +1093,7 @@
   },
   {
     "platform": "ubu2004x32 on sandisk",
-    "target": "/media/test/pi_iscsi",
+    "target": "pi_iscsi",
     "ddwrites": [
       "62.2",
       "71.2",
@@ -1435,7 +1111,7 @@
   },
   {
     "platform": "ubu2004x32 on sandisk",
-    "target": "/media/test/pi_nfs",
+    "target": "pi_nfs",
     "ddwrites": [
       "94.4",
       "87.1",
@@ -1453,7 +1129,7 @@
   },
   {
     "platform": "ubu2004x64 on sandisk",
-    "target": "/media/test",
+    "target": "sdcard",
     "ddwrites": [
       "14.0",
       "13.8",
@@ -1471,7 +1147,7 @@
   },
   {
     "platform": "ubu2004x64 on sandisk",
-    "target": "/media/test/ssd",
+    "target": "ssd",
     "ddwrites": [
       "148",
       "144",
@@ -1489,7 +1165,7 @@
   },
   {
     "platform": "ubu2004x64 on sandisk",
-    "target": "/media/test/tmp",
+    "target": "ram",
     "ddwrites": [
       "307",
       "305",
@@ -1507,7 +1183,7 @@
   },
   {
     "platform": "ubu2004x64 on sandisk",
-    "target": "/media/test/self_iscsi",
+    "target": "self_iscsi",
     "ddwrites": [
       "88.8",
       "88.0",
@@ -1525,7 +1201,7 @@
   },
   {
     "platform": "ubu2004x64 on sandisk",
-    "target": "/media/test/self_nfs",
+    "target": "self_nfs",
     "ddwrites": [
       "113",
       "116",
@@ -1543,7 +1219,7 @@
   },
   {
     "platform": "ubu2004x64 on sandisk",
-    "target": "/media/test/nas_iscsi",
+    "target": "nas_iscsi",
     "ddwrites": [
       "82.2",
       "82.3",
@@ -1561,7 +1237,7 @@
   },
   {
     "platform": "ubu2004x64 on sandisk",
-    "target": "/media/test/nas_nfs",
+    "target": "nas_nfs",
     "ddwrites": [
       "91.7",
       "90.6",
@@ -1579,7 +1255,7 @@
   },
   {
     "platform": "ubu2004x64 on sandisk",
-    "target": "/media/test/pi_iscsi",
+    "target": "pi_iscsi",
     "ddwrites": [
       "54.0",
       "55.9",
@@ -1597,7 +1273,7 @@
   },
   {
     "platform": "ubu2004x64 on sandisk",
-    "target": "/media/test/pi_nfs",
+    "target": "pi_nfs",
     "ddwrites": [
       "66.7",
       "65.6",

@@ -31,8 +31,8 @@
             scrollable: true,
             sortable: false,
             draggableColumns: false,
-            headerfontsize: "12pt",
-            cellfontsize: "12pt",
+            headerfontsize: "",
+            cellfontsize: "",
             columns: [],
             rows: [],
             headercells: [],
@@ -461,7 +461,8 @@
                     
                     
                     //var span =  $('<span'+sortableclass+datefields_str+'>'+cellvalue+'</span>');
-                    var span =  $('<span'+sortableclass+datefields_str+' style="font-size: '+this.options.headerfontsize+';">'+cellvalue+'</span>');
+                    var headerFontsize = this.options.headerfontsize ? ' style="font-size: '+this.options.headerfontsize+';"' : ''
+                    var span =  $('<span'+sortableclass+datefields_str+headerFontsize+'>'+cellvalue+'</span>');
 
                     // Sort Icon
                     if(this.options.sortable)
@@ -658,7 +659,7 @@
                     
                             if(found_column_data)
                             {
-                                cellstyle = ' style="font-size: '+this.options.cellfontsize+'"';
+                                cellstyle = this.options.cellfontsize ? ' style="font-size: '+this.options.cellfontsize+'"' : '';
                                 if (self.Validate(col.combineValues))
                                 {
                                     cellvalue = col.combineValues(cellvalues);
@@ -803,7 +804,7 @@
 
     var HasScrollBar = function(target)
     {
-        return target.get(0).scrollHeight > target.height();
+        return Math.round(target.get(0).scrollHeight) > Math.round(target.height());
     };
 
     var Notify = function(target, text)

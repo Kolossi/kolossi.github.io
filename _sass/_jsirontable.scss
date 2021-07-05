@@ -13,10 +13,11 @@
 .jsit_cell, .jsit_head {
 	border: 1px solid #999999;
 	position: relative;
-    padding: 3px 22px 3px 10px;
+    padding: 3px 5px 3px 5px;
     min-height: 1.0em;
     word-break: break-word;
     flex-flow:column nowrap;
+    font-family: $head-font;
     flex: 1; /* Must be none with defined cell width for each one */
 }
 
@@ -41,6 +42,7 @@
     color: #fff;
 	flex: none;
     display: flex; 
+    font-size:12px;
 }
 .jsit_foot {
 	background-color: #EEE;
@@ -51,6 +53,7 @@
 	flex: 1;
     display: flex; 
     flex-flow:column nowrap;
+    font-size:12px;
 }
 
 .jsit_hiddencol

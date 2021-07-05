@@ -26,6 +26,10 @@ def transform():
         (sdcard,testos)=fname.split("-")
         for line in lines:
             (target,ddwrite,score) =  line.split(",")
+            target = target \
+                .replace("/media/test/","") \
+                .replace("tmp","ram") \
+                .replace("/media/test","sdcard")
             key = (sdcard,testos,target)
             resultItem=results.setdefault(key,{
                 "ddwrite": [],

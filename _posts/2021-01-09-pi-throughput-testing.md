@@ -115,13 +115,21 @@ Then run with
 ansible-playbook ./pi-throughput-test.yml
 ```
 
-... and then wait ... :clock1: ... about an hour! 
+... and then wait ... :clock1: ... about an hour, possibly more! 
 
 The ansible output will end with a message giving the local temp filename that the results are stored in.
 
 ## Results
 
-{%- capture _table_options -%}
+Underlying the ansible role it uses [Pi Benchmark script](https://github.com/TheRemote/PiBenchmarks) by [James A Chambers](https://jamesachambers.com/2020s-fastest-raspberry-pi-4-storage-sd-ssd-benchmarks/).
+
+This script gives an overall score for each storage target.  In the score results below, the score is divided by one thousand and rounded to give an `x.x` figure in each case, which is a little easier to "see".
+
+The score is the most comprehensive script output given for a target, but it isn't available for a `/tmp` target addressing ram, so for comparison, the simpler DDwrites result is given to be able to compare to ram. TL;DR : the ram is twice as fast as the ssd.
+
+### Score Results
+
+{%- capture _score_table_options -%}
 {
     <!-- scrollable: true, -->
     <!-- fitHeight: true, -->
@@ -135,14 +143,95 @@ The ansible output will end with a message giving the local temp filename that t
         { 
             fromUniqueValues: {
                 datafield: "target",
-                sortCompare: function(a,b) { return a.localeCompare(b);} // alpha sort
+                sortCompare: function(a,b) { 
+                    function targetIndex(x)
+                    {
+                        // thanks: https://stackoverflow.com/a/1535650/2738122
+                        if ( typeof targetIndex.lookup == 'undefined' ) {
+                            targetIndex.lookup={
+                                "ram": 1,
+                                "ssd": 2,
+                                "nas_nfs": 3,
+                                "nas_iscsi": 4,
+                                "self_iscsi": 5,
+                                "self_nfs": 6,
+                                "pi_iscsi": 7,
+                                "pi_nfs": 8,
+                                "sdcard": 9
+                            }
+                        }
+                        return targetIndex.lookup[x];
+                    };
+
+                    return targetIndex(a)-targetIndex(b);
+                }
             },
             view: function ( cellData ) { 
-                var itemview = cellData.scores.reduce((sum,curr) => sum+Number(curr), 0)/cellData.scores.length;
+                var av=cellData.scores.reduce((sum,curr) => sum+Number(curr), 0)/cellData.scores.length;
+                var itemview = (Math.round(av/100)/10).toFixed(1)
                 return itemview;
             }
         },
     ]
 }
 {%- endcapture -%}
-{% include datatable.html id="pi_score_table" datafile="data/pi-throughput/pi-throughput.json" options=_table_options %}
+{% include datatable.html id="pi_score_table" datafile="data/pi-throughput/pi-throughput.json" dataFilter="(x) => x.target != 'ram';" options=_score_table_options %}
+
+### DDWrite Results
+
+{%- capture _ddwrite_table_options -%}
+{
+    <!-- scrollable: true, -->
+    <!-- fitHeight: true, -->
+    <!-- headercells: true, -->
+    rowPerUniqueValue: {
+        datafield: "platform",
+        sortCompare: function(a,b) { return a.localeCompare(b);} // alpha sort
+    },
+    columns: [
+        { title: "platform", datafield: "platform" },        
+        { 
+            fromUniqueValues: {
+                datafield: "target",
+                sortCompare: function(a,b) { 
+                    function targetIndex(x)
+                    {
+                        // thanks: https://stackoverflow.com/a/1535650/2738122
+                        if ( typeof targetIndex.lookup == 'undefined' ) {
+                            targetIndex.lookup={
+                                "ram": 1,
+                                "ssd": 2,
+                                "nas_nfs": 3,
+                                "nas_iscsi": 4,
+                                "self_iscsi": 5,
+                                "self_nfs": 6,
+                                "pi_iscsi": 7,
+                                "pi_nfs": 8,
+                                "sdcard": 9
+                            }
+                        }
+                        return targetIndex.lookup[x];
+                    };
+
+                    return targetIndex(a)-targetIndex(b);
+                }
+            },
+            view: function ( cellData ) { 
+                var av=cellData.ddwrites.reduce((sum,curr) => sum+Number(curr), 0)/cellData.ddwrites.length;
+                var itemview = av.toFixed(1);
+                return itemview;
+            }
+        },
+    ]
+}
+{%- endcapture -%}
+{% include datatable.html id="pi_ddwrite_table" datafile="data/pi-throughput/pi-throughput.json" options=_ddwrite_table_options %}
+
+<style>
+    #pi_score_table .jsit_cell:nth-child(1),
+    #pi_score_table .jsit_head:nth-child(1),
+    #pi_ddwrite_table .jsit_cell:nth-child(1),
+    #pi_ddwrite_table .jsit_head:nth-child(1) {
+        flex-grow: 2;
+    }
+</style>
