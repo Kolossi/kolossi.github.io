@@ -1,6 +1,6 @@
 ---
 title: Wsl2 git slowdown fix
-tags: [wsl,git]
+tags: [quicktips,wsl,git]
 ---
 To workaround the slowdown using git on windows filesystem under wsl ...
 
