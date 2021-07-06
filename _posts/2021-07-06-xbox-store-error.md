@@ -1,6 +1,6 @@
 ---
 title: Microsoft Store for Gaming Services error 0x8007139f
-tags: [quicktips,wsl,tmux,ssh,linux]
+tags: [quicktips,windows,xbox]
 ---
 To reset the Microsoft Store for Gaming Services / Xbox app to get through
 error 0x8007139f when trying to start or update a game...
