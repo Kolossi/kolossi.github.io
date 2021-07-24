@@ -10,7 +10,7 @@ To clear all the data chrome has for a site:
 * click `Clear site data`
 <!--more-->
 
-This can help when chrome has cached a redirect, cert details or other details not solved by doing a simple cookie clear with [EditThisCookie](http://www.editthiscookie.com/) plugin.
+This can help when chrome has cached a redirect, cert details or other details not solved by doing a simple cookie clear with [EditThisCookie](https://www.editthiscookie.com/) plugin.
 
 #### Thanks
 

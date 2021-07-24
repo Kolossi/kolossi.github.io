@@ -1,0 +1,183 @@
+BODY {
+	BACKGROUND: url(/radio4/science/images/sciencebg.gif) #ffffff repeat-x; COLOR: #000000; FONT-FAMILY: Verdana, arial, helvetica, Sans-serif
+}
+TABLE {
+	FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+TD {
+	FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+A:link {
+	FONT-WEIGHT: bold; COLOR: #333366; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: bold; COLOR: #333366; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #666699; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #333366; TEXT-DECORATION: underline
+}
+A {
+	COLOR: #333366; TEXT-DECORATION: none
+}
+.navcolor {
+	BACKGROUND: #336699
+}
+.centrallinks {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A.centrallinks {
+	COLOR: #333366; TEXT-DECORATION: underline
+}
+A.centrallink:visited {
+	FONT-WEIGHT: bold; COLOR: #333366; TEXT-DECORATION: underline
+}
+A.centrallinks:hover {
+	COLOR: #666699; TEXT-DECORATION: underline
+}
+.bodylink {
+	COLOR: #333366; TEXT-DECORATION: none
+}
+A.bodylink {
+	COLOR: #333366; TEXT-DECORATION: underline
+}
+A.bodylink:active {
+	COLOR: #333366; TEXT-DECORATION: underline
+}
+A.bodylink:visited {
+	COLOR: #333366; TEXT-DECORATION: underline
+}
+A.bodylink:hover {
+	COLOR: #666699; TEXT-DECORATION: underline
+}
+.black {
+	COLOR: #000000
+}
+A.black {
+	COLOR: #333366
+}
+A.black:visited {
+	FONT-WEIGHT: bold; COLOR: #333366; TEXT-DECORATION: none
+}
+A.black:hover {
+	COLOR: #666699; TEXT-DECORATION: underline
+}
+.darkgrey {
+	COLOR: #333333
+}
+A.blue {
+	COLOR: #333366
+}
+.blue {
+	COLOR: #333366
+}
+A.blue:visited {
+	FONT-WEIGHT: bold; COLOR: #333366; TEXT-DECORATION: none
+}
+A.blue:hover {
+	COLOR: #666699; TEXT-DECORATION: underline
+}
+.turquoise {
+	COLOR: #006699
+}
+A.lightblue {
+	COLOR: #006699
+}
+A.lightblue:hover {
+	COLOR: #3399cc
+}
+.global {
+	COLOR: #ffffff
+}
+A.global {
+	COLOR: #ffffff
+}
+A.global:hover {
+	COLOR: #ffffff
+}
+.red {
+	COLOR: #660000
+}
+A.red {
+	COLOR: #660000
+}
+A.red:visited {
+	FONT-WEIGHT: bold; COLOR: #660000; TEXT-DECORATION: none
+}
+A.red:hover {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}
+.white {
+	COLOR: #ffffff
+}
+A.white {
+	COLOR: #ffffff
+}
+A.white:visited {
+	FONT-WEIGHT: bold; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.white:hover {
+	COLOR: #bccee8; TEXT-DECORATION: underline
+}
+.whiteonmissedprog {
+	COLOR: #ffffff
+}
+A.whiteonmissedprog {
+	COLOR: #ffffff
+}
+A.whiteonmissedprog:visited {
+	FONT-WEIGHT: bold; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.whiteonmissedprog:hover {
+	COLOR: #bccee8; TEXT-DECORATION: underline
+}
+.whitebg {
+	BACKGROUND: #ffffff
+}
+.column1 {
+	BACKGROUND: #e7e7e7
+}
+.column1header {
+	BACKGROUND: #006699; COLOR: #ffffff; LINE-HEIGHT: 14px
+}
+.column1greyheader {
+	BACKGROUND: #cccccc; LINE-HEIGHT: 14px
+}
+.column2header {
+	BACKGROUND: #006699; COLOR: #ffffff; LINE-HEIGHT: 14px
+}
+.column2sub {
+	BACKGROUND: #cdd9e1; COLOR: #000000
+}
+A.column2sub {
+	COLOR: #000000
+}
+A.column2sub:hover {
+	COLOR: #666666
+}
+.liteheader {
+	BACKGROUND: #7badc6; COLOR: #000000; LINE-HEIGHT: 14px
+}
+.column3 {
+	BACKGROUND: #cccccc
+}
+.column3header {
+	BACKGROUND: #006699; COLOR: #ffffff; LINE-HEIGHT: 14px
+}
+.creditcell {
+	BACKGROUND: #999999
+}
+.subheader {
+	BACKGROUND: #7badc6; LINE-HEIGHT: 14px
+}
+.proginfobg {
+	BACKGROUND: #c9d9e1
+}
+.relatedlinkbox {
+	BACKGROUND: #c9d9e1; COLOR: #006699
+}
+.proginfobg2 {
+	BACKGROUND: #abcfe1
+}

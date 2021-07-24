@@ -1,0 +1,1598 @@
+/**
+  GEL 0 GROUP TO GEL 1 ONLY
+*/
+@media screen and (max-width: 399px) {
+  .rsn {
+    padding-left: 8px;
+    padding-right: 8px; }
+  #rsn-search {
+    padding-left: 3px; }
+  /*IPR-1387 - fix this bug on GEL 1 device*/
+  .orb-js #rsn-search-bar {
+    background: rgba(255, 255, 255, 0); }
+  #rsn-search-bar {
+    background: rgba(255, 255, 255, 0.5); }
+  #rsn-search-bar::-webkit-input-placeholder {
+    color: transparent; }
+  #rsn-search-bar:-moz-placeholder {
+    color: transparent; }
+  #rsn-search-bar::-moz-placeholder {
+    color: transparent; }
+  #rsn-search-bar:-ms-input-placeholder {
+    color: transparent; }
+  #rsn-search-submit {
+    background: url("../img/search_white.png");
+    background-size: 40px auto; }
+  .focus #rsn-search-submit {
+    background: #F54997 url("../img/search_white.png");
+    background-size: 40px auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center; }
+  #rsn-mobile-menu {
+    margin-left: 8px;
+    line-height: 56px; }
+  .focus #rsn-search-exit {
+    margin-left: 8px;
+    margin-top: 12px; } }
+
+/**
+  GEL 2 UPWARDS TO THE MAXIMUM MOBILE VIEW (HAMBURGER ICON)
+*/
+@media screen and (min-width: 400px) and (max-width: 732px) {
+  .rsn {
+    padding-left: 16px;
+    padding-right: 16px; }
+  #rsn-search {
+    padding-left: 8px; }
+  #rsn-search-bar {
+    background: rgba(255, 255, 255, 0.5); }
+  #rsn-search-bar::-webkit-input-placeholder {
+    color: #000000; }
+  #rsn-search-bar:-moz-placeholder {
+    color: #000000; }
+  #rsn-search-bar::-moz-placeholder {
+    color: #000000; }
+  #rsn-search-bar:-ms-input-placeholder {
+    color: #000000; }
+  #rsn-search-submit {
+    background: url("../img/search_dark.png");
+    background-size: 32px auto; }
+  .focus #rsn-search-submit {
+    background: #F54997 url("../img/search_white.png");
+    background-size: 32px auto; }
+  #rsn-mobile-menu {
+    margin-left: 16px;
+    line-height: 64px; }
+  .focus #rsn-search-exit {
+    margin-left: 16px;
+    margin-top: 12px; } }
+
+/**
+  UP TO GEL 2 ONLY
+*/
+@media screen and (max-width: 732px) {
+  #rsn-panels {
+    height: 0px;
+    opacity: 0;
+    max-width: 0;
+    overflow: hidden;
+    transition: max-width 500ms ease 0ms, height 500ms ease 0ms;
+    -webkit-transition: max-width 500ms ease 0ms, height 500ms ease 0ms;
+    -moz-transition: max-width 500ms ease 0ms, height 500ms ease 0ms;
+    -ms-transition: max-width 500ms ease 0ms, height 500ms ease 0ms;
+    -o-transition: max-width 500ms ease 0ms, height 500ms ease 0ms; }
+    #rsn-panels li {
+      line-height: 56px; }
+  #rsn-logo {
+    height: 56px;
+    width: 145px; }
+  #rsn-logo-i {
+    top: 2px;
+    width: 15px;
+    left: 0px; }
+  #rsn-logo-pr {
+    top: 2px;
+    width: 123px;
+    left: 10px; }
+  #rsn-logo-waves {
+    top: 3px;
+    width: 8px;
+    right: 5px; }
+  .maximised #rsn-logo-waves {
+    top: 1px;
+    right: 8px; }
+  #rsn-search-form {
+    margin-top: 12px; }
+  #rsn-mobile-menu {
+    background: rgba(255, 255, 255, 0.1) url("../img/burger_white.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    margin-top: 12px;
+    width: 32px;
+    height: 32px;
+    opacity: 1;
+    border: 0;
+    border-radius: 0;
+    color: transparent;
+    padding: 0;
+    transition: margin 500ms ease 0ms, width 500ms ease 0ms, opacity 250ms ease 500ms;
+    -webkit-transition: margin 500ms ease 0ms, width 500ms ease 0ms, opacity 250ms ease 500ms;
+    -moz-transition: margin 500ms ease 0ms, width 500ms ease 0ms, opacity 250ms ease 500ms;
+    -ms-transition: margin 500ms ease 0ms, width 500ms ease 0ms, opacity 250ms ease 500ms;
+    -o-transition: margin 500ms ease 0ms, width 500ms ease 0ms, opacity 250ms ease 500ms; }
+  #rsn-mobile-menu.focus,
+  #rsn-mobile-menu:hover,
+  #rsn-mobile-menu:focus {
+    background: rgba(255, 255, 255, 0.1) url("../img/burger_pink.png");
+    background-size: 100% auto; }
+  #rsn-mobile-menu.menu-exit {
+    transition: opacity 250ms ease 0ms;
+    -webkit-transition: opacity 250ms ease 0ms;
+    -moz-transition: opacity 250ms ease 0ms;
+    -ms-transition: opacity 250ms ease 0ms;
+    -o-transition: opacity 250ms ease 0ms; }
+  .maximised #rsn-mobile-menu {
+    width: 0;
+    margin-left: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 250ms;
+    -webkit-transition: opacity 250ms;
+    -moz-transition: opacity 250ms;
+    -ms-transition: opacity 250ms;
+    -o-transition: opacity 250ms; }
+  #rsn-mobile-menu:hover {
+    cursor: pointer; }
+  #rsn-search-exit {
+    transition: opacity 250ms ease 0ms;
+    -webkit-transition: opacity 250ms ease 0ms;
+    -moz-transition: opacity 250ms ease 0ms;
+    -ms-transition: opacity 250ms ease 0ms;
+    -o-transition: opacity 250ms ease 0ms; }
+  .rsn-stations-list li.focus .rsn-station-logo-focus,
+  .rsn-stations-list li.active .rsn-station-logo-focus {
+    width: 40px;
+    height: 40px; }
+  .rsn-station-logo {
+    height: 40px;
+    width: 40px; }
+  .rsn-local-station-logo {
+    height: 40px;
+    width: 121px; }
+  .national {
+    height: 40px;
+    width: 40px; }
+  .local {
+    width: 121px;
+    height: 40px; } }
+
+/**
+  UPWARDS OF GEL 3 TO MAXIMUM TABLET VIEW
+*/
+@media screen and (min-width: 733px) and (max-width: 1007px) {
+  .rsn {
+    padding-left: 16px;
+    padding-right: 16px; }
+  #rsn-panels {
+    height: 64px; }
+    #rsn-panels li {
+      line-height: 64px; }
+  #rsn-search {
+    padding-left: 16px; }
+  #rsn-search-bar {
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.5); }
+  #rsn-search-bar::-webkit-input-placeholder {
+    color: #000000; }
+  #rsn-search-bar:-moz-placeholder {
+    color: #000000; }
+  #rsn-search-bar::-moz-placeholder {
+    color: #000000; }
+  #rsn-search-bar:-ms-input-placeholder {
+    color: #000000; }
+  #rsn-search-submit {
+    background: url("../img/search_dark.png");
+    background-size: 32px auto; }
+  .focus #rsn-search-submit {
+    background: #F54997 url("../img/search_white.png");
+    background-size: 32px auto; }
+  #rsn-logo {
+    width: 212px;
+    height: 64px; }
+  #rsn-logo-i {
+    width: 22px;
+    top: 0;
+    left: 0; }
+  #rsn-logo-pr {
+    width: 187px;
+    top: 0;
+    left: 14px; }
+  #rsn-logo-waves {
+    width: 12px;
+    top: 2px;
+    right: 0; }
+  .maximised #rsn-logo-waves {
+    top: -1px;
+    right: -3px; }
+  #rsn-search-form {
+    margin-top: 16px; }
+  #rsn-mobile-menu {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    transition: margin 500ms ease 0ms, width 500ms ease 0ms, opacity 250ms ease 500ms;
+    -webkit-transition: margin 500ms ease 0ms, width 500ms ease 0ms, opacity 250ms ease 500ms;
+    -moz-transition: margin 500ms ease 0ms, width 500ms ease 0ms, opacity 250ms ease 500ms;
+    -ms-transition: margin 500ms ease 0ms, width 500ms ease 0ms, opacity 250ms ease 500ms;
+    -o-transition: margin 500ms ease 0ms, width 500ms ease 0ms, opacity 250ms ease 500ms; }
+  #rsn-search-exit {
+    transition: opacity 250ms ease 0ms, width 250ms ease 0ms, margin 250ms ease 0ms;
+    -webkit-transition: opacity 250ms ease 0ms, width 250ms ease 0ms, margin 250ms ease 0ms;
+    -moz-transition: opacity 250ms ease 0ms, width 250ms ease 0ms, margin 250ms ease 0ms;
+    -ms-transition: opacity 250ms ease 0ms, width 250ms ease 0ms, margin 250ms ease 0ms;
+    -o-transition: opacity 250ms ease 0ms, width 250ms ease 0ms, margin 250ms ease 0ms; }
+  .focus #rsn-search-exit {
+    margin-left: 16px;
+    margin-top: 16px;
+    transition: width 750ms ease 0ms, margin 750ms ease 0ms, opacity 500ms ease 750ms;
+    -webkit-transition: width 750ms ease 0ms, margin 750ms ease 0ms, opacity 500ms ease 750ms;
+    -moz-transition: width 750ms ease 0ms, margin 750ms ease 0ms, opacity 500ms ease 750ms;
+    -ms-transition: width 750ms ease 0ms, margin 750ms ease 0ms, opacity 500ms ease 750ms;
+    -o-transition: width 750ms ease 0ms, margin 750ms ease 0ms, opacity 500ms ease 750ms; }
+  .rsn-stations-list li {
+    padding-left: 7px;
+    padding-right: 8px; }
+  .rsn-stations-list li.focus .rsn-station-logo-focus,
+  .rsn-stations-list li.active .rsn-station-logo-focus {
+    width: 40px;
+    height: 40px; }
+  .rsn-station-logo {
+    height: 40px;
+    width: 40px; }
+  .rsn-local-station-logo {
+    height: 40px;
+    width: 121px; }
+  .national {
+    height: 40px;
+    width: 40px; }
+  .local {
+    width: 121px;
+    height: 40px; } }
+
+/* UP TO GEL GROUP 3 ONLY */
+@media screen and (max-width: 1007px) {
+  #rsn-panels {
+    padding-left: 2px; }
+    #rsn-panels li {
+      padding-left: 16px; }
+  #rsn-search-bar {
+    font-size: 16px; }
+  .rsn-divider {
+    margin: 0;
+    padding-top: 7px; }
+  .rsn-fade-left.focus,
+  .rsn-fade-right.focus {
+    width: 30px; }
+  .rsn-panel ul {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%; }
+    .rsn-panel ul li:first-child {
+      margin-left: 16px;
+      padding-left: 0; }
+    .rsn-panel ul li:last-child {
+      margin-right: 16px;
+      padding-right: 0; }
+  .rsn-fade-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #1E1E1E 0%, rgba(30, 30, 30, 0) 100%) repeat scroll 0% 0% transparent;
+    width: 16px; }
+  .rsn-fade-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to left, #1E1E1E 0%, rgba(30, 30, 30, 0) 100%) repeat scroll 0% 0% transparent;
+    width: 16px; }
+  .rsn-panel a {
+    display: block;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 16px;
+    line-height: 40px;
+    text-align: center; }
+  .rsn-history-results.focus {
+    padding-bottom: 15px; }
+    .rsn-history-results.focus .rsn-result-block .result-link {
+      margin-bottom: 0px; }
+  .rsn-categories-list {
+    font-size: 15px; }
+  .rsn-stations-list li {
+    padding-left: 8px;
+    padding-right: 6px; }
+  .rsn-categories-all-link {
+    font-weight: bold; }
+  .rsn-result-block {
+    display: block;
+    width: 100%; }
+    .rsn-result-block .result-link {
+      margin-bottom: 10px; }
+  .rsn-results-header {
+    margin-left: 0px; }
+  .rsn-networks-results .img-wrap {
+    width: 32px;
+    height: 32px; }
+  .az-link {
+    margin-bottom: 10px; } }
+
+/* MINIMUM FROM GEL GROUP 4 (DESKTOP VIEWS) */
+@media screen and (min-width: 1008px) {
+  .rsn {
+    padding-left: 16px;
+    padding-right: 16px; }
+  #rsn-logo, #rsn-search, #rsn-panels li {
+    padding-left: 24px; }
+  #rsn-mobile-menu {
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    border: 0;
+    overflow: hidden; }
+  .rsn-divider {
+    margin: 0 10px 0 10px; }
+  #rsn-search-form {
+    margin-top: 16px; }
+  #rsn-search-exit {
+    transition: opacity 250ms ease 0ms, width 250ms ease 0ms, margin 250ms ease 0ms;
+    -webkit-transition: opacity 250ms ease 0ms, width 250ms ease 0ms, margin 250ms ease 0ms;
+    -moz-transition: opacity 250ms ease 0ms, width 250ms ease 0ms, margin 250ms ease 0ms;
+    -ms-transition: opacity 250ms ease 0ms, width 250ms ease 0ms, margin 250ms ease 0ms;
+    -o-transition: opacity 250ms ease 0ms, width 250ms ease 0ms, margin 250ms ease 0ms; }
+  .focus #rsn-search-exit {
+    margin-left: 16px;
+    margin-top: 16px;
+    transition: width 750ms ease 0ms, margin 750ms ease 0ms, opacity 500ms ease 750ms;
+    -webkit-transition: width 750ms ease 0ms, margin 750ms ease 0ms, opacity 500ms ease 750ms;
+    -moz-transition: width 750ms ease 0ms, margin 750ms ease 0ms, opacity 500ms ease 750ms;
+    -ms-transition: width 750ms ease 0ms, margin 750ms ease 0ms, opacity 500ms ease 750ms;
+    -o-transition: width 750ms ease 0ms, margin 750ms ease 0ms, opacity 500ms ease 750ms; }
+  #rsn-search-bar {
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.5); }
+  #rsn-search-bar::-webkit-input-placeholder {
+    color: #000000; }
+  #rsn-search-bar:-moz-placeholder {
+    color: #000000; }
+  #rsn-search-bar::-moz-placeholder {
+    color: #000000; }
+  #rsn-search-bar:-ms-input-placeholder {
+    color: #000000; }
+  #rsn-search-submit {
+    background: url("../img/search_dark.png");
+    background-size: 32px auto; }
+  .focus #rsn-search-submit {
+    background: #F54997 url("../img/search_white.png");
+    background-size: 32px auto; }
+  #rsn-panels {
+    height: 64px;
+    padding: 0; }
+    #rsn-panels li {
+      line-height: 64px; }
+  .rsn-panel {
+    padding-left: 16px;
+    padding-right: 16px; }
+    .rsn-panel ul {
+      overflow-x: scroll;
+      overflow-y: hidden;
+      outline: 0; }
+      .rsn-panel ul li {
+        white-space: nowrap; }
+      .rsn-panel ul li:first-child {
+        margin-left: 0;
+        padding-left: 0; }
+      .rsn-panel ul li:last-child {
+        margin-right: 0;
+        padding-right: 0; }
+    .rsn-panel a {
+      padding: 0 16px;
+      line-height: 40px;
+      display: block; }
+  #rsn-categories-panel.rsn-panel {
+    overflow-y: visible; }
+    #rsn-categories-panel.rsn-panel ul {
+      overflow-y: visible; }
+  .rsn-panel.local_active ul li:first-child {
+    margin-left: 16px; }
+  .rsn-panel.local_active ul li:last-child {
+    margin-right: 16px; }
+  .rsn-fade-left {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    background: none;
+    width: 0px; }
+  .rsn-fade-right {
+    position: absolute;
+    top: 0;
+    right: 16px;
+    background: none;
+    width: 0px; }
+  .local_active .rsn-fade-left {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    background: linear-gradient(to right, #1E1E1E 0%, rgba(30, 30, 30, 0) 100%) repeat scroll 0% 0% transparent;
+    width: 16px; }
+  .local_active .rsn-fade-right {
+    position: absolute;
+    top: 0;
+    right: 16px;
+    background: linear-gradient(to left, #1E1E1E 0%, rgba(30, 30, 30, 0) 100%) repeat scroll 0% 0% transparent;
+    width: 16px; }
+  #rsn-logo {
+    width: 212px;
+    height: 64px; }
+  #rsn-logo-i {
+    width: 22px;
+    top: 0;
+    left: 0; }
+  #rsn-logo-pr {
+    width: 187px;
+    top: 0;
+    left: 14px; }
+  #rsn-logo-waves {
+    width: 12px;
+    top: 2px;
+    right: 0; }
+  .maximised #rsn-logo-waves {
+    top: -1px;
+    right: -3px; }
+  .rsn-stations-list li {
+    padding-left: 7px;
+    padding-right: 8px; }
+  .rsn-stations-list li.focus .rsn-station-logo-focus,
+  .rsn-stations-list li.active .rsn-station-logo-focus {
+    height: 40px;
+    width: 40px; }
+  .rsn-stations-list .rsn-station-logo {
+    height: 40px;
+    width: 40px; }
+  .rsn-stations-list .rsn-local-station-logo {
+    height: 40px;
+    width: 121px; }
+  .rsn-stations-list .national {
+    height: 40px;
+    width: 40px; }
+  .rsn-stations-list .local {
+    width: 121px;
+    height: 40px; }
+  .rsn-category {
+    width: 24.7%; }
+  .rsn-categories-all-link {
+    font-weight: bold; }
+  #rsn-results .results {
+    margin: 0 0 0 -10px;
+    width: 102%;
+    overflow: hidden; }
+  .rsn-result-block {
+    display: inline-block;
+    width: 33.3%;
+    padding-left: 10px;
+    padding-right: 10px; }
+    .rsn-result-block .result-link {
+      margin-bottom: 15px; }
+  .rsn-results-header {
+    margin-left: 10px; }
+  .rsn-networks-results .rsn-result-block {
+    line-height: 32px; }
+  .rsn-networks-results .img-wrap {
+    width: 32px;
+    height: 32px; }
+  .az-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px; } }
+
+/**
+  STYLES AFFECTING ALL VIEWS
+*/
+#rsn-wrap {
+  width: 100%;
+  background: #262525;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  #rsn-wrap * {
+    box-sizing: border-box; }
+
+.rsn {
+  max-width: 1008px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.rsn-clear-fix {
+  clear: both; }
+
+.rsn-divider {
+  border-bottom: 1px solid #444444; }
+
+.rsn-none {
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  opacity: 0;
+  overflow: hidden; }
+
+.rsn-iplayer-radio-title {
+  position: absolute;
+  top: 22px;
+  left: 0;
+  color: transparent;
+  font-size: 15px; }
+
+.rsn-mobile-menu-title {
+  display: block;
+  font-size: 15px;
+  padding: 10px;
+  background: #262525;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #FFFFFF; }
+  .rsn-mobile-menu-title a {
+    color: #FFFFFF;
+    text-decoration: none; }
+  .rsn-mobile-menu-title a:hover,
+  .rsn-mobile-menu-title a:focus {
+    color: #F54997; }
+
+.rsn-mobile-menu-title.top {
+  border-top: 0; }
+
+#rsn-panels {
+  display: inline-block;
+  float: right;
+  list-style-type: none;
+  margin: 0; }
+  #rsn-panels li {
+    display: inline-block;
+    transition: padding 500ms ease 0s;
+    -webkit-transition: padding 500ms ease 0s;
+    -moz-transition: padding 500ms ease 0s;
+    -ms-transition: padding 500ms ease 0s;
+    -o-transition: padding 500ms ease 0s; }
+    #rsn-panels li .rsn-dropdown {
+      background-image: url("../img/chip.png");
+      background-position: right center;
+      background-size: 8px auto;
+      background-repeat: no-repeat;
+      padding-right: 12px;
+      transition: background 250ms ease 0ms, color 250ms ease 0ms;
+      -webkit-transition: background 250ms ease 0ms, color 250ms ease 0ms;
+      -moz-transition: background 250ms ease 0ms, color 250ms ease 0ms;
+      -ms-transition: background 250ms ease 0ms, color 250ms ease 0ms;
+      -o-transition: background 250ms ease 0ms, color 250ms ease 0ms; }
+    #rsn-panels li .rsn-dropdown.focus,
+    #rsn-panels li .rsn-dropdown:hover,
+    #rsn-panels li .rsn-dropdown:focus {
+      background-image: url("../img/chip_pink.png"); }
+    #rsn-panels li a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 15px; }
+    #rsn-panels li a.focus,
+    #rsn-panels li a:hover,
+    #rsn-panels li a:focus {
+      color: #F54997; }
+
+.rsn-hideable-elements {
+  max-width: 440px;
+  opacity: 1;
+  overflow: hidden;
+  transition: opacity 500ms 750ms, max-width 750ms ease 0ms, width 750ms ease 0ms, height 750ms ease 0s, top 750ms ease 0s;
+  -webkit-transition: opacity 500ms 750ms, max-width 750ms ease 0ms, width 750ms ease 0ms, height 750ms ease 0s, top 750ms ease 0s;
+  -moz-transition: opacity 500ms 750ms, max-width 750ms ease 0ms, width 750ms ease 0ms, height 750ms ease 0s, top 750ms ease 0s;
+  -ms-transition: opacity 500ms 750ms, max-width 750ms ease 0ms, width 750ms ease 0ms, height 750ms ease 0s, top 750ms ease 0s;
+  -o-transition: opacity 500ms 750ms, max-width 750ms ease 0ms, width 750ms ease 0ms, height 750ms ease 0s, top 750ms ease 0s; }
+
+.maximised .rsn-hideable-elements {
+  max-width: 0;
+  opacity: 0;
+  transition: opacity 100ms ease 0ms, max-width 750ms ease 0ms;
+  -webkit-transition: opacity 100ms ease 0ms, max-width 750ms ease 0ms;
+  -moz-transition: opacity 100ms ease 0ms, max-width 750ms ease 0ms;
+  -ms-transition: opacity 100ms ease 0ms, max-width 750ms ease 0ms;
+  -o-transition: opacity 100ms ease 0ms, max-width 750ms ease 0ms; }
+
+#rsn-mobile-menu {
+  overflow: hidden;
+  float: right; }
+
+#rsn-logo {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  transition: all 750ms ease 0ms;
+  -webkit-transition: all 750ms ease 0ms;
+  -moz-transition: all 750ms ease 0ms;
+  -ms-transition: all 750ms ease 0ms;
+  -o-transition: all 750ms ease 0ms; }
+  #rsn-logo a {
+    width: 100%;
+    height: 100%;
+    display: block; }
+    #rsn-logo a div {
+      position: absolute;
+      background-repeat: no-repeat;
+      background-position: left 16px;
+      background-size: 100% auto;
+      height: 100%; }
+  #rsn-logo a:focus {
+    outline: 1px dotted #CCCCCC; }
+
+#rsn-logo-i {
+  background-image: url("../img/icon.png");
+  transition: all 750ms ease 0ms;
+  -webkit-transition: all 750ms ease 0ms;
+  -moz-transition: all 750ms ease 0ms;
+  -ms-transition: all 750ms ease 0ms;
+  -o-transition: all 750ms ease 0ms; }
+
+#rsn-logo-pr {
+  background-image: url("../img/player.png"); }
+
+#rsn-logo-waves {
+  background-image: url("../img/waves.png");
+  transition: all 750ms ease 0ms;
+  -webkit-transition: all 750ms ease 0ms;
+  -moz-transition: all 750ms ease 0ms;
+  -ms-transition: all 750ms ease 0ms;
+  -o-transition: all 750ms ease 0ms; }
+
+.maximised #rsn-logo {
+  width: 30px; }
+
+#rsn-search-exit {
+  float: right; }
+
+.focus #rsn-search-exit {
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  color: transparent;
+  background: rgba(255, 255, 255, 0.1) url("../img/close_light.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: right center;
+  background-size: 32px auto;
+  font-size: 10px; }
+
+.focus #rsn-search-clear:focus {
+  outline: 1px solid #000000; }
+
+.focus #rsn-search-submit:focus {
+  outline: 2px solid #4183C4; }
+
+.focus #rsn-search-exit:focus {
+  outline: 1px solid #FFFFFF; }
+
+.focus #rsn-search-exit:hover {
+  cursor: pointer; }
+
+#rsn-search {
+  width: auto;
+  overflow: hidden;
+  position: relative;
+  transition: padding 500ms ease 0ms;
+  -webkit-transition: padding 500ms ease 0ms;
+  -moz-transition: padding 500ms ease 0ms;
+  -ms-transition: padding 500ms ease 0ms;
+  -o-transition: padding 500ms ease 0ms; }
+
+#rsn-search-clear {
+  position: absolute;
+  right: 32px;
+  top: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  color: transparent; }
+
+.focus #rsn-search-clear {
+  width: 32px;
+  height: 20px;
+  margin-top: 6px;
+  border-left: 1px solid #e1e1e1;
+  background: url("../img/clear_text.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 8px auto;
+  font-size: 12px; }
+
+.focus #rsn-search-clear.rsn-none {
+  width: 0;
+  height: 0; }
+
+.focus #rsn-search-clear:hover {
+  cursor: pointer; }
+
+#rsn-search-submit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  width: 32px;
+  height: 32px;
+  color: transparent;
+  border: 0;
+  border-radius: 0;
+  font-size: 7px;
+  transition: background 1s ease 0ms;
+  -webkit-transition: background 1s ease 0ms;
+  -moz-transition: background 1s ease 0ms;
+  -ms-transition: background 1s ease 0ms;
+  -o-transition: background 1s ease 0ms; }
+
+.focus #rsn-search-submit:hover {
+  cursor: pointer; }
+
+#rsn-search-form {
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 32px;
+  transition: margin 250ms ease 0ms;
+  -webkit-transition: margin 250ms ease 0ms;
+  -moz-transition: margin 250ms ease 0ms;
+  -ms-transition: margin 250ms ease 0ms;
+  -o-transition: margin 250ms ease 0ms; }
+
+#rsn-search-bar {
+  height: 100%;
+  width: 100%;
+  float: right;
+  border-radius: 0;
+  font-family: helvetica, sans-serif;
+  border: 0;
+  outline: 0;
+  padding-left: 10px;
+  transition: all 1s ease 0ms;
+  -webkit-transition: all 1s ease 0ms;
+  -moz-transition: all 1s ease 0ms;
+  -ms-transition: all 1s ease 0ms;
+  -o-transition: all 1s ease 0ms; }
+
+#rsn-search-bar::-ms-clear {
+  display: none; }
+
+.maximised #rsn-search-bar {
+  background: white;
+  padding-right: 68px; }
+
+.maximised #rsn-search-bar::-webkit-input-placeholder {
+  color: #333333; }
+
+.maximised #rsn-search-bar:-moz-placeholder {
+  color: #333333; }
+
+.maximised #rsn-search-bar::-moz-placeholder {
+  color: #333333; }
+
+.maximised #rsn-search-bar:-ms-input-placeholder {
+  color: #333333; }
+
+#rsn-search-submit:hover {
+  cursor: pointer; }
+
+#rsn-drawer {
+  background-color: #1e1e1e;
+  height: 0;
+  border-bottom: 1px solid #404040;
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  outline: 0;
+  transition: height ease 500ms;
+  -webkit-transition: height ease 500ms;
+  -moz-transition: height ease 500ms;
+  -ms-transition: height ease 500ms;
+  -o-transition: height ease 500ms; }
+
+.rsn-panel {
+  display: block;
+  position: relative;
+  max-width: 1008px;
+  background: #1e1e1e;
+  margin: 0 auto;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: hidden;
+  transition: padding 500ms ease 0ms, opacity 150ms ease-in-out;
+  -webkit-transition: padding 500ms ease 0ms, opacity 150ms ease-in-out;
+  -moz-transition: padding 500ms ease 0ms, opacity 150ms ease-in-out;
+  -ms-transition: padding 500ms ease 0ms, opacity 150ms ease-in-out;
+  -o-transition: padding 500ms ease 0ms, opacity 150ms ease-in-out; }
+  .rsn-panel ul {
+    width: 100%;
+    max-width: 1008px;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 16px;
+    padding-bottom: 36px;
+    outline: 0;
+    -ms-overflow-style: none; }
+    .rsn-panel ul a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 15px;
+      outline: 0; }
+    .rsn-panel ul a:active, .rsn-panel ul a:focus {
+      outline: 0; }
+    .rsn-panel ul li {
+      display: inline-block;
+      list-style: none; }
+  .rsn-panel ul::-webkit-scrollbar {
+    display: none; }
+
+#rsn-favourites-panel {
+  display: block;
+  position: relative;
+  max-width: 1008px;
+  background: #1e1e1e;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden; }
+  #rsn-favourites-panel ul {
+    margin: 0;
+    padding: 16px; }
+
+.rsn-panel-arrow {
+  height: 0;
+  width: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  border: 0;
+  outline: 0;
+  z-index: 2;
+  transition: width 500ms ease 0ms;
+  -webkit-transition: width 500ms ease 0ms;
+  -moz-transition: width 500ms ease 0ms;
+  -ms-transition: width 500ms ease 0ms;
+  -o-transition: width 500ms ease 0ms; }
+
+.rsn-panel-arrow.focus {
+  width: 48px; }
+
+.rsn-panel-arrow.focus:hover {
+  cursor: pointer; }
+
+.rsn-panel-left-arrow {
+  background: rgba(38, 37, 37, 0.8) url("../img/arrow_left.png") no-repeat center center;
+  left: 0; }
+
+.rsn-panel-right-arrow {
+  background: rgba(38, 37, 37, 0.8) url("../img/arrow_right.png") no-repeat center center;
+  right: 0; }
+
+.rsn-stations-list {
+  font-size: 0;
+  white-space: nowrap; }
+  .rsn-stations-list li {
+    vertical-align: middle;
+    background-image: none; }
+    .rsn-stations-list li .rsn-station-logo {
+      opacity: 0.6;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      display: block; }
+    .rsn-stations-list li .rsn-station-logo-focus {
+      opacity: 0;
+      width: 0;
+      height: 0;
+      overflow: hidden;
+      display: block; }
+    .rsn-stations-list li a {
+      padding: 0; }
+      .rsn-stations-list li a img {
+        border: 0;
+        outline: 0; }
+  .rsn-stations-list li.focus,
+  .rsn-stations-list li.active {
+    background-repeat: no-repeat;
+    background-position: center center; }
+    .rsn-stations-list li.focus .rsn-station-logo,
+    .rsn-stations-list li.active .rsn-station-logo {
+      opacity: 0;
+      width: 0;
+      height: 0;
+      overflow: hidden; }
+    .rsn-stations-list li.focus .rsn-station-logo-focus,
+    .rsn-stations-list li.active .rsn-station-logo-focus {
+      opacity: 1; }
+    .rsn-stations-list li.focus .rsn-station-logo:hover,
+    .rsn-stations-list li.active .rsn-station-logo:hover {
+      cursor: pointer; }
+
+.rsn-category.focus a {
+  color: #F54997; }
+
+.logo-bbc_radio_one {
+  background-image: url("../img/networks/bbc_radio_one.svg"); }
+
+.logo-bbc_radio_one.focus {
+  background-image: url("../img/networks/bbc_radio_one_colour.svg");
+  opacity: 0.5; }
+
+.logo-bbc_1xtra {
+  background-image: url("../img/networks/bbc_1xtra.svg"); }
+
+.logo-bbc_1xtra.focus {
+  background-image: url("../img/networks/bbc_1xtra_colour.svg");
+  opacity: 0.5; }
+
+.logo-bbc_radio_two {
+  background-image: url("../img/networks/bbc_radio_two.svg"); }
+
+.logo-bbc_radio_two.focus {
+  background-image: url("../img/networks/bbc_radio_two_colour.svg"); }
+
+.logo-bbc_radio_three {
+  background-image: url("../img/networks/bbc_radio_three.svg"); }
+
+.logo-bbc_radio_three.focus {
+  background-image: url("../img/networks/bbc_radio_three_colour.svg"); }
+
+.logo-bbc_radio_four {
+  background-image: url("../img/networks/bbc_radio_four.svg"); }
+
+.logo-bbc_radio_four.focus {
+  background-image: url("../img/networks/bbc_radio_four_colour.svg"); }
+
+.logo-bbc_radio_four_extra {
+  background-image: url("../img/networks/bbc_radio_four_extra.svg"); }
+
+.logo-bbc_radio_four_extra.focus {
+  background-image: url("../img/networks/bbc_radio_four_extra_colour.svg"); }
+
+.logo-bbc_radio_five_live {
+  background-image: url("../img/networks/bbc_radio_five_live.svg"); }
+
+.logo-bbc_radio_five_live.focus {
+  background-image: url("../img/networks/bbc_radio_five_live_colour.svg"); }
+
+.logo-bbc_radio_five_live_sports_extra {
+  background-image: url("../img/networks/bbc_radio_five_live_sports_extra.svg"); }
+
+.logo-bbc_radio_five_live_sports_extra.focus {
+  background-image: url("../img/networks/bbc_radio_five_live_sports_extra_colour.svg"); }
+
+.logo-bbc_6music {
+  background-image: url("../img/networks/bbc_6music.svg"); }
+
+.logo-bbc_6music.focus {
+  background-image: url("../img/networks/bbc_6music_colour.svg"); }
+
+.logo-bbc_asian_network {
+  background-image: url("../img/networks/bbc_asian_network.svg"); }
+
+.logo-bbc_asian_network.focus {
+  background-image: url("../img/networks/bbc_asian_network_colour.png"); }
+
+.logo-bbc_world_service {
+  background-image: url("../img/networks/bbc_world_service.svg"); }
+
+.logo-bbc_world_service.focus {
+  background-image: url("../img/networks/bbc_world_service_colour.svg"); }
+
+.logo-bbc_radio_scotland {
+  background-image: url("../img/networks/bbc_radio_scotland.svg"); }
+
+.logo-bbc_radio_scotland.focus {
+  background-image: url("../img/networks/bbc_radio_scotland_colour.svg"); }
+
+.logo-bbc_radio_nan_gaidheal {
+  background-image: url("../img/networks/bbc_radio_nan_gaidheal.svg"); }
+
+.logo-bbc_radio_nan_gaidheal.focus {
+  background-image: url("../img/networks/bbc_radio_nan_gaidheal_colour.svg"); }
+
+.logo-bbc_radio_ulster {
+  background-image: url("../img/networks/bbc_radio_ulster.svg"); }
+
+.logo-bbc_radio_ulster.focus {
+  background-image: url("../img/networks/bbc_radio_ulster_colour.svg"); }
+
+.logo-bbc_radio_foyle {
+  background-image: url("../img/networks/bbc_radio_foyle.svg"); }
+
+.logo-bbc_radio_foyle.focus {
+  background-image: url("../img/networks/bbc_radio_foyle_colour.svg"); }
+
+.logo-bbc_radio_wales {
+  background-image: url("../img/networks/bbc_radio_wales.svg"); }
+
+.logo-bbc_radio_wales.focus {
+  background-image: url("../img/networks/bbc_radio_wales_colour.svg"); }
+
+.logo-bbc_radio_cymru {
+  background-image: url("../img/networks/bbc_radio_cymru.svg"); }
+
+.logo-bbc_radio_cymru.focus {
+  background-image: url("../img/networks/bbc_radio_cymru_colour.svg"); }
+
+.logo-localradio.focus {
+  background-image: url("../img/networks/local_colour.svg"); }
+
+/* LOCAL STATIONS */
+.logo-bbc_radio_berkshire {
+  background-image: url(../img/networks/local/bbc_radio_berkshire.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_berkshire a:hover .logo-bbc_radio_berkshire,
+li.schedules-bbc_radio_berkshire a:focus .logo-bbc_radio_berkshire,
+#schedules-day li.schedules-bbc_radio_berkshire .logo-bbc_radio_berkshire {
+  background-image: url(../img/networks/local/bbc_radio_berkshire_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_bristol {
+  background-image: url(../img/networks/local/bbc_radio_bristol.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_bristol a:hover .logo-bbc_radio_bristol,
+li.schedules-bbc_radio_bristol a:focus .logo-bbc_radio_bristol,
+#schedules-day li.schedules-bbc_radio_bristol .logo-bbc_radio_bristol {
+  background-image: url(../img/networks/local/bbc_radio_bristol_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_cambridge {
+  background-image: url(../img/networks/local/bbc_radio_cambridge.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_cambridge a:hover .logo-bbc_radio_cambridge,
+li.schedules-bbc_radio_cambridge a:focus .logo-bbc_radio_cambridge,
+#schedules-day li.schedules-bbc_radio_cambridge .logo-bbc_radio_cambridge {
+  background-image: url(../img/networks/local/bbc_radio_cambridge_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_cornwall {
+  background-image: url(../img/networks/local/bbc_radio_cornwall.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_cornwall a:hover .logo-bbc_radio_cornwall,
+li.schedules-bbc_radio_cornwall a:focus .logo-bbc_radio_cornwall,
+#schedules-day li.schedules-bbc_radio_cornwall .logo-bbc_radio_cornwall {
+  background-image: url(../img/networks/local/bbc_radio_cornwall_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_coventry_warwickshire {
+  background-image: url(../img/networks/local/bbc_radio_coventry_warwickshire.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_coventry_warwickshire a:hover .logo-bbc_radio_coventry_warwickshire,
+li.schedules-bbc_radio_coventry_warwickshire a:focus .logo-bbc_radio_coventry_warwickshire,
+#schedules-day li.schedules-bbc_radio_coventry_warwickshire .logo-bbc_radio_coventry_warwickshire {
+  background-image: url(../img/networks/local/bbc_radio_coventry_warwickshire_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_cumbria {
+  background-image: url(../img/networks/local/bbc_radio_cumbria.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_cumbria a:hover .logo-bbc_radio_cumbria,
+li.schedules-bbc_radio_cumbria a:focus .logo-bbc_radio_cumbria,
+#schedules-day li.schedules-bbc_radio_cumbria .logo-bbc_radio_cumbria {
+  background-image: url(../img/networks/local/bbc_radio_cumbria_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_derby {
+  background-image: url(../img/networks/local/bbc_radio_derby.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_derby a:hover .logo-bbc_radio_derby,
+li.schedules-bbc_radio_derby a:focus .logo-bbc_radio_derby,
+#schedules-day li.schedules-bbc_radio_derby .logo-bbc_radio_derby {
+  background-image: url(../img/networks/local/bbc_radio_derby_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_devon {
+  background-image: url(../img/networks/local/bbc_radio_devon.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_devon a:hover .logo-bbc_radio_devon,
+li.schedules-bbc_radio_devon a:focus .logo-bbc_radio_devon,
+#schedules-day li.schedules-bbc_radio_devon .logo-bbc_radio_devon {
+  background-image: url(../img/networks/local/bbc_radio_devon_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_essex {
+  background-image: url(../img/networks/local/bbc_radio_essex.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_essex a:hover .logo-bbc_radio_essex,
+li.schedules-bbc_radio_essex a:focus .logo-bbc_radio_essex,
+#schedules-day li.schedules-bbc_radio_essex .logo-bbc_radio_essex {
+  background-image: url(../img/networks/local/bbc_radio_essex_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_gloucestershire {
+  background-image: url(../img/networks/local/bbc_radio_gloucestershire.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_gloucestershire a:hover .logo-bbc_radio_gloucestershire,
+li.schedules-bbc_radio_gloucestershire a:focus .logo-bbc_radio_gloucestershire,
+#schedules-day li.schedules-bbc_radio_gloucestershire .logo-bbc_radio_gloucestershire {
+  background-image: url(../img/networks/local/bbc_radio_gloucestershire_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_guernsey {
+  background-image: url(../img/networks/local/bbc_radio_guernsey.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_guernsey a:hover .logo-bbc_radio_guernsey,
+li.schedules-bbc_radio_guernsey a:focus .logo-bbc_radio_guernsey,
+#schedules-day li.schedules-bbc_radio_guernsey .logo-bbc_radio_guernsey {
+  background-image: url(../img/networks/local/bbc_radio_guernsey_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_hereford_worcester {
+  background-image: url(../img/networks/local/bbc_radio_hereford_worcester.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_hereford_worcester a:hover .logo-bbc_radio_hereford_worcester,
+li.schedules-bbc_radio_hereford_worcester a:focus .logo-bbc_radio_hereford_worcester,
+#schedules-day li.schedules-bbc_radio_hereford_worcester .logo-bbc_radio_hereford_worcester {
+  background-image: url(../img/networks/local/bbc_radio_hereford_worcester_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_humberside {
+  background-image: url(../img/networks/local/bbc_radio_humberside.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_humberside a:hover .logo-bbc_radio_humberside,
+li.schedules-bbc_radio_humberside a:focus .logo-bbc_radio_humberside,
+#schedules-day li.schedules-bbc_radio_humberside .logo-bbc_radio_humberside {
+  background-image: url(../img/networks/local/bbc_radio_humberside_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_jersey {
+  background-image: url(../img/networks/local/bbc_radio_jersey.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_jersey a:hover .logo-bbc_radio_jersey,
+li.schedules-bbc_radio_jersey a:focus .logo-bbc_radio_jersey,
+#schedules-day li.schedules-bbc_radio_jersey .logo-bbc_radio_jersey {
+  background-image: url(../img/networks/local/bbc_radio_jersey_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_kent {
+  background-image: url(../img/networks/local/bbc_radio_kent.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_kent a:hover .logo-bbc_radio_kent,
+li.schedules-bbc_radio_kent a:focus .logo-bbc_radio_kent,
+#schedules-day li.schedules-bbc_radio_kent .logo-bbc_radio_kent {
+  background-image: url(../img/networks/local/bbc_radio_kent_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_lancashire {
+  background-image: url(../img/networks/local/bbc_radio_lancashire.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_lancashire a:hover .logo-bbc_radio_lancashire,
+li.schedules-bbc_radio_lancashire a:focus .logo-bbc_radio_lancashire,
+#schedules-day li.schedules-bbc_radio_lancashire .logo-bbc_radio_lancashire {
+  background-image: url(../img/networks/local/bbc_radio_lancashire_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_leeds {
+  background-image: url(../img/networks/local/bbc_radio_leeds.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_leeds a:hover .logo-bbc_radio_leeds,
+li.schedules-bbc_radio_leeds a:focus .logo-bbc_radio_leeds,
+#schedules-day li.schedules-bbc_radio_leeds .logo-bbc_radio_leeds {
+  background-image: url(../img/networks/local/bbc_radio_leeds_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_leicester {
+  background-image: url(../img/networks/local/bbc_radio_leicester.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_leicester a:hover .logo-bbc_radio_leicester,
+li.schedules-bbc_radio_leicester a:focus .logo-bbc_radio_leicester,
+#schedules-day li.schedules-bbc_radio_leicester .logo-bbc_radio_leicester {
+  background-image: url(../img/networks/local/bbc_radio_leicester_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_lincolnshire {
+  background-image: url(../img/networks/local/bbc_radio_lincolnshire.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_lincolnshire a:hover .logo-bbc_radio_lincolnshire,
+li.schedules-bbc_radio_lincolnshire a:focus .logo-bbc_radio_lincolnshire,
+#schedules-day li.schedules-bbc_radio_lincolnshire .logo-bbc_radio_lincolnshire {
+  background-image: url(../img/networks/local/bbc_radio_lincolnshire_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_london {
+  background-image: url(../img/networks/local/bbc_london.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_london a:hover .logo-bbc_london,
+li.schedules-bbc_london a:focus .logo-bbc_london,
+#schedules-day li.schedules-bbc_london .logo-bbc_london {
+  background-image: url(../img/networks/local/bbc_london_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_manchester {
+  background-image: url(../img/networks/local/bbc_radio_manchester.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_manchester a:hover .logo-bbc_radio_manchester,
+li.schedules-bbc_radio_manchester a:focus .logo-bbc_radio_manchester,
+#schedules-day li.schedules-bbc_radio_manchester .logo-bbc_radio_manchester {
+  background-image: url(../img/networks/local/bbc_radio_manchester_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_merseyside {
+  background-image: url(../img/networks/local/bbc_radio_merseyside.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_merseyside a:hover .logo-bbc_radio_merseyside,
+li.schedules-bbc_radio_merseyside a:focus .logo-bbc_radio_merseyside,
+#schedules-day li.schedules-bbc_radio_merseyside .logo-bbc_radio_merseyside {
+  background-image: url(../img/networks/local/bbc_radio_merseyside_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_newcastle {
+  background-image: url(../img/networks/local/bbc_radio_newcastle.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_newcastle a:hover .logo-bbc_radio_newcastle,
+li.schedules-bbc_radio_newcastle a:focus .logo-bbc_radio_newcastle,
+#schedules-day li.schedules-bbc_radio_newcastle .logo-bbc_radio_newcastle {
+  background-image: url(../img/networks/local/bbc_radio_newcastle_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_norfolk {
+  background-image: url(../img/networks/local/bbc_radio_norfolk.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_norfolk a:hover .logo-bbc_radio_norfolk,
+li.schedules-bbc_radio_norfolk a:focus .logo-bbc_radio_norfolk,
+#schedules-day li.schedules-bbc_radio_norfolk .logo-bbc_radio_norfolk {
+  background-image: url(../img/networks/local/bbc_radio_norfolk_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_northampton {
+  background-image: url(../img/networks/local/bbc_radio_northampton.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_northampton a:hover .logo-bbc_radio_northampton,
+li.schedules-bbc_radio_northampton a:focus .logo-bbc_radio_northampton,
+#schedules-day li.schedules-bbc_radio_northampton .logo-bbc_radio_northampton {
+  background-image: url(../img/networks/local/bbc_radio_northampton_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_nottingham {
+  background-image: url(../img/networks/local/bbc_radio_nottingham.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_nottingham a:hover .logo-bbc_radio_nottingham,
+li.schedules-bbc_radio_nottingham a:focus .logo-bbc_radio_nottingham,
+#schedules-day li.schedules-bbc_radio_nottingham .logo-bbc_radio_nottingham {
+  background-image: url(../img/networks/local/bbc_radio_nottingham_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_oxford {
+  background-image: url(../img/networks/local/bbc_radio_oxford.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_oxford a:hover .logo-bbc_radio_oxford,
+li.schedules-bbc_radio_oxford a:focus .logo-bbc_radio_oxford,
+#schedules-day li.schedules-bbc_radio_oxford .logo-bbc_radio_oxford {
+  background-image: url(../img/networks/local/bbc_radio_oxford_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_sheffield {
+  background-image: url(../img/networks/local/bbc_radio_sheffield.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_sheffield a:hover .logo-bbc_radio_sheffield,
+li.schedules-bbc_radio_sheffield a:focus .logo-bbc_radio_sheffield,
+#schedules-day li.schedules-bbc_radio_sheffield .logo-bbc_radio_sheffield {
+  background-image: url(../img/networks/local/bbc_radio_sheffield_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_shropshire {
+  background-image: url(../img/networks/local/bbc_radio_shropshire.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_shropshire a:hover .logo-bbc_radio_shropshire,
+li.schedules-bbc_radio_shropshire a:focus .logo-bbc_radio_shropshire,
+#schedules-day li.schedules-bbc_radio_shropshire .logo-bbc_radio_shropshire {
+  background-image: url(../img/networks/local/bbc_radio_shropshire_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_solent {
+  background-image: url(../img/networks/local/bbc_radio_solent.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_solent a:hover .logo-bbc_radio_solent,
+li.schedules-bbc_radio_solent a:focus .logo-bbc_radio_solent,
+#schedules-day li.schedules-bbc_radio_solent .logo-bbc_radio_solent {
+  background-image: url(../img/networks/local/bbc_radio_solent_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_somerset_sound {
+  background-image: url(../img/networks/local/bbc_radio_somerset_sound.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_somerset_sound a:hover .logo-bbc_radio_somerset_sound,
+li.schedules-bbc_radio_somerset_sound a:focus .logo-bbc_radio_somerset_sound,
+#schedules-day li.schedules-bbc_radio_somerset_sound .logo-bbc_radio_somerset_sound {
+  background-image: url(../img/networks/local/bbc_radio_somerset_sound_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_stoke {
+  background-image: url(../img/networks/local/bbc_radio_stoke.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_stoke a:hover .logo-bbc_radio_stoke,
+li.schedules-bbc_radio_stoke a:focus .logo-bbc_radio_stoke,
+#schedules-day li.schedules-bbc_radio_stoke .logo-bbc_radio_stoke {
+  background-image: url(../img/networks/local/bbc_radio_stoke_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_suffolk {
+  background-image: url(../img/networks/local/bbc_radio_suffolk.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_suffolk a:hover .logo-bbc_radio_suffolk,
+li.schedules-bbc_radio_suffolk a:focus .logo-bbc_radio_suffolk,
+#schedules-day li.schedules-bbc_radio_suffolk .logo-bbc_radio_suffolk {
+  background-image: url(../img/networks/local/bbc_radio_suffolk_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_surrey {
+  background-image: url(../img/networks/local/bbc_radio_surrey.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_surrey a:hover .logo-bbc_radio_surrey,
+li.schedules-bbc_radio_surrey a:focus .logo-bbc_radio_surrey,
+#schedules-day li.schedules-bbc_radio_surrey .logo-bbc_radio_surrey {
+  background-image: url(../img/networks/local/bbc_radio_surrey_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_sussex {
+  background-image: url(../img/networks/local/bbc_radio_sussex.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_sussex a:hover .logo-bbc_radio_sussex,
+li.schedules-bbc_radio_sussex a:focus .logo-bbc_radio_sussex,
+#schedules-day li.schedules-bbc_radio_sussex .logo-bbc_radio_sussex {
+  background-image: url(../img/networks/local/bbc_radio_sussex_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_tees {
+  background-image: url(../img/networks/local/bbc_tees.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_tees a:hover .logo-bbc_tees,
+li.schedules-bbc_tees a:focus .logo-bbc_tees,
+#schedules-day li.schedules-bbc_tees .logo-bbc_tees {
+  background-image: url(../img/networks/local/bbc_tees_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_three_counties_radio {
+  background-image: url(../img/networks/local/bbc_three_counties_radio.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_three_counties_radio a:hover .logo-bbc_three_counties_radio,
+li.schedules-bbc_three_counties_radio a:focus .logo-bbc_three_counties_radio,
+#schedules-day li.schedules-bbc_three_counties_radio .logo-bbc_three_counties_radio {
+  background-image: url(../img/networks/local/bbc_three_counties_radio_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_wiltshire {
+  background-image: url(../img/networks/local/bbc_radio_wiltshire.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_wiltshire a:hover .logo-bbc_radio_wiltshire,
+li.schedules-bbc_radio_wiltshire a:focus .logo-bbc_radio_wiltshire,
+#schedules-day li.schedules-bbc_radio_wiltshire .logo-bbc_radio_wiltshire {
+  background-image: url(../img/networks/local/bbc_radio_wiltshire_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_wm {
+  background-image: url(../img/networks/local/bbc_wm.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_wm a:hover .logo-bbc_wm,
+li.schedules-bbc_wm a:focus .logo-bbc_wm,
+#schedules-day li.schedules-bbc_wm .logo-bbc_wm {
+  background-image: url(../img/networks/local/bbc_wm_colour.svg);
+  opacity: 1; }
+
+.logo-bbc_radio_york {
+  background-image: url(../img/networks/local/bbc_radio_york.svg);
+  opacity: 0.6; }
+
+li.schedules-bbc_radio_york a:hover .logo-bbc_radio_york,
+li.schedules-bbc_radio_york a:focus .logo-bbc_radio_york,
+#schedules-day li.schedules-bbc_radio_york .logo-bbc_radio_york {
+  background-image: url(../img/networks/local/bbc_radio_york_colour.svg);
+  opacity: 1; }
+
+/* SEARCH RESULTS OVERLAY */
+#rsn-search-results, #rsn-search-history {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  transition: background 500ms ease 0ms;
+  -webkit-transition: background 500ms ease 0ms;
+  -moz-transition: background 500ms ease 0ms;
+  -ms-transition: background 500ms ease 0ms;
+  -o-transition: background 500ms ease 0ms; }
+
+#rsn-search-results.focus {
+  position: relative;
+  width: 100%;
+  background: rgba(39, 39, 39, 0.96);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 5010; }
+
+.rsn-no-results {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 10px; }
+
+#rsn-search-history {
+  opacity: 0;
+  max-height: 0;
+  width: 0; }
+
+#rsn-search-history.focus {
+  position: relative;
+  width: 100%;
+  max-height: 1008px;
+  background: #1e1e1e;
+  z-index: 21;
+  opacity: 1;
+  transition: opacity 1s ease 0s;
+  -webkit-transition: opacity 1s ease 0s;
+  -moz-transition: opacity 1s ease 0s;
+  -ms-transition: opacity 1s ease 0s;
+  -o-transition: opacity 1s ease 0s; }
+
+.rsn-pixel-position {
+  max-height: 0; }
+
+#rsn-results .results {
+  padding: 0;
+  font-size: 0; }
+  #rsn-results .results li {
+    list-style: none; }
+
+#rsn-results .results.focus {
+  padding-top: 15px; }
+
+.rsn-results-header {
+  display: block;
+  font-size: 16px;
+  color: #BBBBBB;
+  margin-top: 0;
+  margin-right: 10px;
+  margin-bottom: 20px; }
+
+.rsn-result-block {
+  text-align: left;
+  position: relative;
+  line-height: 32px; }
+  .rsn-result-block .result-link {
+    position: relative;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #333333;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    padding-right: 15%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border: 0;
+    outline: 0; }
+    .rsn-result-block .result-link .remove-link {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 15%;
+      padding-top: 8px;
+      padding-left: 8px;
+      padding-bottom: 8px;
+      height: 100%;
+      background: url("../img/clear.png") no-repeat center center;
+      opacity: 0.7;
+      background-size: 10px 10px;
+      outline: 0;
+      border: 0; }
+    .rsn-result-block .result-link .remove-link:focus,
+    .rsn-result-block .result-link .remove-link:hover {
+      background: rgba(255, 255, 255, 0.2) url("../img/clear.png") no-repeat center center;
+      background-size: 10px 10px;
+      opacity: 1;
+      cursor: pointer; }
+  .rsn-result-block .result-link:hover,
+  .rsn-result-block .result-link:focus {
+    background: #444444; }
+
+.rsn-history-results .result-link {
+  background: transparent;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; }
+
+.rsn-history-results .result-link:hover,
+.rsn-history-results .result-link:focus {
+  background: #333333;
+  cursor: pointer; }
+
+.img-wrap {
+  float: left;
+  margin-right: 12px;
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  background-position: center center; }
+
+.letter-wrap {
+  float: left;
+  margin-right: 12px;
+  width: 32px;
+  height: 32px;
+  background: #FFFFFF;
+  color: #252525;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold; }
+
+.az-link {
+  display: block;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 32px;
+  padding: 10px;
+  background: #333333; }
+
+.az-link:hover,
+.az-link:focus {
+  background: #444444; }

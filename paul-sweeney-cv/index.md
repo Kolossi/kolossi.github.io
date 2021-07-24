@@ -19,7 +19,7 @@ The latest CV for Paul Sweeney is available in the following formats:
 * [Rich Text Format (.rtf)]({{site.url}}/files/PaulSweeneyCV.rtf)
 * [Adobe Acrobat (.pdf)]({{site.url}}/files/PaulSweeneyCV.pdf)
 
-<a href="http://uk.linkedin.com/in/paulsweeneycv" target="_blank">![View Paul Sweeney's profile on LinkedIn]({{site.url}}/assets/img/lilogo.gif) View Paul Sweeney's profile on LinkedIn</a>
+<a href="https://uk.linkedin.com/in/paulsweeneycv" target="_blank"><img alt="View Paul Sweeney's profile on LinkedIn" src="{{site.url}}/assets/img/lilogo.gif" style="vertical-align: middle;"> View Paul Sweeney's profile on LinkedIn</a>
 
 ### See Also
 

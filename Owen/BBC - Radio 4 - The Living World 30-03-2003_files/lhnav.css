@@ -1,0 +1,180 @@
+HR {
+	COLOR: #ffffff
+}
+.navblue {
+	COLOR: #333366; TEXT-DECORATION: none
+}
+A.navblue {
+	COLOR: #333366; TEXT-DECORATION: none
+}
+A.navblue:active {
+	COLOR: #333366; TEXT-DECORATION: none
+}
+A.navblue:visited {
+	COLOR: #333366; TEXT-DECORATION: none
+}
+A.navblue:hover {
+	COLOR: #9999cc; TEXT-DECORATION: none
+}
+.currenttxt {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.currenttxt {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.currenttxt:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.currenttxt:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.currenttxt:hover {
+	COLOR: #cc66cc; TEXT-DECORATION: none
+}
+.religiontxt {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.religiontxt {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.religiontxt:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.religiontxt:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.religiontxt:hover {
+	COLOR: #9999ff; TEXT-DECORATION: none
+}
+.artstxt {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.artstxt {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.artstxt:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.artstxt:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.artstxt:hover {
+	COLOR: #ff6666; TEXT-DECORATION: none
+}
+.sciencetxt {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.sciencetxt {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.sciencetxt:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.sciencetxt:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.sciencetxt:hover {
+	COLOR: #99ccff; TEXT-DECORATION: none
+}
+.comedytxt {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.comedytxt {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.comedytxt:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.comedytxt:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.comedytxt:hover {
+	COLOR: #ff99ff; TEXT-DECORATION: none
+}
+.historytxt {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.historytxt {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.historytxt:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.historytxt:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.historytxt:hover {
+	COLOR: #99cc66; TEXT-DECORATION: none
+}
+.discussiontxt {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.discussiontxt {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.discussiontxt:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.discussiontxt:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.discussiontxt:hover {
+	COLOR: #ffff00; TEXT-DECORATION: none
+}
+.navwhite {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.navwhite {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.navwhite:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.navwhite:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.navwhite:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.default {
+	BACKGROUND: #e7e7e7; TEXT-DECORATION: none
+}
+.progs {
+	BACKGROUND: #9999cc; TEXT-DECORATION: none
+}
+.header {
+	BACKGROUND: #cccce3; TEXT-DECORATION: none
+}
+.current {
+	BACKGROUND: #660066; TEXT-DECORATION: none
+}
+.religion {
+	BACKGROUND: #333399; TEXT-DECORATION: none
+}
+.arts {
+	BACKGROUND: #990000; TEXT-DECORATION: none
+}
+.science {
+	BACKGROUND: #006699; TEXT-DECORATION: none
+}
+.comedy {
+	BACKGROUND: #cc3399; TEXT-DECORATION: none
+}
+.history {
+	BACKGROUND: #336600; TEXT-DECORATION: none
+}
+.discussion {
+	BACKGROUND: #cc9900; TEXT-DECORATION: none
+}
+.discussion2 {
+	BACKGROUND: #e0ae18; TEXT-DECORATION: none
+}
+.docu {
+	BACKGROUND: #cc6600; TEXT-DECORATION: none
+}
+.footer {
+	COLOR: #333366
+}
+.footerbg {
+	BACKGROUND: #333366
+}

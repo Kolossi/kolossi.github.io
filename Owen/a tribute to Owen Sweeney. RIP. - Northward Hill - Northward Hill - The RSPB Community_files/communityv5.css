@@ -1,0 +1,869 @@
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      MADType
+ * License URL: http://www.fontspring.com/fflicense/madtype
+ *
+ *
+ */
+
+@font-face {
+	font-family: 'CasinoHandRegular';
+	src: url('http://www.rspb.org.uk/webfonts/fontspring/Casino_Hand-webfont.eot');
+	src: local('☺'), url('http://www.rspb.org.uk/webfonts/fontspring/Casino_Hand-webfont.woff') format('woff'), url('http://www.rspb.org.uk/webfonts/fontspring/Casino_Hand-webfont.ttf') format('truetype'), url('http://www.rspb.org.uk/webfonts/fontspring/Casino_Hand-webfont.svg#webfont9FF3NtzH') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      FontSite Inc.
+ * License URL: http://www.fontspring.com/fflicense/fontsite
+ *
+ *
+ */
+
+@font-face {
+	font-family: 'UrbanoBold';
+	src: url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Bold-webfont.eot');
+	src: local('☺'), url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Bold-webfont.woff') format('woff'), url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Bold-webfont.ttf') format('truetype'), url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Bold-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      FontSite Inc.
+ * License URL: http://www.fontspring.com/fflicense/fontsite
+ *
+ *
+ */
+
+@font-face {
+	font-family: 'UrbanoLight';
+	src: url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Light-webfont.eot');
+	src: local('☺'), url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Light-webfont.woff') format('woff'), url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Light-webfont.ttf') format('truetype'), url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Light-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      FontSite Inc.
+ * License URL: http://www.fontspring.com/fflicense/fontsite
+ *
+ *
+ */
+
+@font-face {
+	font-family: 'UrbanoRegular';
+	src: url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Regular-webfont.eot');
+	src: local('☺'), url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Regular-webfont.woff') format('woff'), url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Regular-webfont.ttf') format('truetype'), url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Regular-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2012 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Fontfabric
+ * License URL: http://www.fontspring.com/fflicense/fontfabric
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'nexa_boldregular';
+    src: url('http://www.rspb.org.uk/webfonts/fontspring/Nexa_Free_Bold-webfont.eot');
+    src: url('http://www.rspb.org.uk/webfonts/fontspring/Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.rspb.org.uk/webfonts/fontspring/Nexa_Free_Bold-webfont.woff') format('woff'),
+         url('http://www.rspb.org.uk/webfonts/fontspring/Nexa_Free_Bold-webfont.ttf') format('truetype'),
+         url('http://www.rspb.org.uk/webfonts/fontspring/Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      FontSite Inc.
+ * License URL: http://www.fontspring.com/fflicense/fontsite
+ *
+ *
+ */
+
+@font-face {
+	font-family: 'UrbanoBold';
+	src: url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Bold-webfont.eot');
+	src: local('☺'), url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Bold-webfont.woff') format('woff'), url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Bold-webfont.ttf') format('truetype'), url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Bold-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      FontSite Inc.
+ * License URL: http://www.fontspring.com/fflicense/fontsite
+ *
+ *
+ */
+
+@font-face {
+	font-family: 'UrbanoLight';
+	src: url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Light-webfont.eot');
+	src: local('☺'), url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Light-webfont.woff') format('woff'), url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Light-webfont.ttf') format('truetype'), url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Light-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      FontSite Inc.
+ * License URL: http://www.fontspring.com/fflicense/fontsite
+ *
+ *
+ */
+
+@font-face {
+	font-family: 'UrbanoRegular';
+	src: url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Regular-webfont.eot');
+	src: local('☺'), url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Regular-webfont.woff') format('woff'), url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Regular-webfont.ttf') format('truetype'), url('http://www.rspb.org.uk/webfonts/fontspring/Urbano-Regular-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {overflow-y: scroll;}
+
+h1, h1 a, h2, h2 a, h3, h3 a, .title, .title a, .subhead, .subhead a, .btn, dt, .quote-left, .quote-right, .quote-middle {
+    font-family: "nexa_boldregular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+}
+
+.content-fragment.group-application-navigation .navigation-item a, .content-fragment.group-application-navigation .navigation-item, .content-fragment.user-navigation .navigation-item, .content-fragment.user-navigation .navigation-item a {background-image: url(http://www.rspb.org.uk/images/cache/group-nav_tcm9-274497_v2.jpg);}
+.content-fragment.navigation-group.no-wrapper .navigation-list.parent .navigation-item.with-children span {background-image: url(http://www.rspb.org.uk/images/cache/nav_tcm9-274496_v4.png);background-repeat: no-repeat;background-position: right top;height: 32px;width: 22px;margin-right: -7px;display: block;float: right;}
+.content-fragment.navigation-group.no-wrapper .navigation-list.parent .navigation-item.with-children.active span {background-image: url(http://www.rspb.org.uk/images/cache/nav_tcm9-274496_v4.png);background-repeat: no-repeat;background-position: right -32px;}
+.content-fragment-page.common-login .content-fragment.login .field-item .internal-link.login, .content-fragment-page.common-login .content-fragment.login .field-item .internal-link.login span, .content-fragment.group-application-navigation .internal-link.add-post span, .content-fragment.group-application-navigation .internal-link.add-post, .content-fragment.thread .internal-link.add-post, .content-fragment.thread .internal-link.add-post span, .content-fragment.thread .internal-link.add-post:hover, .content-fragment.thread .internal-link.add-post:hover span, .content-fragment.thread .internal-link.add-post.selected,.content-fragment.thread .internal-link.add-post.selected span,.content-fragment.blog-post-comment-form .field-item .internal-link.add-reply, .content-fragment.blog-post-comment-form .field-item .internal-link.add-reply span, .content-fragment.blog-post-comment-form .field-item .internal-link.add-reply:hover span, .content-fragment.blog-post-comment-form .field-item .internal-link.add-reply:hover, .content-fragment.thread .field-list .internal-link.add-inline-post:hover span, .content-fragment.thread .field-list .internal-link.add-inline-post:hover, .content-fragment.add-media-gallery-post-comment .field-item .internal-link.add-reply, .content-fragment.add-media-gallery-post-comment .field-item .internal-link.add-reply span, .content-fragment.add-media-gallery-post-comment .field-item .internal-link.add-reply.disabled, .content-fragment.add-media-gallery-post-comment .field-item .internal-link.add-reply.disabled span, .content-fragment.add-media-gallery-post-comment .field-item .internal-link.add-reply:hover, .content-fragment.add-media-gallery-post-comment .field-item .internal-link.add-reply:hover span, .content-fragment.thread .field-list .internal-link.add-inline-post, .content-fragment.thread .field-list .internal-link.add-inline-post span, .content-fragment.blog-post-comment-form .field-item .internal-link.add-reply.disabled, .content-fragment.blog-post-comment-form .field-item .internal-link.add-reply.disabled span, .content-fragment.r-s-p-b-user-status a.internal-link.add-post.disabled, .content-fragment.r-s-p-b-user-status a.internal-link.add-post.disabled span, .content-fragment.r-s-p-b-user-status a.internal-link.add-post, .content-fragment.r-s-p-b-user-status a.internal-link.add-post span, .content-fragment.r-s-p-b-user-status a.internal-link.add-post:hover, .content-fragment.r-s-p-b-user-status a.internal-link.add-post:hover span, .content-fragment.conversation .internal-link.add-reply, .content-fragment.conversation .internal-link.add-reply span,.content-fragment.upload-edit-media-gallery-post .field-item .internal-link.save-post,.content-fragment.upload-edit-media-gallery-post .field-item .internal-link.save-post span,.content-fragment.upload-edit-media-gallery-post .field-item .internal-link.save-post:hover,.content-fragment.upload-edit-media-gallery-post .field-item .internal-link.save-post:hover span,.content-fragment.upload-edit-media-gallery-post .field-item .internal-link.save-post.disabled,.content-fragment.upload-edit-media-gallery-post .field-item .internal-link.save-post.disabled span,.content-fragment.create-edit-post .field-item .internal-link.save-post,.content-fragment.create-edit-post .field-item .internal-link.save-post span,.content-fragment.create-edit-post .field-item .internal-link.save-post:hover,.content-fragment.create-edit-post .field-item .internal-link.save-post:hover span,.content-fragment.create-edit-post .field-item .internal-link.save-post.disabled,.content-fragment.create-edit-post .field-item .internal-link.save-post.disabled span,.content-fragment.group-membership-list .field-list .field-item.membership-buttons .field-item-input .internal-link.update-member,.content-fragment.group-membership-list .field-list .field-item.membership-buttons .field-item-input .internal-link.update-member span,.content-fragment.create-group .field-item .internal-link.create-group,.content-fragment.create-group .field-item .internal-link.create-group span,.content-fragment.create-group .field-item .internal-link.create-group:hover,.content-fragment.create-group .field-item .internal-link.create-group:hover span,.content-fragment.create-group .field-item .internal-link.create-group.disabled,.content-fragment.create-group .field-item .internal-link.create-group.disabled span{background-image: url(http://www.rspb.org.uk/images/cache/button_tcm9-274477_v3.png);height: 26px;line-height: 26px;text-decoration: none;color: #FFF;}
+.content-fragment.thread .field-list .internal-link.add-inline-post {position: absolute;left: 12px;float: none;margin: 0;}
+.content-fragment.r-s-p-b-user-status .field-list .field-item-input .internal-link.add-post {padding: inherit;}
+.content-fragment.blog-post-comment-form .field-item .internal-link.add-reply, .content-fragment.blog-post-comment-form .field-item .internal-link.add-reply:hover, .content-fragment-page.common-login .content-fragment.login .field-item .internal-link.login, .content-fragment.group-application-navigation .internal-link.add-post, .content-fragment.blog-post-comment-form .field-item .internal-link.add-reply.disabled, .content-fragment.thread .internal-link.add-post, .content-fragment.thread .field-list .internal-link.add-inline-post, .content-fragment.add-media-gallery-post-comment .field-item .internal-link.add-reply, .content-fragment.add-media-gallery-post-comment .field-item .internal-link.add-reply.disabled, .content-fragment.add-media-gallery-post-comment .field-item .internal-link.add-reply:hover, .content-fragment.thread .full-post .post-actions .navigation-list .navigation-item a.add-post, .content-fragment.r-s-p-b-user-status .internal-link.add-post, .content-fragment.r-s-p-b-user-status a.internal-link.add-post.disabled, .content-fragment.r-s-p-b-user-status a.internal-link.add-post:hover, .content-fragment.conversation .internal-link.add-reply,.content-fragment.upload-edit-media-gallery-post .field-item .internal-link.save-post,.content-fragment.upload-edit-media-gallery-post .field-item .internal-link.save-post:hover,.content-fragment.upload-edit-media-gallery-post .field-item .internal-link.save-post.disabled,.content-fragment.create-edit-post .field-item .internal-link.save-post,.content-fragment.create-edit-post .field-item .internal-link.save-post:hover,.content-fragment.create-edit-post .field-item .internal-link.save-post.disabled,.content-fragment.group-membership-list .field-list .field-item.membership-buttons .field-item-input .internal-link.update-member,.content-fragment.create-group .field-item .internal-link.create-group,.content-fragment.create-group .field-item .internal-link.create-group:hover,.content-fragment.create-group .field-item .internal-link.create-group.disabled{background-position: right -26px;display: inline-block;padding: 0 12px 0 0;position: relative;}
+.content-fragment-page.common-login .content-fragment.login .field-item .internal-link.login span, .content-fragment.thread .internal-link.add-post span, .content-fragment.thread .field-list .internal-link.add-inline-post span, .content-fragment.blog-post-comment-form .field-item .internal-link.add-reply span, .content-fragment.group-application-navigation .internal-link.add-post span, .content-fragment.blog-post-comment-form .field-item .internal-link.add-reply.disabled span, .content-fragment.add-media-gallery-post-comment .field-item .internal-link.add-reply span, .content-fragment.add-media-gallery-post-comment .field-item .internal-link.add-reply.disabled span, .content-fragment.r-s-p-b-user-status .internal-link.add-post span, .content-fragment.r-s-p-b-user-status a.internal-link.add-post.disabled span, .content-fragment.r-s-p-b-user-status a.internal-link.add-post:hover span, .content-fragment.conversation .internal-link.add-reply span,.content-fragment.upload-edit-media-gallery-post .field-item .internal-link.save-post span,.content-fragment.upload-edit-media-gallery-post .field-item .internal-link.save-post.disabled span,.content-fragment.create-edit-post .field-item .internal-link.save-post span,.content-fragment.create-edit-post .field-item .internal-link.save-post.disabled span,.content-fragment.group-membership-list .field-list .field-item.membership-buttons .field-item-input .internal-link.update-member span,.content-fragment.create-group .field-item .internal-link.create-group span,.content-fragment.create-group .field-item .internal-link.create-group:hover span,.content-fragment.create-group .field-item .internal-link.create-group.disabled span{background-position: left top;display: block;left: -12px;position: absolute;top: 0;width: 12px;}
+.content-fragment-page.common-login .content-fragment.login .field-item .internal-link.login span,.content-fragment.group-membership-list .field-list .field-item.membership-buttons .field-item-input .internal-link.update-member span,.content-fragment.create-group .field-item .internal-link.create-group span {left: -10px;}
+.content-fragment-page.common-login .content-fragment.login .field-item .internal-link.login:hover, .content-fragment.thread .internal-link.add-post:hover, .content-fragment.blog-post-comment-form .field-item .internal-link.add-reply:hover, .content-fragment.group-application-navigation .internal-link.add-post:hover, .content-fragment.thread .field-list .internal-link.add-inline-post:hover, .content-fragment.add-media-gallery-post-comment .field-item .internal-link.add-reply, .pager a.selected, .content-fragment.media-gallery-post-list .file-thumbnail-list .abbreviated-post .post-name a:hover, .content-fragment.media-gallery-post .full-post .post-name .internal-link.download-attachment {text-decoration: none;}
+.fiji-top-bar a {text-decoration: underline;}
+body {background-color: rgb(213, 210, 202);}
+html {background-color: none;background-image: none;background: none;}
+html, body, .group-list .group-description {font-family:"UrbanoRegular",Helvetica,Arial,sans-serif;font-size: 14px;font-weight: normal;color:rgb(51,51,51);}
+a:link, a:visited, a:active {font-weight: normal;}
+.rspb_community-header-fragment-outer.rspb_community-top-bar {background: none;background-color: black;color: white;height: 30px;width: auto;margin: 0;position: absolute;right: 0;top: 0;left: auto;z-index: 3;}
+.header-fragments {position: relative;width: 900px;margin: 0 auto 0 auto;background-color: transparent;}
+.header-fragment.user-welcome-without-login .avatar img {padding-left: 0;padding-right: 0;}
+.header-fragment.user-welcome-without-login .avatar {position: absolute;top: 0;left: 4px;}
+.r-s-p-b-welcome-message .header-fragment.user-welcome-without-login .user-name {float: left;padding-left: 25px;}
+.site-banner .internal-link.edit-page, .site-banner .internal-link.save-page {top: 38px;}
+.header-fragment.user-welcome-without-login .navigation-item {display: block;float: left;padding: 0;}
+.r-s-p-b-welcome-message {float: right;height: 30px;}
+.header-fragments .header-fragment.login-logout .content-fragment-inner {width: auto;margin-right: 12px;}
+.site-logo {padding: 20px 0 20px 20px;margin-right: 25px;}
+.site-logo span.site-subtitle{font-size: 42px;line-height: 46px;vertical-align: bottom;font-family: "nexa_boldregular","Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: normal;color: #007AC9;padding: 16px;}
+.content-fragment-content, .content-fragment.with-header .content-fragment-header {padding: 0;}
+.header-fragment.login-logout .navigation-item a, .header-fragment.user-welcome-without-login a, .header-fragment.user-welcome-without-login .navigation-item a, .header-fragment.favorite-places .internal-link.favorite-list, .header-fragment.favorite-places .internal-link.favorite-list.active, .header-fragment.user-welcome-without-login .user-name {color: white;font-weight: normal;border: none;}
+.content-fragment-content, .content-fragment.with-header .content-fragment-header, .content-fragment.with-header .content-fragment-header div, .footer-fragments-footer, .footer-fragments-header, .content-fragment.blog-feedback-list .full-post .post-content, .content-fragment.navigation-group.no-wrapper .navigation-list.parent .navigation-item.last, .content-fragment.media-gallery-post-comment-list .full-post .post-content, .content-fragment.blog-post .full-post .post-attributes {border: none;}
+body a.delete-post {color: red;}
+.header-fragments .layout {background: none;}
+.header-fragment.site-banner .site-banner, .content-fragment.blog-bread-crumbs, .content-fragment.media-gallery-post-comment-list .full-post .fiji-full-post-inner {margin: 0;padding: 0;}
+.header-fragment.login-logout .navigation-item a, .header-fragment.user-welcome-without-login .user-name, .header-fragment.user-welcome-without-login .navigation-item a, .header-fragment.favorite-places .internal-link.favorite-list {margin: 0 0 0 8px;}
+.rspb_community-top-bar .header-fragment.user-welcome-without-login .navigation-list {line-height: 1em;}
+.header-fragment.favorite-places .internal-link.favorite-list {height: 30px;display: block;}
+.header-fragment.login-logout .navigation-item {padding: 0;}
+.content-fragment.forum-bread-crumbs {padding: 0;}
+.breadcrumb-list {padding: 10px 0 10px 15px;margin: 0;border-bottom: 1px solid #DDD;}
+.breadcrumb-list a {text-decoration: underline;color: #007AC9;}
+.poweredby, .layout-header, .fiji-content-fragment-top, .fiji-content-fragment-bottom, .content-fragment.blog-feedback-list .full-post-header, .content-fragment.blog-feedback-list .full-post-footer, .content-fragment.media-gallery-post-comment-list .full-post-footer.user-is-author, .content-fragment.media-gallery-post-comment-list .full-post-footer, .content-fragment.media-gallery-post-comment-list .full-post-header .fiji-r, .content-fragment.media-gallery-post-comment-list .full-post-header.user-is-author, .content-fragment.media-gallery-post-comment-list .full-post-header, .content-fragment.blog-banner .application-banner .application-name a span, .application-banner-actions, .content-fragment.media-gallery-post-list .abbreviated-post .avatar, .content-fragment.media-gallery-post .full-post .post-name .internal-link.download-attachment span, .content-fragment.media-gallery-post-list .view-type, .media-gallery-post-details .post-attributes, .content-fragment.media-gallery-post-details .post-date span.label, .abbreviated-post-footer, .content-fragment.thread .content-fragment-header, .content-fragment.media-gallery-post .full-post .fiji-favorite-post, .content-fragment.thread .fiji-post-answer-form .internal-link.not-answer span, .content-fragment.thread .fiji-post-answer-form .internal-link.verify-answer span,.header-fragment.favorite-places .internal-link.favorite-list span,.user-banner .user-status,.content-fragment.r-s-p-b-user-status .attribute-item.user-avatar, .content-fragment.r-s-p-b-user-status .attribute-item.view-user-status-date,.table-column.post-author,.table-header-column.post-author,.post-icons,.gender-icons{display: none;}
+.content-fragment.thread-list .table-column.post-author {vertical-align: top;}
+.footer-fragments-header {margin: 10px 0 0 0;}
+.footer-fragments-footer,.content-fragment.forum-banner {margin: 0 0 10px 0;}
+.copyright-info .message.copyright, .content-fragment.group-bread-crumbs, .footer-fragments, .content-fragment.group-banner .content-fragment-content, .content-fragment.blog-feedback-list .full-post .fiji-full-post-inner, .content-fragment, .content-fragment.media-gallery-post-details .abbreviated-post, .content-fragment.browse-forums .content-fragment-content {margin: 0;padding: 0;}
+.footer-fragments {margin: 0 auto 0 auto;}
+.copyright-info {text-align: left;}
+.content-fragment-page .layout {margin-top: 0;-webkit-border-bottom-right-radius: 8px;-webkit-border-bottom-left-radius: 8px;-moz-border-radius-bottomright: 8px;-moz-border-radius-bottomleft: 8px;border-bottom-right-radius: 8px;border-bottom-left-radius: 8px;background: #FFF;border: 1px solid #DDDDCC;border-top: none;}
+.content-fragment, .user-navigation, .content-list {clear: both;}
+.content-fragment.with-header .content-fragment-header div, .content-fragment.link-list .content-list-name, .content-fragment.conversation h3.post-name,.content-fragment.create-group .field-list-description {text-transform: none;font-size: 24px;color: #007AC9;padding: 0;}
+
+.content-fragment.rspb_community-header-fragment-outer.r-s-p-b-header .content-fragment-content {
+    background-color: #fff;   
+}
+
+.layout-region.header, .content-fragment-content, .pager a, .header-fragment.search ul.field-list, .rspb_community-header-fragment-outer.group-navigation, .content-fragment-page, .content-fragment.thread .full-post-footer, .content-fragment.thread .fiji-full-post-container, .content-fragment.browse-media-galleries .content-fragment-content, .content-fragment.browse-media-galleries .content-fragment-header, .content-fragment.media-gallery-post-comment-list .full-post-header.user-is-author .fiji-r, .content-fragment.media-gallery-post-comment-list .full-post.user-is-author, .content-fragment.media-gallery-post-comment-list .full-post.user-is-author, .content-fragment.media-gallery-post-comment-list .full-post.user-is-author .fiji-full-post-inner, .content-fragment.media-gallery-post-comment-list .full-post .fiji-full-post-inner, .content-fragment.media-gallery-post-comment-list .full-post, .header-fragment.group-navigation .navigation-list.parent .navigation-item.with-children.selected, .header-fragment.group-navigation .navigation-list.parent .navigation-item.selected, .content-fragment.thread .full-post.post-starter, .content-fragment.thread.verified-answer .post-status, .content-fragment.user-navigation .navigation-list,.content-fragment.browse-blogs .content-fragment-header,.content-fragment.blog-feedback-list .full-post.user-is-author .fiji-full-post-inner,.content-fragment.with-header.editable .content-fragment-header,.content-fragment.r-s-p-b-user-status .internal-link.add-post.update, .content-fragment.r-s-p-b-user-status .internal-link.add-post.update span, .content-fragment.r-s-p-b-user-status .internal-link.add-post.update:hover span,.content-fragment.create-edit-post .content-fragment-header {background: none;}
+.content-fragment.group-banner .group-avatar, .user-banner .user-avatar {display: block;padding: 0;position: absolute;left: 12px;top: 12px;max-width: none;max-height: none;border: 1px solid #DDD;background-color: white;}
+.content-fragment.group-banner .group-name, .content-fragment.group-banner .group-description, .content-fragment.media-gallery-post .full-post .post-name .internal-link, .page .page-name, .content-fragment-header div, .user-banner h3.user-name, .content-fragment.r-s-p-b-user-status .attribute-item.view-user-status,.content-fragment.r-s-p-b-user-status .fiji-quickpost-message-form .fiji-message input, .content-fragment.thread .abbreviated-post .post-name, .modal-title-4, .content-fragment-page.media-postlist .content-fragment.media-gallery-banner .application-banner .application-name, .content-fragment.blog-banner .application-banner .application-name, .forum-banner h3.application-name, .content-fragment.conversation h3.post-name, .content-fragment-page.media-post .content-fragment.media-gallery-banner .application-banner .application-name, .content-fragment.media-gallery-post-comment-list .content-list-name, .content-fragment.blog-post .full-post .post-name,.content-fragment.blog-post-comment-form .field-list-description,.content-fragment.blog-feedback-list .content-list-name,.upload-edit-media-gallery-post h3.post-name,.user-defined-markup h2,.user-defined-markup h1{    font-family: "nexa_boldregular","Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: normal;}
+.content-fragment.group-banner .group-name, .user-banner h3.user-name {padding: 15px 0 5px 117px;font-size: 32px;letter-spacing: 0;line-height: 1em;font-weight: normal;}
+.content-fragment.group-banner .group-description, .content-fragment.r-s-p-b-user-status .attribute-item.view-user-status {color: #777;font-size: 24px;line-height: 1em !important;}
+.content-fragment.group-banner .group-description {padding: 0 240px 0 117px;margin: 0;  font-family:"UrbanoRegular",Helvetica,Arial,sans-serif;}
+.pager a {border: none;text-decoration: underline;}
+.header-fragment.search .field-item-input input {margin: 0;background-color: #FFF;}
+.content-fragment.activity-message-list .filter-option.selected a, .content-fragment.thread-list .filter-option.selected a {font-weight: normal;}
+.tag-cloud .tag-list li {display: block;float: left;margin: 0 5px 5px 0;font-size: 11px;line-height: 18px;height: 18px;padding: 0 9px 0 9px;background-color: #F0F0F0;border-radius: 10px;-moz-border-radius: 10px;border: 1px solid #DDD;text-transform: lowercase;}
+.tag-cloud .tag-list li a {color: #000;font-weight: normal;}
+
+.content-fragment.navigation-group.no-wrapper {-webkit-border-top-left-radius: 0;-webkit-border-top-right-radius: 0;-moz-border-radius-topleft: 0;-moz-border-radius-topright: 0;border-top-left-radius: 0;border-top-right-radius: 0;background-color: #007AC9;background-image: none;border-bottom: 1px solid #0044AA;font-size: 12px;}
+.content-fragment.navigation-group.no-wrapper .navigation-list.parent {background: none;height: 32px;}
+.content-fragment.navigation-group.no-wrapper .navigation-list.parent .navigation-item, .content-fragment.navigation-group.no-wrapper .navigation-list.parent .navigation-item.with-children {line-height: 33px;height: 32px;padding: 0 12px 0 12px;border-right: 1px solid #0044AA;background: none;width: auto;float: left;}
+.content-fragment.navigation-group.no-wrapper .navigation-list.parent .navigation-item.with-children a {padding-right: 0;}
+.content-fragment.navigation-group.no-wrapper .navigation-list.parent .navigation-item a, .menu.search-content .content-list-name, .menu.search-content.options .field-list-description {font-weight: normal;text-transform: uppercase;color: #FFF;border: none;font-family: "UrbanoRegular", Helvetica, Arial, sans-serif;}
+.content-fragment.navigation-group.no-wrapper .navigation-list.parent .navigation-item.selected, .content-fragment.navigation-group.no-wrapper .navigation-list.parent .navigation-item.with-children.selected {background-color: #0044AA;background-image: none;height: 32px;background-image: none;}
+.content-fragment.navigation-group.no-wrapper .navigation-list.parent .navigation-item.with-children.active {background-color: #0055BB;left: 0;background-image: none;}
+
+
+.abbreviated-post .post-name a, .content-fragment.blog-post-list .content-list.standard .content-item .post-name a {font-size: 22px;font-weight: normal;margin-top: 3px;}
+.header-fragment.group-navigation .navigation-list.parent .navigation-item.selected {padding-left: 15px;padding-right: 15px;left: 0;}
+.post-author .user-name a {font-weight: normal;}
+.content-fragment.blog-post-list .content-list.standard .post-application a {font-size: 11px;font-weight: normal;text-transform: none;}
+.menu.favorite-places-content {background: #000;padding: 0;color: #FFF;border: none;-webkit-border-bottom-right-radius: 8px;-webkit-border-bottom-left-radius: 8px;-moz-border-radius-bottomright: 8px;-moz-border-radius-bottomleft: 8px;border-bottom-right-radius: 8px;border-bottom-left-radius: 8px;}
+.favorite-places-content a {color: #FFF;font-size: 10px;font-weight: normal;text-decoration: underline;}
+.menu.favorite-places-content li.content-item {border: none;padding: 5px 10px 5px 10px;}
+.favorite-places-content .internal-link.view-all {text-align: left;padding: 0 10px 10px 10px;}
+.favorite-places-content .content-list-name {color: #FFF;font-size: 10px;font-weight: normal;text-transform: none;border-bottom: 1px solid #333;padding: 5px 0 5px 0;margin: 0 10px 0 10px;}
+.favorite-places-content .content-list-footer {margin: 5px;}
+.content-fragment.blog-feedback-list .full-post, .content-fragment.blog-feedback-list .full-post-header, .content-fragment.blog-feedback-list .full-post-footer, .content-fragment.blog-feedback-list .full-post .fiji-full-post-inner, .content-fragment.blog-feedback-list .full-post-header .fiji-r, .content-fragment.blog-feedback-list .full-post-footer .fiji-r, .content-fragment.thread .abbreviated-post.not-answered .post-status {background-image: none;}
+.content-fragment.blog-feedback-list .content-item, .content-fragment.media-gallery-post-comment-list .content-item {border-bottom: 2px solid #DDD;padding: 15px 0 15px 0;}
+.content-fragment.about-blog h4 {margin: 0;padding: 0;font-weight: normal;color: #000;}
+.content-fragment.about-blog h4 p {margin: 0 0 1em 0;}
+.content-fragment.blog-banner .application-banner {background: none;padding: 0;}
+.content-fragment.blog-banner .application-banner .application-name a, .content-fragment.blog-banner .application-banner .application-name a:hover, .content-fragment-page.postlist .content-fragment.blog-banner .application-banner .application-name a, .content-fragment.search-result-list .content-fragment-header div,.content-fragment-page.media-post .content-fragment.media-gallery-banner .application-banner .application-name .internal-link.view-application.media-gallery, #fragment-777 .content-fragment-header div {text-transform: none;font-size: 32px;color: #000;text-decoration: none;line-height: 1em;}
+.content-fragment.blog-banner .application-banner .application-name .internal-link.view-application.weblog, .content-fragment-page.post .content-fragment.blog-banner .application-banner .application-name .internal-link.view-application.weblog, h3.application-name {margin: 0;padding: 0;position: static;}
+.content-fragment-page.postlist .content-fragment.blog-banner .application-banner .application-description, .content-fragment-page.post .content-fragment.blog-banner .application-banner .application-description {display: none;}
+.content-fragment.blog-banner .application-banner .application-description {display: block;font-size: 16px;font-weight: normal;text-transform: none;}
+.content-fragment.blog-post-comment-form .field-item textarea, .blog-archive-list li, .content-fragment.blog-post .full-post .post-actions .navigation-list .navigation-item a.favorite-off, .post-tags .internal-link.edit-tags, .content-fragment.blog-post .full-post .post-actions .navigation-list .navigation-item a.favorite-on, .pager a, .post-date, body a.delete-post, .content-fragment.blog-post-list .content-list.standard .content-item .post-attributes .attribute-list .post-reply-count .attribute-value, .content-fragment.blog-news .page-content, .content-fragment.thread-list .abbreviated-post.discussion .post-date, .content-fragment.thread-list .abbreviated-post.discussion .post-author, .content-fragment.thread-list .abbreviated-post,.content-fragment.thread-list .abbreviated-post .post-reply-count, .filter a, .content-fragment.thread .field-list textarea, .content-fragment.thread .full-post .post-tags, .content-fragment.thread-list .abbreviated-post.not-answered .post-author, .content-fragment.thread-list .abbreviated-post.not-answered .post-author a, .content-fragment.thread-list .abbreviated-post.verified-answered .post-author, .content-fragment.thread-list .abbreviated-post.verified-answered .post-author a, .content-fragment.thread-list .abbreviated-post.not-answered .post-date, .content-fragment.thread-list .abbreviated-post.verified-answered .post-date, .abbreviated-post .post-summary, .content-fragment.media-gallery-post-list .file-thumbnail-list .abbreviated-post .post-name, .content-fragment.media-gallery-post-list .file-thumbnail-list .abbreviated-post .post-name a, .content-fragment.add-media-gallery-post-comment .field-item textarea, .content-fragment.media-gallery-post-details .user-name a, .content-fragment.media-gallery-post-details .post-date span.value,  .content-fragment.media-gallery-post .full-post .post-tags, .content-fragment.blog-post .full-post .post-author, .content-fragment.blog-post .full-post .post-date, .content-fragment.blog-post .full-post .post-attributes .attribute-list .post-reply-count .attribute-value, .content-fragment.thread .full-post .post-content .quote .quote-user, .content-fragment.thread.verified-answer .post-status, .content-fragment.thread .full-post .post-author .fiji-user-name-post-date .fiji-verified-text, .content-fragment.thread .full-post .post-author .post-status-author, .content-fragment.thread .abbreviated-post.not-answered .post-status .not-answered, .content-fragment.thread .full-post .post-author .fiji-user-name-post-date .fiji-suggested-text, .content-fragment.thread .abbreviated-post.suggested-answer .post-status .suggested-answer, .group-navigation-content .content-list-name a, .menu .content-list-name a, .content-fragment.media-gallery-post .full-post .post-tags, .message.success, .content-fragment.link-list .post-name, .content-fragment.about-blog h4 p, .post-tags a, .abbreviated-post .post-author, .abbreviated-post .post-date, .abbreviated-post .post-application, .abbreviated-post .post-actions,.message,.group-description .edit-group, fieldset.create-user-form .options .field-item-header,fieldset.create-user-form label.field-item-description,fieldset.create-user-form .furtherinfo label,fieldset.create-user-form .disclaimer label,fieldset.create-user-form .options label,fieldset.create-user-form .age label,fieldset.create-user-form .member label,fieldset.create-user-form .auto-postcode label,fieldset.create-user-form input, fieldset.create-user-form select,button#GetByPostCode,fieldset.create-user-form li label.error,button,.content-fragment.create-edit-post .post-subscribe label.field-item-header,.content-fragment.create-edit-post .field-item.post-subject .field-item-input input,.content-fragment.create-edit-post .field-item.post-tags input,.content-fragment.upload-edit-media-gallery-post .field-item.post-tags input,.user-defined-markup .CommonPollDescription, #PollVoteArea input,.content-fragment.create-edit-post .internal-link.add-attachment,.content-fragment.create-edit-post .remove-attachment,.content-fragment-page.user-forgottenpassword .content-fragment .field-item .field-item-input input,.content-fragment.group-membership-list .field-list .field-item.membership-selection select{font-size: 14px;line-height: 1.3em;text-transform: none;}
+.field-item-header, fieldset.create-user-form label.field-item-header,.content-fragment.blog-feedback-list .full-post .post-author a, .content-fragment.media-gallery-post-comment-list .full-post .post-author a, .content-fragment.thread-list .abbreviated-post .post-name a, .content-fragment.browse-forums .table-list a, .content-fragment.browse-media-galleries .table-list a, .content-fragment-page.common-login .content-fragment.login .field-item .internal-link.login, .content-fragment.group-application-navigation .internal-link.add-post, .content-fragment.thread .internal-link.add-post, .right-sidebar .abbreviated-post .post-name a, .content-fragment.blog-post-list .content-list.standard .content-item .post-name a, .content-fragment.r-s-p-b-user-status .internal-link.add-post.update:hover, .content-fragment.r-s-p-b-user-status .internal-link.add-post, .content-fragment.conversation-list .fiji-standard .post-name, .content-fragment.conversation .internal-link.add-reply, .content-fragment.add-media-gallery-post-comment .field-item .internal-link.add-reply,.content-fragment.blog-post-comment-form .field-item .internal-link.add-reply, .content-fragment.thread .field-list .internal-link.add-inline-post,.content-fragment.browse-blogs .table-list a,.content-fragment.group-application-navigation .internal-link.add-post,.content-fragment.upload-edit-media-gallery-post .field-item .internal-link.save-post,.content-fragment.create-edit-post label.field-item-header,.content-fragment.create-edit-post .field-item .internal-link.save-post,.user-defined-markup h4.CommonPollQuestion,.content-fragment.group-membership-list .field-list .field-item.membership-buttons .field-item-input .internal-link.update-member,.content-fragment.create-group .field-item .internal-link.create-group,.group-contact-request-list .abbreviated-post .post-name a,.user-defined-markup h3,.user-defined-markup h4{font-size: 16px;font-weight: bold;text-transform: none;}
+.content-fragment.thread-list .abbreviated-post.read .post-name a{font-weight: normal;}
+.content-fragment.blog-post-list .content-list.standard .post-summary {margin-top: 7px;}
+.content-fragment-page .user-defined-markup img[style], .content-fragment-page .user-defined-markup img {margin: 0 auto 5px auto;display: block;padding: 4px !important;border: 1px solid #DDD !important;max-width: 510px !important;}
+/*.content-fragment-page .user-defined-markup div {text-align: center;margin: 0 auto 0 auto;}*/
+.content-fragment.blog-post-list .content-list.standard .post-application {margin-bottom: 5px;}
+.content-fragment.blog-post-list .content-list.standard .content-item .post-name {margin-bottom: 3px;}
+.content-fragment.blog-post-list .content-list.standard .post-application a {color: #666;}
+.content-fragment.blog-post .full-post .post-content {border: none;margin: 0;padding: 0;clear: both;}
+.content-fragment-page.post .content-fragment.blog-post .full-post {margin: 0 0 15px 0;}
+.content-fragment.blog-post .full-post .post-name {font-weight: normal;font-size: 24px;margin: 15px 0 10px 0;}
+.content-fragment.blog-post .full-post .post-actions .navigation-item a.internal-link {border: none;padding: 0 0 0 18px;font-weight: normal;line-height: 1.3em;background-position: 0 50%;}
+.post-tags .internal-link.edit-tags {color: red;}
+.content-fragment.blog-feedback-list .content-list {margin: 10px 0 10px 0;}
+.content-fragment.blog-feedback-list .full-post .post-content p, .content-fragment.media-gallery-post-comment-list .full-post .post-content p {margin-top: 0;}
+.content-fragment.blog-post-comment-form {margin: 10px 0 10px 0;padding: 0;}
+.content-fragment.blog-feedback-list .full-post .fiji-full-post-inner .post-date {right: 30px;}
+.content-fragment.blog-feedback-list .full-post .fiji-full-post-inner .post-author .avatar, .content-fragment.media-gallery-post-comment-list .full-post .fiji-full-post-inner .post-author .avatar {top: 0;border-color: #DDD;}
+.content-fragment.blog-feedback-list .full-post .fiji-full-post-inner .post-author .avatar {left: -45px;}
+.content-fragment.blog-feedback-list .content-item .fiji-full-post-outer {margin: 0;}
+.content-fragment.blog-feedback-list .full-post {padding-left: 45px;}
+.content-fragment.media-gallery-post-comment-list .full-post {padding-left: 45px;}
+.content-fragment.blog-feedback-list .content-list-name {color: #000;line-height: 1em;margin-left: 0;padding: 0;}
+.content-fragment.blog-feedback-list .content-list-name a, .content-fragment.blog-feedback-list .content-list-name .internal-link.rss {text-decoration: none;font-weight: bold;color: black;}
+.content-fragment.blog-feedback-list .content-list-name .internal-link.rss {position: static;}
+	.content-fragment.blog-feedback-list .content-list-name .internal-link.rss span  {position: absolute;right: -17px;margin-top: 8px;}
+.modal-mask {opacity: 0.8;}
+.modal {padding: 10px 0 10px 0;}
+.modal-title-4 {font-size: 24px;padding: 0 0 5px 0;}
+html body.modal {background: #FFFFFF;font-size: 11px;}
+.modal-close {top: 18px;}
+.modal legend.field-list-description {margin: 0 0 10px 0;}
+.modal .field-item-input table {width: 100%;}
+.modal .field-item-input table tr td {vertical-align: middle;}
+.modal fieldset.field-list {margin-left: 6px;}
+.modal .field-item-input .internal-link {font-weight: normal;}
+.content-fragment.blog-post-list .content-list.standard .content-item {border-bottom: 2px solid #DDD;}
+.blog-news {margin: 10px;border: 2px solid #EEEECC;background-color: #FFFFDD;-moz-border-radius: 8px;-webkit-border-radius: 8px;border-radius: 8px;}
+.content-fragment.with-header.blog-news .content-fragment-header {background-color: transparent;padding: 10px 10px 5px 10px;}
+.blog-news .content-fragment-content {padding: 0 10px 10px 10px;}
+.content-fragment.thread-list .abbreviated-post.discussion .post-author a {font-weight: normal;}
+.content-fragment.thread-list .table-header {border-bottom: 1px solid #DDD;}
+.table-header-column, .copyright {text-transform: none;font-size: 10px;}
+.content-fragment.thread-list .table-header-column .internal-link.selected {font-weight: normal;}
+.content-fragment.thread-list .table-header-column .internal-link.sort-descending span, .content-fragment.thread-list .table-header-column .internal-link.sort-ascending span {background-image: none;}
+.content-fragment.thread-list .table-header-column .internal-link.sort-descending.selected span {background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/descending.gif") no-repeat scroll center top transparent;}
+.content-fragment.thread-list .table-header-column .internal-link.sort-ascending.selected span {background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/descending.gif") no-repeat scroll center top transparent;}
+.content-fragment.thread-list .table-column {padding: 7px 0 7px 0;}
+.content-fragment.thread-list .abbreviated-post {padding-top: 0;padding-bottom: 0;}
+.content-fragment.thread-list .table-item {border-bottom: 1px solid #EEE;}
+.content-fragment.thread .full-post .fiji-report-abuse, .content-fragment.thread .full-post .fiji-edit-post, .content-fragment.thread .full-post .fiji-delete-post, .content-fragment.thread .full-post .fiji-moderation-menu,.content-fragment.browse-media-galleries.top-side-border-only .content-fragment-footer, .content-fragment.browse-media-galleries.side-border-only .content-fragment-footer {border: none;}
+.content-fragment.thread .content-fragment-content {background-color: transparent;}
+.content-fragment.thread .full-post .post-author .fiji-user-name-post-date .fiji-post-host-address {font-weight: normal;font-size: 10px;}
+.content-fragment.thread .full-post .post-author .user-name a {font-weight: normal;}
+.content-fragment.thread .fiji-full-post-container {margin-right: 0;padding-right: 0;}
+.content-fragment.thread .full-post {border: none;}
+.content-fragment.thread .full-post .fiji-post-details-container-outer {background: none;padding: 12px 12px 12px 9px;margin: 0 0 12px 0;border: 1px solid #DDD;border-top: 0;}
+.content-fragment.thread .full-post .fiji-post-tags-container {border: none;margin: 0;padding: 0 12px 0 10px;}
+.content-fragment.thread .full-post .post-content, .content-fragment.thread .full-post .user-signature, .content-fragment.thread .full-post .fiji-post-tags-container {border-right: 1px solid #DDD;border-left: 1px solid #DDD;}
+.content-fragment.thread .full-post .post-content.user-defined-markup {padding: 12px;}
+.content-fragment.thread .full-post-footer {margin: 0 0 0 0;padding: 0;height: 0;}
+.content-fragment.thread .full-post .post-author {border: none;height: auto;}
+.content-fragment.thread .full-post .fiji-post-attachment-container {    background: none;background-color: #FFFFFF;    border: none;border-right: 1px solid #DDD;border-left: 1px solid #DDD;    padding: 10px 15px 10px 15px;    position: relative;}
+.content-fragment.thread .full-post .post-attachment .value {line-height: 24px;}
+.content-fragment.thread .full-post .post-attachment-viewer {    display: inline-block;    margin-left: 0;    margin-top: 0;margin-right: 5px;}
+a.download-attachment {color: #007AC9;text-decoration: underline;}
+.content-fragment.thread .full-post .post-attachment {   padding-bottom: 0;    position: relative;    width: 80%;}
+.content-fragment.thread .full-post .post-author .fiji-post-author-avatar-cell .avatar {width: 45px;display: block;height: auto;margin: 0 10px 0 10px;}
+.content-fragment.thread td.role-icon {padding: 0 10px 0 0;}
+.content-fragment.thread td.role-icon img {height: 45px !important;}
+.content-fragment.thread .full-post .post-author .avatar img {padding: 0;}
+.content-fragment.thread .full-post .post-author .fiji-post-author-avatar-cell {width: 65px;height: 65px;text-align: center;vertical-align: middle;}
+.content-fragment.thread .content-list .content-item {padding: 0;}
+.right-sidebar .content-list .content-item {border: none;}
+.content-fragment.thread .full-post .user-signature {padding: 12px 12px 0 12px;border-top: 1px solid #DDD;}
+.content-fragment.thread .full-post .user-signature p, .content-fragment.thread .full-post .post-content.user-defined-markup p {margin: 0 0 12px 0;}
+.user-signature b, .user-signature strong, .user-signature em, .user-signature i {font-weight: normal;font-style: normal;}
+.ip-and-post-status-note fiji-ip-and-post-status-note {position: absolute;top: 10px;right: 10px;}
+.content-fragment.thread .full-post .fiji-post-details-container {margin: 0;}
+.content-fragment.thread fieldset.field-list {background-color: #EEE;padding: 0;margin: 0 0 10px;-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;border: 1px solid #DDD; }
+.content-fragment.thread ul.field-list {padding: 12px;background: none;}
+.content-fragment.thread .field-list textarea {margin-bottom: 12px;padding: 5px;max-width: 545px;}
+.content-fragment.thread .field-list .field-item,.content-fragment-page.user-createuser .content-fragment {padding: 0;}
+.content-fragment.thread .field-list .internal-link.add-post,.content-fragment.thread .field-list .internal-link.add-post:hover,.content-fragment.thread .field-list .internal-link.cancel-reply {font-weight: normal;color: #666;font-size: 10px;text-decoration: underline;background: none;line-height: 26px;float: right;margin: 0 0 0 15px;padding: 0;position: static;left: auto;right: auto;}
+.content-fragment.thread .field-list .internal-link.cancel-reply {}
+.content-fragment.thread .full-post .post-author, .content-fragment.thread .full-post .post-content .quote .quote-user {-webkit-border-top-left-radius: 8px;-webkit-border-top-right-radius: 8px;-moz-border-radius-topleft: 8px;-moz-border-radius-topright: 8px;border-top-left-radius: 8px;border-top-right-radius: 8px;}
+.content-fragment.thread .full-post .fiji-post-details-container-outer, .content-fragment.thread .full-post .post-content .quote .quote-content {-webkit-border-bottom-left-radius: 8px;-webkit-border-bottom-right-radius: 8px;-moz-border-radius-bottomleft: 8px;-moz-border-radius-bottomright: 8px;border-bottom-left-radius: 8px;border-bottom-right-radius: 8px;}
+.content-fragment.group-application-navigation .navigation-item.selected a, .content-fragment.user-navigation .navigation-item.selected a {font-weight: normal;}
+.content-fragment.thread .abbreviated-post .post-name {font-size: 32px;margin: 0;line-height: 1.1em;}
+.content-fragment.thread .abbreviated-post {margin: 0 0 12px 0;padding: 0;min-height: 0;}
+.layout-content .layout-region-inner {min-height: 0;}
+.content-fragment.thread-list .abbreviated-post .post-summary.announcement {text-transform: none;color: #999;font-weight: normal;}
+.content-fragment.thread-list .abbreviated-post .post-summary.sticky {text-transform: none;color: #999;font-weight: normal;}
+.content-fragment.thread-list .abbreviated-post.verified-answered .post-thumbnail, .content-fragment.thread-list .abbreviated-post.not-answered .post-thumbnail {top: 0;}
+.content-fragment.browse-forums .content-fragment-header, .content-fragment.browse-media-galleries .content-fragment-header {background: none;text-align: left;padding: 0;}
+.table-header-column {border-bottom: 1px solid #DDD;font-size: 12px;}
+.table-column {border-bottom: 1px solid #EEE;}
+.content-fragment.media-gallery-post {padding-bottom: 15px;}
+.content-fragment.media-gallery-post-list .file-thumbnail-list .abbreviated-post .post-author {display: block;margin: 3px 0 3px 0;}
+.content-fragment.media-gallery-post-list .abbreviated-post .post-author .user-name {margin: 0;}
+.content-fragment.media-gallery-post-list .file-thumbnail-list .abbreviated-post .post-name {height: 26px;margin: 0;display: none;padding: 0;}
+.content-fragment.media-gallery-post-list .file-thumbnail-list .abbreviated-post .post-thumbnail {border: none;height: 80px;line-height: 80px;width: 100px;padding: 0;text-align: left;}
+.content-fragment.media-gallery-post-list .file-thumbnail-list .abbreviated-post .post-thumbnail a {padding: 0;}
+.content-fragment.media-gallery-post-list .file-thumbnail-list .abbreviated-post .post-name a {color: #333;margin: 0;}
+.content-fragment.media-gallery-post-list .file-thumbnail-list .abbreviated-post .post-thumbnail img {max-width: none;max-height: none;}
+.content-fragment.media-gallery-post-list .file-thumbnail-list .content-item {padding: 15px 15px 0 0;width: 100px;}
+.content-fragment.group-list .group-name a {font-weight: normal;font-size: 16px;}
+.content-fragment.media-gallery-post .full-post .post-name {border: none;margin: 0 0 15px 0;padding: 0;}
+.content-fragment.media-gallery-post .full-post .post-rating, .content-fragment.blog-post .full-post .post-rating {text-indent: 0;text-align: left;width: 80px;height: 16px;overflow: hidden;display: block;position: relative;float: right;top: auto;margin: 0;}
+.content-fragment.media-gallery-post .full-post .post-rating, .content-fragment.blog-post .full-post .post-rating br {display: none;}
+.content-fragment.media-gallery-post .full-post .post-rating span, .content-fragment.blog-post .full-post .post-rating span {position: absolute;left: 0;top: 0;background-color: white;width: 80px;height: 16px;z-index: 999;display: block;}
+span.field-item-validation, .content-fragment.add-media-gallery-post-comment .field-item .field-item-validation, .content-fragment.blog-post-comment-form .field-item .field-item-validation {font-size: 11px;font-weight: normal;line-height: 1.3em;margin: 5px 0 5px 0;padding: 0;color: red;display: block;}
+.media-gallery-post-details .avatar {top: 0;}
+.content-fragment.media-gallery-post-details .post-date {margin: 0;padding: 0 0 0 45px;}
+.content-fragment.media-gallery-post-details .post-date span.value {margin: 0;}
+.content-fragment.add-media-gallery-post-comment {padding-left: 0;}
+.content-fragment.media-gallery-post .full-post .post-content.user-defined-markup {border: none;margin: 0;padding: 0;}
+.content-fragment.media-gallery-post .full-post .post-tags {border: none;}
+.group-application-navigation, .group-application-navigation .content-fragment-content {padding: 0 0 0 0;}
+.content-fragment.group-application-navigation .navigation-list, .content-fragment.user-navigation .navigation-list {padding: 0 12px 0 12px;background-color: #EEE;-moz-border-radius: 0;-webkit-border-radius: 0;border-radius: 0;background-image: none;border-top: none;border-right: none;border-left: none;border-bottom: 1px solid #DDD !important;height: 28px;}
+.content-fragment.group-application-navigation .navigation-list li {border: none;}
+.content-fragment.group-banner, .user-banner {background-color: #EEE;padding-bottom: 12px;}
+.content-fragment.user-banner {height: 117px;min-height: 117px;}
+.content-fragment.group-banner .group-avatar img {padding: 4px;background-color: white;max-width: 90px !important;max-height: 90px !important;}
+.content-fragment.blog-post .full-post .post-attributes .attribute-list .post-reply-count .attribute-value, .content-fragment.blog-post .full-post .post-attributes .attribute-list .post-reply-count .attribute-value a,.content-fragment.add-media-gallery-post-comment .field-item textarea {color: black;}
+.content-fragment-page.common-login .content-fragment.login .field-item .internal-link.login, .content-fragment.group-application-navigation .internal-link.add-post, .content-fragment.thread .internal-link.add-post, .content-fragment.blog-post-comment-form .field-item .internal-link.add-reply, .content-fragment.thread .field-list .internal-link.add-inline-post, .content-fragment.add-media-gallery-post-comment .field-item .internal-link.add-reply {color: #FFF;line-height: 26px;}
+.pager {margin-bottom: 12px;}
+.content-fragment.thread .full-post .post-content .quote {border: none;margin: 0 0 12px 0;padding: 0;}
+.content-fragment.thread .full-post .post-content .quote .quote-content, .content-fragment.thread .full-post .post-content .quote .quote-user,.content-fragment.browse-blogs .content-fragment-header {text-align: left;}
+.content-fragment.thread .full-post .post-content .quote .quote-user {padding: 8px 0 8px 12px;background-color: #EEEEBB;}
+.content-fragment.thread .full-post .post-content .quote .quote-content {padding: 12px;background-color: #FFFFDD;border: 1px solid #EEEEBB;border-top: none;}
+.content-fragment.thread.verified-answer .post-status, .content-fragment.thread .abbreviated-post.not-answered .post-status, .content-fragment.thread .abbreviated-post.suggested-answer .post-status {margin: 12px 0 0 0;}
+.content-fragment.thread.verified-answer .post-status {background-color: #DCF4D5;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;color: black;}
+.content-fragment.thread.verified-answer .post-status .verified-answer {background: url("/community/themes/rspb_community/Images/Forums/verified-answer.gif") no-repeat scroll 10px 11px transparent;padding-left: 32px;}
+.content-fragment.thread .fiji-post-answer-form {border-left: 1px solid #DDD;border-right: 1px solid #DDD;margin: 0;padding: 12px;height: auto;background: none;font-weight: normal;}
+.content-fragment.thread .fiji-inner-post-answer-form {background: none;background-color: #EEE;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;height: auto;padding: 12px;}
+.content-fragment.thread .full-post .post-author .fiji-user-name-post-date .fiji-verified-text, .content-fragment.thread .full-post .post-author .fiji-user-name-post-date .fiji-suggested-text {color: black;right: 15px;}
+.field-item-header {margin: 0 0 3px 0;}
+.content-fragment.verified-answer .field-list textarea {margin-top: 8px;}
+.content-fragment.thread .fiji-post-answer-form .internal-link.not-answer, .content-fragment.thread .fiji-post-answer-form .internal-link.verify-answer {background: none;margin: 0;padding: 0;color: red;font-weight: normal;text-decoration: underline;height: auto;}
+.content-fragment.thread .abbreviated-post.not-answered .post-status, .content-fragment.thread .abbreviated-post.suggested-answer .post-status {background-color: #F6F6F6;border: 1px solid #DDD;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+.content-fragment.thread .abbreviated-post.not-answered .post-status .not-answered {background: url("/community/themes/rspb_community/Images/Forums/question-not-answered.gif") no-repeat scroll 10px 11px transparent;padding-left: 32px;}
+.content-fragment.thread .abbreviated-post.suggested-answer .post-status .suggested-answer {background: url("/community/themes/rspb_community/Images/Forums/question-suggested-answered.gif") no-repeat scroll 10px 11px transparent;padding-left: 32px;height: auto;padding-top: 10px;padding-bottom: 10px;}
+.content-fragment.thread .abbreviated-post.suggested-answer .post-status {background-image: none;background-color: #F0F0F0;}
+.menu.group-navigation-content {background-image: none;background-color: #007AC9;padding: 0;-webkit-border-bottom-left-radius: 0;-webkit-border-bottom-right-radius: 0;-moz-border-radius-bottomleft: 0;-moz-border-radius-bottomright: 0;border-bottom-left-radius: 0;border-bottom-right-radius: 0;border: 1px solid #0044AA;}
+.group-navigation-content .content-list-name, .group-navigation-content .content-list li.navigation-item {padding: 5px 10px 5px 10px;}
+.group-navigation-content .content-list-name a, .menu .content-list-name a, .group-navigation-content .content-list li.navigation-item a {color: #FFF;text-transform: none;font-weight: normal;}
+.group-navigation-content .content-list-name.no-children {border-bottom: 1px solid #0044AA;}
+.group-navigation-content .multiple-column-list.columns-2 .multiple-column-item.column-1, .group-navigation-content .multiple-column-list.columns-3 .multiple-column-item.column-1 {margin: 0;padding: 0;border-right: 1px solid #0044AA;}
+.group-navigation-content .multiple-column-list.columns-2 {width: 401px;}
+.group-banner .group-banner-actions {right: 12px;top: 12px;}
+.content-fragment.group-banner .navigation-list, .user-banner .user-banner-actions .navigation-list {border: 1px solid #DDD;background-color: #FFF;margin: 0;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+.content-fragment.group-banner .navigation-list li.navigation-item:first-child {padding: 5px 8px 5px 8px;border: none;}
+.content-fragment.group-banner .navigation-item {border-top: 1px solid #DDD;border-bottom: none;font-weight: normal;margin: 0;padding: 5px 8px 5px 8px;text-align: left;}
+.content-fragment.group-banner .navigation-item .internal-link {padding-left: 22px;}
+.content-fragment.group-banner .navigation-item .internal-link.join-group span {top: 0;}
+.content-fragment.group-banner .navigation-item .internal-link.leave-group span {top: 1px;}
+.content-fragment.activity-message-list .full-post .post-author .avatar {top: 0;border: none;}
+.content-fragment.activity-message-list .content-list-name {border-bottom: 1px solid #DDD;clear: both;font-weight: normal;margin: 5px 0 3px 0;}
+.content-fragment.activity-message-list .full-post .post-actions .navigation-item a, .content-fragment.activity-message-list .full-post .post-date {color: #999;font-size: 10px;}
+.content-fragment.activity-message-list .full-post .post-attributes {padding-left: 12px;}
+.layout-region.content, .layout-region.right-sidebar {padding-bottom: 12px;}
+.content-fragment.media-gallery-post .full-post .post-name .internal-link.download-attachment {color: black;margin: 0;padding: 0;}
+.content-fragment.media-gallery-post .full-post .post-tags {margin-left: 0;background-position: 0 2px;border-left: none;display: inline;padding-left: 14px;}
+.content-fragment ul.navigation-list {border: none;}
+.content-fragment ul.navigation-list li:last-child {border: none;}
+.content-fragment.group-banner ul.navigation-list li:last-child {border-top: 1px solid #DDD;}
+.content-fragment .navigation-item, .content-fragment.media-gallery-links .navigation-item, .content-fragment .navigation-item, .content-fragment.forum-links .navigation-item, .content-fragment .navigation-item, .content-fragment.blog-links .navigation-item {padding: 5px;border-bottom: 1px solid #EEE;line-height: 22px;}
+.message.success, .message.error, .content-fragment.conversation-list .message.directions {border: none;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+.message.error {background-color: #FFF;border: 2px solid red;color: red;}
+.content-fragment .post-actions ul.navigation-list {border: none;padding: 0;}
+.content-fragment .post-actions ul.navigation-list li {padding: 0;}
+// li.field-item {padding: 0;}
+.field-item-description {color: black;margin: 0 0 3px 0;}
+.user-defined-markup h4 {border: none;}
+.user-defined-markup h1 {font-weight: normal;font-size: 30px;margin: 10px 0 10px 0;}
+.user-defined-markup h2 {border-bottom: none;clear: both;font-size: 24px;margin: 10px 0 10px 0;padding-bottom: 0;padding-top: 0;color: #0055BB;}
+.user-defined-markup h3 {    border-bottom: 1px solid #DDD;;    clear: both;    margin: 10px 0 10px 0;    padding: 0 0 5px 0;font-size: 15px;font-weight: bold;}
+.content-fragment.activity-message-list .filter span.separator, .content-fragment.thread-list .filter span.separator, .content-fragment.blog-post-list .query-type span.separator, .content-fragment.blog-post-list .filter .view-type, .content-fragment.media-gallery-post-list .query-filter .separator {display: none;}
+.content-fragment.activity-message-list span.filter-option, .content-fragment.activity-message-list span.filter-option.selected, .content-fragment.thread-list span.filter-option, .content-fragment.thread-list span.filter-option.selected, .content-fragment.blog-post-list .query-type span.filter-option, .content-fragment.blog-post-list .query-type span.filter-option, .content-fragment.blog-post-list .query-type span.filter-option.selected, .content-fragment.media-gallery-post-list .query-filter .filter-option, .content-fragment.media-gallery-post-list .query-filter .filter-option.selected {float: left;height: 18px;line-height: 18px;font-size: 12px;padding: 0 8px 0 0;}
+.content-fragment.blog-post-list .query-type span.filter-label, .content-fragment.activity-message-list span.filter-label, .content-fragment.thread-list span.filter-label, .content-fragment.media-gallery-post-list .filter span.filter-label {display: block;float: left;line-height: 18px;font-size: 12px;padding-right: 5px;visibility: visible;position: static;}
+.content-fragment.activity-message-list div.filter, .content-fragment.thread-list div.filter, .content-fragment.blog-post-list .filter .query-type, .content-fragment.blog-post-list div.filter, .content-fragment.media-gallery-post-list .filter {background: none;border: none;display: block;height: auto;margin: 0;padding: 0;position: relative;}
+.content-fragment.activity-message-list .fiji-content-fragment-inner .filter-option.selected, .content-fragment.thread-list .filter-option.selected, .content-fragment.blog-post-list .query-type span.filter-option.selected {}
+.content-fragment .filter-option.selected a, .content-fragment .filter-option a, .content-fragment.blog-post-list .query-type span.filter-option.selected a, .content-fragment.media-gallery-post-list .query-filter .filter-option.selected a {background: none;line-height: 18px;color: #000;font-size: 12px;font-weight: normal;text-decoration: none;}
+.content-fragment .filter-option a {color: #007AC9;text-decoration: underline;}
+.content-fragment.thread-list .table-list {margin-top: 5px;}
+.content-fragment.group-membership-list .content-item .avatar img[style] {max-width: 27px !important;max-height: 27px !important;}
+.content-fragment.group-membership-list .content-item .avatar {border: none;left: 0;padding: 0;position: absolute;top: 8px;}
+.content-fragment.group-membership-list .content-item {border-bottom: 1px solid #DDD;border-top: none;min-height: 0;padding: 8px 0 8px 0;position: relative;}
+.content-fragment.group-membership-list .content-item .user-name {margin-left: 35px;}
+.content-fragment.group-membership-list .content-item .abbreviated-post {color: #999999;font-size: 10px;margin: 0 0 0 35px;min-height: 0;padding: 0;}
+.content-fragment.group-membership-list .content-item .abbreviated-post .post-date {font-size: 10px;}
+.message.norecords, .message.loading, .message.directions {clear: both;background-color: transparent;border: none;color: #000000;padding: 12px 0 12px 0;margin: 0;}
+.content-list .message.norecords, .user-profile .message.directions {padding-top: 0;}
+.page {padding: 0;}
+.page .page-name {font-size: 32px;line-height: 32px;letter-spacing: normal;color: #0055BB;}
+.content-fragment.login .page {width: 860px;}
+.content .content-fragment .navigation-list, .content-fragment.user-navigation .navigation-list {border: none;-moz-border-radius: 0;-webkit-border-radius: 0;border-radius: 0;}
+.content .content-fragment .navigation-list li {border: none;padding: 0;}
+.content-fragment.login .navigation-list li {float: left;margin-right: 10px;}
+.content-fragment.login .field-item {padding-bottom: 10px;}
+.content-fragment.login .field-item.checkbox .field-item-header {font-size: 11px;}
+.content-fragment-page.common-login .content-fragment.login .field-item.fiji-checkbox .field-item-input {left: 0;}
+.header-fragments .layout-region.content, .footer-fragments .layout-region.content {padding: 0;}
+.layout-region.content {padding: 15px;}
+.layout-content.header-top-content-left-sidebar-right .layout-region.right-sidebar,.layout-content.content-left-sidebar-right .layout-region.right-sidebar{padding: 15px 15px 15px 0;width: 300px;}
+.layout-region.left-sidebar {padding: 15px 0 15px 15px;}
+.content-fragment.thread-list .abbreviated-post.suggested-answered .post-author a {font-weight: normal;}
+.content-fragment.thread-list .abbreviated-post.suggested-answered .post-author, .content-fragment.thread-list .abbreviated-post.suggested-answered .post-date {font-size: 11px;}
+.abbreviated-post {margin-bottom: 15px;}
+.content-fragment.thread-details .abbreviated-post .attribute-item, .content-fragment.user-navigation .navigation-list li {border: none;}
+.content-fragment.r-s-p-b-user-status .field-item.post-submit {top: auto;}
+.content-fragment.r-s-p-b-user-status .internal-link.add-post.update {margin: 0;line-height: 1em;}
+.content-fragment.r-s-p-b-user-status .internal-link.add-post.update:hover {background-image: none;font-size: 11px;color: #007AC9;line-height: 1em;font-weight: normal;}
+.content-fragment.r-s-p-b-user-status .fiji-user-status-outer, .content-fragment.r-s-p-b-user-status .fiji-quickpost-message-form {margin: 0;left: 117px;top: 50px;width: 600px;position: absolute;z-index: 100;display: block;}
+.content-fragment.r-s-p-b-user-status .attribute-list-header, .content-fragment.r-s-p-b-user-status .attribute-list-footer, .content-fragment.r-s-p-b-user-status .attribute-list, .content-fragment.r-s-p-b-user-status .attribute-list-header .fiji-user-status-r, .content-fragment.r-s-p-b-user-status .attribute-list-footer .fiji-user-status-r, .content-fragment.r-s-p-b-user-status .fiji-quickpost-message-form td, .content-fragment.r-s-p-b-user-status .fiji-quickpost-message-form td.fiji-submit.content-fragment.thread .abbreviated-post.not-answered .post-status, .content-fragment.thread .abbreviated-post.not-answered .post-status .not-answered,.content-fragment.thread .abbreviated-post.suggested-answer .post-status, .content-fragment.thread .abbreviated-post.suggested-answer .post-status .suggested-answer,.content-fragment.browse-blogs .content-fragment-content,.content-fragment.browse-forums .content-fragment-content,.content-fragment.blog-feedback-list .full-post.user-is-author,.content-fragment.media-gallery-post-list .content-list.file-thumbnail-list,.content-fragment-page.tags-taglist .content-fragment.tag-cloud .tag-list {background: none;}
+.content-fragment.r-s-p-b-user-status .attribute-list, .content-fragment.r-s-p-b-user-status .fiji-quickpost-message-form .fiji-message .field-item-input, .content-fragment.r-s-p-b-user-status .fiji-quickpost-message-form td.fiji-submit,.content-fragment.browse-blogs .content-fragment-content,.content-fragment-page.tags-taglist .content-fragment {margin: 0;padding: 0;}
+.content-fragment.r-s-p-b-user-status .fiji-user-status-inner {border: none;}
+.content-fragment.r-s-p-b-user-status .attribute-list-header, .content-fragment.r-s-p-b-user-status .attribute-list-footer {display: none;}
+.content-fragment.r-s-p-b-user-status .internal-link.add-post, .content-fragment.r-s-p-b-user-status .fiji-quickpost-message-form td.fiji-submit {height: auto;}
+.content-fragment.r-s-p-b-user-status .internal-link.add-post.update {height: auto;color: #007AC9;font-size: 11px;}
+.content-fragment.r-s-p-b-user-status .field-list {margin: 0;left: 117px;top: 80px;width: 700px;position: absolute;z-index: 100;display: block;}
+.content-fragment.r-s-p-b-user-status .fiji-quickpost-message-form .fiji-message input {height: 24px;font-size: 24px;color: black;border: 1px solid #CCC;}
+.content-fragment.r-s-p-b-user-status .fiji-quickpost-message-form td.fiji-submit .field-item-input {margin: 0 5px 0 0;}
+a.view-friends-pending {text-decoration: none;}
+a.view-friends-pending span {display: none;}
+.user-conversationlist .layout-content.content .layout-region.content,.tags-taglist .layout-content.content .layout-region.content,.r-s-p-b-create-user,.content-fragment.with-header.change-password,.content-fragment-page.user-forgottenpassword .content-fragment {width: 870px;}
+.user-conversationlist .content-fragment.with-header .content-fragment-header div, .content-fragment.with-header.r-s-p-b-create-user .content-fragment-header div,.content-fragment.with-header.change-password .content-fragment-header div,.content-fragment-page.user-forgottenpassword .content-fragment.with-header .content-fragment-header div,.content-fragment.create-group .field-list-description{font-size: 32px;color: #0055BB;}
+.content-fragment.conversation-list .fiji-standard .table-column {border-top: 2px solid #DDD;color: black;}
+.content-fragment.conversation-list .fiji-standard tr.table-item:first-child .table-column {border: none;}
+.content-fragment.conversation-list .fiji-standard .table-column.column-1 {padding: 0;width: 37px;}
+.content-fragment.conversation-list .fiji-standard .table-column.column-1 span.avatar {display: block;margin: 5px 5px 0 0;}
+.content-fragment.conversation-list .fiji-standard .avatar img {max-width: 32px !important;max-height: 32px !important;}
+.content-fragment.conversation-list .fiji-standard .post-name {margin: 0;padding: 0;}
+.user-banner .internal-link span {left: 4px;}
+.user-banner .user-banner-actions .navigation-item {padding: 5px 8px 5px 5px;}
+.user-banner .user-banner-actions {right: 15px}
+.user-banner .internal-link.request-friendship {font-size: 11px;}
+.user-banner .internal-link.request-friendship span {top: 0;}
+.modal .field-item, .modal .field-item-input {line-height: 1em;}
+.header-fragment.search .content-fragment-content {position: absolute;right: 0; z-index: 99;padding: 7px;top: -34px;background-color: #007AC9;border-color: #0044AA;border-width: 1px 1px 1px 1px;border-style: solid;width: auto;min-width: 0;max-width: auto;}
+.header-fragment.search .field-item-input input {background: none repeat scroll 0 0 transparent;border: medium none;color: #000;cursor: auto;display: block;font-size: 11px;height: 18px;line-height: 18px;margin: 0;padding: 0;width: 250px;background-color: #FFF;}
+.header-fragment.search ul.field-list {height: 18px;width: auto;}
+.menu.search-content {background-image: none;border: none;border-left: 1px solid #0044AA;border-right: 1px solid #0044AA;background-color: #007AC9;color: #FFFFFF;margin: 7px 0 0 0;padding: 0;width: 220px;right: 0 !important;left: auto !important;}
+.menu.search-content.options {background-image: none;border: none;border-left: 1px solid #0044AA;border-right: 1px solid #0044AA;background-color: #007AC9;color: #FFFFFF;margin: 7px 0 0 0;padding: 0;width: 220px;right: 0 !important;left: auto !important;}
+.menu.search-content.options .field-item-header {font-weight: normal;font-size: 11px;}
+.menu.search-content.options fieldset {margin: 0;}
+.menu.search-content a {font-weight: normal;padding: 0;color: #FFFFFF;}
+.menu.search-content .content-list-name {color: #FFFFFF;padding: 8px;background-image: url("/images/cache/nav_tcm9-274496_v4.png");background-position: 197px top;background-repeat: no-repeat;background-color: #0055BB;border-bottom: 1px solid #0044AA;}
+.menu.search-content.options {overflow: hidden;}
+.menu.search-content.options .field-list-description {display: none;}
+.menu.search-content.options .field-item-input {top: 7px;left: 7px;}
+.menu.search-content.options ul.field-list {border-bottom: 1px solid #0044AA;border-top: none;}
+.menu.search-content.options .field-item-header {padding: 8px;margin: 0;}
+.menu.search-content .content-list-footer {height: 0;margin: 0;}
+.menu.search-content .message.loading {    background: none;    border-width: 1px;border-bottom: 1px solid #0044AA;    color: #FFFFFF;height: auto;    margin: 0;    padding: 8px;    text-indent: 0;}
+.menu.search-content .content-list li.content-item, .menu.search-content .message.norecords {     border-bottom: 1px solid #0044AA; border-top: none;    margin: 0;    padding: 8px;    word-wrap: break-word;color: #FFFFFF;}
+.menu.search-content .internal-link.search {margin: 0;padding: 8px;display: block;border-bottom: 1px solid #0044AA;}
+.header-fragment.r-s-p-b-header .site-banner {margin: 0;padding: 0;background-color: #FFFFFF;}
+.content-fragment.group-application-navigation .internal-link.add-post {position: absolute;right: 36px;bottom: 15px;}
+.content-fragment.media-gallery-banner .application-banner {background-image: none;background: none;padding: 0;}
+.content-fragment-page.media-postlist .content-fragment.media-gallery-banner .application-banner .application-name, .forum-banner h3.application-name {text-transform: none;font-size: 32px;line-height: 1em;}
+.content-fragment-page.media-postlist .content-fragment.media-gallery-banner .application-banner .application-name a,.content-fragment.browse-blogs .table-list .description {color: black;}
+.content-fragment-page.media-postlist .content-fragment.media-gallery-banner .application-banner .application-name a:hover {text-decoration: none;color: black;}
+.header-fragment.search .internal-link.search-options, .header-fragment.search .internal-link.search-options.active {background-image: url(http://www.rspb.org.uk/images/cache/nav_tcm9-274496_v4.png);background-repeat: no-repeat;background-position: right -6px;height: 18px;width: 22px;margin-right: 0;display: block;border: none;}
+.user-banner .internal-link.save-user-profile {font-size: 11px;}
+.user-profile .user-defined-markup p {line-height: 1.3em;}
+.content-fragment.conversation .field-list-description span,.content-fragment.media-gallery-post-comment-list .content-list-name, .content-fragment.add-media-gallery-post-comment .field-list-description,.content-fragment.blog-post-comment-form .field-list-description,.content-fragment.blog-feedback-list .content-list-name,.upload-edit-media-gallery-post h3.post-name{font-size: 24px;font-weight: normal;color: black;text-transform: none;}
+#fragment-777 .user-defined-markup p {margin: 10px 0 10px 0;font-size: 21px;line-height: 1.1em;}
+.content-fragment.user-profile-group-content-fragment .attribute-value {color: black;}
+.user-banner h3.user-name {padding-left: 117px;}
+.user-banner .user-avatar img, .content-fragment.group-list .group-avatar img {width: 90px !important;height: 90px !important;max-width: 90px !important;max-height: 90px !important;}
+.user-banner .user-avatar {max-width: 90px !important;}
+.user-banner .user-avatar .edit-avatar {background-color: #FFFFCC;background-image: none;width: 90px;top: 0;left: 0;margin: 0;padding: 0;font-size: 10px;height: 20px;line-height: 20px;text-align: center;border-bottom: 1px solid #DDD;}
+.content-fragment.favorable-content-list .simple .content-item {padding-top: 1px;padding-bottom: 4px;margin-bottom: 0 !important;min-height: 1em;}
+.content-fragment.favorable-content-list .simple .internal-link.view-post {font-size: 11px;}
+.content-fragment.favorable-content-list ul {margin-top: 5px;}
+.content-fragment.friendship-list .user-name, .content-fragment.group-list .content-item.simple .group-name {font-size: 11px;font-weight: normal;line-height: 32px;padding: 0;margin: 0;}
+.user-userprofile .activity-message-list {margin-top: 15px;}
+.content-fragment.with-header.friendship-list .full-post, .content-fragment.group-list .content-item.simple {min-height: 32px;margin: 5px 0 5px 0;border: none;padding: 0 0 0 40px;}
+.content-fragment.friendship-list .avatar img, .content-fragment.group-list .content-item.simple .group-avatar img {height: 30px !important;width: 30px !important;max-width: 30px !important;max-height: 30px !important;border: 1px solid #DDD !important;}
+.content-fragment.group-list .content-item.simple .group-avatar {border: none;left: 3px;max-height: 32px;max-width: 32px;padding: 0;position: absolute;top: 0;}
+.user-userprofile fieldset.field-list {margin: 0;}
+.content-fragment.user-profile-group-content-fragment .field-item-input input {font-size: 11px;font-weight: normal;}
+.search-result-list .abbreviated-post .post-name, .search-result-list .abbreviated-post .post-name a,.tags-taglist .abbreviated-post .post-name, .tags-taglist .abbreviated-post .post-name a {font-size: 14px;font-weight: bold;}
+.content-fragment.search-result-list .content-list { clear: none;}
+.content-fragment-page.search-searchresultlist .content-fragment {padding: 0;}
+.content-fragment.search-form fieldset.field-list {border-top: 2px solid #DDD;}
+.content-fragment.search-form .field-list {background-color: white;}
+.search-result-list .content-list .content-item,.tags-taglist .content-list .content-item {border: none;padding: 0;}
+.search-searchresultlist .content-list,.tags-taglist .content-list{margin: 15px 0 0 0;}
+.search-searchresultlist .abbreviated-post,.tags-taglist .abbreviated-post {padding: 0 0 15px 0;margin: 0;}
+.search-searchresultlist .post-author .avatar,.tags-taglist .post-author .avatar {display: none;}
+.content-fragment.search-result-list .abbreviated-post h4.post-name em,.content-fragment.tags-taglist .abbreviated-post h4.post-name em {font-style: normal;background-color: transparent;}
+.search-searchresultlist .layout-content.content .layout-region.content {width: auto;}
+.search-searchresultlist .abbreviated-post .post-summary,.tags-taglist .abbreviated-post .post-summary {margin: 2px 0 2px 0;}
+.abbreviated-post .post-author, .abbreviated-post .post-date, .abbreviated-post .post-application, .abbreviated-post .post-actions {color: black;}
+.content-fragment.favorable-content-list .content-item .favorite-actions .internal-link.favorite-on {background: none;color: red;display: inline-block;font-size: 11px;font-weight: normal;height: 40px;line-height: 40px;margin-left: 0;padding: 0;position: relative;}
+.content-fragment.favorable-content-list .content-item .favorite-actions .internal-link.favorite-on span {display: none;}
+.content-fragment.favorable-content-list .internal-link.view-post, .content-fragment.favorable-content-list .favorite-type {font-size: 11px;font-weight: normal;}
+.content-fragment.favorable-content-list .favorite-type {color: black;}
+.layout-region.content .content-fragment.favorable-content-list .content-item {font-weight: bold;min-height: 40px;position: relative;line-height: 40px;border-bottom: 1px solid #EEE;padding: 0;padding-left: 40px;}
+.content-fragment.favorable-content-list .content-item .favorite-actions {top: 0;display: block;height: 40px;line-height: 40px;}
+.favorable-content-list .avatar {top: 4px;}
+.favorable-content-list .avatar img {width: 30px !important;height: 30px !important;max-width: 30px !important;max-height: 30px !important;}
+.content-fragment.group-list .group-description {margin-top: 4px;}
+.content-fragment.group-list .content-item.simple-extended {width: 190px;float: left;padding: 5px 0 5px 0;border: none;line-height: 1.3em;}
+.content-fragment.group-list .content-list-footer, .tag-cloud .content-fragment-footer,fieldset.create-user-form .furtherinfo {clear: both;}
+.content-fragment.group-list .content-item.simple-extended .group-name {background: none;display: block;font-size: 11px;line-height: 1em;margin: 0;padding: 0;}
+.content-fragment.conversation-list .message.directions {font-weight: normal;margin: 12px 0 12px 0;padding: 12px;}
+.message.warning li.content-item {border: none;}
+.content-fragment.conversation-list .fiji-standard .post-name a, .content-fragment.conversation-list .post-name .internal-link.view-post.read {font-weight: bold;}
+.content-fragment.conversation {margin: 0;width: 870px;}
+.user-conversation .content-fragment.conversation {margin: 0;width: 575px;border: 2px solid #DDD;}
+.content-fragment.conversation .content-item .full-post .post-content.user-defined-markup p {font-size: 11px;}
+.content-fragment.conversation .post-participants {padding: 0;border: none;}
+.content-fragment.conversation .full-post {background-color: #F0F0F0;padding: 12px;border-bottom: 2px solid #DDD;}
+.content-fragment.conversation .content-list .full-post {padding: 0;border: none;background-color: transparent;}
+.content-fragment.conversation h3.post-name {margin: 0 45px 5px 0;line-height: 1em;}
+.content-fragment.conversation .content-list {margin: 0 15px 15px 15px;}
+.content-fragment.conversation .content-list li.content-item {border-bottom: 1px solid #DDD;margin: 0;padding: 12px 0 12px 45px;}
+.content-fragment.conversation fieldset {margin: 0;}
+.content-fragment.conversation fieldset.field-list {position: static;margin-top: 0;margin-left: 15px;}
+.content-fragment.conversation .internal-link.delete-conversation {position: absolute;right: 12px;top: 12px;left: auto;background-image: none;color: red;font-size: 11px;width: auto;padding: 0;}
+.content-fragment.conversation .internal-link.delete-conversation span {display: none;}
+.content-fragment.conversation .field-list-description span {position: static;color: black;display: block;margin: 0 0 10px 0;}
+.content-fragment.conversation .internal-link.add-reply {margin-bottom: 15px;}
+.content-fragment-page.user-conversation .left-sidebar .content-fragment.conversation-list h4.post-name {padding-right: 20px;}
+.content-fragment-page.user-conversation .left-sidebar .content-fragment.conversation-list h4.post-name a {font-size: 11px;font-weight: normal;}
+.content-fragment.conversation-list .post-name .internal-link.view-post.read {text-decoration:line-through;color: #666;}
+.content-fragment-page.user-conversation .left-sidebar .content-fragment.conversation-list .content-list .content-item {border-bottom: 2px solid #DDD;padding: 0;}
+.content-fragment.conversation-list .simple .abbreviated-post {margin: 0;min-height: 1em;padding: 12px 0 12px 40px;}
+.content-fragment.conversation-list .simple .abbreviated-post .avatar {padding: 0;border: none;}
+.content-fragment.conversation-list .simple .post-actions {display: block;position: absolute;right: 5px;top: 12px;}
+.content-fragment.group-list .content-item {padding: 0 0 12px 112px;border: none;}
+.content-fragment.group-list .content-item.standard .group-name a {font-size: 14px;font-weight: bold;}
+.content-fragment.group-list .content-item.standard .group-avatar {padding: 4px;top: 0;}
+.content-fragment.with-header.friendship-list .content-item {border-bottom: 1px solid #DDD;}
+.content-fragment.with-header.friendship-list .content-item .full-post {padding: 0 0 0 40px;}
+.content-fragment.with-header.friendship-list .content-item .full-post .status-date {display: none;}
+.content-fragment.friendship-list .post-actions .navigation-item .internal-link {    background: none;    color: #007AC9;    display: block;    float: right;    font-size: 11px;    font-weight: normal;    height: 32px;margin: 0 0 0 10px;    line-height: 32px;    padding: 0;    position: relative;text-decoration: underline;}
+.content-fragment.friendship-list .post-actions .navigation-item .internal-link.delete-friend, .content-fragment.friendship-list .post-actions .navigation-item .internal-link.deny-friend-request {color: red;}
+.content-fragment.friendship-list .post-actions .navigation-item .internal-link span, .content-fragment-page.media-post .content-fragment.media-gallery-banner .application-banner .application-name .internal-link.view-application.media-gallery span {display: none;}
+.content-fragment-page.media-post .content-fragment.media-gallery-banner .application-banner .application-name .internal-link.view-application.media-gallery {padding-left: 0;}
+.right-sidebar .media-gallery-links.no-wrapper li {display: inline;border: none;padding: 0;}
+.right-sidebar .media-gallery-links.no-wrapper a.view-next-post {float: right;width: 50px;text-align: right;}
+.right-sidebar .media-gallery-links.no-wrapper a.view-previous-post {float: left;width: 70px;display: block;}
+.right-sidebar .media-gallery-links.no-wrapper a.view-slideshow {float: left;width: 150px;text-align: center;display: block;font-size: 10px;color: #666666;}
+.right-sidebar .media-gallery-links.no-wrapper a.view-slideshow span,.post-actions .internal-link.favorite-on,.post-actions .internal-link.favorite-off{display: none !important;}
+.right-sidebar .media-gallery-post-details {margin: 20px 0 5px 0;min-height: auto;}
+.right-sidebar .media-gallery-links.no-wrapper .navigation-item .internal-link {padding: 0;}
+.right-sidebar .media-gallery-links.no-wrapper .content-fragment-footer {clear: both;}
+.content-fragment.with-header.user-online-list .content-item {height: 34px;margin: 0 0 5px 0;padding-left: 40px;}
+.content-fragment.with-header.user-online-list .content-list {margin-top: 5px;}
+.content-fragment.media-gallery-post-details .user-name a {display: inline;padding: 0;}
+.content-fragment.user-online-list .user-name {font-size: 11px;display: block;margin-top: 3px;}
+.user-online-list span.status-message {font-size: 10px;color: #666;display: block;}
+.content-fragment.user-online-list .status-date {display: none;}
+.content-fragment.blog-post-list .content-list.simple .abbreviated-post {padding: 0;margin: 0;}
+.blog-post-list .content-item {padding: 5px 0 5px 0;}
+.browse-blogs td.application-title {padding: 5px 10px 5px 0;}
+.browse-blogs td.post-date {padding: 0;}
+.content .content-fragment, .right-sidebar .content-fragment {margin-bottom: 15px;}
+.right-sidebar .tag-cloud .content-fragment-header {margin-bottom: 10px;}
+.content-fragment.thread .internal-link.add-post {margin: 0;}
+.r-s-p-b-create-user .message.warning {padding: 0;background: none;border: none;}
+.content-fragment.with-header.r-s-p-b-create-user .content-fragment-content {padding-top: 10px;}
+fieldset.create-user-form li.address {padding: 15px 0 0 0;margin: 0;}
+fieldset.create-user-form label.field-item-header {margin: 0;padding: 0;}
+fieldset.create-user-form label.field-item-description {margin: 2px 0 5px 0;}
+fieldset.create-user-form .password input, fieldset.create-user-form .password2 input {width: 120px;}
+fieldset.create-user-form .options ul {list-style: none;margin: 0;padding: 0;}
+fieldset.create-user-form .options li {float: left;width: 120px;}
+fieldset.create-user-form .disclaimer {padding-top: 10px;margin-top: 15px;border-top: 2px solid #DDD;}
+fieldset.create-user-form .password {margin-top: 15px;padding-top: 15px;border-top: 2px solid #DDD;}
+fieldset.create-user-form .furtherinfo {padding: 10px 0 15px 0;}
+fieldset.create-user-form li label {font-size: 14px;font-weight: bold;}
+fieldset.create-user-form li.age, fieldset.create-user-form li.member, fieldset.create-user-form li.name, fieldset.create-user-form li.nickname, fieldset.create-user-form .manual-postcode p,fieldset.create-user-form .auto-postcode p,fieldset.create-user-form li.password2 {border-bottom: 2px solid #DDD;padding: 15px 0 15px 0;margin: 0;}
+fieldset.create-user-form .auto-postcode p, fieldset.create-user-form .manual-postcode p {padding-top: 5px;margin-bottom: 10px;font-size: 10px;color: #888;}
+fieldset.create-user-form .auto-postcode p a, fieldset.create-user-form .manual-postcode p a {color: #888;text-decoration: underline;}
+fieldset.create-user-form li.user-name {margin-top: 0;padding-bottom: 10px;}
+fieldset.create-user-form li.field-item input {margin-top: 5px;}
+fieldset.create-user-form #AutoPostcodeLi {margin-top: 10px;}
+fieldset.create-user-form .auto-postcode select {margin-bottom: 10px;}
+fieldset.create-user-form li.captcha .field-item-validation {position: relative; top: 80px; left: 600px;}
+.content .browse-media-galleries .content-fragment-content {padding: 0;}
+ul.field-list li.manual-postcode { display: none;}
+.menu.moderation-content {margin-top: 5px;padding: 5px;-moz-border-radius: 5px;border-radius: 5px;-webkit-border-radius: 5px;background-color: #FFFFDD;border: 1px solid #CCCCAA;-moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.4);-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.4);box-shadow: 1px 1px 2px rgba(0,0,0,0.4);}
+.menu.moderation-content .menu-item, .menu.moderation-content .menu-item.hover {font-size: 11px;background: transparent;color: #007AC9;border: none;}
+.user-userprofile li.field-item {border-bottom: 1px solid #DDD;padding: 5px 0 5px 0;}
+.content-fragment.r-s-p-b-user-profile-fields .field-item-description {width: 250px;float: left;height: 20px;line-height: 20px;margin: 0;}
+.content-fragment.r-s-p-b-user-profile-fields .field-item-input {height: 20px;}
+.content-fragment.r-s-p-b-user-profile-fields .field-item-input input {width: 300px;}
+.content-fragment.r-s-p-b-user-profile-fields .field-item-input select {font-size: 11px;}
+.content-fragment.r-s-p-b-edit-user .field-item-info {margin: 0;padding-left: 20px;float: none;display: block;color: #666666;font-size: 10px;}
+.content-fragment.r-s-p-b-edit-user .field-item-description {margin: 0;padding: 4px 0 1px 20px;}
+.content-fragment.r-s-p-b-edit-user .field-item-input {float: left;display: block;margin-top: -16px;}
+.content-fragment.r-s-p-b-edit-user li.field-item .field-item-editor {display: block;padding: 5px 0 10px 0;}
+.content-fragment.user-profile-group-content-fragment .attribute-name {font-weight: normal;width: 200px;float: left;}
+.content-fragment.user-profile-group-content-fragment .attribute-value {width: 350px;}
+.content-fragment.user-profile-group-content-fragment .attribute-item {clear: both;border-bottom: 1px solid #DDD;}
+.content-fragment.user-profile-group-content-fragment .attribute-item:last-child {border: none;}
+.r-s-p-b-user-status li.field-item {border: none;}
+.post-content.user-defined-markup p.MsoNormal {margin: 1em 0 1em 0 !important;}
+.upload-edit-media-gallery-post h3.post-name {margin: 0 0 15px 0;}
+.upload-edit-media-gallery-post .post-tags {margin-bottom: 15px;}
+.upload-edit-media-gallery-post .field-item {padding-bottom: 10px;}
+.content-fragment.upload-edit-media-gallery-post .tab-pane,.content-fragment.create-edit-post .tab-pane{padding: 10px 0 10px 0;}
+// .create-edit-post .post-body {padding: 10px 0 10px 0;}
+// .content-fragment.create-edit-post fieldset .field-item.post-tags {padding: 0 0 15px 0;}
+.create-edit-post .post-body label.field-item-header {display: none;}
+.content-fragment.create-edit-post .content-fragment-content .field-item.create-post .field-item-input {padding: 0;}
+.content-fragment.create-edit-post .field-item.post-subject .field-item-input input, .content-fragment.create-edit-post .field-item.post-tags input {border: 1px solid #CCCCCC;/*height: 15px;line-height: 15px*/;padding: 2px;}
+.tab-set.with-panes .tab.selected a {font-weight: normal;}
+.user-defined-markup .CommonPollArea {margin: 15px 0 15px 0;padding: 10px;background-color: #F0FFFF;border: none;width: 530px;border: 2px solid #E0EEEE;-moz-border-radius: 8px;border-radius: 8px;-webkit-border-radius: 8px;}
+.user-defined-markup h4.CommonPollQuestion {text-align: left;background-color: transparent;border: none;margin: 0 0 5px 0;padding: 0;}
+.user-defined-markup .CommonPollDescription, #PollVoteArea {text-align: left;}
+#PollVoteArea {padding: 0 0 10px 0;}
+.user-defined-markup .CommonPollContent {padding: 0;}
+.user-defined-markup .CommonPollFooter {background-color: transparent;border: none;font-size: 11px;padding: 0;text-align: left;}
+.user-defined-markup .CommonPollUserVote {padding: 10px 0 10px 0;color: red;text-align: left;}
+ul.CommonPollAnswerList li {margin: 0 0 5px 0;}
+.user-defined-markup ul.CommonPollAnswerList div.CommonPollAnswer, ul.CommonPollAnswerList td.CommonPollAnswer {font-weight: normal;text-align: left;}
+#PollVoteArea ul.CommonPollAnswerList {margin-bottom: 10px;}
+.user-defined-markup .CommonPollResultGraph {text-align: left;}
+ul.CommonPollFooterList li {margin-left: 0;}
+.user-defined-markup .CommonPollResultGraph img {display: inline;border: none !important;padding: 0 !important;margin: 0;}
+.content-fragment.create-edit-post .field-item.add-attachment, .content-fragment.create-edit-post .field-item.post-stickiness {margin-left: 0;}
+.content-fragment.create-edit-post .field-item.post-feature, .content-fragment.create-edit-post .field-item.post-lock {margin: 10px 0 10px 0;}
+.content-fragment.create-edit-post .field-item.add-attachment label.field-item-header,.content-fragment.create-edit-post .field-item.post-stickiness label.field-item-header {display: block;margin: 0;}
+.content-fragment.create-edit-post .internal-link.add-attachment, .content-fragment.create-edit-post .remove-attachment a {text-decoration: underline;}
+.content-fragment.create-edit-post .remove-attachment a {color: red;}
+.right-sidebar .content-fragment.user-profile-group-content-fragment .rspb-display-name .attribute-name {display: none;}
+.right-sidebar .content-fragment.user-profile-group-content-fragment {margin: 0;}
+.content-fragment.user-profile-group-content-fragment .rspb-display-name .attribute-value a,a.internal-link.deny-contact-request {color: red;text-decoration: underline;}
+.content-fragment-page.user-changepassword .content-fragment,.content-fragment-page.user-forgottenpassword .content-fragment {padding: 0;}
+.content-fragment.with-header.change-password legend {margin: 0 0 15px 0;display: block;}
+.content-fragment.with-header.change-password .field-item,.content-fragment.create-group .field-item {padding-bottom: 10px;}
+.content-fragment.group-membership-list .field-list .field-item.membership-buttons {padding-top: 15px;}
+.create-group fieldset.field-list {margin: 0;}
+.content-fragment.create-group .field-item .field-item-validation {margin-left: 0;}
+.group-contact-request-list .abbreviated-post {padding: 0;margin: 10px 0 10px 0;}
+.group-contact-request-list .abbreviated-post .post-name {margin: 0 0 3px 0;}
+.group-contact-request-list .abbreviated-post .post-summary {margin: 0;}
+.group-contact-request-list .content-list .content-item {padding: 0;border-bottom: 2px solid #DDD;}
+.group-contact-request-list .post-actions {padding-top: 10px;}
+.content-fragment.user-profile-group-content-fragment .field-item-input input[type=checkbox] {width: auto;}
+.user-banner .internal-link.save-user-profile span, .user-banner .internal-link.edit-user-profile span {top: -1px;}
+.content-fragment-page.user-useronlinelist .content-fragment {padding: 0;}
+.forum-banner .application-description {margin-top: 7px;}
+.content-fragment.thread .full-post .post-attributes {display: block;}
+.content-fragment.thread .full-post .post-attributes .attribute-item.post-perma-link, .content-fragment.thread .full-post .post-attributes .attribute-item.post-host-address {display: none;}
+.content-fragment.thread .full-post .post-attributes .attribute-item.post-locked {position: absolute;right: 10px;top: 12px;height: 22px;width: 16px;display: block;overflow: hidden;background-image: url(http://www.rspb.org.uk/images/cache/lock_tcm9-281364_v1.gif);text-indent: -9999px;}
+.content-fragment.thread-list .abbreviated-post.discussion .post-thumbnail {display: block;height: 14px;left: 0;position: absolute;top: 0;width: 20px;}
+.content-fragment.thread-list .abbreviated-post .post-thumbnail img {display: block;}
+.content-fragment.thread-list .verified-answered .post-thumbnail {height: 32px;}
+.content-fragment.thread-list .verified-answered .post-thumbnail img {margin-top: 16px;}
+.user-signature img {display: none;}
+.thread .post-content.user-defined-markup, .thread .post-content.user-defined-markup p {font-size: 15px;}
+.thread .user-defined-markup div {text-align: left;margin: 0 0 1em 0;}
+.thread .user-defined-markup div.quote-user {margin-bottom: 0;}
+.content-fragment-page .layout-region-inner {padding-bottom: 10px;}
+.rspb-lg-committee ul {list-style: none;margin: 0;padding: 0;}
+.rspb-lg-committee li {padding: 3px 0 3px 0;}
+.rspb-lg-meeting h3 {font-weight: bold;font-size: 14px;}
+.rspb-lg-meeting h3 {margin: 0 0 2px 0;}
+.rspb-lg-meeting p {margin: 0 0 10px 0;}
+.rspb-lg-meeting-map img {border: none;}
+.header-fragments .content-fragment.site-search fieldset {border: none;padding: 0;}
+.fiji-header-fragment-outer.fiji-top-bar { font-size: 11px;z-index: 2;}
+.header-fragment .content-fragment-inner { position: relative;}
+.header-fragments-header { background-image: none;height: auto;width: auto;}
+.content-fragment-content .activity-story .full-post .post-content,
+.content-fragment-content .activity-story .navigation-list .navigation-item { font-size: 14px;}
+
+.content-fragment-content .activity-story a.internal-link.view-user-profile.activity-summary-user, 
+.content-fragment-content .activity-story .activity-title a, .content-fragment-content .activity-story .activity-summary .user-name a ,
+.content-fragment-content .activity-story .content-list.comments .content-item.comment .post-author .user-name a
+{ font-size: inherit;}
+.content-fragment-content .activity-story .navigation-list .navigation-item:before{ line-height: inherit;}
+
+.content-fragment-page .layout-content .content-fragment-content div.abbreviated-post.unread:before {
+    
+    color: red;
+    content: "• ";
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    height: 10px;
+    line-height: 13px;
+    width: 15px;
+    
+}
+
+.content-fragment.activity-story-stream .content-list .content-item.activity-story, .activity-story {
+    font-family:"UrbanoRegular",Helvetica,Arial,sans-serif;
+}
+
+.navigation-list .navigation-item .moderate-text {
+    border: 1px solid #CCCCCC;
+    display: inline-block;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0 0 0 4px;
+    width: 100px;
+}
+.group-banner-header .group-description {font-family: "UrbanoLight",Helvetica,Arial,sans-serif;}
+
+.menu div.multiple-column-list div.multiple-column-item ul.content-list li.content-item div.content h4.subject{ margin: 0px;}

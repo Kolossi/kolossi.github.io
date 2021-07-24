@@ -1,0 +1,116 @@
+#programmes-oap {
+    height: 56px;
+    width: 393px;
+    background: transparent;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Arial';
+    color: #FFF;
+    font-size: 0.9231em;
+    line-height: 1.0em;
+    /* Some mastheads cover the OAP, so make sure the "Listen Live" is always above */
+    z-index: 10;
+}
+
+#programmes-oap a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+#programmes-oap a:hover, #programmes-oap a:focus {
+    text-decoration: underline;
+}
+
+#programmes-oap .programmes-oap-item { 
+    background-color: #646464;
+}
+
+#programmes-oap-main {
+    width: 279px;
+    height: 56px;
+    position: absolute;
+    left: 114px;
+    top: 0px;
+    overflow: hidden;
+    z-index: 30;
+}
+
+#programmes-oap-listen, #programmes-oap-watch {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: 57px;
+    top: 0px;
+    overflow: hidden;
+    color: #FFF;
+    cursor: pointer;
+}
+
+#programmes-oap-watch {
+    left: 0px;
+}
+
+a#programmes-oap-listen:hover, a#programmes-oap-listen:focus, a#programmes-oap-watch:hover, a#programmes-oap-watch:focus {
+    text-decoration: none;
+    background: #333 none;
+}
+
+#programmes-oap-listen img, #programmes-oap-watch img {
+    vertical-align: middle;
+    margin: 8px 0px 6px 15px;
+}
+
+#programmes-oap-watch img {
+    vertical-align: middle;
+    margin: 6px 0px 6px 15px;
+}
+
+#programmes-oap-listen span, #programmes-oap-watch span {
+    text-align: center;
+    font-size: 0.917em; /* 11px */
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
+#programmes-oap-listen span.bbc_radio_cymru {
+   font-size: 0.817em;
+}
+
+#programmes-oap-now {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 263px;
+    height: 17px;
+    font-size: 0.917em; /* 11px */
+}
+#programmes-oap-now a {
+    font-size: 1.273em; /* 14px */
+    font-weight: bold;
+}
+#programmes-oap-info {
+    position: absolute;
+    left: 8px;
+    top: 32px;
+    width: 264px;
+    height: 21px;
+    font-size: 1.083em; /* 13px */
+    overflow: hidden;
+}
+#programmes-oap-info-scroll {
+    position: absolute;
+    white-space: nowrap;
+    height: 21px;
+    line-height: 21px;
+}
+
+#programmes-oap a.fade span, #programmes-oap a.fade img, #programmes-oap a.fade:hover span {
+    opacity:0.5;
+    filter:alpha(opacity=50);
+}
+
+#programmes-oap a.fade, #programmes-oap a.fade:hover {
+    cursor: default;
+    text-decoration: none;
+}

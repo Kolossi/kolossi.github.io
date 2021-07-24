@@ -1,0 +1,1431 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="description" content="The index of all current science, health, nature and environmental programmes" />
+<meta name="keywords" content="science,health,nature,environment,Radio 4" />
+<meta name="author" content="British Broadcasting Corporation" />
+<meta name="version" content="28/02/2002" />
+<title>BBC - Radio 4 - Science Index</title>
+<link rel="stylesheet" href="/radio4/styles/science.css" type="text/css" />
+<link rel="stylesheet" href="/radio4/styles/lhnav.css" type="text/css" />
+<script language="javascript">
+
+<!--
+
+        function popwin1(x, y)
+
+{window.open(x,y,'status=no,scrollbars=yes,resizable=no,width=415,height=450');}
+
+        function quizwin(x, y)
+
+{window.open(x, y,'status=no,scrollbars=no,resizable=yes,width=350,height=450');
+
+window.name="quiz";}
+
+        function popwin2(x, y)
+
+{window.open(x,y,'status=no,scrollbars=yes,resizable=no,width=415,height=450');}
+
+		function popradiowin(x, y)
+
+{window.open(x, y,'width=450,height=250,status=yes,menubar=no,scrollable=no,resizable=no');}
+
+        function popdailyquiz(x, y)
+
+{window.open(x, y,'width=450,height=250,status=yes,menubar=no,scrollable=no,resizable=no');}
+
+        function popgallery(x, y)
+
+{window.open(x, y,'status=no,scrollbars=no,resizable=yes,width=400,height=531');}
+
+        function popvote(x,y)
+
+{window.open(x, 'vote','status=no,scrollbars=no,resizable=yes,width=354,height=390');}
+
+		function popquiz(x)
+
+{window.open(x,'quiz','status=no,scrollbars=no,resizable=yes,width=351,height=450');}
+
+        function openinmain(url)
+
+		{opener.location.href = url;}
+
+// -->
+
+</script>
+
+
+
+<script language="javascript">
+
+<!--
+
+function setHome(arg){
+
+ 	
+
+if(navigator.appVersion.charAt(navigator.appVersion.indexOf("MSIE") + 5) >= 5 && navigator.platform.indexOf("Win16") == -1 
+
+ && navigator.platform.indexOf("Mac") == -1){
+
+ 		arg.style.behavior='url(#default#homepage)';
+
+ 		arg.setHomePage('http://www.bbc.co.uk/radio4');
+
+ 		arg.href="#";
+
+ 		return true;
+
+ 	}
+
+ 	else {return false}
+
+}
+
+// -->
+
+</script>
+
+<script type="text/javascript" language="JavaScript">
+
+<!--
+
+
+
+
+
+function sendIt(form){
+
+    ctrl = form.email;
+
+    if ((ctrl.value.indexOf('@') == -1) || (ctrl.value.indexOf('.') == -1)) {
+
+        alert ('please input your email address before sending this email');
+
+        ctrl.select();
+
+        return (false);
+
+    }
+
+    form.submit();
+
+    return true;
+
+}
+
+//-->                                               
+
+</script>
+
+<script language="javascript" type="text/javascript">
+
+<!-- // hide from old browsers
+
+function popwinlive2(URL){
+
+window.open(URL,'live','width=662,height=355,top=0,toolbar=no,personalbar=no,location=no,directories=no,statusbar=no,menubar=no,status=no,resizable=yes,left=60,screenX=60,top=210,screenY=210');
+
+window.name="main";
+
+}
+
+//-->
+
+</script>
+
+
+
+
+
+
+
+
+
+
+<style>
+BODY { 
+  background: #ffffff url(/radio4/science/images/sciencebg.gif);
+  background-repeat: repeat-x;
+  }
+</style>
+<link rel="shortcut icon" href="/radio4/favicon.ico" />
+<script language="javascript" type="text/javascript">
+<!-- // hide from old browsers
+var high=355;
+ismac=false;
+if(navigator.userAgent.indexOf("Mac")!=-1){
+	high=435;
+}
+//add 70px to height if mac
+function aodpopup(URL){
+window.open(URL,'aod','width=662,height='+high+',top=0,toolbar=no,personalbar=no,location=no,directories=no,statusbar=no,menubar=no,status=no,resizable=yes,left=60,screenX=60,top=100,screenY=100');
+}
+window.name="main";
+
+if(location.search.substring(1)=="focuswin"){
+	window.focus();
+}
+
+//-->
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
+
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+<!--
+body {margin:0;}
+form {margin:0;padding:0;}
+.bbcpageShadow { background:#666666 url(/images/bg.gif); }
+.bbcpageShadowLeft {background:#999999 url(/images/bg.gif) repeat-y;}
+.bbcpageBar {background:#999999 url(/images/v.gif) repeat-y; }
+.bbcpageSearchL {background:#336699 url(/images/sl.gif) no-repeat;}
+.bbcpageSearch  {background:#336699 url(/images/st.gif) repeat-x;}
+.bbcpageSearch2 {background:#336699 url(/images/st.gif) repeat-x 0 0;}
+.bbcpageSearchRa {background:#999999 url(/images/sra.gif) no-repeat; }
+.bbcpageSearchRb {background:#999999 url(/images/srb.gif) no-repeat; }
+.bbcpageBlack {background-color:#000000;}
+.bbcpageGrey {background:#999999;}
+.bbcpageWhite,font.bbcpageWhite,a.bbcpageWhite,a.bbcpageWhite:link,a.bbcpageWhite:hover,a.bbcpageWhite:visited{color:#ffffff;text-decoration:none;font-family:tahoma,arial,helvetica,sans-serif;}
+
+.bbcpageTopleftlink,a.bbcpageTopleftlink,a:link.bbcpageTopleftlink,a:hover.bbcpageTopleftlink,a:visited.bbcpageTopleftlink {background:#000033;color:#ffffff;text-decoration:underline;}
+.bbcpageToplefttd {background:#000033;color:#ffffff;}
+
+-->
+</style>
+
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function popmailwin(x, y) {window.open(x,y,'status=no,scrollbars=yes,resizable=yes,width=350,height=400');}
+// -->
+</script>
+
+
+
+<style type="text/css"></style>
+
+
+</head>
+<body bgcolor="#ffffff" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" link="#000000" text="#000000" vlink="#000000" alink="#000000" style="margin:0px;">
+<!-- page layout templates v2.4 --><!-- GLOBAL NAVIGATION  --><a name="top" id="top"></a><!-- toolbar 1.3header.page  336699--><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr> <td class="bbcpageShadow" colspan="2"><a href="#startcontent"><img src="/furniture/tiny.gif" width="600" height="2" alt="Skip to main content " title="" border="0" /></a></td><td class="bbcpageShadow"><a href="/cgi-bin/education/betsie/parser.pl"><img src="/furniture/tiny.gif" width="1" height="2" alt=" Text Only version of this page" title="" border="0" /></a></td></tr><form action="http://www.bbc.co.uk/cgi-bin/search/results.pl"><tr><td class="bbcpageShadowLeft" width="76"><a href="http://www.bbc.co.uk/go/toolbar/-/"><img src="/images/logo.gif" width="62" height="20" alt="BBCi" border="0" hspace="7" vspace="2" /></a></td><td class="bbcpageGrey" align="right"><table cellpadding="0" cellspacing="0" border="0" style="float:right"><tr><td class="bbcpageBar" width="6"><br /></td><td><font size="1"><b><a href="/go/toolbar/-/categories/" class="bbcpageWhite">CATEGORIES</a></b></font></td><td class="bbcpageBar" width="6"><br /></td><td><font size="1"><b><a href="/go/toolbar/-/tv/" class="bbcpageWhite">TV</a></b></font></td><td class="bbcpageBar" width="6"><br /></td><td><font size="1"><b><a href="/go/toolbar/-/radio/" class="bbcpageWhite">RADIO</a></b></font></td><td class="bbcpageBar" width="6"><br /></td><td><font size="1"><b><a href="/go/toolbar/-/communicate/" class="bbcpageWhite">COMMUNICATE</a></b></font></td><td class="bbcpageBar" width="6"><br /></td><td><font size="1"><b><a href="/go/toolbar/-/whereilive/" class="bbcpageWhite">WHERE&nbsp;I&nbsp;LIVE</a></b></font></td><td class="bbcpageBar" width="6"><br /></td><td><font size="1"><b><a href="/go/toolbar/-/a-z/" class="bbcpageWhite">INDEX</a></b></font></td><td class="bbcpageSearchL" width="8"><br /></td><td class="bbcpageSearch"><font size="1" class="bbcpageWhite"><label for="bbcpageSearchbox"><span class="ie3"><b>SEARCH</b></span></label><img src="/furniture/tiny.gif" width="3" height="1" alt="" /></font></td><td class="bbcpageSearch2"><input type="text" id="bbcpageSearchbox" name="q" size="8" style="margin:3px 0 0;font-family:arial,helvetica,sans-serif;width:100px;" /></td><td class="bbcpageSearch"><input type="image" src="/images/go2.gif" name="go" value="go" alt="Go" width="26" height="21" border="0" /></td><td class="bbcpageSearchRa" width="1"><img src="/furniture/tiny.gif" width="1" height="30" alt="" /></td></tr></table></td><td class="bbcpageSearchRb"><img src="/furniture/tiny.gif" width="1" height="1" alt="" /><input type="hidden" name="uri" value="/radio4/science/" /></td></tr></form><tr><td class="bbcpageBlack" colspan="2"><table cellpadding="0" cellspacing="0" border="0"><tr><td width="125"><img src="/furniture/tiny.gif" width="125" height="1" alt="" /></td><td width="620"><img src="/furniture/tiny.gif" width="620" height="1" alt="" /></td></tr></table></td><td class="bbcpageBlack" width="100%"><img src="/furniture/tiny.gif" width="1" height="1" alt="" /></td></tr></table><!--!end toolbar 1.1--><table cellspacing="0" cellpadding="0" border="0" width="100%"><tr><td class="bbcpageToplefttd" width="125" valign="top"><table cellspacing="0" cellpadding="0" border="0"><tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" alt="" /></td><td width="117"><img src="/furniture/tiny.gif" width="117" height="1" alt="" /><br clear="all" /><font face="arial, helvetica, sans-serif" size="1" class="bbcpageToplefttd" ><img src="/furniture/tiny.gif" width="1" height="6" alt="" /><br clear="all" />10 July 2003<br /><a class="bbcpageTopleftlink" style="text-decoration:underline;" href="/cgi-bin/education/betsie/parser.pl">Text only</a><br /><a href="/" class="bbcpageTopleftlink" style="text-decoration:underline;">BBC Homepage</a><br /><a href="/radio/" class="bbcpageTopleftlink" style="text-decoration:underline;">BBC Radio</a> </font></td></tr></table></td><td width="100%" valign="top"><table width="620" cellpadding="0" cellspacing="0" border="0" bgcolor="#000033">
+<tr><td width="423" valign="top"><img src="/furniture/tiny.gif" width="247" height="1" border="0" alt="" /><img src="/radio4/images/ukradio.gif" alt="UK Radio Station of the Year 2003" width="176" height="70" border="0" /></td>
+<td width="197" valign="top"><a href="/radio4/"><img src="/radio4/images/w_4logo.jpg" width="197" height="70" border="0" alt="BBC Radio 4 92-95FM 198LW" /></a></td></tr>
+</table></td></tr></table><table style="margin:0px;" cellspacing="0" cellpadding="0" border="0" align="left" width="125"><tr><td class="bbcpageCrumb" width="8"><img src="/furniture/tiny.gif" width="8" height="1" alt="" /></td><td class="bbcpageCrumb" width="115"><img src="/furniture/tiny.gif" width="115" height="1" alt="" /><br clear="all" /><font face="arial, helvetica,sans-serif" size="2"></font></td><td width="2" class="bbcpageCrumb"><img src="/furniture/tiny.gif" width="2" height="1" alt="" /></td></tr><tr><td class="bbcpageLocal" colspan="3"><table width="125" cellpadding="0" cellspacing="0" border="0">
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="29" border="0" alt="" /></td></tr>
+<tr><td width="8" class="navcolor"><img src="/furniture/tiny.gif" width="8" height="31" border="0" alt="" /></td>
+<td width="115" colspan="2" class="navcolor"><font size="1"><a href="/radio4/" class="navwhite"><strong>Radio 4</strong></a></font></td>
+<td width="2" class="navcolor"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="12" border="0" alt="" /></td></tr>
+
+
+<tr>
+<td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="header"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="header"><font size="1" class="navblue"><strong>Programme Finder:</strong></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td>
+</tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="progs"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="progs"><font size="1"><a href="/radio4/atoz/" class="navwhite"><strong>A-Z</strong></a></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="progs"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="progs"><font size="1"><a href="/radio4/progs/listenagain.shtml" class="navwhite"><strong>Listen Again</strong></a></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="progs"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="progs"><font size="1"><a href="http://www.bbc.co.uk/cgi-perl/whatson/search/daylist.cgi?tmp=whatson/sdk/radio4/daylist_radio4.tmpl&day=Today&service_id=49700" class="navwhite"><strong>What's On</strong></a></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="progs"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="progs"><font size="1"><a href="/radio4/presenters/" class="navwhite"><strong>Presenter Biogs</strong></a></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="current"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="current"><font size="1"><a href="/radio4/news/" class="currenttxt"><strong>News|Curr't Affairs</strong></a></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="arts"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="arts"><font size="1"><a href="/radio4/arts/" class="artstxt"><strong>Arts and Drama</strong></a></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="comedy"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="comedy"><font size="1"><a href="/radio4/comedy/" class="comedytxt"><strong>Comedy|Quizzes</strong></a></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="science"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="science"><font size="1"><a href="/radio4/science/" class="sciencetxt"><strong>Science</strong></a></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="religion"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="religion"><font size="1"><a href="/radio4/religion/" class="religiontxt"><strong>Religion|Ethics</strong></a></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="history"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="history"><font size="1"><a href="/radio4/history/" class="historytxt"><strong>History</strong></a></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="discussion"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="discussion"><font size="1" class="discussiontxt"><a href="/radio4/factual/" class="discussiontxt"><strong>Factual</strong></a></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="10" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="header"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="header"><font size="1" class="navblue"><strong>Services:</strong></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="default"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="default"><font size="1"><a href="/whatson/tickets/" class="navblue"><strong>Tickets</strong></a></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="default"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="default"><font size="1"><a href="/radio4/help/" class="navblue"><strong>Audio Help | FAQs</strong></a></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="default"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="default"><font size="1"><a href="/radio4/aboutradio4/" class="navblue"><strong>Tour Radio 4</strong></a></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="default"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="default"><font size="1"><a href="/cgi-perl/h2/h2.cgi?board=radio4" class="navblue"><strong>Have Your Say</strong></a></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="default"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="default"><font size="1"><a href="/radio4/news/weather.shtml" class="navblue"><strong>Weather</strong></a></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="125" colspan="4"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="1" class="default"><img src="/furniture/tiny.gif" width="1" height="18" border="0" alt="" /></td>
+<td width="114" class="default"><font size="1"><a href="/radio4/news/shipping.shtml" class="navblue"><strong>Shipping Forecast</strong></a></font></td>
+<td width="2"><img src="/furniture/tiny.gif" width="2" height="1" border="0" alt="" /></td></tr>
+
+</table></td></tr><tr><td class="bbcpageLocal" colspan="3"><img src="/furniture/tiny.gif" width="1" height="5" alt="" /></td></tr><tr><td class="bbcpageServices"><img src="/furniture/tiny.gif" width="1" height="1" alt="" /></td><td class="bbcpageServices"><hr width="50" align="left" /><font face="arial, helvetica, sans-serif" size="2"><a class="bbcpageServices" href="/info/">About the BBC</a><br /><br /><a class="bbcpageServices" href="/feedback/">Contact Us</a><br /><br /><a class="bbcpageServices" href="/help/">Help</a><br /><br /><br /><font size="1">Like this page?<br /><a class="bbcpageServices" onclick="popmailwin('/cgi-bin/navigation/mailto.pl?GO=1','Mailer')" href="/cgi-bin/navigation/mailto.pl?GO=1" target="Mailer">Send it to a friend!</a></font><br />&nbsp;</font></td><td class="bbcpageServices"><img src="/furniture/tiny.gif" width="1" height="1" alt="" /></td></tr></table><!--!end left hand nav --><table width="620" cellspacing="0" cellpadding="0" border="0" style="margin:0px;" style="float:left;"><tr><td><!-- End of GLOBAL NAVIGATION  --><a name="startcontent" id="startcontent"></a>
+
+<table width="600" cellpadding="0" cellspacing="0" border="0">
+<!-- transparent holding row -->
+
+<tr>
+<td width="10"><img src="/furniture/tiny.gif" width="10" height="1" border="0" alt="" /></td>
+<td width="159"><img src="/furniture/tiny.gif" width="159" height="1" border="0" alt="" /></td>
+<td width="10"><img src="/furniture/tiny.gif" width="10" height="1" border="0" alt="" /></td>
+<td width="229"><img src="/furniture/tiny.gif" width="229" height="1" border="0" alt="" /></td>
+<td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="10"><img src="/furniture/tiny.gif" width="10" height="1" border="0" alt="" /></td>
+<td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+<td width="168"><img src="/furniture/tiny.gif" width="168" height="1" border="0" alt="" /></td>
+<td width="8"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td></tr>
+<!-- end transparent holding row -->
+
+<!-- row with subject heading -->
+<tr><td width="10"><img src="/furniture/tiny.gif" width="10" height="1" border="0" alt="" /></td>
+<td width="159" valign="top"><img src="/furniture/tiny.gif" width="1" height="7" border="0" alt="" /><br clear="all" /><img src="/radio4/science/images/title.gif" width="82" height="15" border="0" alt="Science"/><br clear="all" /><img src="/furniture/tiny.gif" width="1" height="7" border="0" alt="" /></td>
+<td width="431" colspan="7"><img src="/furniture/tiny.gif" width="431" height="1" border="0" alt="" /></td></tr>
+<!-- end row with subject heading -->
+
+<!-- row with strap line and missed a programme -->
+<tr><td width="10" bgcolor="#336699"><img src="/furniture/tiny.gif" width="10" height="1" border="0" alt="" /></td>
+<td width="398" colspan="3" bgcolor="#336699"><span class="white"><font size="1"><b>ENVIRONMENT - HEALTH - NATURE - SCIENCE</b></font></span><br clear="all" /><img src="/furniture/tiny.gif" width="398" height="1" border="0" alt="" /></td>
+<td width="8"><img src="images/f_topright.gif" width="8" height="31" border="0" alt="" /></td>
+<td width="10"><img src="/furniture/tiny.gif" width="10" height="1" border="0" alt="" /></td>
+<td width="8"><img src="images/f_topleft.gif" width="8" height="31" border="0" alt="" /></td>
+<td width="168" bgcolor="#336699" align="center"><font size="1"><a href="/radio4/progs/listenagain.shtml" class="white"><strong>MISSED A PROGRAMME?</strong><br />Go to the Listen Again page</a></font></td>
+<td width="8"><img src="images/f_topright.gif" width="8" height="31" border="0" alt="" /></td></tr>
+<!-- end row with strap line and missed a programme -->
+
+<tr><td width="10"><img src="/furniture/tiny.gif" width="10" height="1" border="0" alt="" /></td>
+
+<td width="159" valign="top" class="column1"><table width="159" cellpadding="0" cellspacing="0" border="0">
+<tr><td width="6" class="whitebg"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+<td width="147" class="whitebg"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+<td width="6" class="whitebg"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+<tr><td width="159" colspan="3"><img src="/furniture/tiny.gif" width="1" height="10" border="0" alt="" /></td></tr>
+<tr><td width="159" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="6" class="column1header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+<td width="147" class="column1header"><span class="white"><font size="1"><strong>LISTEN TO THE LATEST PROGRAMMES</strong></font></span></td>
+<td width="6" class="column1header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+<tr><td width="159" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+<td width="147" valign="top"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /><br /><font size="1">
+<a href="/radio4/science/allinthemind.shtml">All in the Mind</a>
+<br />2100-2130, Tuesday<br />1630-1700, Wednesday<br /><a class="red" href="/radio4/science/rams/allinthemind.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/another5.shtml">Another Five Numbers</a>
+<br /><a class="red" href="/radio4/science/rams/another5.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/beingbugged.shtml">Being Bugged</a>
+<br /><a class="red" href="/radio4/science/rams/beingbugged.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/briefhistory.shtml">Brief History of the End of Everything</a>
+<br /><a class="red" href="/radio4/science/rams/briefhistory.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/casenotes.shtml">Case Notes</a>
+<br /><a class="red" href="/radio4/science/rams/casenotes.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/changingplaces.shtml">Changing Places</a>
+<br /><a class="red" href="/radio4/science/rams/changingplaces.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/checkup.shtml">Check Up</a>
+<br /><a class="red" href="/radio4/science/rams/checkup.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/connect.shtml">Connect</a>
+<br />2100-2130, Wednesday<br /><a class="red" href="/radio4/science/rams/connect.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/costingtheearth.shtml">Costing the Earth</a>
+<br /><a class="red" href="/radio4/science/rams/costingtheearth.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/diaryofclimatechange.shtml">Diary of Climate Change</a>
+<br /><a class="red" href="/radio4/science/rams/docc.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/dishoftheday.shtml">Dish of the Day</a>
+<br /><a class="red" href="/radio4/science/rams/dishoftheday.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/madeforlife.shtml">Earth Made for Life, An</a>
+<br /><a class="red" href="/radio4/science/rams/madeforlife.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/5numbers.shtml">Five Numbers</a>
+<br /><a class="red" href="/radio4/science/rams/5numbers5.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<strong>Forgotten Female Fossillists</strong>
+<br />1445-1500, Sunday<br /><a class="red" href="/radio4/science/rams/sun1445.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/frontiers.shtml">Frontiers</a>
+<br /><a class="red" href="/radio4/science/rams/frontiers.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/futurelabs.shtml">Future Labs</a>
+<br /><a class="red" href="/radio4/science/rams/futurelabs.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/homeplanet.shtml">Home Planet</a>
+<br />1500-1530, Tuesday<br /><a class="red" href="/radio4/science/rams/homeplanet.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/intothinair.shtml">Into Thin Air</a>
+<br /><a class="red" href="/radio4/science/rams/intothinair.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/thekiss.shtml">Kiss, The</a>
+<br /><a class="red" href="/radio4/science/rams/thekiss.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/landlines.shtml">Land Lines</a>
+<br /><a class="red" href="/radio4/science/rams/landlines.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/leadingedge.shtml">Leading Edge</a>
+<br />2100-2130, Thursday<br /><a class="red" href="/radio4/science/rams/leadingedge.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/lifeasateenager.shtml">Life as a Teenager</a>
+<br /><a class="red" href="/radio4/science/rams/laat.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/lifeasanadult.shtml">Life as an Adult</a>
+<br /><a class="red" href="/radio4/science/rams/laaa.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/lifeinmiddleage.shtml">Life in Middle Age</a>
+<br />2100-2130, Tuesday<br /><a class="red" href="/radio4/science/rams/lima.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/livingwithpain.shtml">Living with Pain</a>
+<br /><a class="red" href="/radio4/science/rams/lwp.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/livingworld.shtml">Living World, The</a>
+<br /><a class="red" href="/radio4/science/rams/livingworld.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/thematerialworld.shtml">Material World, The</a>
+<br />1630-1700, Thursday<br /><a class="red" href="/radio4/science/rams/materialworld.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<strong>Monday: Nature at Nine</strong>
+<br />2100-2130, Monday<br /><a class="red" href="/radio4/science/rams/mon2100.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/mountains.shtml">Mountains That Changed the World</a>
+<br /><a class="red" href="/radio4/science/rams/mountains.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/mozarteffect.shtml">Mozart Effect, The</a>
+<br /><a class="red" href="/radio4/science/rams/mozarteffect.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/nature.shtml">Nature</a>
+<br /><a class="red" href="/radio4/science/rams/nature.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/reith2003/">Reith Lectures 2003</a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/seedsoftrouble.shtml">Seeds of Trouble</a>
+<br /><a class="red" href="/radio4/science/rams/seedsot.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/seychelles.shtml">Seychelles Seashore</a>
+<br /><a class="red" href="/radio4/science/rams/seychelles.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/smalldog.shtml">Small Dog on Mars</a>
+<br /><a class="red" href="/radio4/science/rams/smalldog.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/tranquillity.shtml">Small Slice of Tranquillity</a>
+<br />1100-1130, Tuesday<br /><a class="red" href="/radio4/science/rams/tranquillity.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<strong>Substance: A History of Modern Synthetic Materials</strong>
+<br />0930-0945, Tuesday<br /><a class="red" href="/radio4/science/rams/tue0930.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<strong>Taking the P*** Out of London</strong>
+<br />1100-1130, Wednesday<br /><a class="red" href="/radio4/science/rams/wed1100.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<strong>The Leg Bone's Connected to the Patella</strong>
+<br />1100-1130, Friday<br /><a class="red" href="/radio4/science/rams/fri1102.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/thinkaboutit.shtml">Think About It</a>
+<br />1100-1130, Monday<br /><a class="red" href="/radio4/science/rams/thinkaboutit.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/atwisttolife.shtml">Twist to Life, A</a>
+<br /><a class="red" href="/radio4/science/rams/atwist.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/unearthingmysteries.shtml">Unearthing Mysteries</a>
+<br /><a class="red" href="/radio4/science/rams/unearthingm.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/wedoitourway.shtml">We Do It Our Way</a>
+<br /><a class="red" href="/radio4/science/rams/wedoitourway.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/whatremains.shtml">What Remains to Be Discovered?</a>
+<br /><a class="red" href="/radio4/science/rams/whatremains.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<a href="/radio4/science/wildeurope.shtml">Wild Europe</a>
+<br /><a class="red" href="/radio4/science/rams/wildeurope.ram"><strong>LISTEN</strong><img src="/radio4/science/images/redspeaker.gif" width="11" height="7" border="0" alt="Listen" hspace="5" vspace="0" /></a>
+<br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+<img src="/radio4/images/wline.gif" width="147" height="1" border="0" alt="" /><br />
+<img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /><br />
+</font><br /><img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /></td>
+<td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+<tr><td width="159" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="6" class="column1header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+<td width="147" class="column1header"><span class="white"><font size="1"><strong>CURRENTLY OFF AIR</strong></font></span></td>
+<td width="6" class="column1header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+<tr><td width="159" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+<td width="147" valign="top"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /><br /><font size="1"><a href="/radio4/science/archive_index.shtml">See the Science Archive</a> for older occasional series and documentaries.</font><br /><img src="/furniture/tiny.gif" width="1" height="10" border="0" alt="" /></td>
+<td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+</table>
+
+
+<table width="159" cellpadding="0" cellspacing="0" border="0">
+
+
+<tr><td width="159" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+<td width="147" valign="top"><img src="/furniture/tiny.gif" width="1" height="6" border="0" alt="" /></td>
+<td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+</table>
+</td>
+
+<td width="10"><img src="/furniture/tiny.gif" width="10" height="1" border="0" alt="" /></td>
+<td width="247" valign="top" colspan="2">
+<!--*********** start second column content table ***********-->
+<table width="247" cellpadding="0" cellspacing="0" border="0">
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="12" border="0" alt="" /></td>
+	<td width="235"><img src="/furniture/tiny.gif" width="235" height="1" border="0" alt="" /></td>
+	<td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>	 
+
+
+	
+
+<!-- Leading Edge starts -->
+<tr><td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="column2header"><font size="1"><a href="/radio4/science/leadingedge.shtml" class="white"><strong>LEADING EDGE
+</strong></a></font></td>
+	<td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="6" class="liteheader"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="liteheader"><font size="1"><span class="black">Thursday 9.00-9.30pm</span></font></td>
+	<td width="6" class="liteheader"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="241" valign="top" colspan="2"><font size="1">
+	<a href="/radio4/science/leadingedge.shtml" class="black">
+	<img src="images/i_watts.jpg" width="100" height="68" border="0" alt="Geoff Watts" align="right" vspace="0" hspace="0"></a>Discoveries, debates,<br />hot topics and news reports from the world of science. Presented by <a href="/radio4/science/leadingedge.shtml" class="black">Geoff Watts</a>.
+</font></td></tr>
+<!-- Leading Edge ends -->			
+	
+ 
+<!-- Material World starts -->
+<tr><td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="column2header"><font size="1"><a href="/radio4/science/thematerialworld.shtml" class="white"><strong>THE MATERIAL WORLD
+</strong></a></font></td>
+	<td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="6" class="liteheader"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="liteheader"><font size="1"><span class="black">Thursday 4.30-5.00pm</span></font></td>
+	<td width="6" class="liteheader"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="241" valign="top" colspan="2"><font size="1">
+<a href="/radio4/science/thematerialworld.shtml" class="black">
+<img src="images/i_mw_cooper.jpg" width=100 height=68 alt="Quentin Cooper" align="right" border="0" vspace="0" hspace="0">Quentin Cooper</a> and his live studio guests discuss the latest scientific investigations and research findings.</a></font></td></tr>
+<!-- Material World ends -->	
+		
+
+<!-- All in the Mind starts -->
+<tr><td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="column2header"><font size="1"><a href="/radio4/science/allinthemind.shtml" class="white"><strong>ALL IN THE MIND</strong></a></font></td>
+	<td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="6" class="liteheader"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="liteheader"><font size="1"><span class="black">Tuesday 9.00-9.30pm Rpt: Wed 4.30pm</span></font></td>
+	<td width="6" class="liteheader"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="241" valign="top" colspan="2"><font size="1">
+<a href="/radio4/science/allinthemind.shtml" class="black">
+<img src="/radio4/science/images/i_aitm_raj.jpg" width="100" height="68" border="0" alt="Dr Raj Persaud" align="right" vspace="0" hspace="0">
+Dr Raj Persaud</a> returns with the series that looks at issues in the worlds of <a href="/radio4/science/allinthemind.shtml" class="black">psychiatry, psychology and mental health</a>.
+</font></td></tr>
+<!-- All in the Mind ends --> 
+
+
+<!-- Connect promo starts -->
+<tr><td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="column2header"><font size="1">
+	<a href="/radio4/science/connect.shtml" class="white"><strong>CONNECT</strong></a></font></td>
+	<td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+	
+<tr><td width="6" class="liteheader"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="liteheader"><font size="1"><span class="black">Wednesday 9.00-9.30pm</span></font></td>
+	<td width="6" class="liteheader"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="241" valign="top" colspan="2"><font size="1">
+	<a href="/radio4/science/connect.shtml" class="black"><img src="images/i_connect.jpg" width=100 height=68 border="0" alt="Connect" align="right" border="0" vspace="0" hspace="0"></a>Quentin Cooper examines the <a href="/radio4/science/connect.shtml" class="black">technologies that have an impact on our lives</a>, whether for good or ill.
+</a></font></td></tr>
+<!-- Connect ends -->			
+	
+	
+<!-- home planet promo starts -->
+<tr><td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="column2header"><font size="1"><a href="/radio4/science/homeplanet.shtml" class="white"><strong>HOME PLANET
+</strong></a></font></td>
+	<td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="6" class="liteheader"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="liteheader"><font size="1"><span class="black">Tuesday 3.00-3.30pm</span></font></td>
+	<td width="6" class="liteheader"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="241" valign="top" colspan="2"><font size="1">
+<a href="/radio4/science/homeplanet.shtml" class="black">
+<img src="/radio4/science/images/i_hp_earth.jpg" width="100" height="68" border="0" alt="Home Planet" align="right" vspace="0" hspace="0">Richard Daniel</a> presents the interactive programme which <a href="/radio4/science/homeplanet.shtml" class="black">answers your questions about the environment</a>.</font></td></tr>
+<!-- home planet promo ends -->		
+
+
+<!-- assot starts -->
+<tr><td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="column2header"><font size="1">
+	<a href="/radio4/science/tranquillity.shtml" class="white"><strong>A SMALL SLICE OF TRANQUILLITY</strong></a></font></td>
+	<td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+	
+<tr><td width="6" class="liteheader"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="liteheader"><font size="1"><span class="black">Tuesday 11.00-11.30am</span></font></td>
+	<td width="6" class="liteheader"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="241" valign="top" colspan="2"><font size="1">
+	<a href="/radio4/science/tranquillity.shtml" class="black"><img src="images/i_tra_bluebell.jpg" width=100 height=68 border="0" alt="Bluebell Wood" align="right" vspace="0" hspace="0"></a> 
+Chris Watson's<br />evocative journey through a world of rhythms and noise<br /><a href="/radio4/science/tranquillity.shtml" class="black">in search of silence.</a></font></td></tr>
+<!-- assot ends -->	
+
+
+<!-- NaN promo starts -->
+<tr><td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="column2header"><font size="1">
+	<a href="/radio4/science/rams/mon2100.ram" class="white"><strong>NATURE AT NINE</strong></a></font></td>
+	<td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="6" class="liteheader"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="liteheader"><font size="1"><span class="black">Monday 9.00-9.30pm</span></font></td>
+	<td width="6" class="liteheader"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="241" valign="top" colspan="2"><font size="1">
+<a href="/radio4/science/rams/mon2100.ram" class="black">
+<img src="images/i_n_montage.jpg" width=100 height=68 alt="Nature" align="right" border="0" vspace="0" hspace="0"></a>Unique insights into the environment, the natural world and the creatures that inhabit it. This week: <a href="/radio4/science/rams/mon2100.ram" class="black">The Real Wolf</a></font></td></tr>
+<!-- NaN promo ends -->	
+
+
+<!-- think promo starts -->
+<tr><td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="column2header"><font size="1"><a href="/radio4/science/thinkaboutit.shtml" class="white"><strong>THINK ABOUT IT
+</strong></a></font></td>
+	<td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="6" class="liteheader"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="liteheader"><font size="1"><span class="black">Monday 11.00-11.30am</span></font></td>
+	<td width="6" class="liteheader"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="241" valign="top" colspan="2"><font size="1">
+<a href="/radio4/science/thinkaboutit.shtml" class="black">
+<img src="/radio4/science/images/i_thinker.jpg" width="100" height="68" border="0" alt="The Thinker" align="right" vspace="0" hspace="0">Ian Peacock</a> dons his very fetching thinking cap and asks how those little grey cells keep our minds active.</a></font></td></tr>
+<!-- think promo ends -->		
+
+
+
+
+<!--*********** RECENT HIGHLIGHTS  ***********-->
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3" class="column2header"><img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /></td></tr>
+
+<tr><td width="6" class="liteheader"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="liteheader"><font size="1"><span class="black"><strong>LISTEN AGAIN TO<br />RECENT PROGRAMMES:</strong></span></font></td>
+	<td width="6" class="liteheader"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3" class="column2header"><img src="/furniture/tiny.gif" width="1" height="2" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+
+	
+<!-- lima promo starts -->
+<tr><td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="column2header"><font size="1"><a href="/radio4/science/lifeinmiddleage.shtml" class="white"><strong>LIFE IN MIDDLE AGE
+</strong></a></font></td>
+	<td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="241" valign="top" colspan="2"><font size="1">
+<a href="/radio4/science/lifeinmiddleage.shtml" class="black">
+<img src="/radio4/science/images/i_lima.jpg" width="100" height="68" border="0" alt="Middle Age" align="right" vspace="0" hspace="0"></a>Continuing her look at health and wellbeing over the <a href="/radio4/science/lifeinmiddleage.shtml" class="black">seven ages of man</a>, Connie St Louis turns to the years 40-60.</font></td></tr>
+<!-- lima promo ends -->	
+
+	
+<!-- FLabs promo starts -->
+<tr><td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="column2header"><font size="1">
+	<a href="/radio4/science/futurelabs.shtml" class="white"><strong>FUTURE LABS</strong></a></font></td>
+	<td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="241" valign="top" colspan="2"><font size="1">
+<a href="/radio4/science/futurelabs.shtml" class="black">
+<img src="images/i_lab.jpg" width=100 height=68 alt="Future Labs" align="right" border="0" vspace="0" hspace="0"></a>The remarkable stories of small groups of research scientists whose inventions have changed the world.</font></td></tr>
+<!-- FLabs promo ends -->		
+	
+	
+<!-- Living World promo starts -->
+<tr><td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="column2header"><font size="1"><a href="/radio4/science/livingworld.shtml" class="white"><strong>THE LIVING WORLD</strong></a></font></td>
+	<td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="241" valign="top" colspan="2"><font size="1">
+<a href="/radio4/science/livingworld.shtml" class="black">
+<img src="/radio4/science/images/i_westwood.jpg" width="100" height="68" border="0" alt="Brett Westwood" align="right" vspace="0" hspace="0">Brett Westwood</a> presents the evocative natural history series, offering close encounters with British wildlife.
+</font></td></tr>
+<!-- Living World promo ends --> 		
+
+
+<!-- Another 5 promo starts -->
+<tr><td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="column2header"><font size="1"><a href="/radio4/science/another54.shtml" class="white"><strong>ANOTHER FIVE NUMBERS</strong></a></font></td>
+	<td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="241" valign="top" colspan="2"><font size="1">
+<a href="/radio4/science/another55.shtml" class="black">
+<img src="images/i_another5.gif" width="100" height="68" border="0" alt="Another 5 Numbers" align="right" vspace="0" hspace="0">
+Simon Singh</a> investigates <a href="/radio4/science/another55.shtml" class="black">another five numbers</a> at the heart of some of the trickiest problems in mathematics.</font></td></tr>
+<!-- Another 5 promo ends -->	
+	
+
+<!-- Seychelles promo starts -->
+<tr><td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="column2header"><font size="1">
+	<a href="/radio4/science/seychelles.shtml" class="white"><strong>THE SEYCHELLES SEASHORE</strong></a></font></td>
+	<td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="241" valign="top" colspan="2"><font size="1">
+<a href="/radio4/science/seychelles.shtml" class="black">
+<img src="images/i_seychelles.jpg" width=100 height=68 alt="Fairy Tern" align="right" border="0" vspace="0" hspace="0">  </a>Stuart Blackman discovers <a href="/radio4/science/seychelles.shtml" class="black">a treasure trove of wildlife</a> on Aride, a small island in the Indian Ocean.</font></td></tr>
+<!-- Seychelles promo ends -->	
+
+
+<!-- kiss promo starts -->
+<tr><td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="column2header"><font size="1"><a href="/radio4/science/thekiss.shtml" class="white"><strong>THE KISS
+</strong></a></font></td>
+	<td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="241" valign="top" colspan="2"><font size="1">
+<a href="/radio4/science/thekiss.shtml" class="black">
+<img src="/radio4/science/images/i_kiss.jpg" width="100" height="68" border="0" alt="The Kiss" align="right" vspace="0" hspace="0"></a>Dr Gillian Rice investigates the origins of <a href="/radio4/science/thekiss.shtml" class="black">the kiss</a> and its chemistry, physiology and cultural resonance.</a></font></td></tr>
+<!-- kiss promo ends -->	
+		
+
+<!-- Seeds ot starts -->
+<tr><td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="column2header"><font size="1"><a href="/radio4/science/seedsoftrouble.shtml" class="white"><strong>SEEDS OF TROUBLE
+</strong></a></font></td>
+	<td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="241" valign="top" colspan="2"><font size="1">
+<a href="/radio4/science/seedsoftrouble.shtml" class="black">
+<img src="images/i_seedsot.jpg" width=100 height=68 alt="GM protester" align="right" border="0" hspace="0" vspace="0">Richard Hollingham</a> asks what is really going on behind the scenes of the GM food industry - and why. <a href="/cgi-perl/h2/h2.cgi?state=threads&board=radio4.science&" class="black"><strong>Join the debate.</strong></a></font></td></tr>
+<!-- Seeds ot ends --> 		
+
+			
+<!-- LL promo starts -->
+<tr><td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="column2header"><font size="1">
+	<a href="/radio4/science/landlines6.shtml" class="white"><strong>LAND LINES</strong></a></font></td>
+	<td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="241" valign="top" colspan="2"><font size="1">
+<a href="/radio4/science/landlines6.shtml" class="black">
+<img src="images/i_ll_puzzle.gif" width=100 height=68 alt="Land Lines" align="right" border="0" vspace="0" hspace="0"></a>The final puzzle is set in Combe Martin, Devon. <a href="/radio4/science/landlines6.shtml" class="black">See the photos, listen to the clues and try to solve the challenge.</a></font></td></tr>
+<!-- LL promo ends -->		
+	
+
+<!-- DotD promo starts -->
+<tr><td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="column2header"><font size="1"><a href="/radio4/science/dishoftheday.shtml" class="white"><strong>DISH OF THE DAY</strong></a></font></td>
+	<td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="241" valign="top" colspan="2"><font size="1">
+<a href="/radio4/science/dishoftheday.shtml" class="black">
+<img src="/radio4/science/images/i_bigear.gif" width="100" height="68" border="0" alt="Jodrell Bank" align="right" vspace="0" hspace="0">Jodrell Bank</a> has been monitoring deep space for nearly 50 years. Brian James meets the team who work there.
+</font></td></tr>
+<!-- DotD promo ends --> 
+
+ 
+<!-- small dog promo starts -->
+<tr><td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="235" class="column2header"><font size="1">
+	<a href="/radio4/science/smalldog.shtml" class="white"><strong>SMALL DOG ON MARS</strong></a></font></td>
+	<td width="6" class="column2header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="8" border="0" alt="" /></td></tr>
+
+<tr><td width="6"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="241" valign="top" colspan="2"><font size="1">
+	<a href="/radio4/science/smalldog.shtml" class="black"><img src="images/i_smalldog.gif" width=100 height=68 border="0" alt="Beagle 2" align="right" vspace="0" hspace="0">Beagle 2, Britain’s first inter-planetary probe,</a> has successfully blasted off on a Russian rocket, heading for Mars.</font></td></tr>
+<!-- small dog ends -->	
+
+
+
+	
+<!--*********** end second column content table ***********-->
+</table></td>
+<td width="10"><img src="/furniture/tiny.gif" width="10" height="1" border="0" alt="" /></td>
+<td width="184" colspan="3" valign="top" class="column3">
+<!--*********** start third column content table ***********-->
+<table width="184" cellpadding="0" cellspacing="0" border="0">
+<tr><td width="8" class="whitebg"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td>
+	<td width="168" class="whitebg"><img src="/furniture/tiny.gif" width="168" height="1" border="0" alt="" /></td>
+	<td width="8" class="whitebg"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td></tr>
+	
+<tr><td width="184" colspan="3"><img src="/furniture/tiny.gif" width="1" height="10" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>	
+
+<tr><td width="184" colspan="3"><a onClick="popwinlive2('/radio4/live_feed.html','live')" href="/radio4/live_feed.html" target="live"><img src="images/listenlive.gif" width="184" height="29" border="0" alt="Listen Live" /></a></td></tr>
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<!-- start credit card -->
+<tr><td width="8" class="creditcell"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td>
+	<td width="168" class="creditcell"><img src="/furniture/tiny.gif" width="168" height="1" border="0" alt="" /></td>
+	<td width="8" class="creditcell"><img src="/furniture/tiny.gif" width="8" height="1" border="0" alt="" /></td></tr>
+<tr><td width="8" class="creditcell"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td>
+	<td width="168" class="creditcell"><font size="1"><div class="red"><strong>ON AIR NOW</strong></div>20:00&nbsp;-&nbsp;20:30<!--END_EPOCH=1057869000--><br /><a href="/cgi-perl/whatson/prog_parse.cgi?FILENAME=20030710/20030710_2000_49700_6816_30" class="newslblue"><b>Weapons Inspectors Uncovered</b></a>
+</font></td>
+	<td width="8" class="creditcell"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3" class="creditcell"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+<tr><td width="184" class="whitebg" colspan="3"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+<tr><td width="8"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td>
+	<td width="168"><font size="1"><a href="/radio4/help/" class="black">Audio Help</a></div></font></td>
+	<td width="8"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+<!-- end credit card -->
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="6" border="0" alt="" /></td></tr>
+
+<!-- Science News-->
+
+<tr><td width="184" colspan="3" class="whitebg"><a href="http://news.bbc.co.uk/1/hi/sci/tech/default.stm"><img src="images/bbcnews.gif" width="184" height="15" alt="BBC News: Science/Nature" border="0"></a></td></tr>
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3" class="column1"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+
+<tr><td width="6" class="column1"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+<td width="168" class="column1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<font size="1">
+<a href="http://news.bbc.co.uk/1/hi/sci/tech/3053165.stm" class="white10">Star story reveals new planets</a><br clear="all" />
+<a href="http://news.bbc.co.uk/1/hi/sci/tech/3053319.stm" class="white10">Green light for Moon launch</a><br clear="all" />
+<td width="6" class="column1"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3" class="column1"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3" class="column1"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+
+<tr><td width="6" class="column1"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+<td width="168" class="column1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<font size="1">
+<a href="http://news.bbc.co.uk/1/hi/health/3052681.stm" class="white10">Asylum policies 'increasing HIV risk'</a><br clear="all" />
+<a href="http://news.bbc.co.uk/1/hi/health/3053439.stm" class="white10">Surgery hope for unborn babies</a><br clear="all" />
+</font></td>
+<td width="6" class="column1"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3" class="column1"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+<!-- end science news box -->
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="6" border="0" alt="" /></td></tr>
+
+<tr><td width="6" class="column3header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+
+<td width="168" class="column3header"><font size="1"><strong><a href="/radio4/science/sciencemap.shtml" class="white">SCIENCE MAP</a></strong></font></td>
+
+<td width="6" class="column3header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3" class="whitebg"><a href="/radio4/science/sciencemap.shtml"><img src="images/sciencemap_smaller.jpg" width="184" height="39" alt="Science Map" border="0"></a></td></tr>
+
+<tr><td width="184" colspan="3"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td>
+
+	<td width="168" valign="top"><font size="1">
+	<a href="/radio4/science/sciencemap.shtml" class="black">
+<strong>Listen again</strong></a> to over 500 Science, Health, Nature and Environmental programmes.<br clear="all" />
+	</font></td>
+	<td width="8"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="6" class="column3header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="168" class="column3header"><font size="1"><strong><a href="/radio4/science/archive_index.shtml" class="white">SCIENCE ARCHIVE</a></strong></font></span></td>
+	<td width="6" class="column3header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td>
+
+	<td width="168" valign="top"><font size="1">
+	<a href="/radio4/science/archive_index.shtml" class="black">
+	Comprehensive list of documentaries, features<br />and occasional series</a><br clear="all" />
+	</font></td>
+	<td width="8"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+
+<!-- What's On -->
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="6" class="column3header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="168" class="column3header"><font size="1"><span class="white"><strong><a href="/cgi-perl/whatson/search/advance_search.cgi?tmp=whatson%2F2templates%2Fsearch%2F2adv_search.tmpl&keyword=&tstart=&tstop=&dstart=&dstop=&genre=fact_nature&genre=fact_science&genre=life_health&service_id=49700" class="white">WHAT'S ON - SCIENCE</a></strong></span></font></td>
+	<td width="6" class="column3header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+<tr><td width="8"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td>
+	<td width="168" valign="top"><font size="1">
+	<a href="/cgi-perl/whatson/search/advance_search.cgi?tmp=whatson%2F2templates%2Fsearch%2F2adv_search.tmpl&keyword=&tstart=&tstop=&dstart=&dstop=&genre=fact_nature&genre=fact_science&genre=life_health&service_id=49700" class="black">Forthcoming Programmes</a></font></td>
+	<td width="8"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+<!-- end What's On-->
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="6" border="0" alt="" /></td></tr>
+<tr><td width="6" class="column3header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+<td width="168" class="column3header"><font size="1"><strong><a href="/radio4/science/puzzle.shtml" class="white">SCIENCE PUZZLES</a></strong></font></td>
+<td width="6" class="column3header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3" class="column1"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+<tr><td width="8" class="column1"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td>
+	<td width="168" valign="top" class="column1"><font size="1">
+	Which came first, colour photography or the cash register? Try our new puzzle: <a href="/radio4/science/puzzle10.shtml" class="black"><strong>Inventions - part 3</strong></a>
+	</font></td>
+	<td width="8" class="column1"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3" class="column1"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+
+
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="6" class="column3header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+<td width="168" class="column3header"><font size="1"><strong><a href="/radio3/architecture/" class="white">ARCHITECTURE ON 3</a></strong></font></td>
+<td width="6" class="column3header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3" class="whitebg"><a href="/radio3/architecture/"><img src="images/architectureon3.jpg" width="184" height="49" alt="Architecture on 3" border="0"></a></td></tr>
+
+<tr><td width="184" colspan="3" class="column1"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+<tr><td width="8" class="column1"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td>
+	<td width="168" valign="top" class="column1"><font size="1">
+	Details of Radio 3's <a href="/radio3/architecture/" class="black"><strong>Architecture Season</strong></a>
+	</font></td>
+	<td width="8" class="column1"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3" class="column1"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="6" class="column3header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+<td width="168" class="column3header"><font size="1"><strong>
+<a href="/cgi-perl/h2/h2.cgi?board=radio4" class="white">MESSAGE BOARDS</a></strong></font></td>
+<td width="6" class="column3header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+<tr><td width="8"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td>
+
+	<td width="168" valign="top"><font size="1">Join the discussion:<br clear="all" />
+	<a href="/cgi-perl/h2/h2.cgi?state=threads&board=radio4.science&" class="black">	
+	<strong>Radio 4 Science</strong></a><br clear="all" />
+	Let us hear your views on our environmental, health, nature and science programmes
+<td width="8"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+
+<tr><td width="8"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td>
+	<td width="168" valign="top"><font size="1">
+	<a href="http://www.bbc.co.uk/cgi-perl/h2/h2.cgi?board=health" class="black">	
+	BBC Health</a><br clear="all" />
+	<a href="http://www.bbc.co.uk/cgi-perl/h2/h2.cgi?state=init&board=nature" class="black">
+	BBC Nature</a><br clear="all" />
+	<a href="http://www.bbc.co.uk/cgi-perl/h2/h2.cgi?state=threads&board=nature.environmental&" class="black">
+	- Environment</a><br clear="all" />
+	<a href="http://www.bbc.co.uk/cgi-perl/h2/h2.cgi?board=science" class="black">
+	BBC Science</a><br clear="all" />
+	<a href="http://www.bbc.co.uk/cgi-perl/h2/h2.cgi?state=threads&board=science.qanda&&sort=T" class="black">
+	- Science Q &amp; A</a><br clear="all" />
+	<a href="/science/chat/" class="black">
+	BBC Science Chat</a><br clear="all" /></a>
+	</font></td>
+	
+	<td width="8"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+
+<!-- Web chats -->
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="6" class="column3header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="168" class="column3header"><font size="1"><span class="white"><strong>WEBCHAT&nbsp;&nbsp;TRANSCRIPTS</strong></span></font></td>
+	<td width="6" class="column3header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+<tr><td width="8"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td>
+	<td width="168" valign="top"><font size="1">
+	<a href="/radio4/today/reports/chat/livechathollingham.shtml">Antarctica</a>
+	<br />
+	<a href="/radio4/interact/livechat/autism.shtml">Autism</a>
+	<br />
+	<a href="/radio4/science/chat_depression.shtml">Depression</a>
+	<br />
+	<a href="/radio4/science/chat_hands.shtml">Hands</a>
+	<br />
+	<a href="/radio4/science/chat_ibs.shtml">Irritable Bowel Syndrome</a>
+	<br />
+	<a href="/radio4/interact/livechat/taylor.shtml">Language Acquisition Device</a>
+	<br />
+	<a href="/radio4/interact/livechat/stevenson.shtml">Menopause</a>
+	<br />
+	<a href="/radio4/science/chat_pos.shtml">Polycystic Ovary Syndrome</a>
+	<br />
+	<a href="/radio4/interact/livechat/waxman.shtml">Prostate Cancer</a>
+	<br />
+	<a href="/radio4/today/reports/chat/livechatfarrar.shtml">RSPB</a>
+	<br />
+	<a href="/radio4/interact/livechat/schizophrenia.shtml">Schizophrenia</a>
+	<br />
+	<a href="/radio4/science/chat_search.shtml">Search Engines (Simon Singh)</a>
+	<br />
+	<a href="/radio4/today/reports/chat/livechatduque.shtml">Spanish Astronaut</a>
+	<br />
+	<a href="/radio4/today/reports/chat/livechatellerman.shtml">Vaccination</a>
+	<br clear="all" /></font></td>
+	<td width="8"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+<!-- end Web chats -->
+
+
+<!-- BBC Links -->
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="6" border="0" alt="" /></td></tr>
+
+<tr><td width="6" class="column3header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td>
+	<td width="168" class="column3header"><font size="1"><span class="white"><strong>USEFUL BBC LINKS</strong></span></font></td>
+	<td width="6" class="column3header"><img src="/furniture/tiny.gif" width="6" height="1" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3" class="column1"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+<tr><td width="8" class="column1"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td>
+	<td width="168" valign="top" class="column1"><font size="1">
+	<a href="/science">BBC Science</a>
+	<br />
+	<a href="http://news.bbc.co.uk/hi/english/sci/tech/default.stm">BBC Sci/Tech News</a>
+	<br />
+	<a href="/worldservice/sci_tech/">BBC World Service: Sci/Tech</a>
+	<br />
+	<a href="http://news.bbc.co.uk/hi/english/health/default.stm">BBC Health News</a>
+	<br />
+	<a href="/health/">BBC Health And Fitness</a>
+	<br />
+	<a href="/nature/">BBC Nature</a>
+	<br />
+	<a href="/bbcfour/">BBC Four</a>
+	<br />
+	<a href="/webwise/">BBC Webwise</a>
+	<br />
+	<a href="/webguide/science/">BBC WebGuide - Science</a>
+	<br />
+	<a href="/webguide/health/">BBC WebGuide - Health</a>
+	<br />
+	<a href="/webguide/nature/">BBC WebGuide - Nature</a>
+	<br clear="all" /></font></td>
+	<td width="8" class="column1"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="184" colspan="3" class="column1"><img src="/furniture/tiny.gif" width="1" height="5" border="0" alt="" /></td></tr>
+
+<tr><td width="184" colspan="3" class="whitebg"><img src="/furniture/tiny.gif" width="1" height="6" border="0" alt="" /></td></tr>
+
+<!-- end BBC Links -->
+
+</table>
+</td>
+</tr>
+
+</table>
+</td></tr>
+</table>
+<!-- bottom navigation include begins --><table width="735" cellpadding="0" cellspacing="0" border="0">
+
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="20" border="0" alt="" /></td></tr>
+<tr><td width="10"><img src="/furniture/tiny.gif" width="10" height="1" border="0" alt="" /></td>
+<td class="footerbg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td>
+<td width="10"><img src="/furniture/tiny.gif" width="10" height="1" border="0" alt="" /></td></tr>
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td></tr>
+<tr><td width="10"><img src="/furniture/tiny.gif" width="10" height="1" border="0" alt="" /></td>
+<td class="footerbg"><img src="/furniture/tiny.gif" width="1" height="1" border="0" alt="" /></td>
+<td width="10"><img src="/furniture/tiny.gif" width="10" height="1" border="0" alt="" /></td></tr>
+<tr><td colspan="3"><img src="/furniture/tiny.gif" width="1" height="10" border="0" alt="" /></td></tr>
+<tr><td width="10"><img src="/furniture/tiny.gif" width="10" height="1" border="0" alt="" /></td>
+<td align="center" valign="top"><span class="navblue"><font size="1"><a href="/radio4/news/" class="navblue">News &amp; Current Affairs</a> | <a href="/radio4/arts/" class="navblue">Arts &amp; Drama</a> | <a href="/radio4/comedy/" class="navblue">Comedy &amp; Quizzes</a> | <a href="/radio4/science/" class="navblue">Science</a> | <a href="/radio4/religion/" class="navblue">Religion &amp; Ethics</a> | <a href="/radio4/history/" class="navblue">History</a> | <a href="/radio4/factual/" class="navblue">Factual</a><br /><br /><strong><a href="#top" class="navblue">Back to top</a></strong></FONT></span></td>
+<td width="10"><img src="/furniture/tiny.gif" width="10" height="1" border="0" alt="" /></td></tr>
+</table><!-- bottom navigation include ends -->
+<!-- inc.footer.page --><br clear="all" /><table width="600" cellpadding="0" cellspacing="0" border="0"><tr><td width="125"><img src="/furniture/tiny.gif" alt="" width="125" height="1"></td><td align="center" width="100%"><font face="arial, helvetica, sans-serif" size="1"><a href="/terms/">Terms of Use</a> | <a href="/privacy/">Privacy</a></font></td></tr></table><!-- end inc.footer.page -->
+
+<br />
+</body>
+</html>

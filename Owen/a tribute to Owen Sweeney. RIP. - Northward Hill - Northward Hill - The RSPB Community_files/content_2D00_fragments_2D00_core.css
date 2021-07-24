@@ -1,0 +1,1776 @@
+﻿
+.content-fragment.title, .content-fragment.custom-title {
+    display: none;
+}
+.content-fragment.bread-crumbs {
+    margin: 0;
+}
+.content-fragment.error-not-found .field-list {
+    text-align: center;
+}
+.content-fragment.error-not-found .field-item {
+    display: inline;
+}
+.content-fragment.content-links .navigation-list {
+    padding: 20px 20px 0;
+}
+.content-fragment.content-links .navigation-item {
+    float: right;
+    margin-right: 10px;
+}
+.content-fragment-page.tags-taglist .content-fragment.tag-cloud .tag-list {
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+.content-fragment.logout .navigation-list {
+    padding: 0 20px 20px;
+}
+.content-fragment.create-user select {
+    width: 200px;
+}
+.content-fragment.create-user input {
+    max-width: 260px;
+}
+.content-fragment.create-user .field-list-description span {
+    float: none;
+    position: static;
+}
+.content-fragment.create-user .field-item {
+    position: relative;
+}
+.content-fragment.create-user .field-item .field-item-validation {
+    margin-left: 10px;
+}
+.content-fragment.create-user .field-item .processing {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/spinner.gif") no-repeat scroll right top #FFFFFF;
+    display: inline-block;
+    padding-right: 22px;
+}
+.content-fragment.create-user .field-item .internal-link.create-account {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button_2D00_sprite.gif") no-repeat scroll right -66px Transparent;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    height: 22px;
+    line-height: 22px;
+    margin-left: 10px;
+    margin-top: -2px;
+    padding: 0 12px 0 0;
+    position: relative;
+    z-index: 3;
+}
+.content-fragment.create-user .field-item .internal-link.create-account span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button_2D00_sprite.gif") no-repeat scroll 0 -44px transparent;
+    display: inline-block;
+    height: 22px;
+    left: -12px;
+    position: absolute;
+    top: 0;
+    width: 12px;
+}
+.content-fragment.create-user .field-item .internal-link.create-account:hover {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button_2D00_sprite.gif") no-repeat scroll right -22px Transparent;
+}
+.content-fragment.create-user .field-item .internal-link.create-account:hover span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button_2D00_sprite.gif") no-repeat scroll 0 top Transparent;
+}
+.content-fragment.create-user .field-item .internal-link.create-account.disabled {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button_2D00_sprite.gif") no-repeat scroll right -110px Transparent;
+}
+.content-fragment.create-user .field-item .internal-link.create-account.disabled span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button_2D00_sprite.gif") no-repeat scroll 0 -88px Transparent;
+}
+.content-fragment.create-user .field-item.site-agreement .field-item-description {
+    display: inline;
+}
+.content-fragment.create-user .field-item.site-agreement .field-item-input {
+    display: inline;
+    margin-left: 5px;
+}
+.content-fragment.invite-user .field-item-input input[type="text"] {
+    font-family: Arial,Helvetica;
+    font-size: 12px;
+    width: 90%;
+}
+.content-fragment.invite-user .field-item-input textarea {
+    font-family: Arial,Helvetica;
+    font-size: 12px;
+    width: 90%;
+}
+.content-fragment.user-navigation {
+    position: relative;
+}
+.content-fragment.user-navigation .navigation-list {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/application_2D00_tabset.gif") repeat-x scroll left bottom transparent;
+    height: 29px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px;
+}
+.content-fragment.user-navigation .navigation-item {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/application_2D00_tabs.gif") no-repeat scroll left top transparent;
+    display: block;
+    float: left;
+    height: 29px;
+    margin: 0 3px 0 0;
+    padding: 0 0 0 6px;
+}
+.content-fragment.user-navigation .navigation-item a {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/application_2D00_tabs.gif") no-repeat scroll right -58px transparent;
+    color: #666666;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    height: 27px;
+    line-height: 25px;
+    padding: 2px 16px 0 10px;
+}
+.content-fragment.user-navigation .navigation-item.selected {
+    background-position: left -29px;
+}
+.content-fragment.user-navigation .navigation-item.selected a {
+    background-position: right -87px;
+    color: #333333;
+    font-weight: bold;
+}
+.content-fragment.user-navigation .navigation-list-footer {
+    clear: both;
+}
+.content-fragment.message .page-content {
+    padding-left: 0;
+    position: relative;
+}
+.content-fragment.message .page-content.user-welcome-message {
+    padding-left: 90px;
+}
+.content-fragment.message .avatar {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.content-fragment.message .user-name {
+    left: 0;
+    position: absolute;
+    top: 90px;
+}
+.content-fragment.user-folder-list .content-fragment-content {
+    padding-left: 0;
+}
+.content-fragment.user-folder-list .navigation-item {
+    margin-left: 18px;
+}
+.content-fragment.user-folder-list .navigation-item.selected {
+    margin-left: 0;
+}
+.content-fragment.user-folder-list .navigation-item.view-parent {
+    margin-left: 0;
+}
+.content-fragment.user-folder-list .navigation-item .internal-link.view-user-folder {
+    margin-left: 18px;
+    padding-left: 18px;
+    position: relative;
+}
+.content-fragment.user-folder-list .navigation-item .internal-link.view-user-folder span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/folder_2D00_small.gif") no-repeat scroll center center transparent;
+    height: 15px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 16px;
+}
+.content-fragment.user-folder-list .navigation-item .internal-link.delete-user-folder {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/cross_2D00_small.gif") no-repeat scroll 3px center transparent;
+    display: inline-block;
+    height: 0;
+    overflow: hidden;
+    padding: 10px 0 0;
+}
+.content-fragment.user-folder-list .navigation-item .internal-link.delete-user-folder span {
+    background: none repeat scroll 0 0 transparent;
+}
+.content-fragment.user-folder-list .navigation-item.view-parent .internal-link.view-user-folder span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/back_2D00_arrow.gif") no-repeat scroll center center transparent;
+}
+.content-fragment-page.tags-taglist .content-fragment {
+    padding: 20px;
+}
+.content-fragment-page.tags-taglist .content-fragment.bread-crumbs {
+    padding: 0;
+}
+.content-fragment-page.utility-editarticle .content-fragment {
+    padding: 20px;
+}
+.content-fragment-page.common-grouplist .content-fragment {
+    padding: 20px;
+}
+.content-fragment-page.common-grouplist .content-fragment.group-bread-crumbs {
+    padding: 0;
+}
+.content-fragment-page.search-searchresultlist .content-fragment {
+    padding: 20px 20px 0;
+}
+.content-fragment-page.search-searchresultlist .content-fragment.bread-crumbs {
+    padding: 0;
+}
+.content-fragment-page.search-advancedsearchresultlist .content-fragment {
+    padding: 20px 20px 0;
+}
+.content-fragment-page.search-advancedsearchresultlist .content-fragment.bread-crumbs {
+    padding: 0;
+}
+.content-fragment.search-form .field-list {
+    background: none repeat scroll 0 0 #CCCCCC;
+    margin-bottom: 0;
+    margin-top: 0;
+    position: relative;
+}
+.content-fragment.search-form .field-item {
+    padding: 8px 5px;
+}
+.content-fragment.search-form .field-item.search-type {
+    display: none;
+}
+.content-fragment.search-form .field-item.date-range {
+    display: none;
+}
+.content-fragment.search-form .field-item.show-friends {
+    display: none;
+}
+.content-fragment.search-form .field-list.advanced-search .field-item.search-type {
+    display: block;
+}
+.content-fragment.search-form .field-list.advanced-search .field-item.date-range {
+    display: block;
+}
+.content-fragment.search-form .field-list.advanced-search .field-item.show-friends {
+    display: block;
+}
+.content-fragment.search-form .search div {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/search_2D00_field_2D00_input_2D00_page_2D00_grey.png") no-repeat scroll left center transparent;
+    width: 250px;
+}
+.content-fragment.search-form .search input {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #000000;
+    cursor: auto;
+    display: block;
+    font-size: 11px;
+    height: 18px;
+    margin-left: 10px;
+    padding: 5px 5px 0;
+    width: 210px;
+}
+.content-fragment.search-form .search .field-item-input {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/search_2D00_field_2D00_button_2D00_page_2D00_grey.png") no-repeat scroll right center transparent;
+    display: block;
+    height: 25px;
+    width: 255px;
+}
+.content-fragment.search-form .search .field-item-validation {
+    left: 265px;
+    position: absolute;
+    top: 18px;
+}
+.content-fragment.search-form .search .internal-link.rss {
+    display: block;
+    outline: medium none;
+    padding-left: 17px;
+    position: absolute;
+    right: 10px;
+    text-align: left;
+    top: 18px;
+}
+.content-fragment.search-form .search .internal-link.rss span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/icon_2D00_rss.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    width: 14px;
+}
+.content-fragment.search-form .search .internal-link.advanced-search {
+    line-height: 20px;
+    margin-left: 5px;
+}
+.content-fragment.search-form .content-fragment .first {
+    background: none repeat scroll 0 0 #CCCCCC;
+}
+.content-fragment.search-form .field-item-header {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+    width: 75px;
+}
+.content-fragment.search-form .field-item.searchbutton {
+    bottom: 22px;
+    left: 270px;
+    position: absolute;
+}
+.content-fragment.search-form .field-list.advanced-search .field-item.searchbutton {
+    bottom: 0;
+}
+.content-fragment.search-form .field-item.searchbutton a {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button.gif") no-repeat scroll right -20px transparent;
+    color: #FFFFFF;
+    display: block;
+    height: 20px;
+    margin-left: 10px;
+    padding-left: 8px;
+    padding-top: 2px;
+    position: relative;
+    text-decoration: none;
+    width: 60px;
+}
+.content-fragment.search-form .field-item.searchbutton span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button.gif") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 20px;
+    margin-top: -1px;
+    width: 20px;
+}
+.layout-region.right-sidebar .content-fragment.search-form .field-list, .layout-region.left-sidebar .content-fragment.search-form .field-list, .layout-region.split-sidebar-right .content-fragment.search-form .field-list, .layout-region.split-sidebar-left .content-fragment.search-form .field-list {
+    background: none repeat scroll 0 0 Transparent;
+}
+.layout-region.right-sidebar .content-fragment.search-form .field-item, .layout-region.left-sidebar .content-fragment.search-form .field-item, .layout-region.split-sidebar-right .content-fragment.search-form .field-item, .layout-region.split-sidebar-left .content-fragment.search-form .field-item {
+    padding: 0;
+}
+.layout-region.right-sidebar .content-fragment.search-form .search div, .layout-region.left-sidebar .content-fragment.search-form .search div, .layout-region.split-sidebar-right .content-fragment.search-form .search div, .layout-region.split-sidebar-left .content-fragment.search-form .search div {
+    background-image: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/search_2D00_field_2D00_input_2D00_page.png");
+    margin-bottom: 5px;
+    max-width: 250px;
+    width: 100%;
+}
+.layout-region.right-sidebar .content-fragment.search-form .search .field-item-input, .layout-region.left-sidebar .content-fragment.search-form .search .field-item-input, .layout-region.split-sidebar-right .content-fragment.search-form .search .field-item-input, .layout-region.split-sidebar-left .content-fragment.search-form .search .field-item-input {
+    background-image: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/search_2D00_field_2D00_button_2D00_page.png");
+    width: 100%;
+}
+.layout-region.right-sidebar .content-fragment.search-form .search input, .layout-region.left-sidebar .content-fragment.search-form .search input, .layout-region.split-sidebar-right .content-fragment.search-form .search input, .layout-region.split-sidebar-left .content-fragment.search-form .search input {
+    width: 80%;
+}
+.layout-region.right-sidebar .content-fragment.search-form .field-item.searchbutton, .layout-region.left-sidebar .content-fragment.search-form .field-item.searchbutton, .layout-region.split-sidebar-right .content-fragment.search-form .field-item.searchbutton, .layout-region.split-sidebar-left .content-fragment.search-form .field-item.searchbutton {
+    bottom: 0;
+    left: 0;
+    margin-top: 5px;
+    position: relative;
+}
+.layout-region.right-sidebar .content-fragment.search-form .field-item.searchbutton span, .layout-region.left-sidebar .content-fragment.search-form .field-item.searchbutton span, .layout-region.split-sidebar-right .content-fragment.search-form .field-item.searchbutton span, .layout-region.split-sidebar-left .content-fragment.search-form .field-item.searchbutton span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button.gif") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 20px;
+    margin-top: -1px;
+    width: 20px;
+}
+.content-fragment.search-result-list .content-fragment-content {
+    overflow: hidden;
+    position: relative;
+}
+.content-fragment.search-result-list .filter {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/filter_2D00_background.png") repeat-x scroll left bottom #FFFFFF;
+    border-color: -moz-use-text-color -moz-use-text-color #CCCCCC;
+    border-image: none;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    height: 35px;
+    margin: 0 -12px;
+    padding: 0;
+    position: relative;
+}
+.content-fragment.search-result-list .filter .filter-label {
+    display: none;
+}
+.content-fragment.search-result-list .filter-option {
+    float: left;
+    height: 16px;
+    padding: 15px 12px 5px;
+}
+.content-fragment.search-result-list .filter-option.selected {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    height: 16px;
+}
+.content-fragment.search-result-list .filter-option.selected a {
+    color: #000000;
+}
+.content-fragment.search-result-list .filter .separator {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/filter_2D00_separator_2D00_background.png") no-repeat scroll left bottom transparent;
+    display: inline-block;
+    float: left;
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 35px 0 0;
+    width: 1px;
+}
+.content-fragment.search-result-list .abbreviated-post em {
+    background: none repeat scroll 0 0 #FAFF05;
+}
+.content-fragment.search-result-list .abbreviated-post .post-name {
+    margin-bottom: 2px;
+}
+.content-fragment.search-result-list .abbreviated-post .post-author .avatar {
+    border: medium none;
+}
+.content-fragment.search-result-list .abbreviated-post .post-date {
+    display: inline;
+}
+.content-fragment.search-result-list .abbreviated-post .post-application {
+    display: inline;
+}
+.content-fragment-page.user-createuser .content-fragment {
+    padding: 20px;
+}
+.content-fragment-page.user-createuser .content-fragment.bread-crumbs {
+    padding: 0;
+}
+.content-fragment-page.user-changepassword .content-fragment {
+    padding: 20px;
+}
+.content-fragment-page.user-changepassword .content-fragment.bread-crumbs {
+    padding: 0;
+}
+.content-fragment-page.user-editapikeys .content-fragment {
+    padding: 20px;
+}
+.content-fragment-page.user-editapikeys .content-fragment.create-api-key {
+    padding-bottom: 0;
+}
+.content-fragment-page.user-editapikeys .content-fragment.bread-crumbs {
+    padding: 0;
+}
+.content-fragment-page.user-forgottenpassword .content-fragment {
+    padding: 20px;
+}
+.content-fragment-page.user-forgottenpassword .content-fragment.bread-crumbs {
+    padding: 0;
+}
+.content-fragment-page.user-inviteuser .content-fragment {
+    padding: 20px;
+}
+.content-fragment-page.user-inviteuser .content-fragment.bread-crumbs {
+    padding: 0;
+}
+.content-fragment-page.user-useronlinelist .content-fragment {
+    padding: 20px;
+}
+.content-fragment-page.user-useronlinelist .content-fragment.bread-crumbs {
+    padding: 0;
+}
+.content-fragment.user-list .avatar img {
+    max-height: 34px !important;
+    max-width: 34px !important;
+}
+.content-fragment.friendship-list .filter {
+    border: 0 none;
+    margin: 0 0 15px;
+    padding: 0;
+}
+.content-fragment.friendship-list .query-filter {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/filter_2D00_background.png") repeat-x scroll left bottom #FFFFFF;
+    border-color: -moz-use-text-color -moz-use-text-color #CCCCCC;
+    border-image: none;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    height: 35px;
+    margin: 0 -12px;
+    padding: 0;
+    position: relative;
+}
+.content-fragment.friendship-list .filter-option {
+    float: left;
+    font-weight: bold;
+    height: 35px;
+    padding: 15px 12px 5px;
+}
+.content-fragment.friendship-list .filter-option a {
+    font-weight: normal;
+}
+.content-fragment.friendship-list .filter-option.selected {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 25px;
+}
+.content-fragment.friendship-list .filter-option.selected a {
+    color: #000000;
+    font-weight: bold;
+}
+.content-fragment.friendship-list .separator {
+    background: url("../s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/filter-separator_2D00_background.png") no-repeat scroll left bottom transparent;
+    display: inline-block;
+    float: left;
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 35px 0 0;
+    width: 1px;
+}
+.content-fragment.friendship-list .content-list {
+    clear: both;
+}
+.content-fragment.with-header.friendship-list .content-item {
+    border: 0 none;
+    padding: 0;
+}
+.content-fragment.friendship-list .full-post {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #CCCCCC;
+    border-image: none;
+    border-style: none none dotted;
+    border-width: 0 0 1px;
+    margin-bottom: 10px;
+    min-height: 50px;
+    padding: 0 8px 8px 40px;
+    position: relative;
+}
+.content-fragment.with-header.friendship-list .full-post {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #CCCCCC;
+    border-image: none;
+    border-style: none none dotted;
+    border-width: 0 0 1px;
+    margin-bottom: 10px;
+    min-height: 50px;
+    padding-bottom: 0;
+    padding-left: 40px;
+    position: relative;
+}
+.content-fragment.friendship-list .avatar {
+    left: 3px;
+    position: absolute;
+}
+.content-fragment.friendship-list .avatar img {
+    max-height: 34px !important;
+    max-width: 34px !important;
+}
+.content-fragment.friendship-list .user-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+.content-fragment.friendship-list .status-message {
+    font-size: 11px;
+    padding: 3px 50% 0 5px;
+}
+.content-fragment.friendship-list .status-date {
+    color: #999999;
+    display: block;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.content-fragment.friendship-list .post-actions {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.content-fragment.friendship-list .post-actions .navigation-item {
+    display: inline;
+}
+.content-fragment.friendship-list .post-actions .navigation-item .internal-link {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/reply_2D00_button.gif") no-repeat scroll right -22px Transparent;
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+    height: 22px;
+    margin: 9px 0 0 12px;
+    padding: 4px 10px 3px 0;
+    position: relative;
+}
+.content-fragment.friendship-list .post-actions .navigation-item .internal-link span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/reply_2D00_button.gif") no-repeat scroll left top Transparent;
+    display: block;
+    height: 22px;
+    left: -8px;
+    position: absolute;
+    top: 0;
+    width: 8px;
+}
+.content-fragment.user-online-list .content-list {
+    position: relative;
+}
+.content-fragment.with-header.user-online-list .content-item {
+    border: 0 none;
+    height: 40px;
+    padding: 4px 4px 4px 40px;
+}
+.content-fragment.user-online-list .avatar {
+    left: 0;
+    position: absolute;
+}
+.content-fragment.user-online-list .avatar img {
+    max-height: 34px !important;
+    max-width: 34px !important;
+}
+.content-fragment.user-online-list .user-name {
+    font-size: 15px;
+    font-weight: bold;
+}
+.content-fragment.user-online-list .status-date {
+    color: #999999;
+    display: block;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.content-fragment.favorable-content-list .filter {
+    border: 0 none;
+    margin: 0 0 15px;
+    padding: 0;
+}
+.content-fragment.favorable-content-list .query-filter {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/filter_2D00_background.png") repeat-x scroll left bottom #FFFFFF;
+    border-color: -moz-use-text-color -moz-use-text-color #CCCCCC;
+    border-image: none;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    height: 35px;
+    margin: 0 -12px;
+    padding: 0;
+    position: relative;
+}
+.content-fragment.favorable-content-list .filter-option {
+    float: left;
+    font-weight: bold;
+    height: 35px;
+    padding: 15px 12px 5px;
+}
+.content-fragment.favorable-content-list .filter-option a {
+    font-weight: normal;
+}
+.content-fragment.favorable-content-list .filter-option.selected {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 25px;
+}
+.content-fragment.favorable-content-list .filter-option.selected a {
+    color: #000000;
+    font-weight: bold;
+}
+.content-fragment.favorable-content-list .separator {
+    background: url("../s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/filter-separator_2D00_background.png") no-repeat scroll left bottom transparent;
+    display: inline-block;
+    float: left;
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 35px 0 0;
+    width: 1px;
+}
+.content-fragment.favorable-content-list .content-list-header {
+    clear: both;
+}
+.content-fragment.favorable-content-list .content-item {
+    font-weight: bold;
+    min-height: 40px;
+    padding-left: 40px;
+    position: relative;
+}
+.content-fragment.favorable-content-list .avatar {
+    left: 0;
+    position: absolute;
+}
+.content-fragment.favorable-content-list .favorite-type {
+    color: #AAAAAA;
+    display: inline;
+    font-size: 14px;
+}
+.content-fragment.favorable-content-list .internal-link.view-post {
+    display: inline;
+    font-size: 14px;
+}
+.content-fragment.favorable-content-list .simple .content-item {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/icon_2D00_sprite.gif") no-repeat scroll 0 -554px #FFFFFF;
+    font-weight: normal;
+    margin: 0 0 8px;
+    min-height: 20px;
+    padding: 0 0 0 18px;
+}
+.content-fragment.favorable-content-list .simple .internal-link.view-post {
+    font-size: 12px;
+}
+.content-fragment.favorable-content-list .content-item .favorite-actions {
+    display: inline;
+    position: absolute;
+    right: 0;
+    top: 9px;
+}
+.content-fragment.favorable-content-list .content-item .favorite-actions .internal-link.favorite-on {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/quickpost_2D00_post_2D00_button_2D00_disabled.gif") no-repeat scroll right -34px Transparent;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    height: 34px;
+    line-height: 20px;
+    margin-left: 20px;
+    padding: 10px 12px 10px 0;
+    position: relative;
+}
+.content-fragment.favorable-content-list .content-item .favorite-actions .internal-link.favorite-on span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/quickpost_2D00_post_2D00_button_2D00_disabled.gif") no-repeat scroll 2px top transparent;
+    display: inline-block;
+    height: 34px;
+    left: -14px;
+    position: absolute;
+    top: 0;
+    width: 14px;
+}
+.content-fragment.favorable-content-list .content-item .favorite-actions .internal-link.favorite-off {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/quickpost_2D00_post_2D00_button.gif") no-repeat scroll right -34px Transparent;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    height: 34px;
+    line-height: 20px;
+    margin-left: 20px;
+    padding: 10px 12px 10px 0;
+    position: relative;
+}
+.content-fragment.favorable-content-list .content-item .favorite-actions .internal-link.favorite-off span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/quickpost_2D00_post_2D00_button.gif") no-repeat scroll 2px top transparent;
+    display: inline-block;
+    height: 34px;
+    left: -14px;
+    position: absolute;
+    top: 0;
+    width: 14px;
+}
+.content-fragment.favorable-content-list .content-item .favorite-actions .internal-link.favorite-disabled {
+    display: none;
+}
+.content-fragment.favorable-content-list .content-item .favorite-actions .favorited {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/quickpost_2D00_post_2D00_button_2D00_disabled.gif") no-repeat scroll right -34px Transparent;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    height: 34px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: -6px;
+    padding: 7px 12px 5px 0;
+    position: relative;
+}
+.content-fragment.favorable-content-list .content-item .favorite-actions .favorited span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/quickpost_2D00_post_2D00_button_2D00_disabled.gif") no-repeat scroll 2px top transparent;
+    display: inline-block;
+    height: 34px;
+    left: -14px;
+    position: absolute;
+    top: 0;
+    width: 14px;
+}
+.content-fragment.temporary-rss-feed-item-list .content-fragment-header {
+    position: relative;
+}
+.content-fragment.temporary-rss-feed-item-list .content-fragment-header .internal-link.rss {
+    display: block;
+    outline: medium none;
+    padding-left: 17px;
+    position: absolute;
+    right: 15px;
+    text-align: left;
+    top: 5px;
+}
+.content-fragment.temporary-rss-feed-item-list .content-fragment-header .internal-link.rss span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/icon_2D00_rss.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    width: 14px;
+}
+.content-fragment.temporary-rss-feed-item-list .abbreviated-post .post-date .value {
+    margin-left: 0;
+}
+.content-fragment.temporary-rss-feed-item-list .simple-expanded .abbreviated-post {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    min-height: 20px;
+    padding: 0;
+}
+.content-fragment.temporary-rss-feed-item-list .simple-expanded .abbreviated-post .post-name {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.content-fragment.temporary-rss-feed-item-list .simple-expanded .abbreviated-post .post-name.first {
+    font-size: 18px;
+}
+.content-fragment.temporary-rss-feed-item-list .simple-expanded .abbreviated-post .post-summary {
+    margin: 4px 0;
+}
+.content-fragment.temporary-rss-feed-item-list .simple-expanded .abbreviated-post .post-date .value {
+    color: #999999;
+    margin: 0;
+}
+.content-fragment.temporary-rss-feed-item-list .simple-expanded .abbreviated-post .post-author {
+    color: #999999;
+}
+.content-fragment.temporary-rss-feed-item-list .simple .abbreviated-post {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    min-height: 20px;
+    padding: 0;
+}
+.content-fragment.temporary-rss-feed-item-list .simple .abbreviated-post .post-name {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.content-fragment.temporary-rss-feed-item-list .simple .abbreviated-post .post-summary {
+    margin: 2px 0;
+}
+.content-fragment.temporary-rss-feed-list .content-fragment-header {
+    position: relative;
+}
+.content-fragment.temporary-rss-feed-list .content-fragment-header .internal-link.rss {
+    display: block;
+    outline: medium none;
+    padding-left: 17px;
+    position: absolute;
+    right: 15px;
+    text-align: left;
+    top: 5px;
+}
+.content-fragment.temporary-rss-feed-list .content-fragment-header .internal-link.rss span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/icon_2D00_rss.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    height: 14px;
+    left: 0;
+    position: absolute;
+    width: 14px;
+}
+.content-fragment.temporary-rss-feed-list .content-list-name {
+    font-size: 18px;
+    padding-top: 6px;
+}
+.content-fragment.temporary-rss-feed-list .content-item {
+    margin-bottom: 0;
+}
+.content-fragment.temporary-rss-feed-list .abbreviated-post {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    min-height: 20px;
+    padding: 0;
+}
+.content-fragment.temporary-rss-feed-list .abbreviated-post .post-name {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.content-fragment.temporary-rss-feed-list .abbreviated-post .post-summary {
+    margin: 4px 0 8px;
+}
+.content-fragment.temporary-rss-feed-list .abbreviated-post .post-date .value {
+    margin: 0;
+}
+.content-fragment-page.common-login .content-fragment.login fieldset {
+    position: relative;
+}
+.content-fragment-page.common-login .content-fragment.login .field-item {
+    min-height: 20px;
+    position: relative;
+}
+.content-fragment-page.common-login .content-fragment.login .field-item .internal-link {
+    font-weight: bold;
+}
+.content-fragment-page.common-login .content-fragment.login .field-item .internal-link.login {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button.gif") no-repeat scroll right -20px transparent;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: 14px;
+    left: 10px;
+    padding: 2px 30px 4px 18px;
+    position: absolute;
+}
+.content-fragment-page.common-login .content-fragment.login .field-item .internal-link.login span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button.gif") no-repeat scroll left top transparent;
+    display: block;
+    height: 20px;
+    left: -10px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    width: 18px;
+}
+.content-fragment-page.common-login .content-fragment.login .field-item-input input {
+    width: 200px;
+}
+.content-fragment-page.common-login .content-fragment.login .field-item.rspb_community-checkbox .field-item-input input {
+    width: auto;
+}
+.content-fragment-page.common-login .content-fragment.login .field-item.rspb_community-checkbox .field-item-header {
+    display: inline;
+}
+.content-fragment-page.common-login .content-fragment.login .field-item.rspb_community-checkbox .field-item-input {
+    left: -3px;
+    position: relative;
+    top: 2px;
+}
+.content-fragment-page.common-welcome .layout {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/page_2D00_layout_2D00_welcome.png") repeat-x scroll left top #FFFFFF;
+}
+.content-fragment-page.common-welcome .layout-region.content {
+    border-right: 1px solid #CCCCCC;
+}
+.content-fragment-page.common-welcome .group-banner-actions {
+    display: none;
+}
+.content-fragment-page.common-welcome .content-fragment-header, .content-fragment-page.common-welcome .content-fragment-header div {
+    background-color: transparent;
+    border: 0 none;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: none;
+}
+.content-fragment-page.common-welcome .content-fragment-content {
+    background-color: transparent;
+    border: 0 none;
+}
+.content-fragment-page.common-welcome .page {
+    padding: 0;
+}
+.content-fragment-page.common-welcome .page-content {
+    margin: 0;
+}
+.content-fragment-page.common-welcome .field-list {
+    position: relative;
+}
+.content-fragment-page.common-welcome .field-list-description span {
+    display: block;
+    left: 0;
+    position: absolute;
+    top: -1em;
+}
+.content-fragment-page.common-welcome .content-fragment.create-user {
+    padding: 10px;
+}
+.content-fragment-page.common-welcome .content-fragment.create-user .message.warning {
+    display: none;
+}
+.content-fragment-page.common-welcome .content-fragment.create-user .field-item {
+    min-height: 20px;
+    position: relative;
+}
+.content-fragment-page.common-welcome .content-fragment.create-user .field-item label {
+    font-weight: normal;
+}
+.content-fragment-page.common-welcome .content-fragment.create-user .field-item.required label {
+    color: red;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.content-fragment-page.common-welcome .content-fragment.create-user .field-item input {
+    width: 250px;
+}
+.content-fragment-page.common-welcome .content-fragment.create-user .field-item.rspb_community-checkbox span {
+    line-height: 20px;
+}
+.content-fragment-page.common-welcome .content-fragment.create-user .field-item.rspb_community-checkbox input {
+    width: auto;
+}
+.content-fragment-page.common-welcome .content-fragment.create-user .field-item.rspb_community-checkbox .field-item-header, .content-fragment-page.common-welcome .content-fragment.create-user .field-item.rspb_community-checkbox .field-item-header label {
+    color: #333333;
+    display: inline;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: none;
+}
+.content-fragment-page.common-welcome .content-fragment.create-user .internal-link {
+    font-weight: bold;
+}
+.content-fragment-page.common-welcome .content-fragment.create-user .internal-link.create-account {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button.gif") no-repeat scroll right -20px transparent;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: 14px;
+    left: 10px;
+    padding: 2px 24px 4px 12px;
+    position: absolute;
+}
+.content-fragment-page.common-welcome .content-fragment.create-user .internal-link.create-account span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button.gif") no-repeat scroll left top transparent;
+    display: block;
+    height: 20px;
+    left: -10px;
+    position: absolute;
+    top: 0;
+    width: 18px;
+}
+.content-fragment-page.common-welcome .user-registration-welcome {
+    padding: 10px;
+}
+.content-fragment-page.common-welcome .user-registration-welcome h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+.content-fragment-page.common-welcome .content-fragment.login {
+    padding: 10px;
+    position: relative;
+}
+.content-fragment-page.common-welcome .content-fragment.login fieldset.field-list {
+    margin-top: 2px;
+}
+.content-fragment-page.common-welcome .content-fragment.login .content-fragment-header {
+    padding-bottom: 0;
+}
+.content-fragment-page.common-welcome .content-fragment.login .content-fragment-header div {
+    font-size: 12px;
+    padding-bottom: 0;
+}
+.content-fragment-page.common-welcome .content-fragment.login .page-name {
+    display: none;
+}
+.content-fragment-page.common-welcome .content-fragment.login .filter, .content-fragment-page.common-welcome .content-fragment.login .filter .view-type {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.content-fragment-page.common-welcome .content-fragment.login .filter .filter-option.selected, .content-fragment-page.common-welcome .content-fragment.login .filter .separator, .content-fragment-page.common-welcome .content-fragment.login .filter .filter-label {
+    display: none;
+}
+.content-fragment-page.common-welcome .content-fragment.login .filter {
+    line-height: 20px;
+    padding-left: 34px;
+}
+.content-fragment-page.common-welcome .content-fragment.login .field-item {
+    min-height: 20px;
+    position: relative;
+}
+.content-fragment-page.common-welcome .content-fragment.login .field-item.required label {
+    color: #666666;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.content-fragment-page.common-welcome .content-fragment.login .field-item input {
+    width: 250px;
+}
+.content-fragment-page.common-welcome .content-fragment.login .field-item.rspb_community-checkbox span {
+    line-height: 20px;
+}
+.content-fragment-page.common-welcome .content-fragment.login .field-item.rspb_community-checkbox input {
+    width: auto;
+}
+.content-fragment-page.common-welcome .content-fragment.login .field-item.rspb_community-checkbox .field-item-header, .content-fragment-page.common-welcome .content-fragment.login .field-item.rspb_community-checkbox .field-item-header label {
+    color: #333333;
+    display: inline;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: none;
+}
+.content-fragment-page.common-welcome .content-fragment.login .field-item .internal-link {
+    font-weight: bold;
+}
+.content-fragment-page.common-welcome .content-fragment.login .field-item .internal-link.login {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button.gif") no-repeat scroll right -20px transparent;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: 14px;
+    left: 10px;
+    padding: 2px 30px 4px 18px;
+    position: absolute;
+}
+.content-fragment-page.common-welcome .content-fragment.login .field-item .internal-link.login span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button.gif") no-repeat scroll left top transparent;
+    display: block;
+    height: 20px;
+    left: -10px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    width: 18px;
+}
+.content-fragment.no-wrapper.featured-content-list {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/featured_2D00_content_2D00_background.gif") repeat-x scroll left top #FFFFFF;
+    overflow: hidden;
+}
+.content-fragment.no-wrapper.featured-content-list .content-fragment-header {
+    background: none repeat scroll 0 0 Transparent;
+    border: medium none;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.content-fragment.no-wrapper.featured-content-list .content-fragment-header div {
+    border-bottom: medium none;
+}
+.content-fragment.no-wrapper.featured-content-list .content-fragment-content {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/featured_2D00_content_2D00_bottom_2D00_background.gif") repeat-x scroll left bottom Transparent;
+    border: medium none;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.content-fragment.featured-content-list .content-item .avatar {
+    display: none;
+}
+.content-fragment.featured-content-list .content-item .post-name {
+    border-bottom: 0 none;
+    clear: inherit;
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 2px;
+    padding-top: 0;
+}
+.content-fragment.featured-content-list .content-item .post-attachment-viewer {
+    display: none;
+}
+.content-fragment.featured-content-list .content-item.rspb_community-first .post-attachment-viewer, .content-fragment.featured-content-list .content-list.itemcount-2 .content-item .post-attachment-viewer {
+    display: block;
+    position: relative;
+}
+.content-fragment.featured-content-list .content-list.layout-wide .content-item .post-attachment-viewer, .content-fragment.featured-content-list .content-list.itemcount-1.layout-medium .content-item .post-attachment-viewer {
+    float: left;
+    padding-right: 10px;
+    top: 5px;
+}
+.content-fragment.featured-content-list .content-item .rspb_community-post-author-date {
+    line-height: 18px;
+}
+.content-fragment.featured-content-list .content-item .rspb_community-post-author-date .post-author {
+    margin-right: 3px;
+}
+.content-fragment.featured-content-list .content-item .rspb_community-post-author-date .post-date {
+    white-space: nowrap;
+}
+.content-fragment.featured-content-list .content-item .rspb_community-post-author-date .post-date .value {
+    margin-left: 0;
+}
+.content-fragment.featured-content-list .content-item .abbreviated-post {
+    padding: 0;
+}
+.content-fragment.featured-content-list .content-item .abbreviated-post.post-content {
+    line-height: 18px;
+}
+.content-fragment.featured-content-list .content-fragment-header .internal-link.rss {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/icon_2D00_sprite.gif") no-repeat scroll 0 -1402px transparent;
+    display: inline-block;
+    height: 0;
+    margin-left: 3px;
+    overflow: hidden;
+    padding: 10px 0 0;
+    width: 14px;
+}
+.content-fragment.featured-content-list .content-list {
+    position: relative;
+}
+.content-fragment.featured-content-list .content-list.layout-wide, .content-fragment.featured-content-list .content-list.layout-medium {
+    display: inline-block;
+    float: left;
+    padding-right: 10px;
+    width: 45%;
+}
+.content-fragment.featured-content-list .content-list.itemcount-1 {
+    width: 98%;
+}
+.content-fragment.featured-content-list .content-list.layout-wide.rspb_community-featured-content-list-2, .content-fragment.featured-content-list .content-list.layout-medium.rspb_community-featured-content-list-2 {
+    border-left: 1px solid #DDDDDD;
+    min-height: 160px;
+    padding: 0 10px;
+}
+.content-fragment.featured-content-list .content-list-footer {
+    clear: both;
+}
+.content-fragment.featured-content-list .content-item {
+    padding: 8px 0 3px;
+}
+.content-fragment.featured-content-list .content-list.itemcount-3 .content-item {
+    padding: 10px 10px 6px 0;
+}
+.content-fragment.featured-content-list .content-list.itemcount-3 .content-item.rspb_community-last {
+    padding: 6px 10px 0 0;
+}
+.content-fragment.featured-content-list .content-item .post-attachment-viewer {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.content-fragment.featured-content-list .content-item .post-attachment-viewer img {
+    border: 1px solid #999999 !important;
+    max-height: 32px;
+    max-width: 32px;
+    padding: 1px;
+}
+.content-fragment.featured-content-list .content-item.rspb_community-first, .content-fragment.featured-content-list .content-item.rspb_community-last {
+    border-bottom: medium none;
+}
+.content-fragment.featured-content-list .content-list.layout-sidebar .content-item.rspb_community-first {
+    border-bottom: 1px dotted #CCCCCC;
+    padding-bottom: 6px;
+}
+.content-fragment.featured-content-list .content-item.rspb_community-first .post-attachment-viewer img, .content-fragment.featured-content-list .content-list.itemcount-2 .content-item .post-attachment-viewer img {
+    max-height: 140px;
+    max-width: 140px;
+    padding: 2px;
+}
+.content-fragment.featured-content-list .content-item.rspb_community-first .user-defined-markup {
+    color: #333333;
+    line-height: 18px;
+    width: auto;
+}
+.content-fragment.featured-content-list .content-item .internal-link.view-application {
+    color: #999999;
+}
+.content-fragment.featured-content-list .content-item .abbreviated-post .internal-link.view-application {
+    display: none;
+}
+.content-fragment.featured-content-list .content-item .abbreviated-post .avatar {
+    top: 0;
+}
+.content-fragment.featured-content-list .content-item.rspb_community-first .abbreviated-post, .content-fragment.featured-content-list .content-list.itemcount-2 .content-item .abbreviated-post {
+    padding-left: 0;
+}
+.content-fragment-page.home .content-fragment.featured-content-list .internal-link.rss {
+    display: none;
+}
+.content-fragment-page.home .content-fragment.featured-content-list.itemcount-1 .content-item.rspb_community-first {
+    border-right: 0 none;
+}
+.content-fragment-page.home .content-fragment.featured-content-list .content-item.rspb_community-first .user-defined-markup {
+    line-height: 18px;
+}
+.content-fragment-page.home .content-fragment.featured-content-list .content-list.rspb_community-featured-content-list-2 {
+    border-left: 1px solid #EEEEEE;
+}
+.content-fragment.user-profile-group-content-fragment {
+    word-wrap: break-word;
+}
+.content-fragment.user-profile-group-content-fragment .attribute-item {
+    border-bottom: 1px dotted #CCCCCC;
+    display: block;
+    margin: 5px 5px 0 0;
+    padding-bottom: 5px;
+}
+.content-fragment.user-profile-group-content-fragment .attribute-name {
+    display: block;
+    font-weight: bold;
+}
+.content-fragment.user-profile-group-content-fragment .attribute-value {
+    color: #666666;
+    overflow: hidden;
+    white-space: normal;
+    word-wrap: break-word;
+}
+.content-fragment.user-profile-group-content-fragment .field-item-input input {
+    width: 97.5%;
+}
+.content-fragment.user-profile-group-content-fragment .field-item.bool-type .field-item-description {
+    display: inline;
+}
+.content-fragment.user-profile-group-content-fragment .field-item.bool-type .field-item-input input {
+    line-height: 14px;
+    margin-left: 5px;
+    width: auto;
+}
+.content-fragment.user-profile-group-content-fragment .field-item.bool-type .field-item-input input {
+    line-height: 14px;
+    margin-left: 5px;
+    width: auto;
+}
+.content-fragment.user-profile-group-content-fragment .field-item.birthday .field-item-input input {
+    display: inline;
+    width: 80px;
+}
+.content-fragment.quick-post .filter {
+    border: 0 none;
+    margin: 0 0 1em;
+    padding: 0;
+}
+.content-fragment.quick-post .filter .filter-option {
+    display: inline-block;
+    position: relative;
+}
+.content-fragment.quick-post .filter .filter-option .view-filter {
+    font-size: 10px;
+    font-weight: normal;
+    margin: 0;
+    padding-left: 15px;
+    position: relative;
+}
+.content-fragment.quick-post .filter .filter-option .view-filter span {
+    height: 12px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 10px;
+}
+.content-fragment.quick-post .filter .filter-option .view-filter.msg span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/icon_2D00_sprite.gif") no-repeat scroll 0 -1192px transparent;
+}
+.content-fragment.quick-post .filter .filter-option .view-filter.forum span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/icon_2D00_sprite.gif") no-repeat scroll 0 -1192px transparent;
+}
+.content-fragment.quick-post .filter .filter-option .view-filter.weblog span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/icon_2D00_sprite.gif") no-repeat scroll 0 -1232px transparent;
+}
+.content-fragment.quick-post .filter .filter-option .view-filter.media-gallery span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/icon_2D00_sprite.gif") no-repeat scroll 0 -1110px transparent;
+}
+.content-fragment.quick-post .filter .filter-option .view-filter.wiki span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/icon_2D00_sprite.gif") no-repeat scroll 0 -1272px transparent;
+}
+.content-fragment.quick-post .filter .filter-option.selected .view-filter {
+    color: #333333;
+    font-weight: bold;
+}
+.content-fragment.quick-post .filter .separator {
+    color: #999999;
+    padding: 0 5px;
+}
+.content-fragment.quick-post .attribute-list {
+    margin: 0 0 1em;
+}
+.content-fragment.quick-post .attribute-item.view-user-status {
+    color: #666666;
+    padding-bottom: 10px;
+}
+.content-fragment.quick-post .attribute-item.view-user-status .attribute-name {
+    color: #333333;
+    font-weight: bold;
+}
+.content-fragment.quick-post .attribute-item.view-user-status-date {
+    color: #999999;
+    font-size: 11px;
+}
+.content-fragment.quick-post .attribute-item.view-user-status-date .attribute-name {
+    display: none;
+}
+.content-fragment.quick-post .internal-link.add-post {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/quickpost_2D00_post_2D00_button.gif") no-repeat scroll right -34px transparent;
+    color: #FFFFFF;
+    display: block;
+    font-size: 12px;
+    height: 20px;
+    margin-left: 8px;
+    padding: 9px 30px 10px 18px;
+    position: relative;
+}
+.content-fragment.quick-post .internal-link.add-post span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/quickpost_2D00_post_2D00_button.gif") no-repeat scroll left top Transparent;
+    display: block;
+    height: 34px;
+    left: -8px;
+    position: absolute;
+    top: 0;
+    width: 8px;
+}
+.content-fragment.quick-post a.internal-link.add-post:hover {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/quickpost_2D00_post_2D00_button_2D00_hover.gif") no-repeat scroll right -34px Transparent;
+}
+.content-fragment.quick-post a.internal-link.add-post:hover span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/quickpost_2D00_post_2D00_button_2D00_hover.gif") no-repeat scroll left top Transparent;
+}
+.content-fragment.quick-post a.internal-link.add-post.disabled {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/quickpost_2D00_post_2D00_button_2D00_disabled.gif") no-repeat scroll right -34px Transparent;
+    color: #CCCCCC;
+}
+.content-fragment.quick-post a.internal-link.add-post.disabled:hover {
+    cursor: default;
+    text-decoration: none;
+}
+.content-fragment.quick-post a.internal-link.add-post.disabled span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/quickpost_2D00_post_2D00_button_2D00_disabled.gif") no-repeat scroll left top Transparent;
+}
+.content-fragment.quick-post .message.directions {
+    color: #999999;
+    font-size: 12px;
+    padding: 5px;
+}
+.content-fragment.quick-post .message.loading {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/spinner.gif") no-repeat scroll left top Transparent;
+    color: #999999;
+    font-size: 12px;
+    padding: 0 5px 5px 22px;
+}
+.content-fragment.quick-post .add-post-loading {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/spinner.gif") no-repeat scroll left top Transparent;
+    display: inline-block;
+    height: 16px;
+    left: 8px;
+    position: relative;
+    top: 8px;
+    width: 16px;
+}
+.content-fragment.quick-post .add-message-loading {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/spinner.gif") no-repeat scroll left top Transparent;
+    display: inline-block;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    top: 6px;
+    width: 16px;
+}
+.content-fragment.quick-post .rspb_community-quickpost-message-form table {
+    width: 99%;
+}
+.content-fragment.quick-post .rspb_community-quickpost-message-form td {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/quickpost_2D00_message_2D00_bkg.gif") no-repeat scroll left top transparent;
+    height: 40px;
+    white-space: nowrap;
+}
+.content-fragment.quick-post .rspb_community-quickpost-message-form .rspb_community-message .field-item-input {
+    display: block;
+    margin-top: 9px;
+    padding: 5px 2px 0 7px;
+    position: relative;
+}
+.content-fragment.quick-post .rspb_community-quickpost-message-form .rspb_community-message input {
+    border-width: 0;
+    color: #666666;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    height: 16px;
+    overflow: hidden;
+    width: 98%;
+}
+.content-fragment.quick-post .rspb_community-quickpost-message-form td.rspb_community-submit {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/quickpost_2D00_message_2D00_bkg.gif") no-repeat scroll left -40px transparent;
+    height: 40px;
+    padding-left: 11px;
+}
+.content-fragment.quick-post .rspb_community-quickpost-message-form td.rspb_community-submit .field-item-input {
+    display: block;
+    margin-top: 6px;
+}
+.rspb_community-content-fragment-outer.quick-post {
+    background-color: #E9E9E9;
+}
+.content-fragment.quick-post {
+    overflow: hidden;
+}
+.content-fragment.quick-post fieldset.field-list {
+    clear: both;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+.content-fragment.quick-post .field-list .field-list-description, .content-fragment.quick-post .field-list .field-item-header, .content-fragment.quick-post .field-list .field-item-validation {
+    display: none;
+}
+.content-fragment.quick-post .field-list .field-item {
+    line-height: 26px;
+}
+.content-fragment.quick-post .field-list .field-item-input input, .content-fragment.quick-post .field-list .field-item-input textarea {
+    font-family: Arial,Sans-Serif;
+    font-size: 1em;
+    padding: 6px;
+    width: 97%;
+}
+.content-fragment.quick-post .field-list .field-item-input input.empty, .content-fragment.quick-post .field-list .field-item-input textarea.empty {
+    color: #999999;
+}
+.content-fragment.quick-post .field-list .field-item .field-item-validation {
+    color: #CC0000;
+    font-size: 11px;
+}
+.content-fragment.quick-post .field-list .field-item.post-to .field-item-header {
+    color: #777777;
+    display: inline;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 3px;
+}
+.content-fragment.quick-post .field-list .field-item.post-to .field-item-input {
+    color: #444444;
+    font-size: 13px;
+    font-weight: bold;
+}
+.content-fragment.quick-post .field-list .field-item.post-to .field-item-input select {
+    max-width: 500px;
+}
+.content-fragment.quick-post .field-list .field-item.post-to .field-item-input option {
+    max-width: 500px;
+}
+.content-fragment.quick-post .field-list .field-item.post-file .field-item-header {
+    color: #444444;
+    font-weight: bold;
+    margin-right: 3px;
+}
+.content-fragment.quick-post .field-list .field-item.post-file .field-item-input input {
+    width: 45%;
+}
+.content-fragment.quick-post .field-list .field-item-input .internal-link.add-attachment {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/quickpost_2D00_attach_2D00_button.gif") no-repeat scroll right -26px transparent;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 12px;
+    height: 14px;
+    line-height: 15px;
+    margin-left: 10px;
+    padding: 5px 13px 8px 2px;
+    position: relative;
+    top: -1px;
+}
+.content-fragment.quick-post .field-list .field-item-input .internal-link.add-attachment span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/quickpost_2D00_attach_2D00_button.gif") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 26px;
+    left: -10px;
+    position: absolute;
+    top: 0;
+    width: 10px;
+}
+.content-fragment.quick-post .field-list .field-item-input .internal-link.remove-attachment {
+    padding-left: 6px;
+    text-decoration: underline;
+}
+.content-fragment.quick-post .field-list .field-item-input .quick-post-attachment-name {
+    color: #999999;
+    padding: 0 6px;
+}
+.content-fragment.quick-post .field-list .field-item-input .internal-link.add-post {
+    float: left;
+    outline: medium none;
+    padding: 4px 26px 10px 17px;
+    position: relative;
+}
+.content-fragment.quick-post .field-list .field-item-input .internal-link.cancel-post {
+    float: left;
+    margin-left: 3px;
+}
+.content-fragment.quick-post .field-list .field-item-input .internal-link.cancel-post, .content-fragment.quick-post .field-list .field-item-input .internal-link.advanced-post {
+    height: 34px;
+    line-height: 34px;
+    margin-left: 16px;
+    text-decoration: underline;
+}
+.content-fragment.quick-post .field-list .field-item-input .internal-link.advanced-post {
+    float: right;
+    margin-right: 7px;
+}
+.content-fragment.quick-post .message.success {
+    background-color: Transparent;
+    border: 0 none;
+    display: none;
+    padding: 0;
+    position: relative;
+}
+.content-fragment.quick-post .message.success .internal-link.view-post {
+    text-decoration: underline;
+}
+.content-fragment.quick-post .message.success .internal-link.close-message {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/icon_2D00_sprite.gif") no-repeat scroll 0 -1151px transparent;
+    display: inline-block;
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 12px 0 0;
+    position: absolute;
+    right: 10px;
+    top: 17px;
+    width: 12px;
+}
+.content-fragment.quick-post .message.warning {
+    background-color: Transparent;
+    border: 0 none;
+    display: none;
+    padding: 0;
+    position: relative;
+}
+.content-fragment.quick-post .message.warning .internal-link.close-message {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/icon_2D00_sprite.gif") no-repeat scroll 0 -1151px transparent;
+    display: inline-block;
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 12px 0 0;
+    position: absolute;
+    right: 10px;
+    top: 17px;
+    width: 12px;
+}
+.content-fragment.quick-post .rspb_community-quickpost-message-inner {
+    background-color: #FEFFE2;
+    border-left: 1px solid #FFE475;
+    border-right: 1px solid #FFE475;
+    color: #333333;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+}
+.content-fragment.quick-post .rspb_community-quickpost-message-top, .content-fragment.quick-post .rspb_community-quickpost-message-bottom {
+    height: 5px;
+}
+.content-fragment.quick-post .rspb_community-quickpost-message-top .rspb_community-m1, .content-fragment.quick-post .rspb_community-quickpost-message-top .rspb_community-m2, .content-fragment.quick-post .rspb_community-quickpost-message-top .rspb_community-m3, .content-fragment.quick-post .rspb_community-quickpost-message-top .rspb_community-m4, .content-fragment.quick-post .rspb_community-quickpost-message-bottom .rspb_community-m1, .content-fragment.quick-post .rspb_community-quickpost-message-bottom .rspb_community-m2, .content-fragment.quick-post .rspb_community-quickpost-message-bottom .rspb_community-m3, .content-fragment.quick-post .rspb_community-quickpost-message-bottom .rspb_community-m4 {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    height: 1px;
+    overflow: hidden;
+}
+.content-fragment.quick-post .rspb_community-quickpost-message-top .rspb_community-m1, .content-fragment.quick-post .rspb_community-quickpost-message-bottom .rspb_community-m4 {
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top: 1px solid;
+    height: 0;
+    margin: 0 5px;
+}
+.content-fragment.quick-post .rspb_community-quickpost-message-top .rspb_community-m2, .content-fragment.quick-post .rspb_community-quickpost-message-bottom .rspb_community-m3 {
+    border-left-width: 2px;
+    border-right-width: 2px;
+    margin: 0 3px;
+}
+.content-fragment.quick-post .rspb_community-quickpost-message-top .rspb_community-m3, .content-fragment.quick-post .rspb_community-quickpost-message-bottom .rspb_community-m2 {
+    margin: 0 2px;
+}
+.content-fragment.quick-post .rspb_community-quickpost-message-top .rspb_community-m4, .content-fragment.quick-post .rspb_community-quickpost-message-bottom .rspb_community-m1 {
+    height: 2px;
+    margin: 0 1px;
+}
+.content-fragment.quick-post .rspb_community-quickpost-message-top .rspb_community-m1, .content-fragment.quick-post .rspb_community-quickpost-message-top .rspb_community-m2, .content-fragment.quick-post .rspb_community-quickpost-message-top .rspb_community-m3, .content-fragment.quick-post .rspb_community-quickpost-message-top .rspb_community-m4, .content-fragment.quick-post .rspb_community-quickpost-message-bottom .rspb_community-m1, .content-fragment.quick-post .rspb_community-quickpost-message-bottom .rspb_community-m2, .content-fragment.quick-post .rspb_community-quickpost-message-bottom .rspb_community-m3, .content-fragment.quick-post .rspb_community-quickpost-message-bottom .rspb_community-m4 {
+    background-color: #FEFFE2;
+    border-color: #FFE475;
+}
+.layout-region.right-sidebar .content-fragment.quick-post .field-list .field-item-input select, .layout-region.left-sidebar .content-fragment.quick-post .field-list .field-item-input select, .layout-region.split-sidebar-right .content-fragment.quick-post .field-list .field-item-input select, .layout-region.split-sidebar-left .content-fragment.quick-post .field-list .field-item-input select {
+    width: 100%;
+}
+.content-fragment.user-file-list .content-list {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.content-fragment.user-file-list .content-list .content-item {
+    border: medium none;
+    display: inline;
+    float: left;
+    padding: 10px 16px 0 0;
+    width: 120px;
+}
+.content-fragment.user-file-list .content-list .abbreviated-post {
+    padding: 0;
+}
+.content-fragment.user-file-list .content-list .abbreviated-post .post-attachment-viewer {
+    border: 1px solid #CCCCCC;
+    height: 104px;
+    overflow: hidden;
+    padding: 2px;
+    text-align: center;
+    width: 115px;
+}
+.content-fragment.user-file-list .content-list .abbreviated-post .post-attachment-viewer a {
+    display: inline;
+    height: 94px;
+    line-height: 94px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    top: 5px;
+}
+.content-fragment.user-file-list .content-list .abbreviated-post .post-attachment-viewer img {
+    max-height: 95px;
+    max-width: 95px;
+    vertical-align: middle;
+}
+.content-fragment.user-file-list .content-list .abbreviated-post .post-name {
+    font-size: 12px;
+    height: 30px;
+    margin: 0;
+    overflow: hidden;
+    white-space: normal;
+    width: 120px;
+    word-wrap: break-word;
+}
+.content-fragment.user-file .content-fragment-content {
+    position: relative;
+}
+.content-fragment.user-file .internal-link.download-attachment {
+    display: block;
+    left: 74px;
+    position: absolute;
+    top: 18px;
+}
+.content-fragment.edit-user .setting-item.setting-avatar .setting-item-header {
+    display: none;
+}
+.content-fragment.edit-user .setting-item.setting-save {
+    position: relative;
+}
+.content-fragment.edit-user .setting-item .processing {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/spinner.gif") no-repeat scroll left top #FFFFFF;
+    display: inline-block;
+    height: 0;
+    margin-left: 8px;
+    overflow: hidden;
+    padding: 16px 0 0;
+    position: relative;
+    top: 3px;
+    width: 16px;
+}
+.content-fragment.edit-user .setting-item .internal-link.update-account {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button_2D00_sprite.gif") no-repeat scroll right -66px Transparent;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    height: 22px;
+    line-height: 22px;
+    margin-left: 10px;
+    margin-top: -2px;
+    padding: 0 12px 0 0;
+    position: relative;
+}
+.content-fragment.edit-user .setting-item .internal-link.update-account span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button_2D00_sprite.gif") no-repeat scroll 0 -44px transparent;
+    display: inline-block;
+    height: 22px;
+    left: -12px;
+    position: absolute;
+    top: 0;
+    width: 12px;
+}
+.content-fragment.edit-user .setting-item .internal-link.update-account:hover {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button_2D00_sprite.gif") no-repeat scroll right -22px Transparent;
+}
+.content-fragment.edit-user .setting-item .internal-link.update-account:hover span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button_2D00_sprite.gif") no-repeat scroll 0 top Transparent;
+}
+.content-fragment.edit-user .setting-item .internal-link.update-account.disabled {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button_2D00_sprite.gif") no-repeat scroll right -110px Transparent;
+}
+.content-fragment.edit-user .setting-item .internal-link.update-account.disabled span {
+    background: url("http://www.rspb.org.uk/community/cfs-filesystemfile.ashx/__key/themefiles/s-fd-51aa2cfd88c0400ea8bd2981edea6c24-files/button_2D00_sprite.gif") no-repeat scroll 0 -88px Transparent;
+}
+.content-fragment.edit-user .tab-pane {
+    border: 0 none;
+    padding-bottom: 0;
+}
+.content-fragment.tagged-content-list .content-list.simple .abbreviated-post {
+    min-height: 0;
+    padding: 3px 0;
+}
+.content-fragment.tagged-content-list .content-list.simple .post-name {
+    font-size: 14px;
+    margin: 0 0 3px;
+}
+.content-fragment.tagged-content-list .content-list.simple .post-date .value {
+    margin-left: 0;
+}
+.content-fragment.tagged-content-list .content-list.simple .post-author .user-name .internal-link.view-user-profile {
+    font-weight: normal;
+}
+.content-fragment.tagged-content-list .content-list.simple .post-author .avatar {
+    display: none;
+}
+.content-fragment.tagged-content-list .content-list.simple .content-item .post-date .label {
+    display: none;
+}
+.content-fragment.tagged-content-list .content-list.simple .post-attributes {
+    display: none;
+}
