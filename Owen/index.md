@@ -122,7 +122,7 @@ Here is some of the artwork shown at the wake:
 {% include slimbox.html path="Photos" name="P2460307.JPG" group="lightbox-art" %}
 {% include slimbox.html path="Photos" name="P2460310.JPG" group="lightbox-art" %}
 
-# Owen Sweeney    A good good man.    Rest in peace.
+# Owen Sweeney.&nbsp;&nbsp;&nbsp;&nbsp;A good good man.&nbsp;&nbsp;&nbsp;&nbsp;Rest in peace.
 
 
 &nbsp;
