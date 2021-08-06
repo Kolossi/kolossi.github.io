@@ -10,8 +10,29 @@ Define the following alias, which will choose to use `git.exe` when accessing
 repos on windows drives (`/mnt/...` under wsl):
 
 ```bash
-alias git='f(){ case $PWD/ in  /mnt/*) git.exe "$@";; *) /usr/bin/git "$@";; esac }; f'
+alias git='f(){ if [[ $PWD == /mnt/* ]] ;then git.exe "$@" ;else /usr/bin/git "$@" ;fi }; f'
 ```
+
+### git setings
+
+If using a repository with a lot of submodules, consider using the following
+which will stop it descending into submodule working dirs.
+
+```bash
+git config --bool bash.showDirtyState false
+```
+
+If using [git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
+ aka [__git_ps1](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
+consider turning off some of the setttings using environment variables such as:
+```bash
+#export GIT_PS1_SHOWDIRTYSTATE=      # <--- my pref to leave this on
+export GIT_PS1_SHOWUNTRACKEDFILES=
+```
+
+Note that each option turned off reduces the usefulness of the prompt.  
+
+Some of the options are described in [this post](https://mjswensen.com/blog/git-status-prompt-options/)
 
 #### Thanks
 
