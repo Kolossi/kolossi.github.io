@@ -12,8 +12,13 @@ repos on windows drives (`/mnt/...` under wsl):
 ```bash
 alias git='f(){ if [[ $PWD == /mnt/* ]] ;then git.exe "$@" ;else /usr/bin/git "$@" ;fi }; f'
 ```
-
-### git setings
+> **Update 6-Aug-2021** : 
+> new version above, previous version performed slow filesystem expansion:
+>
+> ```bash
+> alias git='f(){ case $PWD/ in  /mnt/*) git.exe "$@";; *) /usr/bin/git "$@";; esac }; f'
+> ```
+### git settings
 
 If using a repository with a lot of submodules, consider using the following
 which will stop it descending into submodule working dirs.
