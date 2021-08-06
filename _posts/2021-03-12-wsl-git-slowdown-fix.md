@@ -26,13 +26,13 @@ If using [git-prompt.sh](https://github.com/git/git/blob/master/contrib/completi
  aka [__git_ps1](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
 consider turning off some of the setttings using environment variables such as:
 ```bash
-#export GIT_PS1_SHOWDIRTYSTATE=      # <--- my pref to leave this on
+export GIT_PS1_SHOWDIRTYSTATE=1      # <--- my pref to leave this on
 export GIT_PS1_SHOWUNTRACKEDFILES=
 ```
 
 Note that each option turned off reduces the usefulness of the prompt.  
 
-Some of the options are described in [this post](https://mjswensen.com/blog/git-status-prompt-options/)
+Some of the options are described in [this post](https://mjswensen.com/blog/git-status-prompt-options/).
 
 #### Thanks
 
