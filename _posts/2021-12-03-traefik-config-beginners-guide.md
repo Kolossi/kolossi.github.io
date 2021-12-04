@@ -131,7 +131,7 @@ Static configuration can be given by one of:
 
 This last one is the key - if the example formats to specify the value include "CLI" then it will be Static configuration, if not then it must be in a Dynamic configuration file.
 
-There are quite a lot of places where the example config includes `## Static configuration` or `## Dynamic configuration` but certain at time of writing it is not consistent.  It's also easy to miss the significance of this until you understand.
+There are quite a lot of places where the example config includes `## Static configuration` or `## Dynamic configuration` at the top but, certainly at time of writing, it is not consistent.  It's also easy to miss the significance of this until you understand.
 
 ## The answer to the StripPrefix problem
 
