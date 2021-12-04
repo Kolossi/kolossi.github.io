@@ -1,5 +1,5 @@
 ---
-title: Traefik config beginners guide
+title: Traefik docker network setup
 tags: [quicktips,traefik,docker]
 ---
 There's a gotcha when setting up Traefik in docker to proxy for other docker containers ...
