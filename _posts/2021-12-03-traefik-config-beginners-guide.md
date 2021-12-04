@@ -101,9 +101,13 @@ The file provider means that config can be set in a config file (or files), but 
 
 This is important - Static vs Dynamic configuration is not an "either/or" approach in Traefik v2.  A given type of config value can be defined in only the correct one of Static or Dynamic configuration.
 
-The Traefik diagram at the top of the [Configuration Introduction page](https://doc.traefik.io/traefik/v2.5/getting-started/configuration-overview/) kinda hints at this but for me doesnt make it clear at all. The diagram filename is even `static-dynamic-configuration.png`!
+The Traefik diagram at the top of the [Configuration Introduction page](https://doc.traefik.io/traefik/v2.5/getting-started/configuration-overview/) kinda hints at this but for me doesn't make it clear at all. The diagram filename is even `static-dynamic-configuration.png`!
 
-![Static Dynamic Configuration](https://doc.traefik.io/traefik/assets/img/static-dynamic-configuration.png)
+{::options parse_block_html="true" /}
+<div class="share-links shadowtb">
+  ![Static Dynamic Configuration](https://doc.traefik.io/traefik/assets/img/static-dynamic-configuration.png){:class="img-center"}
+</div>
+
 
 It shows that Static vs Dynamic is about whether it's "startup time" or "while running".
 
@@ -119,7 +123,13 @@ Even when finding a relevant bit of config in the [Traefik docs](https://doc.tra
 
 I now realise that if it's endpoint or "provider connection information" then it will be in static configuration, otherwise it will probably be dynamic configuration, but there is a better way:
 
-Static configuration can be given by one of [environment variables](https://doc.traefik.io/traefik/reference/static-configuration/env/), a config file, or by [command line parameters](https://doc.traefik.io/traefik/reference/static-configuration/cli/) (aka CLI).  This last one is the key - if the example formats to specify the value include "CLI" then it will be Static configuration, if not then it must be in a Dynamic configuration file.
+Static configuration can be given by one of:
+
+* [environment variables](https://doc.traefik.io/traefik/reference/static-configuration/env/)
+* a config file
+* [command line parameters](https://doc.traefik.io/traefik/reference/static-configuration/cli/) (aka CLI)
+
+This last one is the key - if the example formats to specify the value include "CLI" then it will be Static configuration, if not then it must be in a Dynamic configuration file.
 
 There are quite a lot of places where the example config includes `## Static configuration` or `## Dynamic configuration` but certain at time of writing it is not consistent.  It's also easy to miss the significance of this until you understand.
 
