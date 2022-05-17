@@ -2,7 +2,7 @@
 title: Bash parameter expansion
 #subtitle: more than the title
 #excerpt: This is what the page is really about
-tags: [bash, linux, parameter, variable, expansion, processing]
+tags: [quicktips,bash,linux,parameter,variable,expansion,processing]
 ---
 To get details of how to handle parameter/variable expansion in bash,
 using hard-to-google code like `${a:-default}` and `${a:?"required"}...
