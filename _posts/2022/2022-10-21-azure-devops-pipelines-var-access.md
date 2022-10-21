@@ -2,10 +2,10 @@
 title: azure devops pipelines var access
 #subtitle: more than the title
 #excerpt: This is what the page is really about
-tags: [quicktip,azure,devops,pipelines,variables]
+tags: [quicktips,azure,devops,pipelines,variables]
 ---
 How to access Azure devops pipelines variables set with a
-`##vso[task.setvariable ...`output from other tasks, jobs, deployments and
+`##vso[task.setvariable ...` output from other tasks, jobs, deployments and
 stages...
 <!--more-->
 
@@ -21,13 +21,13 @@ external program etc):
 ```
 
 Variables set with `isOutput=true` can be used in other jobs, deployments and
-stages.  Without it, they can only be used in tasks in the same job.
+stages.  Without it, they can only be used in tasks in the same job/deployment.
 
 The format used to access the variable varies - sometimes completely, sometimes
 subtly - depending on whether:
 - isOutput is used,
 - whether the step that _defined_ the variable is in a job or a deployment
-- whether the accessing step is in the same job/deployment  or further afield.
+- whether the accessing step is in the same job/deployment or further afield.
 
 ## Suggested Solutions
 
@@ -81,8 +81,8 @@ This is fine for
 echo 'Hello $(name)'
 ```
 
-But what if an author decided to initiate a reboot only if varaible `reboot`
-is set to true? :
+It will just give an error if `name` is underfined.  But what if a script author
+decided to initiate a reboot only if varaible `reboot` is set to true? :
 
 ```bash
 [[ $(reboot) == "true" ]] && reboot
@@ -97,18 +97,55 @@ along the lines of `MyVar: Command not found`.
 
 {% raw %}
 Other syntax for variable replacement exist such as `${{ variables.reboot }}` or
- `$[ variables.reboot ]` but these have their own inconsistencies, including
- whether they resolve at "compile time" (when a pipeline is being prepared to
- run) or "runtime", and whether they are intended for conditions & expressions
- or other uses such as scripts and other variable values. In fact they are
- sometimes actually replace with `$(reboot)` "under the hood" on a first pass
- before acting as above.
- {% endraw %}
+`$[ variables.reboot ]` but these have their own inconsistencies, including
+whether they resolve at "compile time" (when a pipeline is being prepared to
+run) or "runtime", and whether they are intended for conditions & expressions
+or other uses such as scripts and other variable values. In fact they are
+sometimes actually replace with `$(reboot)` "under the hood" on a first pass
+before acting as above.
+{% endraw %}
  
- See [Define variables](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch) for more details.
+See [Define variables](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch) for more details.
 
+## Example
 
- ## Example
+So the proposed way to use a value from say another job in a script is:
+
+```yaml
+jobs:
+- job: SetValueJob
+  tasks:
+  - bash: |
+      echo '##vso[task.setvariable variable=MyVar;isOutput=true]'MyValue
+    name: SetValueTask
+- job: DisplayValueJob
+  dependencies:
+  - SetValueJob
+  variables:
+    MyGotVar: $[ dependencies.SetValueJob.outputs['SetValueStep.MyVar'] ]
+  steps:
+  - bash: |
+      set -euo pipefail
+      echo "I got the value ${Env_MyGotVar}"
+    env:
+      Env_MyGotVar: $(MyGotVar)
+```
+
+This way, the problems with the `$(...)` syntax are avoided as they are not
+within the script only in the world of ADP. The use of the defensive
+`set -euo pipefail` at the top of the script will raise an error in a number of
+cases, including if the envirnoment var reffered to is not set -
+e.g. due to typo.
+
+If the variable is not set in ADP, it won't perform a replacement, so the value 
+will be literal `$(MyGotVar)` but importantly, bash will not try to
+further evaluate it.
+
+Naming conventions for "got" vars from other stages/jobs/deployments, and the
+env version of the var, should probably be formalised, and the choices above 
+made just to clarify what is where.
+
+## Investigation Example
 
 
  Here's a complete (and slightly mad) pipeline used to find and confirm the
