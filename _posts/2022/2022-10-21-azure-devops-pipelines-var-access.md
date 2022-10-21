@@ -92,9 +92,10 @@ Unfortunately, if there is no ADP variable `reboot` then the script will be
 unchanged and in order to evaluate `$(reboot)` bash will execute the reboot
 command on the agent.  An extreme example and still likely to fail due to
 perms, but shows the problems with this approach.  It's also why if the variable
-does not exist, the error from a bash script can be something along the lines
-of `MyVar: Command not found`.
+does not exist, the error from a bash script `echo $(MyVar)` can be something
+along the lines of `MyVar: Command not found`.
 
+{% raw %}
 Other syntax for variable replacement exist such as `${{ variables.reboot }}` or
  `$[ variables.reboot ]` but these have their own inconsistencies, including
  whether they resolve at "compile time" (when a pipeline is being prepared to
@@ -102,10 +103,13 @@ Other syntax for variable replacement exist such as `${{ variables.reboot }}` or
  or other uses such as scripts and other variable values. In fact they are
  sometimes actually replace with `$(reboot)` "under the hood" on a first pass
  before acting as above.
+ {% endraw %}
  
  See [Define variables](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch) for more details.
 
+
  ## Example
+
 
  Here's a complete (and slightly mad) pipeline used to find and confirm the
  above answers for all of this:
