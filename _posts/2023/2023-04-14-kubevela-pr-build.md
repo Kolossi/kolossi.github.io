@@ -77,6 +77,6 @@ chmod 644 filename
 
 The following links were helpful in preparing the docker file:
 
-- https://github.com/wonderflow/kubevela.io/blob/b4b7bae0a90e0b087df79e5ba5c46fdca072e4f6/docs/contributor/code-contribute.md#run-kubevela-locally
-- https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
-- https://go.dev/doc/install
+- [kubevela instructions](https://github.com/wonderflow/kubevela.io/blob/b4b7bae0a90e0b087df79e5ba5c46fdca072e4f6/docs/contributor/code-contribute.md#run-kubevela-locally)
+- [kubectl install instructions](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
+- [nodejs install instructions](https://github.com/nodesource/distributions#debinstall)
