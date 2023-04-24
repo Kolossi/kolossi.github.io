@@ -41,6 +41,8 @@ RUN go install cuelang.org/go/cmd/cue@latest
 RUN go install honnef.co/go/tools/cmd/staticcheck@2022.1
 RUN go install sigs.k8s.io/controller-tools/cmd/controller-gen@v0.6.2
 RUN go install golang.org/x/tools/cmd/goimports@latest
+RUN git clone https://github.com/bitnami-labs/readme-generator-for-helm
+RUN npm install ./readme-generator-for-helm
 RUN rm -rf /tmp/*
 WORKDIR /root/kubevela
 ```
