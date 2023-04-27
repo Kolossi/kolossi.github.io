@@ -75,6 +75,16 @@ chown YOUR-USER:YOUR-USER filename
 chmod 644 filename
 ```
 
+### Performance
+
+To improve performance on re-runs, mount the go pkg directory from local into
+the container so packages don't need to be downloaded each run:
+
+```
+cd ~/gopkg
+docker run -it --rm -v /home/YOUR-USER/repos/kubevela:/root/kubevela -v /home/YOUR-USER/.kube/:/root/.kube/ -v /home/YOUR-USER/gopkg:/go/pkg kubevela_dev:1.0 bash -c "make && make reviewable"
+
+
 ### Thanks
 
 The following links were helpful in preparing the docker file:
