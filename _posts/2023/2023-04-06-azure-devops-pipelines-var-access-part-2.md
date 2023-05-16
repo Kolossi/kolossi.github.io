@@ -3,8 +3,9 @@ title: azure devops pipelines var access part 2
 #subtitle: more than the title
 #excerpt: This is what the page is really about
 tags: [quicktips,azure,devops,pipelines,variables]
+jsit: true
 ---
-How to access Azure devops pipelines variables in a way
+How to access Azure devops pipelines variables and parameters in a way
 that is reliable both in a script and in template conditions
 <!--more-->
 
@@ -104,4 +105,17 @@ to `"$(host_param)"` as a value, because it won’t be, it will have a value of
 
 ## Deep dive
 
-coming soon
+Trying to get to the bottom of all this, I created a variable group
+`CICD_VAR_TEST`, which has these values (but with the “SECRET” ones actually
+made secret!):
+
+{%- capture _lib_var_group_table_options -%}
+{
+    headercells: true,
+    columns: [
+        { title: "Name", datafield: "Name" },
+        { title: "Value", datafield: "Value" }
+    ]
+}
+{%- endcapture -%}
+{% include datatable.html id="lib_var_group_table" data="[{Name:'CICD_OVERRIDE_VALUE',Value: 'TTTOverrideValue'},{Name:'CICD_SECRET_OVERRIDE_VALUE',Value: 'TTTSecretOverrideValue'},{Name:'CICD_SECRET_VALUE',Value: 'TTTSecretValue'},{Name:'CICD_VALUE',Value: 'TTTValue'}]" options=_lib_var_group_table_options %}
