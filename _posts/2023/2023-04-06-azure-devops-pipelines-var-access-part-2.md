@@ -16,7 +16,7 @@ them to templates as parameters can be tricky. Particularly when needing both
 access in a shell script and in adding conditional steps to a template using 
 the `- ? {{ if ...}}` construct.
 
-In the previous post [azure devops pipelines var access]({{site.url}}/azure-devops-pipelines-var-access)
+In the previous post [azure-devops-pipelines-var-access]({% post_url 2022-10-21-azure-devops-pipelines-var-access %})
 attention was turned to access of script-generated vars between stages, jobs
 and steps.
 
@@ -128,6 +128,7 @@ actually made secret!):
 
 The following pipeline and template files were used:
 
+{% raw %}
 ### azure_pipelines.yml
 
 ```yaml
@@ -994,6 +995,7 @@ stages:
 #                displayName: correct 
 
 ```
+{% raw %}
 
 ### Analysis
 

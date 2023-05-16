@@ -415,3 +415,10 @@ steps:
   displayName: Get Value in another template step
 
 ```
+
+
+## Update April 2023
+
+See also [azure-devops-pipelines-var-access-part-2]({% post_url 2023-04-06-azure-devops-pipelines-var-access-part-2 %}) for how to access
+Azure devops pipelines variables and parameters in a way that is reliable
+both in a script and in template conditions.
