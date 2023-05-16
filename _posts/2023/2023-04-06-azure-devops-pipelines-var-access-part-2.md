@@ -115,7 +115,13 @@ made secret!):
     columns: [
         { title: "Name", datafield: "Name" },
         { title: "Value", datafield: "Value" }
+    ],
+    data: [
+      {Name:'CICD_OVERRIDE_VALUE',Value: 'TTTOverrideValue'},
+      {Name:'CICD_SECRET_OVERRIDE_VALUE',Value: 'TTTSecretOverrideValue'},
+      {Name:'CICD_SECRET_VALUE',Value: 'TTTSecretValue'},
+      {Name:'CICD_VALUE',Value: 'TTTValue'}
     ]
 }
 {%- endcapture -%}
-{% include datatable.html id="lib_var_group_table" data="[{Name:'CICD_OVERRIDE_VALUE',Value: 'TTTOverrideValue'},{Name:'CICD_SECRET_OVERRIDE_VALUE',Value: 'TTTSecretOverrideValue'},{Name:'CICD_SECRET_VALUE',Value: 'TTTSecretValue'},{Name:'CICD_VALUE',Value: 'TTTValue'}]" options=_lib_var_group_table_options %}
+{% include datatable.html id="lib_var_group_table" options=_lib_var_group_table_options %}
