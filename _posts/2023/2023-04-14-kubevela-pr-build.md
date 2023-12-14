@@ -20,16 +20,20 @@ Here's how to do it on Windows WSL2 with Docker Desktop.
 following content:
 
  ```dockerfile
-FROM golang:1.19.8-buster
+FROM golang:1.20.5-buster
 WORKDIR /tmp
-RUN curl -fsSL https://deb.nodesource.com/setup_19.x | bash
-RUN apt-get update && apt-get install -y curl make git gcc bash nodejs
+RUN apt-get update && apt-get install -y curl make git gcc bash ca-certificates gnupg
+RUN mkdir -p /etc/apt/keyrings
+RUN curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+ENV NODE_MAJOR=21
+RUN echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
 RUN git config --system --add safe.directory /root/kubevela
+RUN apt-get update && apt-get install -y nodejs
 ENV PATH $PATH:/usr/local/go/bin
 RUN curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 RUN install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ENV KUBECONFIG /root/.kube/config
-RUN cd /usr/local/go/ && curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s v1.49.0
+RUN cd /usr/local/go/ && curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b /usr/local/go/bin v1.49.0
 RUN curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash
 RUN mv kustomize /usr/local/bin
 RUN go install github.com/onsi/ginkgo/v2/ginkgo@latest
