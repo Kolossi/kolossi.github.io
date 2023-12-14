@@ -33,7 +33,7 @@ ENV PATH $PATH:/usr/local/go/bin
 RUN curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 RUN install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ENV KUBECONFIG /root/.kube/config
-RUN cd /usr/local/go/ && curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b /usr/local/go/bin v1.49.0
+RUN cd /usr/local/go/ && curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b /usr/local/go/bin v1.55.2
 RUN curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash
 RUN mv kustomize /usr/local/bin
 RUN go install github.com/onsi/ginkgo/v2/ginkgo@latest
