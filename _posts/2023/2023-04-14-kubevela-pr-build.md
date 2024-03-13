@@ -20,7 +20,7 @@ Here's how to do it on Windows WSL2 with Docker Desktop.
 following content:
 
  ```dockerfile
-FROM golang:1.19.10-buster
+FROM golang:1.20.5-buster
 WORKDIR /tmp
 RUN apt-get update && apt-get install -y curl make git gcc bash ca-certificates gnupg
 RUN mkdir -p /etc/apt/keyrings
@@ -29,7 +29,7 @@ ENV NODE_MAJOR=21
 RUN echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
 RUN git config --system --add safe.directory /root/kubevela
 RUN apt-get update && apt-get install -y nodejs
-ENV PATH $PATH:/usr/local/go/bin:/root/kubevela/bin
+ENV PATH $PATH:/usr/local/go/bin
 RUN curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 RUN install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ENV KUBECONFIG /root/.kube/config
@@ -41,7 +41,7 @@ RUN curl -LO https://storage.googleapis.com/kubebuilder-tools/kubebuilder-tools-
       tar -zxvf  kubebuilder-tools-1.21.2-linux-amd64.tar.gz && \
       mkdir -p /usr/local/kubebuilder/bin && \
       mv kubebuilder/bin/* /usr/local/kubebuilder/bin
-RUN go install cuelang.org/go/cmd/cue@v0.4.3
+RUN go install cuelang.org/go/cmd/cue@latest
 RUN go install honnef.co/go/tools/cmd/staticcheck@2022.1
 RUN go install sigs.k8s.io/controller-tools/cmd/controller-gen@v0.6.2
 RUN go install golang.org/x/tools/cmd/goimports@latest
