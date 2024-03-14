@@ -57,6 +57,8 @@ WORKDIR /root/kubevela
 docker build -f kubevela_dev_Dockerfile -t kolossi/kubevela_dev:1.0.19 .
 ```
 
+**NOTE** : the image is available on docker hub, so there isn't a need to build it
+
 - checkout kubevela code with
 
 ```
