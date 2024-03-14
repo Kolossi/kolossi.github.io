@@ -16,8 +16,8 @@ Here's how to do it on Windows WSL2 with Docker Desktop.
 
 - Start WSL2 prompt.
 
-**NOTE** : the required image is available on docker hub as
-[kolossi/kubevela_dev:1.0.19]](https://hub.docker.com/r/kolossi/kubevela_dev/tags), 
+**NOTE** : the required docker image is available on docker hub as
+[kolossi/kubevela_dev:1.0.19](https://hub.docker.com/r/kolossi/kubevela_dev/tags), 
 so there isn't a need to build it, but if you wish to do so:
 
 > - In a working directory, save a file `kubevela_dev_Dockerfile` with the following content:
@@ -61,7 +61,6 @@ so there isn't a need to build it, but if you wish to do so:
 > ```
 
 
-
 - checkout kubevela code with
 
 ```
@@ -90,7 +89,6 @@ To improve performance on re-runs, mount the go pkg directory from local into
 the container so packages don't need to be downloaded each run:
 
 ```
-cd ~/gopkg
 docker run -it --rm -v /home/YOUR-USER/repos/kubevela:/root/kubevela -v /home/YOUR-USER/.kube/:/root/.kube/ -v /home/YOUR-USER/gopkg:/go/pkg kolossi/kubevela_dev:1.0.19 bash -c "make && make reviewable"
 ```
 
