@@ -54,7 +54,7 @@ WORKDIR /root/kubevela
 - Build the image with:
 
 ```
-docker build -f kubevela_dev_Dockerfile -t kubevela_dev:1.0 .
+docker build -f kubevela_dev_Dockerfile -t kolossi/kubevela_dev:1.0.19 .
 ```
 
 - checkout kubevela code with
@@ -69,7 +69,7 @@ git clone git@github.com:kubevela/kubevela.git
 validate the changes before pushing to a fork and raising a PR:
 
 ```
-docker run -it --rm -v /home/YOUR-USER/repos/kubevela:/root/kubevela -v /home/YOUR-USER/.kube/:/root/.kube/ kubevela_dev:1.0 bash -c "make && make reviewable"
+docker run -it --rm -v /home/YOUR-USER/repos/kubevela:/root/kubevela -v /home/YOUR-USER/.kube/:/root/.kube/ kolossi/kubevela_dev:1.0.19 bash -c "make && make reviewable"
 ```
 
 Note that edited files may have their owner and perms changed, to fix do:
@@ -86,7 +86,7 @@ the container so packages don't need to be downloaded each run:
 
 ```
 cd ~/gopkg
-docker run -it --rm -v /home/YOUR-USER/repos/kubevela:/root/kubevela -v /home/YOUR-USER/.kube/:/root/.kube/ -v /home/YOUR-USER/gopkg:/go/pkg kubevela_dev:1.0 bash -c "make && make reviewable"
+docker run -it --rm -v /home/YOUR-USER/repos/kubevela:/root/kubevela -v /home/YOUR-USER/.kube/:/root/.kube/ -v /home/YOUR-USER/gopkg:/go/pkg kolossi/kubevela_dev:1.0.19 bash -c "make && make reviewable"
 ```
 
 ### Thanks
