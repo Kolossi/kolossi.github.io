@@ -63,7 +63,7 @@ so there isn't a need to build it, but if you wish to do so:
 
 - checkout kubevela code with
 
-```
+```shell
 git clone git@github.com:kubevela/kubevela.git
 ```
 
@@ -72,8 +72,13 @@ git clone git@github.com:kubevela/kubevela.git
 - use the docker image to perform the required `make` and `make reviewable` to 
 validate the changes before pushing to a fork and raising a PR:
 
-```
-docker run -it --rm -v /home/YOUR-USER/repos/kubevela:/root/kubevela -v /home/YOUR-USER/.kube/:/root/.kube/ kolossi/kubevela_dev:1.0.19 bash -c "make && make reviewable"
+```shell
+docker run \
+        -it --rm \
+        -v /home/YOUR-USER/repos/kubevela:/root/kubevela \
+        -v /home/YOUR-USER/.kube/:/root/.kube/ \
+        kolossi/kubevela_dev:1.0.19 \
+        bash -c "make && make reviewable"
 ```
 
 Note that edited files may have their owner and perms changed, to fix do:
@@ -88,8 +93,33 @@ chmod 644 filename
 To improve performance on re-runs, mount the go pkg directory from local into
 the container so packages don't need to be downloaded each run:
 
+```shell
+docker run \
+        -it --rm \
+        -v /home/YOUR-USER/repos/kubevela:/root/kubevela \
+        -v /home/YOUR-USER/.kube/:/root/.kube/ \
+        -v /home/YOUR-USER/gopkg:/go/pkg \
+        kolossi/kubevela_dev:1.0.19 \
+        bash -c "make && make reviewable"
 ```
-docker run -it --rm -v /home/YOUR-USER/repos/kubevela:/root/kubevela -v /home/YOUR-USER/.kube/:/root/.kube/ -v /home/YOUR-USER/gopkg:/go/pkg kolossi/kubevela_dev:1.0.19 bash -c "make && make reviewable"
+
+### zscaler
+
+If using ZScaler (or another MITM proxy), errors will occur during the kubevela
+build due to the https/TLS connection not validating the untrusted CA cert.
+
+To fix this, get a copy of the ca cert and store it in a `certs` subdirectory
+of your home dir.  The builder image can then be used with the modified command:
+
+```shell
+docker run \
+        -it --rm \
+        -v /home/YOUR-USER/repos/kubevela:/root/kubevela \
+        -v /home/YOUR-USER/.kube/:/root/.kube/ \
+        -v /home/YOUR-USER/gopkg:/go/pkg \
+        -v /home/YOUR-USER/certs/ZscalerRootCertificate-2048-SHA256.crt:/usr/local/share/ca-certificates/ZscalerRootCertificate-2048-SHA256.crt \
+        kolossi/kubevela_dev:1.0.19 \
+        bash -c "update-ca-certificates && npm config set cafile /etc/ssl/certs/ca-certificates.crt && make && make reviewable"
 ```
 
 ### Thanks
@@ -99,3 +129,5 @@ The following links were helpful in preparing the docker file:
 - [kubevela instructions](https://github.com/wonderflow/kubevela.io/blob/b4b7bae0a90e0b087df79e5ba5c46fdca072e4f6/docs/contributor/code-contribute.md#run-kubevela-locally)
 - [kubectl install instructions](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 - [nodejs install instructions](https://github.com/nodesource/distributions#debinstall)
+- [debian/alpine zscaler ca fix](https://stackoverflow.com/a/67232164/2738122)
+- [npm zscaler ca fix](https://stackoverflow.com/a/67688638/2738122)
