@@ -19,7 +19,7 @@ The latest CV for Paul Sweeney is available in the following formats:
 * [Rich Text Format (.rtf)]({{site.url}}/files/PaulSweeneyCV.rtf)
 * [Adobe Acrobat (.pdf)]({{site.url}}/files/PaulSweeneyCV.pdf)
 
-<div style="width:150px; height:270px; padding-top: 22px; padding-bottom: 29px;margin-right:15px;border: 1px solid #e5e5e5;text-align:center;vertical-align:top;display:inline-block"><a href="https://uk.linkedin.com/in/paulsweeneycv" target="_blank"><img alt="View Paul Sweeney's profile on LinkedIn" src="{{site.url}}/assets/img/LinkedIn-Logo.svg" style="width:105px"><BR/>View Paul Sweeney's profile on LinkedIn</a></div>
+<div style="width:300px; height:100px; padding-top: 22px; padding-bottom: 29px;margin-right:15px;border: 1px solid #e5e5e5;text-align:center;vertical-align:top;display:inline-block"><a href="https://uk.linkedin.com/in/paulsweeneycv" target="_blank"><img alt="View Paul Sweeney's profile on LinkedIn" src="{{site.url}}/assets/img/LinkedIn-Logo.svg" style="width:105px"><BR/>View Paul Sweeney's profile on LinkedIn</a></div>
 
 ### See Also
 
