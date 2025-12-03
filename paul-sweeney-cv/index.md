@@ -40,7 +40,7 @@ redirect_from:
 
 The latest CV for Paul Sweeney is available in the following formats:
 
-* [Microsoft Office Word 2003 (.doc)]({{site.url}}/files/PaulSweeneyCV.doc)
+* [Microsoft Office Word (.doc)]({{site.url}}/files/PaulSweeneyCV.doc)
 * [Rich Text Format (.rtf)]({{site.url}}/files/PaulSweeneyCV.rtf)
 * [Adobe Acrobat (.pdf)]({{site.url}}/files/PaulSweeneyCV.pdf)
 
