@@ -40,8 +40,7 @@ redirect_from:
 
 The latest CV for Paul Sweeney is available in the following formats:
 
-* [Microsoft Office Word (.doc)]({{site.url}}/files/PaulSweeneyCV.doc)
-* [Rich Text Format (.rtf)]({{site.url}}/files/PaulSweeneyCV.rtf)
+* [Microsoft Office Word (.docx)]({{site.url}}/files/PaulSweeneyCV.docx)
 * [Adobe Acrobat (.pdf)]({{site.url}}/files/PaulSweeneyCV.pdf)
 
 <div style="width:350px; height:140px; padding-top: 2px; padding-bottom: 22px;margin-right:15px;border: 1px solid #e5e5e5;text-align:center;vertical-align:top;display:inline-block"><a href="https://uk.linkedin.com/in/paulsweeneycv" target="_blank"><img alt="View Paul Sweeney's profile on LinkedIn" src="{{site.url}}/assets/img/LinkedIn-Logo.svg" style="width:105px"><BR/>View Paul Sweeney's profile on LinkedIn</a></div>
