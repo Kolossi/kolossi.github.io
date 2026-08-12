@@ -49,6 +49,4 @@ The latest CV for Paul Sweeney is available in the following formats:
 
 * Paul Sweeney's YouTube video [A Hello World for AgenticAI Coding](https://www.youtube.com/watch?v=t88im_V3zQg)
 * [Paul Sweeney's Certified Kubernetes Certificate (score: 94%)](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/9223e376-d4b2-4769-bc4f-32793c807d19-paul-sweeney-certified-kubernetes-administrator-cka-certificate.pdf)
-* [Paul Sweeney's White Paper on Sql Server Transaction Handling]({{site.url}}/paul-sweeney-cv/sql-white-paper)
-* [IKM C# 4.0 Test Result - 99/100 and 97% Percentile of those taking the test]({{site.url}}/files/IKMTestResult.pdf)
 
