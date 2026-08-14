@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+{%- capture effective_name -%}{%- if page and page.subsite -%}{{ page.subsite.name }}{%- else -%}{{ site.name }}{%- endif -%}{%- endcapture -%}
+{%- capture effective_description -%}{%- if page and page.subsite -%}{{ page.subsite.description }}{%- else -%}{{ site.description }}{%- endif -%}{%- endcapture -%}
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ effective_name }}{% unless effective_description == "" %} – {{ effective_description }}{% endunless %}</title>
     {% seo title=false %}
     {% include meta.html %}
     {%- if page.redirect-target-url -%}
     <meta http-equiv="Refresh" content="0; url='{{ page.redirect-target-url }}'" />
     {%- endif -%}
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="{{ effective_name }}{% unless effective_description == "" %} - {{ effective_description }}{% endunless %}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
     <meta name="theme-color" content="{{ site.theme-color  | default: '#000000' }}">
@@ -31,8 +33,6 @@
   </head>
 
 {%- capture effective_rootpath -%}{{ site.baseurl }}/{%- if page and page.subsite -%}{{ page.subsite.path }}{%- endif -%}{%- endcapture -%}
-{%- capture effective_name -%}{%- if page and page.subsite -%}{{ page.subsite.name }}{%- else -%}{{ site.name }}{%- endif -%}{%- endcapture -%}
-{%- capture effective_description -%}{%- if page and page.subsite -%}{{ page.subsite.description }}{%- else -%}{{ site.description }}{%- endif -%}{%- endcapture -%}
   <body>
     <div id="browser_warning">
       <div id="browser_warning_inner">
