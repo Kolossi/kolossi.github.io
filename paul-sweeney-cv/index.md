@@ -1,5 +1,6 @@
 ---
 title: Paul Sweeney CV
+description: "Paul Sweeney's CV"
 redirect_from:
     - /pscv
     - /paulsweeneycv
